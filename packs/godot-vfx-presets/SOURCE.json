@@ -1,0 +1,78 @@
+{
+  "asset_count": 6,
+  "assets": [
+    "fire.tscn",
+    "heal.tscn",
+    "impact.tscn",
+    "loot.tscn",
+    "magic.tscn",
+    "portal.tscn"
+  ],
+  "author": "Generated Godot scenes; texture by Kenney",
+  "category": "vfx-scenes",
+  "checked": "2026-10-12",
+  "dependencies": [
+    "kenney-particle-pack"
+  ],
+  "files": [
+    {
+      "bytes": 196,
+      "path": "packs/godot-vfx-presets/LICENSE.txt",
+      "sha256": "b3d9f3fab4ffbb391913c03a155cfcd68c7727620019f6cc616892721f74bfc6"
+    },
+    {
+      "bytes": 417,
+      "path": "packs/godot-vfx-presets/README.md",
+      "sha256": "854937a2a7840d74b6be01d9058ba48caeebbcadbfd0f793d15a5b0764e579c5"
+    },
+    {
+      "bytes": 2749,
+      "path": "packs/godot-vfx-presets/effect.gd",
+      "sha256": "a2395520f1c19478cc5c96958923cac74cda237fd325da026a0b12ae3b11fd2a"
+    },
+    {
+      "bytes": 192,
+      "path": "packs/godot-vfx-presets/fire.tscn",
+      "sha256": "3136ac43bf51407fe27eec890e74cd2335c02d51ff152f21ebbc8c206b428b2d"
+    },
+    {
+      "bytes": 192,
+      "path": "packs/godot-vfx-presets/heal.tscn",
+      "sha256": "a88e6adbe1ee8f79354f14e96765aa7bf20c2a10199fd12aee83f3ba12497f1c"
+    },
+    {
+      "bytes": 196,
+      "path": "packs/godot-vfx-presets/impact.tscn",
+      "sha256": "33b3609e75d170921385d3eb88bd0b9c1474ddec3a60330250dbddc948576c0a"
+    },
+    {
+      "bytes": 192,
+      "path": "packs/godot-vfx-presets/loot.tscn",
+      "sha256": "4826ce31917efba1f6dc1663661b47494abcee1c09313a8b1a8f24d486b4dbcb"
+    },
+    {
+      "bytes": 194,
+      "path": "packs/godot-vfx-presets/magic.tscn",
+      "sha256": "7e2c0a928af90eb6db8ae450042980063661ff47bbe73f942e6d3bbd5ac563ee"
+    },
+    {
+      "bytes": 196,
+      "path": "packs/godot-vfx-presets/portal.tscn",
+      "sha256": "ec4e739c2d2698a2237975369ae3d13c84b41cc957d891e4dec42063aa746507"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "godot-vfx-presets",
+  "license": "CC0-1.0",
+  "license_path": "packs/godot-vfx-presets/LICENSE.txt",
+  "license_text_sha256": "b3d9f3fab4ffbb391913c03a155cfcd68c7727620019f6cc616892721f74bfc6",
+  "model_count": 0,
+  "models": [],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "scene_count": 6,
+  "archive_sha256": "a4e67ec4968062dbcb3c96ee98abbf7a8ae3616fb16fc6ab96425cacce33c725",
+  "embedded_parts": [
+    "seed/archives/godot-vfx-presets.zip.part000"
+  ]
+}

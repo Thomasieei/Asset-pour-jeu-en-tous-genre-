@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Script" path="res://packs/godot-vfx-presets/effect.gd" id="1"]
+[node name="Impact" type="Node3D"]
+script=ExtResource("1")
+effect_type="Impact"

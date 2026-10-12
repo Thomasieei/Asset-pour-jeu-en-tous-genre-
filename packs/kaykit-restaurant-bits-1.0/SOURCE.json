@@ -1,0 +1,1636 @@
+{
+  "archive_sha256": "5d2ebd136bfe116b78d5e931e0ceb14391fac3dee29e561d962b5fff90101d0a",
+  "asset_count": 3,
+  "assets": [
+    "addons/kaykit_restaurant_bits/Assets/gltf/restaurantbits_texture.png",
+    "addons/kaykit_restaurant_bits/Assets/obj/restaurantbits_texture.png",
+    "addons/kaykit_restaurant_bits/Assets/textures/restaurantbits_texture.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "environments",
+  "checked": "2026-10-12",
+  "download": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Restaurant-Bits-1.0/zip/153c8a7535b48237854cb54ff6890679f8c574d1",
+  "files": [
+    {
+      "bytes": 862,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/LICENSE.txt",
+      "sha256": "4da4ad3a3face68a71c11c8adc8e93017fdeb8fd67fcb0ca8286bd9c3dbbf674"
+    },
+    {
+      "bytes": 8256,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/bowl.bin",
+      "sha256": "63e58259e0f92cad6d4cab88ac89609b1ee877b059c2f9658343e809b543fe73"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/bowl.gltf",
+      "sha256": "cc10f197bd52be38352c1c7bf1371a577ca5e9a64f05059cae357eff138f8916"
+    },
+    {
+      "bytes": 11196,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/bowl_dirty.bin",
+      "sha256": "24d485317a258608aa803ff94df4a33b7d02a53e74459c70ca5be02b7571ff6d"
+    },
+    {
+      "bytes": 3054,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/bowl_dirty.gltf",
+      "sha256": "912c0b94be5b155a9c648fc279cdf8827aab2d0686d6833f6ae45335b00b473d"
+    },
+    {
+      "bytes": 8768,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/bowl_small.bin",
+      "sha256": "78c8d4b1735eb91348878d4621dbbeb5f3ede2c39782226cd5bf26ce1cbe96c5"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/bowl_small.gltf",
+      "sha256": "d015f6b90078827d1533b53b329a3fdf48edad38edf76f433f4da2596409650c"
+    },
+    {
+      "bytes": 16872,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/chair_A.bin",
+      "sha256": "c95a15bc30e2bb9f122762590819c99934db31b7e7dbf3e54b68eb105e36148b"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/chair_A.gltf",
+      "sha256": "0d0abdc382abedb3e4bc2e0260af663c16ff2dab0d441f09d675e0709a7a7310"
+    },
+    {
+      "bytes": 16872,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/chair_B.bin",
+      "sha256": "bd49e308ee3ba0c68a8ded2aebbdf3575c6b676adfc291dcf7e0748b5bdce2fa"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/chair_B.gltf",
+      "sha256": "99f967a4de8d458fb4c75e9c32e64e3871fa0d18d4a0df65b40120e3b6d35707"
+    },
+    {
+      "bytes": 10016,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/chair_stool.bin",
+      "sha256": "dc5b44cad6aece8dc5c6de343f76ff6d600a8bf3c24da27dc44e62a583176325"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/chair_stool.gltf",
+      "sha256": "6b224ab4884e7fff7083c02f630afc63cad698dbd4a99860d6f8988f308069b6"
+    },
+    {
+      "bytes": 8984,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate.bin",
+      "sha256": "252687039209b62a3283319d2836d0e0d6745dd638ea53e2315df981c75a6c07"
+    },
+    {
+      "bytes": 3017,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate.gltf",
+      "sha256": "f745014f6239147f2528ac24ef988a5833d048bd3aede81085f4c4fc879a8e16"
+    },
+    {
+      "bytes": 102776,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_buns.bin",
+      "sha256": "027f1511a12f4b4bd7926ef592731e2a3f2414e30195f5648f8df016c352781e"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_buns.gltf",
+      "sha256": "1bf19d10a601dc62820df5c2ccb239cd1fb35f5a5866363810b8c3c33b2a3594"
+    },
+    {
+      "bytes": 63184,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_carrots.bin",
+      "sha256": "40e0bf2bced5f00d6d5af93ec3769a335a37291c47e6d6bab82db7fd940f1454"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_carrots.gltf",
+      "sha256": "874ce9c535908dbc355b42c99c1b04dc8e5ba0e3b5b3c7687b21165dd09a2429"
+    },
+    {
+      "bytes": 50248,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_cheese.bin",
+      "sha256": "19e9337e9fa91d0b93ae7811650e08e2c381f5f079841ffa74895a919662af36"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_cheese.gltf",
+      "sha256": "33e677e0ed4a7b89fd1e03316827cc8160dccab6ef6e29417b2f914caff13d0f"
+    },
+    {
+      "bytes": 26392,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_ham.bin",
+      "sha256": "5cbe769bcdfc32cea94a1ce7e65e1acfdc4246085b52d3958d9099d884df7aa6"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_ham.gltf",
+      "sha256": "b053509349cb31f48cf512d387ede276b6d3a08ac50d0daec1363478b27d699e"
+    },
+    {
+      "bytes": 69416,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_lettuce.bin",
+      "sha256": "52646e26ffeff9b5ffc1e43ab04a02bc1f7be5f8fa979130d22fa6add086c208"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_lettuce.gltf",
+      "sha256": "cdc567b305563ffc9d49020e5baddfce95b26a9d76f375e5652b7671addcd5ee"
+    },
+    {
+      "bytes": 12504,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_lid.bin",
+      "sha256": "3723dbf9a7a9f2b06da7e0359bfbd0735c370d805644f5df4a961fc1ec30dc80"
+    },
+    {
+      "bytes": 2980,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_lid.gltf",
+      "sha256": "04d43a7832346bc68dc560735f8e08c446676768c9a702fda91eea7f6429e476"
+    },
+    {
+      "bytes": 60664,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_onions.bin",
+      "sha256": "44cad75a538bd9f9d3801df15df9d64ee1b37596aff9d74b72850614e1297510"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_onions.gltf",
+      "sha256": "ef56ebc45c3607301743205af71b1af7df5840fde234ae5f8cc04ae1834bc757"
+    },
+    {
+      "bytes": 29960,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_potatoes.bin",
+      "sha256": "0f77c9bdef536155f586907f3d100d373c8a62a7a017f032e5e623e604794996"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_potatoes.gltf",
+      "sha256": "4d04acf2bfebdee4d1f3585cf7e0507d50c61b729c255231271416171af564f5"
+    },
+    {
+      "bytes": 49304,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_steak.bin",
+      "sha256": "ed24e6a9db9a7e02aab5181e3743e3d9667e830e38c72951941bdd8fef808ae4"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_steak.gltf",
+      "sha256": "424a3912f732b673300ac9c76e1e7cf1bf17cb8a975784412a21829230606a53"
+    },
+    {
+      "bytes": 81904,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_tomatoes.bin",
+      "sha256": "8b5f6e2796aaf8f205e2130d571ba59bdc0c00f35059a4c457bf91228295d0fe"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/crate_tomatoes.gltf",
+      "sha256": "ac6f8440203300763a3381b0fac4937707096832d91267eead1647d5a2e01846"
+    },
+    {
+      "bytes": 2212,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/cuttingboard.bin",
+      "sha256": "5b2e7f063f3ddea8ef54e9d248cd18966d11e4a5ce4e2aa2486fc1e4ed9efb26"
+    },
+    {
+      "bytes": 2966,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/cuttingboard.gltf",
+      "sha256": "8e21f1d8ed779beb58dc7e159adba88a0a0317b53ce3d75e380841ff393b0072"
+    },
+    {
+      "bytes": 13344,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/dishrack.bin",
+      "sha256": "dcbe7a3b18e73f9bc33a2fca40d422cc1e7a82a0c384753302601239b40c7367"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/dishrack.gltf",
+      "sha256": "cda49e3619b21fe5cc75b5114d59cc1ab8996b48aedf2b063bcd84c09d163419"
+    },
+    {
+      "bytes": 37920,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/dishrack_plates.bin",
+      "sha256": "cf407f6199ece5af971d6c5200c956a14ce4d83f12ca212a1d669c5a93975595"
+    },
+    {
+      "bytes": 3052,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/dishrack_plates.gltf",
+      "sha256": "1b5884389ac2a771710996a9331946f29135a17ba7e7a9e494a4d451c53468dc"
+    },
+    {
+      "bytes": 11752,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/door_A.bin",
+      "sha256": "7db6f8465a5851c7cc38c1c41cf5845a652624f46118e2533847585d06c275b5"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/door_A.gltf",
+      "sha256": "5bcfe533544343c0dc6e32ce96ee727b2525ca76233c2db560961bc733d78cdc"
+    },
+    {
+      "bytes": 11752,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/door_B.bin",
+      "sha256": "7784d66b5676999fc9e79ef85a0f95b45f942f20782c1af89c60fa725acdb0b3"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/door_B.gltf",
+      "sha256": "b30674b5655925030aabe7520bd2fc1aa8e9d1d3318373fb5f606aa0f281fb63"
+    },
+    {
+      "bytes": 11912,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/extractorhood.bin",
+      "sha256": "d9a31db725f770ee6099fd3e5d84bef651c315fec104b32c87f17e13831ee319"
+    },
+    {
+      "bytes": 2967,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/extractorhood.gltf",
+      "sha256": "eef870be46217dcf23c6b644b3505626b302d6ff877fa0165932b65d5c4fccaa"
+    },
+    {
+      "bytes": 3232,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/floor_kitchen.bin",
+      "sha256": "05f3a380b290d59b75eeb000f1b476e42d92a21198850a2af79a28b3dae072f5"
+    },
+    {
+      "bytes": 2947,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/floor_kitchen.gltf",
+      "sha256": "a258c6bbc92264a3e163b7d1c01e6d3ccf04ef9fba98a07b0f6dcd7408250f4b"
+    },
+    {
+      "bytes": 3232,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/floor_kitchen_small.bin",
+      "sha256": "558ad83588578341b34d2f0a2fddbb0bf2f33493706387839df913b619f5c685"
+    },
+    {
+      "bytes": 2959,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/floor_kitchen_small.gltf",
+      "sha256": "1edbf77831d7ab8146a37cc4cfd81af064b623629deb665b25ebe2aa4abc1808"
+    },
+    {
+      "bytes": 62308,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_burger.bin",
+      "sha256": "449ac7849b4bfb2dac8858d8c54435bd452a6115b5c1393cb555357cc5b1c861"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_burger.gltf",
+      "sha256": "1d2f6b52ead42cb513f5ae7a71b56a98286c68035518b746857abd95ecdf28f6"
+    },
+    {
+      "bytes": 44744,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_dinner.bin",
+      "sha256": "cdab092747bd4cdafaf8966e0d510f227e7becd695d71d312a3055fdfa098e47"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_dinner.gltf",
+      "sha256": "d5882d178346c41305152ee9199d7fbee3fa8e34704292e906d13372f374a242"
+    },
+    {
+      "bytes": 15632,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun.bin",
+      "sha256": "a49d342c9dad3f2318798f7dddd72298ea3d364cc76a6440efacd46ffb473fe8"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun.gltf",
+      "sha256": "d535883d1395208132a441a264c6bb91f0fb045a4a2bac613ba599fca7ca7c06"
+    },
+    {
+      "bytes": 4944,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun_bottom.bin",
+      "sha256": "51c24200117dbdc3f853bb1385e342ddd915a3fbcdf591884b137062babed2c8"
+    },
+    {
+      "bytes": 3082,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun_bottom.gltf",
+      "sha256": "865d0f40595c36bff67c1045cfc059e8f5c9c7dd4420db1f0ab5aa505dcfbc54"
+    },
+    {
+      "bytes": 11968,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun_top.bin",
+      "sha256": "55887552ae9fcdb723dffc952bca66ccc9eb1e33d202f0f6f833ab598e5a8924"
+    },
+    {
+      "bytes": 3076,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun_top.gltf",
+      "sha256": "1b1c26ce5387a03e79feb37a879e6105150459095f6995689eecf6f5f69df504"
+    },
+    {
+      "bytes": 7264,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_cooked.bin",
+      "sha256": "d3fd36b8ecda288ac50c04f95045df4cff8e71dbb96894cc3efbb7b0bbffa13e"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_cooked.gltf",
+      "sha256": "7efb5080c7cd9d21c03c39f1ba767554f186abb4fb1fcac95daaeaaf914ec2b7"
+    },
+    {
+      "bytes": 7264,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_trash.bin",
+      "sha256": "da1b40551869253f751dc01a6ef9a2b455924d3f75a765385ea120c13a8e519b"
+    },
+    {
+      "bytes": 3090,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_trash.gltf",
+      "sha256": "b1ded7414dad7c1e1337cd5c2e3644551e32b9bda8db1d8fa0ad7d020ab82a57"
+    },
+    {
+      "bytes": 6688,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_uncooked.bin",
+      "sha256": "00a3325a8e73fc285260809282762bee92ac7e07230e052415736a48054f538b"
+    },
+    {
+      "bytes": 3096,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_uncooked.gltf",
+      "sha256": "46f1e48ac0ca67a7c10dcdceae4d7c15db5e97cf2ce5a2e979996f59b43cda25"
+    },
+    {
+      "bytes": 10072,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot.bin",
+      "sha256": "eb86af3ba6189850e98e399ae69cc836cbba741f6a20492f84a9b1504d84c44d"
+    },
+    {
+      "bytes": 3076,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot.gltf",
+      "sha256": "8c794b3ee8326723ed7b86fec1f5df4e8784d4816140ff1df7cb816d89a6696c"
+    },
+    {
+      "bytes": 18276,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot_chopped.bin",
+      "sha256": "b177512541a687b355c8b354f94a48a7806ff6ae7d4156dbaf5c347e83d2d68d"
+    },
+    {
+      "bytes": 3097,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot_chopped.gltf",
+      "sha256": "16419d4357071e9ba2e2067ff90eeca752246c96472d0913c75b7bfb4f6be17a"
+    },
+    {
+      "bytes": 22144,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot_pieces.bin",
+      "sha256": "b17c81c1c1b82742ac153f64b8e9c0dd805690a829643a5a19401cd215802d2b"
+    },
+    {
+      "bytes": 3096,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot_pieces.gltf",
+      "sha256": "cbb4c089a0af30e6b390a0cae2bec8e27970a72a2a825900aa98f369c398f1ca"
+    },
+    {
+      "bytes": 10060,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese.bin",
+      "sha256": "07af05a4bd7e1f117c30cb7367f07e5181469803b16833825bc1c843e69948fd"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese.gltf",
+      "sha256": "d229e1ab2c74629c4df80250aced5acbc69e5811d4809ba1e52569ee6c825816"
+    },
+    {
+      "bytes": 9908,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese_chopped.bin",
+      "sha256": "10cf7a02591c65bbfc0caf40678acfc42e9d7d9ca5dd937c488c90ea2e2b19e8"
+    },
+    {
+      "bytes": 3091,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese_chopped.gltf",
+      "sha256": "e9adbf73cb0cf49329b0a95e24156f614a964f4197f807591230d11717872b79"
+    },
+    {
+      "bytes": 2020,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese_slice.bin",
+      "sha256": "343ad449b9cf5a8168fc41e43d0cb359ce4b439f249c6de733727cba5483b664"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese_slice.gltf",
+      "sha256": "835a0e36811df9d27f7e14caeb38a60a4a5c61eb2396a41630eda2d67c6729ff"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham.bin",
+      "sha256": "bc2c518205770c71a4a775ad53dc3579bb84b01cf572605fc32c2d9dd84425f1"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham.gltf",
+      "sha256": "4d1d9a9661a7872bdb85c52e3d9f8d7ad99fdc5cc4ea2665f0dd5c788a2fcba8"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham_cooked.bin",
+      "sha256": "31f9e1d3ec63c65fca72a315acc3a7972cb033f390e31352c8c1861e2c72d9c0"
+    },
+    {
+      "bytes": 3082,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham_cooked.gltf",
+      "sha256": "ee6657913d75a268a26a14d81651f5db1ad8b599fd42c058106a411f37536834"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham_trash.bin",
+      "sha256": "2c5f14353ba1dc6baa85f0c893622ebb49310cb1576934538ad39a22e74dad91"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham_trash.gltf",
+      "sha256": "ed98d76b591c02baf77c586ecec432e03445b33ede4cb67d9f7ba9ba0a6c2c8b"
+    },
+    {
+      "bytes": 14932,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce.bin",
+      "sha256": "9bcd2d629c76503367863108f771e0faca1b04a0a7a2d1b3138534c1c6928c46"
+    },
+    {
+      "bytes": 3193,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce.gltf",
+      "sha256": "ec904de2db1021eb234a1d700a4f6fe6f6ef4ab6125b9c8bae4fb6cf3bcb135d"
+    },
+    {
+      "bytes": 15732,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce_chopped.bin",
+      "sha256": "783f757c660f79b8828b6e992598a18ecbb76683ebebbb485ac97079b555433d"
+    },
+    {
+      "bytes": 3208,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce_chopped.gltf",
+      "sha256": "476b1e2b8927a1851b6da10986903867ea26ddada7777c53f61d51c579ba0b9e"
+    },
+    {
+      "bytes": 5864,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce_slice.bin",
+      "sha256": "b80221e0883fefb96a71a630b41720a77933527fc8fcb085db36abc37438ac55"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce_slice.gltf",
+      "sha256": "7bbb31a47cce17757809963022ece548000100692fbf9bf79711ffcc29c38923"
+    },
+    {
+      "bytes": 10336,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion.bin",
+      "sha256": "d7146fca7faa3f78797c852fbbbc3bda8fe1d2e0274e20f2d12d639735aec9f0"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion.gltf",
+      "sha256": "b507c3964dfa8c4f6679c104d62ebd51a99c49296c6ccd823b5b7958d21df08f"
+    },
+    {
+      "bytes": 25792,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion_chopped.bin",
+      "sha256": "29b8415216ed71b6d5abe4740f44a8998430d10d3766db47a5645cdbf7e4e35f"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion_chopped.gltf",
+      "sha256": "7595a0e14f6344b41696d0d322f7f79c43aaff76915c511940b5d669b07937e1"
+    },
+    {
+      "bytes": 14592,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion_rings.bin",
+      "sha256": "9c7844fb83955412013b43eacbcbdf161e7828eda5f45a39d38282c1c3f122d4"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion_rings.gltf",
+      "sha256": "840d53d0bbfd3cd30adb239f909b5f92e755eabd936b3a26ebe4611e9071bd29"
+    },
+    {
+      "bytes": 3496,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato.bin",
+      "sha256": "905ad1d4c25e9b6a4b4eb20c994f485cd3a48f72cb1ce94a34fe37ccb49dc182"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato.gltf",
+      "sha256": "978e456df24110a4ac9f7469bd24a9e65ecc5a312a0475e34cb2567ce19d8f40"
+    },
+    {
+      "bytes": 9048,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato_chopped.bin",
+      "sha256": "1603f80a6c5881107ced4a6cc6574efdc532928e97396c7e28d1c6940f4ddcd8"
+    },
+    {
+      "bytes": 3090,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato_chopped.gltf",
+      "sha256": "8e2f5a40e3da3c52d48ea31274cbd3611e91e17878022fb318763d9f4f08a012"
+    },
+    {
+      "bytes": 1312,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato_mashed.bin",
+      "sha256": "a1f535fca9d2d9a1cd6a078b57957efc11249b73fcbb15dfcf109fe3a49091a0"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato_mashed.gltf",
+      "sha256": "9c350c4df3f932f69dacfa18a9095ff4713aa51269d06bf21f7eaac9743fbe0d"
+    },
+    {
+      "bytes": 13440,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_steak.bin",
+      "sha256": "6196cd9e50e6c2db8fdf0472f0cf031245e898cc4fe98424cfad8b207cedb717"
+    },
+    {
+      "bytes": 3077,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_steak.gltf",
+      "sha256": "651a04027439cb47c814db3b943cc28f10f7093e74695214ba86441d212873f3"
+    },
+    {
+      "bytes": 9264,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_steak_pieces.bin",
+      "sha256": "6c8a3aae1abc8f36fac0a673de6f63a220eff2ed34f4e2e22692212abc9ab5b6"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_steak_pieces.gltf",
+      "sha256": "0bf450b3fab9b6eccaebac0b9c182b123a13f3d95039716429d1c9c17df661a5"
+    },
+    {
+      "bytes": 13304,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato.bin",
+      "sha256": "82a2319e73119c1dbb9e35eb357b205936bf6f185b9bbf1bf66b5025109925b2"
+    },
+    {
+      "bytes": 3082,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato.gltf",
+      "sha256": "563c960cbc6a7a0580a75e24e964cab4426fdeda90f602912e57be2fe568c90d"
+    },
+    {
+      "bytes": 9512,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato_slice.bin",
+      "sha256": "d82a7994c915130c94cf756970167de9d114d51b30f48257cc7a4ba457f99407"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato_slice.gltf",
+      "sha256": "060f1f9e14f0e3263a971454253cdb9042c1cd183cbf45e5c9752401f9dc0a22"
+    },
+    {
+      "bytes": 20648,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato_slices.bin",
+      "sha256": "fc9aafe5d7e7bfc08ce2df75d2601e6422d266f444c7f8815e085cc21f34f1b9"
+    },
+    {
+      "bytes": 3097,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato_slices.gltf",
+      "sha256": "f32bc9cf89580a43318318474f85d61521984a7405c1baac2c49ee315e5d8965"
+    },
+    {
+      "bytes": 16364,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_vegetableburger_cooked.bin",
+      "sha256": "c91b4f7431787246f55e895b11c5ea1d6a7c8526166ade96783fb59013c5a36e"
+    },
+    {
+      "bytes": 3115,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_vegetableburger_cooked.gltf",
+      "sha256": "e90c90ec14e35d86e5181841cf59f86c2c951ab0dda8712895c6fae313602ce7"
+    },
+    {
+      "bytes": 15788,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_vegetableburger_uncooked.bin",
+      "sha256": "c87bf54f0da11e399f8898d47fb516b2bf2500771d368c354871e90a9fced7eb"
+    },
+    {
+      "bytes": 3119,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_vegetableburger_uncooked.gltf",
+      "sha256": "6a1ffd8af79bd81d13eb0144d3fb78e0ec65a387ed3e9f8c54068880ab82e40c"
+    },
+    {
+      "bytes": 22944,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_stew.bin",
+      "sha256": "74cd8cfe414a46bc5308e93e37bb810694f752e9924ec2abcbb165874cb396eb"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_stew.gltf",
+      "sha256": "753f6b30842589c744f959f5ddb90bf07fba4aba30c5d72dc0ba300549b5bff4"
+    },
+    {
+      "bytes": 69388,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_vegetableburger.bin",
+      "sha256": "9067b1686122570a627fa1a9321a45669db1975e5c9614cfab4e1d1bddd928d1"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_vegetableburger.gltf",
+      "sha256": "0f99c5c76b49a04224342d3b38cbba7580f69a38f7f1c26c71fd4e8f3d12f878"
+    },
+    {
+      "bytes": 26980,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/fridge_A.bin",
+      "sha256": "58448d94b0c4799586344b2802fdb2c83dbdd80a350778621b0da096c7c77459"
+    },
+    {
+      "bytes": 7062,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/fridge_A.gltf",
+      "sha256": "a1835597180f9636dd23669900c1f07fd38813fc5a50685e1d4a7ac1b988ae62"
+    },
+    {
+      "bytes": 88116,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/fridge_A_decorated.bin",
+      "sha256": "01e82c05c14de76f2131c302b346bf3dbf59bd19f99154734ef48cd9450d703e"
+    },
+    {
+      "bytes": 7125,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/fridge_A_decorated.gltf",
+      "sha256": "898bc003e891572956c5eb3aa86c450b94bf66f0434d4d95ad855563b255e34e"
+    },
+    {
+      "bytes": 19324,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/fridge_B.bin",
+      "sha256": "b0ddf72a0e50233999a36f8eccc64609fe21d4d12b09371818540d5268e90925"
+    },
+    {
+      "bytes": 5016,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/fridge_B.gltf",
+      "sha256": "44944244748e6cba62aaee738c35a6cfea65bfbff00f0c5930550481bd8172f0"
+    },
+    {
+      "bytes": 6448,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_A_large.bin",
+      "sha256": "d8c85da629a0a80823720e64bc2885fd8b85783db569a333185f1e5c1534050f"
+    },
+    {
+      "bytes": 3027,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_A_large.gltf",
+      "sha256": "593f586c816ff1cf542a4e249da8f27c39ebc22511a75dacc692a0f4092cb60b"
+    },
+    {
+      "bytes": 7208,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_A_medium.bin",
+      "sha256": "83882e909ea76df52c42763c85047e1ed6d1bf6a9c5465eeb64ddc1984814cf0"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_A_medium.gltf",
+      "sha256": "3eadead8b5bc31a99b2ece53e1aede59638eb45191f828f7b768862547465333"
+    },
+    {
+      "bytes": 6976,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_A_small.bin",
+      "sha256": "cdfb773edad8d9ca4707797aac2c08c1375caef527a478e482408e829e496c42"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_A_small.gltf",
+      "sha256": "7ad38df33895d9efbe0fee65df87f7920f75abf403ccbbabc116f70f2dfc225b"
+    },
+    {
+      "bytes": 6448,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_B_large.bin",
+      "sha256": "fd1c7564c5de2cf62e0073d875ae6e2f5be8bcc3c988d788fbb22f22320a0561"
+    },
+    {
+      "bytes": 3027,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_B_large.gltf",
+      "sha256": "831ca922b891c0efabec644c6d5f03592f519adda86bf5ebebdbfc9b3443574d"
+    },
+    {
+      "bytes": 7208,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_B_medium.bin",
+      "sha256": "195369a3f5589cb5e50fa41c1070d753f11e4034ca34bbe45260be67569431c3"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_B_medium.gltf",
+      "sha256": "c730924b7b6ea11613b236c3bf5225343ae8c89c969cd721b50111402f0f9c6a"
+    },
+    {
+      "bytes": 6976,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_B_small.bin",
+      "sha256": "a34b6dabb7059a24ebaf31da87a3431c7c907e9f04f8aec58c39b7cd0cb79682"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_B_small.gltf",
+      "sha256": "fc75158c9904e5b3f6fa45a27f51f839388ea3419a2a3fc2efcc3ff3efe3c539"
+    },
+    {
+      "bytes": 6448,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_C_large.bin",
+      "sha256": "266f5928d20ea1c79f7f879b615bc25239cc60d7ab6471e4c22fa5ba57cfb3c9"
+    },
+    {
+      "bytes": 3027,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_C_large.gltf",
+      "sha256": "bd4f4899ad27d751ffe59d8b0664043a85956d40fe5ee3275995b88948bc604a"
+    },
+    {
+      "bytes": 7208,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_C_medium.bin",
+      "sha256": "5b65519d559eb16e94ef0c6f5356ba57cfa3865f9f8852a4bbccedef0da16970"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_C_medium.gltf",
+      "sha256": "86c55c5d8173481d508b9153a1dbe791c1987f9681803eaca7523bc3252aa577"
+    },
+    {
+      "bytes": 6976,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_C_small.bin",
+      "sha256": "863cfbb0041a93d7286160a9ab8d1f22f6d555a58df7e8029ed0fa5620dbe7e0"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_C_small.gltf",
+      "sha256": "e098bf6baddf81dd3bbdfc24f7268b5f3b90831b0ee87c01ad66d767fed54b5e"
+    },
+    {
+      "bytes": 6448,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_D_large.bin",
+      "sha256": "5b21bb13531811d8c18fa93e5a42057cd6e79588e1d74d7e1f1d1aa9eefeb6ec"
+    },
+    {
+      "bytes": 3027,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_D_large.gltf",
+      "sha256": "4ef3ed47bb21c1c7bea9cd631a8c2207d9e6023a17d04d4a64b863baac60bf89"
+    },
+    {
+      "bytes": 7208,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_D_medium.bin",
+      "sha256": "47789bccc8f5df70f5a59c9a86c0a55815a8ef8423e1d501a01d6c7668c9b56f"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_D_medium.gltf",
+      "sha256": "bc542bfc44f64f16cb2bd3032f760aff9da2888a931db84c9521817807ec1370"
+    },
+    {
+      "bytes": 6976,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_D_small.bin",
+      "sha256": "d048d0f70c2e8eb4b311eb66af4825ef16349b0c80037b2cddb71a10fd3326a7"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/jar_D_small.gltf",
+      "sha256": "c8b230a26b272d4b5a7169e00c5e3ae99221b9909c13d91d2d8369a0cabd6da7"
+    },
+    {
+      "bytes": 6448,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/ketchup.bin",
+      "sha256": "d6c747356caaf2dea8058a8568463499d5130c82505f3cecea5e119a3a972bd5"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/ketchup.gltf",
+      "sha256": "85418b12838767b9368a328c34008324c7cea7ca1a2aac2a6acf98185cf49462"
+    },
+    {
+      "bytes": 7400,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet.bin",
+      "sha256": "a25d0ba886e4bf558ea4afc636f1b62cbd0e45ee4c6a7cc3e488022f98dfc136"
+    },
+    {
+      "bytes": 2965,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet.gltf",
+      "sha256": "73969db052be1f37717012874f43c2dace7e011bf9b59179d8e0d3a40f5c24c1"
+    },
+    {
+      "bytes": 8392,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_corner.bin",
+      "sha256": "c554ab6a0db2ddc6f1b4004dedf06c45937398533b7690299261578d20fb39f5"
+    },
+    {
+      "bytes": 2964,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_corner.gltf",
+      "sha256": "25d13aac0312bfd7b2e58efa98e27e982e74947fed9d547dde4b371e33ef80c8"
+    },
+    {
+      "bytes": 8520,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_corner_half.bin",
+      "sha256": "944a717268b8ef13b831414abcfc6d2f2abecf077bb109c83246de4b988441dd"
+    },
+    {
+      "bytes": 2974,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_corner_half.gltf",
+      "sha256": "e761cdfb855a8dc00ffbae1ff7410ab62a43ccdd5ee857d6f9f242b6235cef1e"
+    },
+    {
+      "bytes": 7400,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_half.bin",
+      "sha256": "b4360cc622b3d39df2629884260aeb86dd55853f644a724371be2fb2f10de21b"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_half.gltf",
+      "sha256": "1000cd315df2e44ed86f2a91b82c7cf6a23fc511168bc446576113b4162b0bd8"
+    },
+    {
+      "bytes": 2404,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_innercorner.bin",
+      "sha256": "775b5c27152bf35d9bd139a9a07ad1c23bb97dab210143a7b057160d14821890"
+    },
+    {
+      "bytes": 2967,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_innercorner.gltf",
+      "sha256": "47866ba0bf7568a5b66b2f71bb39bd9523dd3711f32f022e4ab796a36253eb95"
+    },
+    {
+      "bytes": 3376,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_innercorner_backsplash.bin",
+      "sha256": "61cf3423b58e30653df2bee7a17dc0620511a0c5c3d1abed98bd631da001bfd4"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_innercorner_backsplash.gltf",
+      "sha256": "4c10f576e985cf7d86a87a4e2ee3010b99069a526559182ed2f2a421cf54fcda"
+    },
+    {
+      "bytes": 2404,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_outercorner.bin",
+      "sha256": "59cfbaf5cf1f62d87976535115f272fcece466d6bad2f104a6e7a29f35b63a1e"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_outercorner.gltf",
+      "sha256": "1e4ae270976f26ec4ab757770645528ed00f263dd9650efed6e7c23ec3cd8060"
+    },
+    {
+      "bytes": 3376,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_outercorner_backsplash.bin",
+      "sha256": "83d62af17d150fb9e8d8d3c22baeeb0a9f25ac15dc7aec60e53ccf4dab9e90a8"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_outercorner_backsplash.gltf",
+      "sha256": "8ef1a48e24255934de1aa3febceb69146e309a8ebefeabd8ff75b83e3d5a6cab"
+    },
+    {
+      "bytes": 29228,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_sink.bin",
+      "sha256": "a0d0ca0667dedccea5af25a4b69c272a4dfdff2b45dc99f3bfe95f512072630f"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_sink.gltf",
+      "sha256": "41e576c8211cd3e6a33d8622e195b583795b47c671f13bf636e344f037d0f56c"
+    },
+    {
+      "bytes": 29908,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_sink_backsplash.bin",
+      "sha256": "e49067bb91f2e55bb9dfe3f787763bec3e6d081bac72aca64560933d598549bc"
+    },
+    {
+      "bytes": 3020,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_sink_backsplash.gltf",
+      "sha256": "574fe697303f22694dc003ff3be538713ce45899fed8fd29d049b7265ccfdb73"
+    },
+    {
+      "bytes": 8400,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A.bin",
+      "sha256": "78e3e82538faf0f03d0799b7980f006f1fe7a45ab7c64ae401d66dee576ebb19"
+    },
+    {
+      "bytes": 2989,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A.gltf",
+      "sha256": "500afffa4c87a579a046b67f10c8b2b7907a3dd0983544643c581b95153d6008"
+    },
+    {
+      "bytes": 9048,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A_backsplash.bin",
+      "sha256": "983b35ec19de0760e90225a7b675ea262a3842ab32cf089413a588039fddce1d"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A_backsplash.gltf",
+      "sha256": "d123476df9136b87197e8a2c4eaff725f6c3fc761c732cb6c0e09ec37fce2fd0"
+    },
+    {
+      "bytes": 63456,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A_decorated.bin",
+      "sha256": "e8246070033bed592f2bcf4a75dcb93225d7c3c9d6626577fb46f4c16d8df938"
+    },
+    {
+      "bytes": 3055,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A_decorated.gltf",
+      "sha256": "0ba812fdb11256a1a2581a0e55f124023ce726861aa341270400ab49a04dc12f"
+    },
+    {
+      "bytes": 8048,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_B.bin",
+      "sha256": "764bb6b8adc0db05bcff00a665675d3fd0f9ea8344f605b017ade006a335f4f0"
+    },
+    {
+      "bytes": 2989,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_B.gltf",
+      "sha256": "4b5c4f5e6291f0dad714a6101ca6d3d9cd02e4d5b92ae4ad6b908a7bca5bce46"
+    },
+    {
+      "bytes": 8696,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_B_backsplash.bin",
+      "sha256": "741d71a21cf0ccee0025bdfb0cd642298bf66a75b88d7ac2aaaca4f8db33d81e"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_B_backsplash.gltf",
+      "sha256": "f8595f7eff5eb6ec5544fbd88dd7aebd46dd0239909817c74b5b6b2f88894b17"
+    },
+    {
+      "bytes": 37012,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_decorated.bin",
+      "sha256": "fb61b9522d2274562f3060a1b8ff1a0eb5e082eb65f27cbbf1e8f831dfc10fb0"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_decorated.gltf",
+      "sha256": "a67729f13c37ddf6db114d588e6199c1c843f7a2921ff95dc32bfba75cc81e59"
+    },
+    {
+      "bytes": 11752,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A.bin",
+      "sha256": "fc3669ecd8395b01661f2f44b68a07acc960f6026ef46b033d31acfd7782f162"
+    },
+    {
+      "bytes": 2974,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A.gltf",
+      "sha256": "cbd7b5f1d3c093307840ecdc72b62ff1eb6d966bbda2ca49a16786ae83d79734"
+    },
+    {
+      "bytes": 11688,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A_large.bin",
+      "sha256": "b6eb89d970f8adf945fba884a1c060f759cb3fdfebd1b128637c50acbea48b20"
+    },
+    {
+      "bytes": 2990,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A_large.gltf",
+      "sha256": "dbc7503d534b779eaf2ea0c5bbac233359f8b0ff0fcff73cbbeb688f036d939e"
+    },
+    {
+      "bytes": 77800,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A_large_decorated.bin",
+      "sha256": "fd1e10e8449b16663c68d753adfa3a70613172fb1f78301ed8a0b421c0dfb4ae"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A_large_decorated.gltf",
+      "sha256": "c1b78de110e0a460dbe20622bd53a8125c919b4c9d8feb9627c315720425f469"
+    },
+    {
+      "bytes": 11752,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_B.bin",
+      "sha256": "6809bfa32117228f5aa5661b557d7bc0e83984309ac6937d788a5134ebac2d0b"
+    },
+    {
+      "bytes": 2974,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_B.gltf",
+      "sha256": "36b6e8244ef3351fd940c3f2a080fe27f2c59a69b9fbc44d3ea1b2f60ccb6ebe"
+    },
+    {
+      "bytes": 11688,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_B_large.bin",
+      "sha256": "87a438994655418b9685897ac9d1a26d5122784816cb197edd543e88131a1661"
+    },
+    {
+      "bytes": 2990,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_B_large.gltf",
+      "sha256": "4951b7ff3a7764a03b1188a0e9e836cefff5e17c2f10cb90cde9e70200ebb15c"
+    },
+    {
+      "bytes": 32580,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink.bin",
+      "sha256": "c4a8f52959322cfb0980bee9dbd5a078157b9b9246abefe01e34691ebfdb2d3b"
+    },
+    {
+      "bytes": 3002,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink.gltf",
+      "sha256": "647338eeda6099e6f6203a7a5b33c8b6e707d8485516ac5c7f43560680135d0a"
+    },
+    {
+      "bytes": 38452,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink_large.bin",
+      "sha256": "04c5be4bdd9a54495a78bb25c7a34d620d6963cce107fb20d420afc9cf36c220"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink_large.gltf",
+      "sha256": "fb1b3442804364120ad4f79a5e63dd8469e46d1e17a9006df28859fb5fa9894a"
+    },
+    {
+      "bytes": 105776,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink_large_decorated.bin",
+      "sha256": "9e20e8fe70b1b3d03f4b3794a380aacec7901a0b0bfa430d8ba970a52d213db5"
+    },
+    {
+      "bytes": 3023,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink_large_decorated.gltf",
+      "sha256": "2beb49844c6061f792a35aac9efd5bae87f7461af04125768e3c5ebb228ea311"
+    },
+    {
+      "bytes": 4560,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/knife.bin",
+      "sha256": "6aedd2b31bb2162725ce1a58e3e7ee4d909fc9bebeeb28dc2447243e5f8bbc20"
+    },
+    {
+      "bytes": 3039,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/knife.gltf",
+      "sha256": "5e2b8210e96da58603f7a03460243d3eafe5123942a0a3feaf9730092bc43022"
+    },
+    {
+      "bytes": 7184,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/lid_A.bin",
+      "sha256": "7b938218aabfd0f42780a7ef55745ad392908511c6f9501089c58b338afe8d07"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/lid_A.gltf",
+      "sha256": "a862c0220ccfbf1faafca3fd0aec848c3e4b036da9c5c039a8d08c1db0372f20"
+    },
+    {
+      "bytes": 7184,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/lid_B.bin",
+      "sha256": "6f5330bc94f12fff2c38b6c4c6837c39b249a44f356f40ac3bc1e73d8bdde152"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/lid_B.gltf",
+      "sha256": "773dd29c864929f1e8e85c285814a04135e7767e33f3bf763bf477870ba3a96e"
+    },
+    {
+      "bytes": 7056,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/lid_large.bin",
+      "sha256": "d3d401c3fb7bcf34e2342693906571b25793ba158eca36f2d61ea9c6b95751ed"
+    },
+    {
+      "bytes": 3023,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/lid_large.gltf",
+      "sha256": "0b0ff0f9c14fc0fc5c18266c93d96949b70de435e6399bc3dd6eacb8abc028ce"
+    },
+    {
+      "bytes": 5448,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/menu.bin",
+      "sha256": "56bee60b3e949e829f4801d9c01dae2706d9a3f36d326b336881c9ec21cc5650"
+    },
+    {
+      "bytes": 2990,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/menu.gltf",
+      "sha256": "8f71400aa63c18c893dc85144e5ea5fa4f152525510548d68e0f6f5f5d3966fb"
+    },
+    {
+      "bytes": 6448,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/mustard.bin",
+      "sha256": "7374684f5ae90412152930383fadcbcdae693cca79dfea46f15371341be5f5df"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/mustard.gltf",
+      "sha256": "64662efd398e1b7dfcc54defa5801ca1493b9682287b78b67729ae441cb65899"
+    },
+    {
+      "bytes": 34580,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/oven.bin",
+      "sha256": "974435f9fe0148975c972baef5ca8cc928858baff4ebe71e362cf171ebd1d9fe"
+    },
+    {
+      "bytes": 5058,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/oven.gltf",
+      "sha256": "bec7709fbf8d2e92269ce5efc4f564769216966720eee35febadcf6f0f42a35a"
+    },
+    {
+      "bytes": 10884,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pan_006.bin",
+      "sha256": "6f84a20b9043630bec1fbf367e8d5ff68a265e76dc44719af527e336cd31c5e2"
+    },
+    {
+      "bytes": 2988,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pan_006.gltf",
+      "sha256": "875bf1e61b6fa19d366df5ef65a3792c84a5a5a278f0952b22bd6ce7efec4bc6"
+    },
+    {
+      "bytes": 11108,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pan_A.bin",
+      "sha256": "b37ea391f9aeaf17a73dc951c7401460edd33fcfbeef0e9f6c07a7abb666e186"
+    },
+    {
+      "bytes": 2947,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pan_A.gltf",
+      "sha256": "565176e530c59893cb2080c6d18becd4c963e55edb1748c80cdab942d82e4da1"
+    },
+    {
+      "bytes": 11108,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pan_B.bin",
+      "sha256": "292e02e35e3ac90510d27227997568ae28a8d8a50e9505fda0215b6c07f9356a"
+    },
+    {
+      "bytes": 2947,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pan_B.gltf",
+      "sha256": "5f58e35bb71e8e86f85b24070d222a4c0fefdf4de145d0729e0442ccb81fcb04"
+    },
+    {
+      "bytes": 8536,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/papertowel.bin",
+      "sha256": "0f2f650d63f20b75a594c359a43419b539ca654ea9e1663b167dc8eb629f8510"
+    },
+    {
+      "bytes": 2995,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/papertowel.gltf",
+      "sha256": "9338e202654e1100c14f72ae2726a502231f5729ce3be72932f56aaaae1fa7ce"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pillar_A.bin",
+      "sha256": "58b2598af50e06eedbddb3b74d9363b5af5ed2d13437619f31bb9b25e55840b5"
+    },
+    {
+      "bytes": 3022,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pillar_A.gltf",
+      "sha256": "8995e350d2f1af56d3007287bcd1782b27ce3be7e2188414aca73d1be14bb7ba"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pillar_B.bin",
+      "sha256": "04a2fe2e286f54324d6cd85461e55c40c3e4b97e4dbcf0b7d8d1ca6ca31618f3"
+    },
+    {
+      "bytes": 2958,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pillar_B.gltf",
+      "sha256": "654b8e88b69de33675341091a00ae5dcf59e483ffee392811f5e92b34d6b6bb0"
+    },
+    {
+      "bytes": 6144,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/plate.bin",
+      "sha256": "8dfa3b0c2987686238b936608c722df1616bb954e1908b37113b9d6770101006"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/plate.gltf",
+      "sha256": "ba3fce191452ccc3a54351a2969a5942958ced0b3c1e6e005692c946642e58de"
+    },
+    {
+      "bytes": 11108,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/plate_dirty.bin",
+      "sha256": "0e63c2a9040a67b72163c646b4f42545bb4ccb801e2b683b142d1677748e68f5"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/plate_dirty.gltf",
+      "sha256": "a42bb46c8cfd36351332f9e167091cebf5c43f42e3b80bdc367260cbb877d982"
+    },
+    {
+      "bytes": 4624,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/plate_small.bin",
+      "sha256": "51537dca557cb31787e253153d2b85e9d75966fa9ef2773aca9c4199b210db67"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/plate_small.gltf",
+      "sha256": "6173beca2f424b7a11b399c4ed38699877a787149a9a1492f07394a6b9698c63"
+    },
+    {
+      "bytes": 13016,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_A.bin",
+      "sha256": "1a60075faf796fae6897bb4c97e09d326bb755a6d16369658994332cc582404d"
+    },
+    {
+      "bytes": 2977,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_A.gltf",
+      "sha256": "3dc03eff7a73860aa61f41d49d118811c75ca74113ce49f27446a8f99040df1c"
+    },
+    {
+      "bytes": 27064,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_A_stew.bin",
+      "sha256": "f7e08f04a8263c871a8a27e585dcfddddd35d11675e4daeebffdf8e7665e0945"
+    },
+    {
+      "bytes": 3004,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_A_stew.gltf",
+      "sha256": "8e03dd8aabb7c1c7bad1770fcd154661b9ac0382e548df610ea1d624942c713b"
+    },
+    {
+      "bytes": 13016,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_B.bin",
+      "sha256": "c0d2b3fc9d509cd2f01936aafd5edf90d34ac97b7a29b965905737298b470c17"
+    },
+    {
+      "bytes": 2977,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_B.gltf",
+      "sha256": "0e0df6ecf518efc8af0e712328ff3c3619ca9965cda1539027b8cf0d14b4d2f4"
+    },
+    {
+      "bytes": 27064,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_B_stew.bin",
+      "sha256": "b9574718fe113b19c840fc1ed6526a7a4b74438609901762ef6fc915bbf7e125"
+    },
+    {
+      "bytes": 3004,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_B_stew.gltf",
+      "sha256": "0b3124f8b0a3f25bb7eb04709870d984b7036a5a5535dc7dabc124a345df46ee"
+    },
+    {
+      "bytes": 16760,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_large.bin",
+      "sha256": "e35e7577dd6b855a55051b2cd8f0b1a1cd489dff2f31fce61ffcdc6eb9e22c62"
+    },
+    {
+      "bytes": 2985,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/pot_large.gltf",
+      "sha256": "5289242fc02b708cfd2ef8318cf2bf5a3ee6c06263d636e75350960fa8d4f4b9"
+    },
+    {
+      "bytes": 21070,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/restaurantbits_texture.png",
+      "sha256": "1bfff8f880c5e5e1b793bc46fa1f91149b7f70766174a817b3d5962495c5e40f"
+    },
+    {
+      "bytes": 14184,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/shelf_papertowel.bin",
+      "sha256": "54d5759c0bb43dd2a35d48c177fd1889161752d1344d6a3dd32919470abe2927"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/shelf_papertowel.gltf",
+      "sha256": "1a957220b5da4267672432fbf2d65403e8d6265fc41a83a74f127b69d4808f1d"
+    },
+    {
+      "bytes": 34816,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/shelf_papertowel_decorated.bin",
+      "sha256": "2039a0d69564558dac136c80d62d54977b51226e5e46b500d0ecd9673ea73eaf"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/shelf_papertowel_decorated.gltf",
+      "sha256": "6ab95c81a8bb3f295d1411ae0ffdb3588f7633c9bda8847eb27b56336f718888"
+    },
+    {
+      "bytes": 14688,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stew_bowl.bin",
+      "sha256": "164b0c1a17eb985f8fd0270a6ba12279a93648ec8298a0cb486e079c50c2ceae"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stew_bowl.gltf",
+      "sha256": "72f77353d1ac4fcac8e21b5480fe1666544b8399590ce5a337b31e9fbc2be338"
+    },
+    {
+      "bytes": 14688,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stew_pot.bin",
+      "sha256": "f5201cea5ac83687c2df57192e6166b7cda020b5c30edd28be85d20b78c27875"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stew_pot.gltf",
+      "sha256": "a8cb68c28917a23bc06f1f1c0773bec00966e7029272e355518bd004ce9d77dc"
+    },
+    {
+      "bytes": 54696,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_multi.bin",
+      "sha256": "d1f2211797b53f491a4e3020602f9761c6207fc30b681fdf464c7e0e89b58893"
+    },
+    {
+      "bytes": 3006,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_multi.gltf",
+      "sha256": "5b197d1dc28b2c4d0e4bf70446451d63e079da9d768835ad6897f41c711c18f9"
+    },
+    {
+      "bytes": 35672,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_multi_countertop.bin",
+      "sha256": "4d9f82dab1fd0ddb64fae55f09f5e0319e703f354a4f614e8571a1d91831b718"
+    },
+    {
+      "bytes": 3075,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_multi_countertop.gltf",
+      "sha256": "200b03cf02e0916e0295bd4fbdc8f7674f49f7dc524241b072a2c72ce33092a5"
+    },
+    {
+      "bytes": 103188,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_multi_decorated.bin",
+      "sha256": "9350340cc14df8542c98d626c80a2235632786e92c3599846bdcdd67324dcf4c"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_multi_decorated.gltf",
+      "sha256": "49c88b7a386d2216ed07232ec793f2dae6584d75e482b4a459f1e2f50cfc1785"
+    },
+    {
+      "bytes": 36368,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_single.bin",
+      "sha256": "a388f9f1668f7deec37dedf9b45113e593a4f0876d25454d9c22decd0edbaf28"
+    },
+    {
+      "bytes": 3008,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_single.gltf",
+      "sha256": "cce0730ec2025399a68cb6afaa8acb2f54fcb3d70537a26f62564f6f7754f679"
+    },
+    {
+      "bytes": 17728,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_single_countertop.bin",
+      "sha256": "0cafb9935eaafd297ff5c330f5040677aef5983c395ce97f0346c47fbf63f1ca"
+    },
+    {
+      "bytes": 3073,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/stove_single_countertop.gltf",
+      "sha256": "c61f074d372a0194b570cfb6762e97d08638285deaa98a510d44f0da5e44dfac"
+    },
+    {
+      "bytes": 12528,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A.bin",
+      "sha256": "d6122d1b2b5c5b7348f033b97e6cac7f897dd0978a4b7a9c383d2f15a02a5844"
+    },
+    {
+      "bytes": 3001,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A.gltf",
+      "sha256": "20a3b1b8d1cf6cad642f3f9590667bb9b7fa3c318dd603604280a3254be5cf33"
+    },
+    {
+      "bytes": 172612,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_decorated.bin",
+      "sha256": "6c095e9fc82a138da8809cbe97f11c129b811b6c613553d4e3e5ef5410d7e1d8"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_decorated.gltf",
+      "sha256": "4e1e3a78f39eedd74cb274d77e35c1582324aab81aeef0bf74cd43c5d51a430d"
+    },
+    {
+      "bytes": 12528,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_small.bin",
+      "sha256": "8f39b021b1153eb22653a20103e3308bcc8fb7d3c53439c53d6f0e20331f51c4"
+    },
+    {
+      "bytes": 3017,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_small.gltf",
+      "sha256": "eba53971817c536c8df8b69dd41e1f320cf16c450a2f3141ac92bc0eb5213996"
+    },
+    {
+      "bytes": 30936,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_small_decorated.bin",
+      "sha256": "0bb14d0b133e9bc093d76c390ef0ee360a0ee902fa008965c062dfa60dbd3f54"
+    },
+    {
+      "bytes": 3039,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_small_decorated.gltf",
+      "sha256": "e7ec4792ff25dd495aa9ccc485b771a762f1aa052382a973b8253ddc82b91199"
+    },
+    {
+      "bytes": 13000,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_B.bin",
+      "sha256": "d9bfae3989c723043dec87d9ccce107b3a5cb398ab824b8337d357003f861e74"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/table_round_B.gltf",
+      "sha256": "5f3203b0661b4cd0294580d6e671066eb1cc75b40096b8383e0159aef9db741c"
+    },
+    {
+      "bytes": 8056,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/towelrail.bin",
+      "sha256": "612423f3d557ecc6333acdf1a489618ad8b48d39aa6f1952549375091988b120"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/towelrail.gltf",
+      "sha256": "33dbdc1e08863fc41e1dbda7eaafe660c0ca77a76af9533a6807fc52b5df70bb"
+    },
+    {
+      "bytes": 5320,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall.bin",
+      "sha256": "7bb2ea4be9038077a77d1ef2295c292072b9e5bf1815c11b11c33c0c6fc9940c"
+    },
+    {
+      "bytes": 2983,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall.gltf",
+      "sha256": "f50162af946c236fce27f3f561d9d4ab01b0f31fd033a4694f2969e34b992f42"
+    },
+    {
+      "bytes": 173328,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_decorated.bin",
+      "sha256": "571f26ae44bc8d447a812565f1f8879c67a202224576e51d96a63f6044569993"
+    },
+    {
+      "bytes": 3017,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_decorated.gltf",
+      "sha256": "e289ddbc890aca0de4b73a72d2368430fc110a98065bbdf3c02a4d92a2fa7654"
+    },
+    {
+      "bytes": 10316,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_doorway.bin",
+      "sha256": "8190f781ad58e006d1ddfdf065476302e2004765b0b351e001d782a6adfed060"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_doorway.gltf",
+      "sha256": "85e91a96f9a010bd0680342453a16ee1d94f1dfa7858d4cd99f5047cd01a74c6"
+    },
+    {
+      "bytes": 5320,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_half.bin",
+      "sha256": "7e94696837da0feb559e56147df256c2eb0d08d84eee966cf1172aa205f31fd8"
+    },
+    {
+      "bytes": 2996,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_half.gltf",
+      "sha256": "0ab40c9cc406e441382039f2f53736889ed92f2b316f325f6f54603d6d46011c"
+    },
+    {
+      "bytes": 12116,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_orderwindow.bin",
+      "sha256": "08a03caa05d8aba4a601a3e6077eac04931df4c1f093b0ed8fd431b3836a18d2"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_orderwindow.gltf",
+      "sha256": "8513b09ef5e24ef63c52bd831ae53bd4bcef5c93ee8d5d73fd10431f8f17abeb"
+    },
+    {
+      "bytes": 30396,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_orderwindow_decorated.bin",
+      "sha256": "568bfab69b4e8ddee5112cc4899ad72d16661009d3a801f72d3e0ab5a9238b06"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_orderwindow_decorated.gltf",
+      "sha256": "0daaaaea542d6829284297d87a83e47f229d590d03903eb61ee99382d37c3b14"
+    },
+    {
+      "bytes": 11672,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_window_closed.bin",
+      "sha256": "2ad9032f37bc64006d5c3a4215726fda79f16845af460f966df4a70eadca3739"
+    },
+    {
+      "bytes": 3014,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_window_closed.gltf",
+      "sha256": "d8fde64df278efcdb23bb3e87408efc92c3a90fc08bbb7a410900aa85d9a39a1"
+    },
+    {
+      "bytes": 11392,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_window_open.bin",
+      "sha256": "2e2712c4761cb20de81bac2b6c7bac4cbfd4da2c00beb28427898c40b3f6b682"
+    },
+    {
+      "bytes": 3010,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/wall_window_open.gltf",
+      "sha256": "2c1e209505ca0d7538a369a2ef00d39c5095cb7ca31a04ddc4a9504e355e4d66"
+    },
+    {
+      "bytes": 21070,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/obj/restaurantbits_texture.png",
+      "sha256": "1bfff8f880c5e5e1b793bc46fa1f91149b7f70766174a817b3d5962495c5e40f"
+    },
+    {
+      "bytes": 21070,
+      "path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/textures/restaurantbits_texture.png",
+      "sha256": "1bfff8f880c5e5e1b793bc46fa1f91149b7f70766174a817b3d5962495c5e40f"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-restaurant-bits-1.0",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/LICENSE.txt",
+  "license_text_sha256": "4da4ad3a3face68a71c11c8adc8e93017fdeb8fd67fcb0ca8286bd9c3dbbf674",
+  "model_count": 144,
+  "models": [
+    "addons/kaykit_restaurant_bits/Assets/gltf/bowl.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/bowl_dirty.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/bowl_small.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/chair_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/chair_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/chair_stool.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_buns.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_carrots.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_cheese.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_ham.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_lettuce.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_lid.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_onions.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_potatoes.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_steak.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/crate_tomatoes.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/cuttingboard.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/dishrack.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/dishrack_plates.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/door_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/door_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/extractorhood.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/floor_kitchen.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/floor_kitchen_small.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_burger.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_dinner.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun_bottom.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_bun_top.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_cooked.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_trash.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_burger_uncooked.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot_chopped.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_carrot_pieces.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese_chopped.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_cheese_slice.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham_cooked.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_ham_trash.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce_chopped.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_lettuce_slice.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion_chopped.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_onion_rings.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato_chopped.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_potato_mashed.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_steak.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_steak_pieces.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato_slice.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_tomato_slices.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_vegetableburger_cooked.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_vegetableburger_uncooked.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_stew.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/food_vegetableburger.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/fridge_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/fridge_A_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/fridge_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_A_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_A_medium.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_A_small.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_B_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_B_medium.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_B_small.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_C_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_C_medium.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_C_small.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_D_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_D_medium.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/jar_D_small.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/ketchup.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_corner.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_corner_half.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencabinet_half.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_innercorner.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_innercorner_backsplash.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_outercorner.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_outercorner_backsplash.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_sink.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_sink_backsplash.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A_backsplash.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_A_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_B_backsplash.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchencounter_straight_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_A_large_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_B_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/kitchentable_sink_large_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/knife.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/lid_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/lid_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/lid_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/menu.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/mustard.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/oven.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pan_006.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pan_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pan_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/papertowel.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pillar_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pillar_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/plate.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/plate_dirty.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/plate_small.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pot_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pot_A_stew.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pot_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pot_B_stew.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/pot_large.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/shelf_papertowel.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/shelf_papertowel_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/stew_bowl.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/stew_pot.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/stove_multi.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/stove_multi_countertop.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/stove_multi_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/stove_single.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/stove_single_countertop.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/table_round_A.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_small.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/table_round_A_small_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/table_round_B.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/towelrail.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/wall.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/wall_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/wall_doorway.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/wall_half.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/wall_orderwindow.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/wall_orderwindow_decorated.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/wall_window_closed.gltf",
+    "addons/kaykit_restaurant_bits/Assets/gltf/wall_window_open.gltf"
+  ],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "revision": "153c8a7535b48237854cb54ff6890679f8c574d1",
+  "source": "https://github.com/KayKit-Game-Assets/KayKit-Restaurant-Bits-1.0",
+  "status": "downloaded",
+  "strip_archive_root": true,
+  "style": "smooth textured low-poly",
+  "texture_policy": "original source resolutions, no downsampling"
+}

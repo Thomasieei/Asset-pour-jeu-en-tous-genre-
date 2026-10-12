@@ -1,0 +1,702 @@
+{
+  "asset_count": 21,
+  "assets": [
+    "Assets/fbx/tools_bits_blueprint.png",
+    "Assets/fbx/tools_bits_map.png",
+    "Assets/fbx/tools_bits_map_empty.png",
+    "Assets/fbx/tools_bits_texture.png",
+    "Assets/fbx(unity)/tools_bits_blueprint.png",
+    "Assets/fbx(unity)/tools_bits_map.png",
+    "Assets/fbx(unity)/tools_bits_map_empty.png",
+    "Assets/fbx(unity)/tools_bits_texture.png",
+    "Assets/gltf/tools_bits_blueprint.png",
+    "Assets/gltf/tools_bits_map.png",
+    "Assets/gltf/tools_bits_map_empty.png",
+    "Assets/gltf/tools_bits_texture.png",
+    "Assets/obj/tools_bits_blueprint.png",
+    "Assets/obj/tools_bits_map.png",
+    "Assets/obj/tools_bits_map_empty.png",
+    "Assets/obj/tools_bits_texture.png",
+    "Textures/tools_bits_blueprint.png",
+    "Textures/tools_bits_map.png",
+    "Textures/tools_bits_map_empty.png",
+    "Textures/tools_bits_texture.png",
+    "contents.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "props",
+  "checked": "2026-10-12",
+  "download_method": "official free tier; no donation or purchase",
+  "files": [
+    {
+      "bytes": 39613,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/fbx/tools_bits_blueprint.png",
+      "sha256": "577c357193d38c2c10fe8c31e545b86ec0e3f9a5eab4bf2632791d4207d2a98e"
+    },
+    {
+      "bytes": 39727,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/fbx/tools_bits_map.png",
+      "sha256": "ed6a0f8e165ac68d34a1e3f40bb839dbee3d669a42202eb38e0b239ff341ea3d"
+    },
+    {
+      "bytes": 2387,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/fbx/tools_bits_map_empty.png",
+      "sha256": "25d521a2fc4b161357727371437e31836323627086990d38ad5647bfdcc08460"
+    },
+    {
+      "bytes": 28269,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/fbx/tools_bits_texture.png",
+      "sha256": "e0663527c0c0a8e9f4dba0bb15261c367de31981cb3e3ec80f84bf6a5e47fc60"
+    },
+    {
+      "bytes": 39613,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/fbx(unity)/tools_bits_blueprint.png",
+      "sha256": "577c357193d38c2c10fe8c31e545b86ec0e3f9a5eab4bf2632791d4207d2a98e"
+    },
+    {
+      "bytes": 39727,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/fbx(unity)/tools_bits_map.png",
+      "sha256": "ed6a0f8e165ac68d34a1e3f40bb839dbee3d669a42202eb38e0b239ff341ea3d"
+    },
+    {
+      "bytes": 2387,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/fbx(unity)/tools_bits_map_empty.png",
+      "sha256": "25d521a2fc4b161357727371437e31836323627086990d38ad5647bfdcc08460"
+    },
+    {
+      "bytes": 28269,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/fbx(unity)/tools_bits_texture.png",
+      "sha256": "e0663527c0c0a8e9f4dba0bb15261c367de31981cb3e3ec80f84bf6a5e47fc60"
+    },
+    {
+      "bytes": 14696,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/anvil.bin",
+      "sha256": "4dabc949ce4c0876731693c2e70e7020da9d48592c7a469803ba2aaa23ff88d2"
+    },
+    {
+      "bytes": 2977,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/anvil.gltf",
+      "sha256": "6878db53dfdceac3970dd881808f02f38ea06c59cb3dbfe9ae3a463123d7499a"
+    },
+    {
+      "bytes": 22056,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/axe.bin",
+      "sha256": "af3b83ef8ab49fe0272382310115c5daacc37cf350aecc064812a3c2a2deb086"
+    },
+    {
+      "bytes": 3023,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/axe.gltf",
+      "sha256": "5761ddb06283a0075e5fdfe8665784488e6bc00aabcca2134851c8ebac1831e7"
+    },
+    {
+      "bytes": 8160,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/blueprint.bin",
+      "sha256": "415c7a36844a71c2cb1324d8af9f702c9b383d578f368f173f9761f8e39bfe5b"
+    },
+    {
+      "bytes": 5230,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/blueprint.gltf",
+      "sha256": "17f90e0cef18d079bb73b2d702253eed95c8390aacf882e40ae1049c55bbfed0"
+    },
+    {
+      "bytes": 26816,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/blueprint_stacked.bin",
+      "sha256": "95e4667dfa006cd87e2464189fbf4d822162c532e2b42ba43a4a2f00737567ed"
+    },
+    {
+      "bytes": 5264,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/blueprint_stacked.gltf",
+      "sha256": "cc1f230d5cb1c143d9da1fada9916e21261d36506ec96567e2b7241c2bf9d4b6"
+    },
+    {
+      "bytes": 18668,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/bucket_metal.bin",
+      "sha256": "a111cfc58a0d35fb987b8dbcc457c7ff437d87ae3ca7c893e6af13d54fe07714"
+    },
+    {
+      "bytes": 5118,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/bucket_metal.gltf",
+      "sha256": "c9b3cda1ebaeb7c2da26adfc952676d8978758c38d3daff186b51c062f0109e8"
+    },
+    {
+      "bytes": 10276,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/chisel.bin",
+      "sha256": "1c482de27e5da2c9748194ae7b730deab38b50f90aac5412d931a7d8555d680a"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/chisel.gltf",
+      "sha256": "d8b73620dbcd3520596a3d4ad606ec3f7056bc2b939a2dbbe5531f40211bfd36"
+    },
+    {
+      "bytes": 56112,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/compass_base.bin",
+      "sha256": "4357707a74c78b087fa5c9220fecc125e4962ed0288e2823be5c647d44dca401"
+    },
+    {
+      "bytes": 9357,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/compass_base.gltf",
+      "sha256": "378366d364b67bacfa1ef7e48ced939708546d8b0192333cf7f8e30332b2a331"
+    },
+    {
+      "bytes": 60176,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/drafting_compass.bin",
+      "sha256": "d928c143d73a3227af9a8685500ca4581cc59460be72840e31364447e3605484"
+    },
+    {
+      "bytes": 9322,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/drafting_compass.gltf",
+      "sha256": "3a396b71597beb3cc80eed64aab5ef3b1d3d6c59db5d25f1645b0cc442293c32"
+    },
+    {
+      "bytes": 11872,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/file.bin",
+      "sha256": "da41692b8674b789958b33e9b39478ad0223190796e7e4e269a1cff06cac0d12"
+    },
+    {
+      "bytes": 3023,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/file.gltf",
+      "sha256": "0714fe06930c6687cd3ddce50dea969addbe3373d22c27c9fa8fb3d970908846"
+    },
+    {
+      "bytes": 52828,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/grindstone.bin",
+      "sha256": "58930a43405057eaadc7106657282787fd3a887341ca658156718a53856e7fcc"
+    },
+    {
+      "bytes": 5071,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/grindstone.gltf",
+      "sha256": "399957d108c5962bd1faec76493645c7f5985283cb21dba854a24e015c459b19"
+    },
+    {
+      "bytes": 14600,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/hammer.bin",
+      "sha256": "74133dc5be0278e6310db3427b60325540d2214fb7faa9ac339ac284bb709cd2"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/hammer.gltf",
+      "sha256": "c5d203d2c0e00e1d69b033943c01e7bc9c2a0f6a2fbbb4de1d240ca1e23fe225"
+    },
+    {
+      "bytes": 31756,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/handdrill.bin",
+      "sha256": "4ae31d83474bebcbd99cde864c44b9a6299096bbbf174664053874aefc32fdd7"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/handdrill.gltf",
+      "sha256": "f1ce15d93b7e8a94a26f9df4800df45a91707d33197b9c30e05f5d01b47c01b8"
+    },
+    {
+      "bytes": 24924,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/handplane.bin",
+      "sha256": "56eb1cd2df09c2257e5b9c1069c44926da6c6769329604b0ba86e0fade63d5f1"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/handplane.gltf",
+      "sha256": "c38abfc3ae0f1dd24299e9f823d1620dc3e7f8670fe36729878b43bc3606fdc6"
+    },
+    {
+      "bytes": 32744,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/journal_closed.bin",
+      "sha256": "836b532fb95bfec319c04e73422ef78ec3d1e4bd322560b0c48b184967960089"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/journal_closed.gltf",
+      "sha256": "d4f53328e4da494312fcbb4159690ba3157f7aee6b91e967ace999a79fe40e04"
+    },
+    {
+      "bytes": 25060,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/journal_open.bin",
+      "sha256": "c37676ab64e776146b51e90574e9f8d93c55db2461f1e113cbb92627fbe6dd4a"
+    },
+    {
+      "bytes": 3049,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/journal_open.gltf",
+      "sha256": "0fa7c5d93c7ac7b041db9efb0a1e1eb9b7ab06e6896ad33a433367540f378338"
+    },
+    {
+      "bytes": 11224,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/knife.bin",
+      "sha256": "154e668b14fb59fb43bff55edfefc9b31ddb149f268ad3e76c93576bcfee7ddd"
+    },
+    {
+      "bytes": 3023,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/knife.gltf",
+      "sha256": "5a647c7af61a64248f4426fa81e44b777c64af27f1f0a50cef8c8a8d26c1d5e8"
+    },
+    {
+      "bytes": 32952,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/lantern.bin",
+      "sha256": "3980d1cb56a3b96bfd294ee6b4ca752fb3f5afbcaae68eec674a0f3d99f0e788"
+    },
+    {
+      "bytes": 7255,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/lantern.gltf",
+      "sha256": "2a286e97dabbec078382d41c72809f469cba210b72ca13c722a6c0519418eddd"
+    },
+    {
+      "bytes": 22428,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/magnifying_glass.bin",
+      "sha256": "2cb7041915930fde4abb3a25e54be7c09b91aea7dff5897523a2248bbb02f7de"
+    },
+    {
+      "bytes": 5194,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/magnifying_glass.gltf",
+      "sha256": "4bb0dcf930088f462932e6c6d76f555e1abc16b3b143f8c4d34e19f6deeb395a"
+    },
+    {
+      "bytes": 15920,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/mallet.bin",
+      "sha256": "75e475bea83cbaf4492da0a858b849c7a150c28fa35a4e718f01eb9cbc1ae486"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/mallet.gltf",
+      "sha256": "d30fac8feb90f68fc38510fed3e9f7b0b16ab6c0d83c09b4039b67b554fa42b0"
+    },
+    {
+      "bytes": 22584,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/map.bin",
+      "sha256": "44cac3ee8e3d22979edb10924d3325a8ab9c91a03b9e14a9297743a86a7f9053"
+    },
+    {
+      "bytes": 5222,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/map.gltf",
+      "sha256": "65b43d5348935834681092f9a2dd4283535b719b7d9eea46f3fabd1a3ceb3dc1"
+    },
+    {
+      "bytes": 22584,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/map_empty.bin",
+      "sha256": "44cac3ee8e3d22979edb10924d3325a8ab9c91a03b9e14a9297743a86a7f9053"
+    },
+    {
+      "bytes": 5258,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/map_empty.gltf",
+      "sha256": "ba9f20c8114a585a34c60b35ca7bd72c4c698124202f53d7a25e7b6db2f25ac1"
+    },
+    {
+      "bytes": 11112,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/map_rolled.bin",
+      "sha256": "98b2b0ec4385fd6e5e266ff3738f33df8d41ce3faf4f5dbcc520db7062fce059"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/map_rolled.gltf",
+      "sha256": "abef6e65f4044dba3bc0e73367f10735c3df929f464cf9d0dc80450753a7a2ae"
+    },
+    {
+      "bytes": 2896,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/nail.bin",
+      "sha256": "f2f24b6e8b4447cd2fe1bcea65b613ec2a13adb0fe2b25d52a3fba2eada6b14e"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/nail.gltf",
+      "sha256": "bfbe49cd7ae741ae1efe0235ae74dc6421f8a01edb98549b55224b9c36fd8b39"
+    },
+    {
+      "bytes": 3008,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pencil_A_long.bin",
+      "sha256": "aa17e01bc69f50cf15cf370f9e03378de339e3dbeada78fb742c9f962ad141c1"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pencil_A_long.gltf",
+      "sha256": "5f5aa627394433d871dc91189ebd265cfecabecfcf0359cef8f45997d56227bc"
+    },
+    {
+      "bytes": 3008,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pencil_A_short.bin",
+      "sha256": "efa8e8d6b50ec2d86942ac041e78452991379e4504739b33b64c53dbda68622c"
+    },
+    {
+      "bytes": 3049,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pencil_A_short.gltf",
+      "sha256": "431c84df455b567b23ac1ccba39b0911851407c9e07eb686ed63abc68e1941fe"
+    },
+    {
+      "bytes": 13160,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pencil_B_long.bin",
+      "sha256": "c0beb704fa6e02da3557b1f6120d81df4e5b52b427106e8a38134d676c2fff91"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pencil_B_long.gltf",
+      "sha256": "5638b0370ce45495c2130902ea965d90dcc6ac4308bc523fbbc8cb69ea6ac433"
+    },
+    {
+      "bytes": 13160,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pencil_B_short.bin",
+      "sha256": "eab15eee29d0ab1bb91d12642773a3346cab2928c6ab255d5b5c8d8d5ce51df9"
+    },
+    {
+      "bytes": 3054,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pencil_B_short.gltf",
+      "sha256": "08e9ff8d54a46306209a931fc7df71871c54520149d0c8a0d4195a56d65f05be"
+    },
+    {
+      "bytes": 20968,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pickaxe.bin",
+      "sha256": "9466b3b3c20eb0b555288af934800c39d9ff36568f2e8c7af2a9c2bf9b73ebc2"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/pickaxe.gltf",
+      "sha256": "4f3777249fdb9551a546ba66b997f948992787e4b5394ebe13cc1d7bf344a98b"
+    },
+    {
+      "bytes": 30784,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/rope_bundle_A.bin",
+      "sha256": "d73f4c383a72b79e88e2919241c50976551c42979b6c861b881d1a99ee0e429e"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/rope_bundle_A.gltf",
+      "sha256": "a11f478c161387e999fb8e01c720e71b6fdb4481c2f2964881ac2e3276ea66b1"
+    },
+    {
+      "bytes": 21948,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/rope_bundle_B.bin",
+      "sha256": "7d26c2fe58c27abff054164a16d69259b72c6245456d1c59923d98ae9f1e63dd"
+    },
+    {
+      "bytes": 3049,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/rope_bundle_B.gltf",
+      "sha256": "fb39016e36d6e9780ba1e6501c0bf04d5f673a88959c2e3dd4a013d3d6abd624"
+    },
+    {
+      "bytes": 25568,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/saw.bin",
+      "sha256": "970ae1ab92be6d167429cc00be1f95087f143f789b478362d6df266d5a3eed39"
+    },
+    {
+      "bytes": 3020,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/saw.gltf",
+      "sha256": "3ab6f3a679f4f9f79841f02ba8d65364c45c43c26ce91ba2c041ccbd55b54720"
+    },
+    {
+      "bytes": 28232,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/scissors.bin",
+      "sha256": "f7d660e560d58901efcda9f3f63eecc5a6c1fcae66d05cef1c38de52c658103a"
+    },
+    {
+      "bytes": 5122,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/scissors.gltf",
+      "sha256": "b909f93bb3026afff40be22533fc0b240719dc804c06ed39adf82894c214db13"
+    },
+    {
+      "bytes": 10656,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screw_A.bin",
+      "sha256": "306cce5a3e51ef5e25161034b02e5ace48009889441c0101a9da44e795ec66e2"
+    },
+    {
+      "bytes": 3033,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screw_A.gltf",
+      "sha256": "e0c4f829deb487351c59d1bbd9bd3f1c230ce2075d7f13a8958ec8b2722b07b8"
+    },
+    {
+      "bytes": 12016,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screw_B.bin",
+      "sha256": "06c85dcf20e83fbeb32d2a02fd4e1d12370ddb49e3065eb1c063b96410d371b8"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screw_B.gltf",
+      "sha256": "c5fa421ceca1fe51bab655f42e8dfb83bbda35dd14455722486964ad7f260b81"
+    },
+    {
+      "bytes": 9332,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_A_long.bin",
+      "sha256": "d2bbb9e0b495981bc8622940a972e4600234271c5ce2ef1435bff6de95b01018"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_A_long.gltf",
+      "sha256": "4573a1d5fa8c29353494d399456d6e78f95b2629feace93052bd85a0de228e68"
+    },
+    {
+      "bytes": 9332,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_A_long_color.bin",
+      "sha256": "14f56fa4e48db6225ff26f876507deb4f60c39d78283334c02799950ac489871"
+    },
+    {
+      "bytes": 3082,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_A_long_color.gltf",
+      "sha256": "3e5bbfe61a92f14f71c0da79fda7baaf938e7579fb26fe9d2db9ffac3107bdfb"
+    },
+    {
+      "bytes": 9332,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_A_short.bin",
+      "sha256": "94f5767b0b8023239714a6b9d499260de2609978a31fb2d2476153a3805003cd"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_A_short.gltf",
+      "sha256": "75b67a9eb6e50f8382165ef8320a7eb1c47376f14b767d678227fb724c5295cb"
+    },
+    {
+      "bytes": 9332,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_A_short_color.bin",
+      "sha256": "931bdb76e479bb932ffd92c918d07fd6b365abceaff3c2c0e5761b467746e97b"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_A_short_color.gltf",
+      "sha256": "847465f9cd03cfad533f2918f065e50e1877b08b33d94bee84fc2e81440d893c"
+    },
+    {
+      "bytes": 10640,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_B_long.bin",
+      "sha256": "8c6cdbe88edda8e8abacd8aa0d94c54bd0efed7287c48ea1de6dc885ae61af76"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_B_long.gltf",
+      "sha256": "36b2c572e6d8399212aedd69a7b8ea222d9856dbd20052cbb6c26a1c5b59a372"
+    },
+    {
+      "bytes": 10640,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_B_long_color.bin",
+      "sha256": "334ba54d47c4329df85816b36606540bae61c6e0e3457d7aaf05f8f07e2ed275"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_B_long_color.gltf",
+      "sha256": "be0ac0f0beeea324305f59ef68aa4f73a84d9d3ce00c5671ce8604e7095ec2e3"
+    },
+    {
+      "bytes": 10384,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_B_short.bin",
+      "sha256": "4d19f464940148ffa2cc43b21049153c81a318f307f24bb11294eab1791e3a3d"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_B_short.gltf",
+      "sha256": "916f5cead9d70a62f6bb4558589e222ebfb33df2fabefdc7309e2f4473ba207d"
+    },
+    {
+      "bytes": 10384,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_B_short_color.bin",
+      "sha256": "de9ccc9e9cba4788e0e3771c0bc78bc956fdf720f3688a98f054214a541530ec"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/screwdriver_B_short_color.gltf",
+      "sha256": "222a3dbd5deeb77d8b2b08a036eb0e4df9cffdd4c928406849291db9f13b7f1f"
+    },
+    {
+      "bytes": 28860,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/shovel.bin",
+      "sha256": "c7d64f1be8ba7c70a7a8dacd556c17ba7a4903971c6a9fec9c1354a852a8830e"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/shovel.gltf",
+      "sha256": "b4aec5f58a2574cb9a89cc19bfc81b3ed9edb641272cea1a42ed6430e5889aed"
+    },
+    {
+      "bytes": 15192,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/tongs.bin",
+      "sha256": "5f2df3e563ef28b5b197b6e21cbaeb78727e2ef2fc5f871e2a474f522a1b169a"
+    },
+    {
+      "bytes": 4982,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/tongs.gltf",
+      "sha256": "f6d3a39c6340e4d507dfe1ced033aa6b47c8f7ec22c62249734124d4e4453222"
+    },
+    {
+      "bytes": 39613,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/tools_bits_blueprint.png",
+      "sha256": "577c357193d38c2c10fe8c31e545b86ec0e3f9a5eab4bf2632791d4207d2a98e"
+    },
+    {
+      "bytes": 39727,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/tools_bits_map.png",
+      "sha256": "ed6a0f8e165ac68d34a1e3f40bb839dbee3d669a42202eb38e0b239ff341ea3d"
+    },
+    {
+      "bytes": 2387,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/tools_bits_map_empty.png",
+      "sha256": "25d521a2fc4b161357727371437e31836323627086990d38ad5647bfdcc08460"
+    },
+    {
+      "bytes": 28269,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/tools_bits_texture.png",
+      "sha256": "e0663527c0c0a8e9f4dba0bb15261c367de31981cb3e3ec80f84bf6a5e47fc60"
+    },
+    {
+      "bytes": 17628,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/torch.bin",
+      "sha256": "5ee13ef92dd9708b73fd2677ddbfe7f27e8af04d21beef5b5bfc350f57a76028"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/torch.gltf",
+      "sha256": "b6cdc7044dc7601ff21c3bbc330979872c3b6b9f677e0369a8e26098da108dec"
+    },
+    {
+      "bytes": 17628,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/torch_burnt.bin",
+      "sha256": "e541e6f0f65f56187ef89457bf9db90446580940345f13f426727d0cc70a33ba"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/torch_burnt.gltf",
+      "sha256": "df9c51d79cdaa42b1cccc26a82a014e09338470ae672d011dd8aaf224d3da967"
+    },
+    {
+      "bytes": 10956,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/trowel.bin",
+      "sha256": "fa725a42a03c5b2ccd5f95cfa39d87869f32bebd54237566ef97980393690ac0"
+    },
+    {
+      "bytes": 3025,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/trowel.gltf",
+      "sha256": "99674f2709c18c48e9e26ce20f38113f74b4c451ce619a7f648c9fc382bc9cdc"
+    },
+    {
+      "bytes": 16632,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/wrench_A.bin",
+      "sha256": "df666161e7cc4a173cd81d617da238b6339d9562f5f3347738fa0a21a191f20f"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/wrench_A.gltf",
+      "sha256": "7895c3709a3fbd4bb2d459bcba6398c4e9231c184a9590ca8de8d9ada91c9358"
+    },
+    {
+      "bytes": 10648,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/wrench_B.bin",
+      "sha256": "27742c8ebbeac19b856ea51606dc7d57f991533b0100fa03a17dbfa1eb1d8203"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/gltf/wrench_B.gltf",
+      "sha256": "8d5671715c0804e5a67ac1d49deacc7f898709a7d65c444da2dc72bbf468272b"
+    },
+    {
+      "bytes": 39613,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/obj/tools_bits_blueprint.png",
+      "sha256": "577c357193d38c2c10fe8c31e545b86ec0e3f9a5eab4bf2632791d4207d2a98e"
+    },
+    {
+      "bytes": 39727,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/obj/tools_bits_map.png",
+      "sha256": "ed6a0f8e165ac68d34a1e3f40bb839dbee3d669a42202eb38e0b239ff341ea3d"
+    },
+    {
+      "bytes": 2387,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/obj/tools_bits_map_empty.png",
+      "sha256": "25d521a2fc4b161357727371437e31836323627086990d38ad5647bfdcc08460"
+    },
+    {
+      "bytes": 28269,
+      "path": "packs/kaykit-rpg-tools-bits/Assets/obj/tools_bits_texture.png",
+      "sha256": "e0663527c0c0a8e9f4dba0bb15261c367de31981cb3e3ec80f84bf6a5e47fc60"
+    },
+    {
+      "bytes": 1542,
+      "path": "packs/kaykit-rpg-tools-bits/License.txt",
+      "sha256": "a0d34adb9fddc83036bd28cef791b05edf2108ebcce7f75539d16ad1f01d76ee"
+    },
+    {
+      "bytes": 39613,
+      "path": "packs/kaykit-rpg-tools-bits/Textures/tools_bits_blueprint.png",
+      "sha256": "577c357193d38c2c10fe8c31e545b86ec0e3f9a5eab4bf2632791d4207d2a98e"
+    },
+    {
+      "bytes": 39727,
+      "path": "packs/kaykit-rpg-tools-bits/Textures/tools_bits_map.png",
+      "sha256": "ed6a0f8e165ac68d34a1e3f40bb839dbee3d669a42202eb38e0b239ff341ea3d"
+    },
+    {
+      "bytes": 2387,
+      "path": "packs/kaykit-rpg-tools-bits/Textures/tools_bits_map_empty.png",
+      "sha256": "25d521a2fc4b161357727371437e31836323627086990d38ad5647bfdcc08460"
+    },
+    {
+      "bytes": 28269,
+      "path": "packs/kaykit-rpg-tools-bits/Textures/tools_bits_texture.png",
+      "sha256": "e0663527c0c0a8e9f4dba0bb15261c367de31981cb3e3ec80f84bf6a5e47fc60"
+    },
+    {
+      "bytes": 569800,
+      "path": "packs/kaykit-rpg-tools-bits/contents.png",
+      "sha256": "6c9244e52ede86099e7aee2017ec90be75a8e5af5efbecb7fb35246862036518"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-rpg-tools-bits",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-rpg-tools-bits/License.txt",
+  "license_text_sha256": "a0d34adb9fddc83036bd28cef791b05edf2108ebcce7f75539d16ad1f01d76ee",
+  "model_count": 49,
+  "models": [
+    "Assets/gltf/anvil.gltf",
+    "Assets/gltf/axe.gltf",
+    "Assets/gltf/blueprint.gltf",
+    "Assets/gltf/blueprint_stacked.gltf",
+    "Assets/gltf/bucket_metal.gltf",
+    "Assets/gltf/chisel.gltf",
+    "Assets/gltf/compass_base.gltf",
+    "Assets/gltf/drafting_compass.gltf",
+    "Assets/gltf/file.gltf",
+    "Assets/gltf/grindstone.gltf",
+    "Assets/gltf/hammer.gltf",
+    "Assets/gltf/handdrill.gltf",
+    "Assets/gltf/handplane.gltf",
+    "Assets/gltf/journal_closed.gltf",
+    "Assets/gltf/journal_open.gltf",
+    "Assets/gltf/knife.gltf",
+    "Assets/gltf/lantern.gltf",
+    "Assets/gltf/magnifying_glass.gltf",
+    "Assets/gltf/mallet.gltf",
+    "Assets/gltf/map.gltf",
+    "Assets/gltf/map_empty.gltf",
+    "Assets/gltf/map_rolled.gltf",
+    "Assets/gltf/nail.gltf",
+    "Assets/gltf/pencil_A_long.gltf",
+    "Assets/gltf/pencil_A_short.gltf",
+    "Assets/gltf/pencil_B_long.gltf",
+    "Assets/gltf/pencil_B_short.gltf",
+    "Assets/gltf/pickaxe.gltf",
+    "Assets/gltf/rope_bundle_A.gltf",
+    "Assets/gltf/rope_bundle_B.gltf",
+    "Assets/gltf/saw.gltf",
+    "Assets/gltf/scissors.gltf",
+    "Assets/gltf/screw_A.gltf",
+    "Assets/gltf/screw_B.gltf",
+    "Assets/gltf/screwdriver_A_long.gltf",
+    "Assets/gltf/screwdriver_A_long_color.gltf",
+    "Assets/gltf/screwdriver_A_short.gltf",
+    "Assets/gltf/screwdriver_A_short_color.gltf",
+    "Assets/gltf/screwdriver_B_long.gltf",
+    "Assets/gltf/screwdriver_B_long_color.gltf",
+    "Assets/gltf/screwdriver_B_short.gltf",
+    "Assets/gltf/screwdriver_B_short_color.gltf",
+    "Assets/gltf/shovel.gltf",
+    "Assets/gltf/tongs.gltf",
+    "Assets/gltf/torch.gltf",
+    "Assets/gltf/torch_burnt.gltf",
+    "Assets/gltf/trowel.gltf",
+    "Assets/gltf/wrench_A.gltf",
+    "Assets/gltf/wrench_B.gltf"
+  ],
+  "original_download_sha256": "a17c2a54df93d525e90d960baf3c68638defb4f424e204ceead6ea1f89e9c7dd",
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "source": "https://kaylousberg.itch.io/rpg-tools-bits",
+  "status": "downloaded",
+  "style": "smooth textured low-poly",
+  "archive_sha256": "60d2136bc9eeaf4d55d55dbb009f18c80b22ccd22e092d8cb98d9535004d738d",
+  "embedded_parts": [
+    "seed/archives/kaykit-rpg-tools-bits.zip.part000",
+    "seed/archives/kaykit-rpg-tools-bits.zip.part001",
+    "seed/archives/kaykit-rpg-tools-bits.zip.part002"
+  ]
+}

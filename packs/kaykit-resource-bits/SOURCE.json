@@ -1,0 +1,909 @@
+{
+  "asset_count": 6,
+  "assets": [
+    "Assets/fbx/resource_bits_texture.png",
+    "Assets/fbx(unity)/resource_bits_texture.png",
+    "Assets/gltf/resource_bits_texture.png",
+    "Assets/obj/resource_bits_texture.png",
+    "Textures/resource_bits_texture.png",
+    "contents.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "props",
+  "checked": "2026-10-12",
+  "download_method": "official free tier; no donation or purchase",
+  "files": [
+    {
+      "bytes": 25730,
+      "path": "packs/kaykit-resource-bits/Assets/fbx/resource_bits_texture.png",
+      "sha256": "62a252aba7bc9382effe48d93b976605d8fa70a3a40af7fc52362f5ca89c135b"
+    },
+    {
+      "bytes": 25730,
+      "path": "packs/kaykit-resource-bits/Assets/fbx(unity)/resource_bits_texture.png",
+      "sha256": "62a252aba7bc9382effe48d93b976605d8fa70a3a40af7fc52362f5ca89c135b"
+    },
+    {
+      "bytes": 3848,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bar.bin",
+      "sha256": "4573817032d45bee3afab1b43b120a50cff69c560f581801276778fea395ab43"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bar.gltf",
+      "sha256": "a457f9fe099142925405663286cb41c4c943bf6a269e7d274165dc3677954478"
+    },
+    {
+      "bytes": 34672,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars.bin",
+      "sha256": "2b63f8389e539ef83aeb41602d8b83a35be0e8bfb2afd2866aac0bb97c964d16"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars.gltf",
+      "sha256": "aa8e09b6948f2548a593329851ed8f2fdffda5ea0a7fe0db03597e9019e73d5a"
+    },
+    {
+      "bytes": 184704,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars_Stack_Large.bin",
+      "sha256": "18d66df0d26f323977da7b9ff18217f2aad691013950a0e0837c9f33cf96fdcb"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars_Stack_Large.gltf",
+      "sha256": "3a5e5e96104bed8e81fb7dae78c403c71480d33f600ae5fdcfc97d41a6da1c43"
+    },
+    {
+      "bytes": 46176,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars_Stack_Medium.bin",
+      "sha256": "cbab8c11c1b80185994e8250b0bd313705137dae3122f1d8adb2de20556a48a6"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars_Stack_Medium.gltf",
+      "sha256": "dc24d342b0d6bc05313e5d36d169432bf1116c33fe626d162d71fe0ccfe4f255"
+    },
+    {
+      "bytes": 23088,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars_Stack_Small.bin",
+      "sha256": "657ebedd39611512ad61a2c1214d608e7d4bb8f7365f129bd645f184bfda4b7d"
+    },
+    {
+      "bytes": 3077,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars_Stack_Small.gltf",
+      "sha256": "f9257e851a642a8f7e8b5a7115b2b836351454db93975821336989f269eeed24"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Nugget_Large.bin",
+      "sha256": "82b46fd4600f60c57633ac74003340f0fb046fab0d52ba60f1b012c16c3dceae"
+    },
+    {
+      "bytes": 3074,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Nugget_Large.gltf",
+      "sha256": "ee4b741b900f0c82ac2ebb73f80de076900c15969318b6260b4b6eb760ab30e4"
+    },
+    {
+      "bytes": 2896,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Nugget_Medium.bin",
+      "sha256": "46c549e7a1a0c91ae982a16aa0b99539249b74280c5b79e992acc8b6959a2afb"
+    },
+    {
+      "bytes": 3070,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Nugget_Medium.gltf",
+      "sha256": "c1ab63a67a0a26249ed15698b08a12459ad8cce2f2b4d4801f76028ab3ffaa71"
+    },
+    {
+      "bytes": 2896,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Nugget_Small.bin",
+      "sha256": "c4e8de08554e991c5b9fc8ac539c1fb357b910a2157f209f87a9e53ed6edbc34"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Nugget_Small.gltf",
+      "sha256": "e33cd9cad60b3e0e5a60fa6c81014a4f5964962020907b4ca64694e8de95a664"
+    },
+    {
+      "bytes": 26096,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Nuggets.bin",
+      "sha256": "a7e999688acd8b92048a936672fa8dd945e5552e0e3c3aec080e7ddc47bc97c2"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Copper_Nuggets.gltf",
+      "sha256": "2179939f305e45d299c8b1b715cf2197c81f2aaff5b8d469d293856d5eb15d67"
+    },
+    {
+      "bytes": 30648,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_A_Barrel.bin",
+      "sha256": "d6e29b6fdfa513ea12530beffd96cfe88198a50e0fc5d1fb38f9f08e4b221f04"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_A_Barrel.gltf",
+      "sha256": "1d6ac7a453c7f721e9ce33c93cf562d1819105b0d71bbd05d77f9a15655a8611"
+    },
+    {
+      "bytes": 38296,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_A_Barrel_Dirty.bin",
+      "sha256": "26e8141c075670758bd36cba725390c0939f3d2282f729eeaa1d20164dccaeb5"
+    },
+    {
+      "bytes": 3021,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_A_Barrel_Dirty.gltf",
+      "sha256": "ec69744eb806f5be4179efcaedc401cbae64c8946c0c71779c97331cf12a6c5f"
+    },
+    {
+      "bytes": 155680,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_A_Barrels.bin",
+      "sha256": "922052f3b19b2169749f516d26539720379a4a359c24bfddd58e3fea4f3d8242"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_A_Barrels.gltf",
+      "sha256": "ff6d0e9944ac41abbd010e7f24ea3bfe03fd39be1a84f145ad0e5e3f6142302c"
+    },
+    {
+      "bytes": 26144,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_A_Jerrycan.bin",
+      "sha256": "5deff2dd0402a4aeb8c09c8633413a8c89e5e7b7d97287bac38737da7605d567"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_A_Jerrycan.gltf",
+      "sha256": "616f74405b37213071375536babfa67c0b2baa07ce509c79d8fd924a761f4be1"
+    },
+    {
+      "bytes": 30648,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_B_Barrel.bin",
+      "sha256": "4e6d0b30488dc2f5100b923f3ec26ddb907b707d30d3fa42ba31efc59a0a1d8d"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_B_Barrel.gltf",
+      "sha256": "0d9c4952c0479b8fd6e114346464c801724ab48e1ad1343e3c4651519e0f5b0c"
+    },
+    {
+      "bytes": 38296,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_B_Barrel_Dirty.bin",
+      "sha256": "6170aba9e0104d3ec5bfa378d0e5da1a934b6c55def26db078763825ffa72a4b"
+    },
+    {
+      "bytes": 3021,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_B_Barrel_Dirty.gltf",
+      "sha256": "45ac9ea92039dc0e4e58c0764180e4e97c9df38f19d12f914b38e5c1319af6e3"
+    },
+    {
+      "bytes": 155680,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_B_Barrels.bin",
+      "sha256": "d6cdeade124ddb78f4107e0321d900a19d1716313a27520a7418910a06dc87d1"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_B_Barrels.gltf",
+      "sha256": "122a2015d4bb292d412241e91f0fa32969bb20491b737128af45b157a606ec55"
+    },
+    {
+      "bytes": 26272,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_B_Jerrycan.bin",
+      "sha256": "5c61b8437578fd4430967ff5648fae30739662dfb8e9c9f81730ce57ddd7fb72"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_B_Jerrycan.gltf",
+      "sha256": "82a1dbdca6fce7ae444473bf59b557b897db6080c8004e44d58158624aeaba9c"
+    },
+    {
+      "bytes": 30648,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_C_Barrel.bin",
+      "sha256": "786b07a16d8876ecfacde145185eee6a00de35dca599850ffbcc770a7e6dad01"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_C_Barrel.gltf",
+      "sha256": "8c51296e644ad633e4019e0835734b115e4b6ce375b24b596cb8ea78a939a19b"
+    },
+    {
+      "bytes": 38296,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_C_Barrel_Dirty.bin",
+      "sha256": "dc344f9708950142c8d234506c167f8150c238caf38089b50a1aa620a0c6b29a"
+    },
+    {
+      "bytes": 3021,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_C_Barrel_Dirty.gltf",
+      "sha256": "34c19e61a2a956ae7768ac30d4d369e85631ea35d6a399d071dff475bdee8f62"
+    },
+    {
+      "bytes": 155680,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_C_Barrels.bin",
+      "sha256": "6d015148a9396dfa64428fa6031f059aa74309553b4924eb4dde039bba3103a5"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_C_Barrels.gltf",
+      "sha256": "b59c148647672e297d4ef6e306405b9397fcd199a4459bd9d203b30c496ace01"
+    },
+    {
+      "bytes": 26272,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_C_Jerrycan.bin",
+      "sha256": "51c78e3e28f0a1abb7bd3ab766a12a4362c8efa8a26bb945ad6e0730d16b8772"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Fuel_C_Jerrycan.gltf",
+      "sha256": "4fc8b3f3bcaa2ae89ddef6211501bd6f48a78a1a4141ed625d8cd6f468ccb209"
+    },
+    {
+      "bytes": 3848,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bar.bin",
+      "sha256": "4de13e6e3eaef11e85de9255b138663ba2eda72eb0e4e0ecebbeddcf62ad466c"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bar.gltf",
+      "sha256": "4260cbec76d60d3980ab289681dac72836196a96caf1c939f4cbb041ccd1dda5"
+    },
+    {
+      "bytes": 34672,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bars.bin",
+      "sha256": "b4680d4f8bc4082c8524cec73f232b18492fa2ba4909fc571a13f80045b9b8cc"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bars.gltf",
+      "sha256": "207090fa44995f4cf868094a143b78c4f93c88cf73842e7512b6299affa16f56"
+    },
+    {
+      "bytes": 184704,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bars_Stack_Large.bin",
+      "sha256": "1dfdcdd065bc26978fae0f73a495e68cdeb2ca4f3a3fa79e6a986795b5b3bbdc"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bars_Stack_Large.gltf",
+      "sha256": "653a407dbf34205b5a53556c7ee777add7ec6cda06031ec48c7ee059eeba0f07"
+    },
+    {
+      "bytes": 46176,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bars_Stack_Medium.bin",
+      "sha256": "7caaaade6ebdd3ab8c20c2577bf697057486c0b1c37aecefcef9e184ea00a051"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bars_Stack_Medium.gltf",
+      "sha256": "ff7fb7de6a4fdc2b7e93b9ea2d2babc04ad8daf36f353f8d287fa7b239d5f833"
+    },
+    {
+      "bytes": 23088,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bars_Stack_Small.bin",
+      "sha256": "82982ef2aa34577b2f7aa1ee8020b0eb11093b981019286ac573b9f63debb858"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Bars_Stack_Small.gltf",
+      "sha256": "4e7bcb9451dad8800644c441cc3339d252bf096a23e1fe34c0efa71c2562799e"
+    },
+    {
+      "bytes": 7256,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Nugget_Large.bin",
+      "sha256": "67c6222aeab22a2ea7c4d2f698d84d1ee3be52dc0ccf7c4745bded7e66ae89da"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Nugget_Large.gltf",
+      "sha256": "a07b12507152420966e4de069eac0094f903839138a391e0321eae9cda150b01"
+    },
+    {
+      "bytes": 2960,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Nugget_Medium.bin",
+      "sha256": "d0a0434c8d3343b26c132be735fb78b823eb378b8b6990f5a69e0d8e86dcd9d8"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Nugget_Medium.gltf",
+      "sha256": "6a76e7b54eecc692c3b6d6fa5f958746ab3d2876f98eca9b220c127088c0f485"
+    },
+    {
+      "bytes": 2960,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Nugget_Small.bin",
+      "sha256": "b217f8a1e47c66dd1a28c0c3d2094c4cdf257a52b906a618aa40f9e63cd863d2"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Nugget_Small.gltf",
+      "sha256": "ccfac388f12b55ccaff60d9127756f640405e8bf94ae648171e6ab213e3acd4e"
+    },
+    {
+      "bytes": 26544,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Nuggets.bin",
+      "sha256": "640c16f520db5b885a93e145748a0f190536c774448192816892dd8cbb86093e"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Gold_Nuggets.gltf",
+      "sha256": "d275aa37c50b3860e1eb3d3d2bf2bc8a34525328679b627214ca273cf3b9be7b"
+    },
+    {
+      "bytes": 3848,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bar.bin",
+      "sha256": "8727f658d7aac4bda834e6d55be016a7ff3972f0088b565df95a89abc685b7b2"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bar.gltf",
+      "sha256": "48d2b74b16284ba651cd77dbd79a43b6d912a203b342ca37fa8bcb030037723e"
+    },
+    {
+      "bytes": 34672,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bars.bin",
+      "sha256": "aea0a8078006edd88c1b765ed0a922ebed5a5a879bba308ae5b6e7baa994c55a"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bars.gltf",
+      "sha256": "635f3df891781918c5c9eb1a6b71d07aec4d0c5b4d3e245d29bd58fbbda1ce77"
+    },
+    {
+      "bytes": 184704,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bars_Stack_Large.bin",
+      "sha256": "8e1fa5a59ef6cf7b20b8aac42b42787f184530699d2f416ce96cb6c774b1a84a"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bars_Stack_Large.gltf",
+      "sha256": "d5a2270b207c1873cded648799d1f57eab7e6e79da4a7e10295732504af1cb36"
+    },
+    {
+      "bytes": 46176,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bars_Stack_Medium.bin",
+      "sha256": "eabb245c5b511599a1d3cefc7a51244cbcbd938a27a5f44938f78f23dd2c047f"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bars_Stack_Medium.gltf",
+      "sha256": "8a74850ec080fd1b6954911d918513e334b0a86fb18d0679b6342b39a6311bd2"
+    },
+    {
+      "bytes": 23088,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bars_Stack_Small.bin",
+      "sha256": "edc6429c44bbcbdf68e8cb5f283dd6a6e8f2b3c4205e95666c36850e57012a5a"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Bars_Stack_Small.gltf",
+      "sha256": "9107015b5c71560bcd48b6f2f0e67b436292c17904515380e14da966b198f9df"
+    },
+    {
+      "bytes": 7192,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Nugget_Large.bin",
+      "sha256": "c6bfcf43407a3b9132d774a698fde6615773f63b9acc50948d3c2cedd378c885"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Nugget_Large.gltf",
+      "sha256": "5481c5575450147ad3122e9c164a67d390228c1028ee7bac5b0496e884ac2324"
+    },
+    {
+      "bytes": 2928,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Nugget_Medium.bin",
+      "sha256": "546808815286b707541b64a9376125d65f1d453fad44ead36a9d329af11610b7"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Nugget_Medium.gltf",
+      "sha256": "26d9fd2ceccf6b89545591c5e249a9e9883fd72dbf162556621241e10a3bcdbe"
+    },
+    {
+      "bytes": 2928,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Nugget_Small.bin",
+      "sha256": "b75dacebe1c960c379b7392b76f32409d75f8fd2cb09cae9ea0b404d427d2221"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Nugget_Small.gltf",
+      "sha256": "b92f8bc792fe852f1aab5cb8f9b2d6e6306894a738e0443e212d992c53c9bc0e"
+    },
+    {
+      "bytes": 26288,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Nuggets.bin",
+      "sha256": "ffd52d68279ba79f2640d59321c1e02859fe436a3c02319f041f895c938896fc"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Iron_Nuggets.gltf",
+      "sha256": "f97ba1381e938c1d6d32736edb7a679aec6b97da250d28dc0c685a93b3e77a9b"
+    },
+    {
+      "bytes": 13248,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood.bin",
+      "sha256": "bdd8842cb81dd462e7ce92f62a197aa4c9cc50b188276f41642f65bd16e60b01"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood.gltf",
+      "sha256": "a5e59a95461a598aa93adb77cc28b55954c283bea43985a9d57a59ea38f6be0c"
+    },
+    {
+      "bytes": 16020,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood_Covered_A.bin",
+      "sha256": "b80834734655b6be7c08a1a0c947ec6b414ec590ed66119fe09890f86157e8b0"
+    },
+    {
+      "bytes": 3084,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood_Covered_A.gltf",
+      "sha256": "ca81b70a7f4e97ba20471e48e5eff7f42e7b0098a77067f606d1a18fd1813a35"
+    },
+    {
+      "bytes": 16020,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood_Covered_B.bin",
+      "sha256": "4e9d469bca66187596f885d53595bb3e45fbf283c2559c9d872e494b6ee3ae86"
+    },
+    {
+      "bytes": 3084,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood_Covered_B.gltf",
+      "sha256": "bceba61f9ffb60a1db854e1cfa0c33fe48ca83532c822ec0c2b1730b19240075"
+    },
+    {
+      "bytes": 8832,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Parts_Cog.bin",
+      "sha256": "fd2df471dfd61dadd626cbe97fd91046e1c0cdf84d302eb4f75633f5e26f2a2e"
+    },
+    {
+      "bytes": 3047,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Parts_Cog.gltf",
+      "sha256": "85103a0fd958df1223dbb3f05dd821f0b7d2dc890da170fe127d9130ef77ac4c"
+    },
+    {
+      "bytes": 126816,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Parts_Pile_Large.bin",
+      "sha256": "0b4f20676f7c9b7314f29aeaae2aa0fb5d11ea4ed5f11936e1e0b8c025b509fd"
+    },
+    {
+      "bytes": 3078,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Parts_Pile_Large.gltf",
+      "sha256": "8ab04dd81941af1e64f9722d6f5a8aaf180f3209ae2153649297b6a59bcf8437"
+    },
+    {
+      "bytes": 82520,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Parts_Pile_Medium.bin",
+      "sha256": "a0c074e8d495c5e4b4a7a9fa3784f0f61112d21082b65d695348674e9254a520"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Parts_Pile_Medium.gltf",
+      "sha256": "287572f3ebf01f07f5cb00dfd9c2b6b7a9da50645ca7e4312afd36e48095a4e8"
+    },
+    {
+      "bytes": 50920,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Parts_Pile_Small.bin",
+      "sha256": "126cb182ce0e4d13fb281834d959e6ec90d9dc57f7c475135d63a1d7b1bcff32"
+    },
+    {
+      "bytes": 3075,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Parts_Pile_Small.gltf",
+      "sha256": "a4d6e5c0400837ea3b95452c03f5860350e35b4d0edd43af0f6c8a26cf192e19"
+    },
+    {
+      "bytes": 3848,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bar.bin",
+      "sha256": "508169695546dcc2fc9f5cd8845e68036bce7d9251b39d0c83c03f7114f74828"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bar.gltf",
+      "sha256": "75a003be217882ad6a14fbead683a349b61a5f2691d6b03e519aad5260a6b924"
+    },
+    {
+      "bytes": 34672,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bars.bin",
+      "sha256": "a732dff107e4f080a814a2c75c5653373c98c53cb991ebd66a42ccda11e3f35b"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bars.gltf",
+      "sha256": "e0795ac88b6b0031a5b282ea6e5a09a259f39ef3b13f0fd5864699ec882e3192"
+    },
+    {
+      "bytes": 184704,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bars_Stack_Large.bin",
+      "sha256": "87392927221dc5db553db7bbcba34fa0d2e69517c8add1c71675c939c90f3e4f"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bars_Stack_Large.gltf",
+      "sha256": "3d8e61c5401f7a48738182aa8b41dd82731f3a9b26e364939a99d6bdd35938a6"
+    },
+    {
+      "bytes": 46176,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bars_Stack_Medium.bin",
+      "sha256": "0f323a75cb34cea072541d6019d2c82bd064129764a15b1eb34f97bbc526c069"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bars_Stack_Medium.gltf",
+      "sha256": "793ca7bece24dff633d234769dca4b2ab644a4f22d48bdbf1ec63f78f952562f"
+    },
+    {
+      "bytes": 23088,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bars_Stack_Small.bin",
+      "sha256": "53fbf93be9cff007c7c1896b58ddd096ff70657baebb00f19a429ff21929be8e"
+    },
+    {
+      "bytes": 3077,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Bars_Stack_Small.gltf",
+      "sha256": "8446a4a04307b5b72b447203633c52ec375eda50c9d284856856b1ea1fc66e9a"
+    },
+    {
+      "bytes": 7192,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Nugget_Large.bin",
+      "sha256": "1f9d155a26cf161b5f8b82b0cc4220baf4553bb567662cbcb276b50476dd89fe"
+    },
+    {
+      "bytes": 3074,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Nugget_Large.gltf",
+      "sha256": "6cb736ec80b42d85a203e71e4ebbe0a56361c66a1459ff222bbcb87602e13bba"
+    },
+    {
+      "bytes": 2928,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Nugget_Medium.bin",
+      "sha256": "a5a48f436a7426ca7636be597635893666d5695dd1691a9516937aad7c188bd4"
+    },
+    {
+      "bytes": 3073,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Nugget_Medium.gltf",
+      "sha256": "b51982fbdb70653a0957462955ea533178ebd1602bff6057fe04d8a078c04d17"
+    },
+    {
+      "bytes": 2928,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Nugget_Small.bin",
+      "sha256": "31bbf5f5fd8d86b0432c00a984fbea13220f7fab5ab80c121f19f24d9f2b61cc"
+    },
+    {
+      "bytes": 3074,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Nugget_Small.gltf",
+      "sha256": "acb26e04978a836b68b3489b75d89625b5c3fc563ded7ddb11cec826c4b32b42"
+    },
+    {
+      "bytes": 26288,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Nuggets.bin",
+      "sha256": "a1f991c00082c2696d6d6dfb19b6a71f654963fe42868f56f09b5b1690e3edef"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Silver_Nuggets.gltf",
+      "sha256": "648ddfbcc716739148170d6f099ffb0937752930823ab5d01d2edae36106680e"
+    },
+    {
+      "bytes": 2568,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Brick.bin",
+      "sha256": "674cf156296185660313200722cadf638c0d5447f0eaabdb7886531afecabeb5"
+    },
+    {
+      "bytes": 3019,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Brick.gltf",
+      "sha256": "9de38a09b45355e1a813535dffeb09eadbed2f382d8be19c58c0a0f782d3c150"
+    },
+    {
+      "bytes": 81752,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Large.bin",
+      "sha256": "fe683fcdcac3de7c46e4330f39615b2d5eacae5274e8c0baecba8e13d3d86469"
+    },
+    {
+      "bytes": 3098,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Large.gltf",
+      "sha256": "100876b377db75de46122f1ae023660a0d5881d23140ac381b4ba759c7b6af2d"
+    },
+    {
+      "bytes": 42816,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Medium.bin",
+      "sha256": "baf444270a44fd9b2911c1d513b8ee5689dcb26722795a23ff0b5125febcb6a7"
+    },
+    {
+      "bytes": 3100,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Medium.gltf",
+      "sha256": "f2b4179b334da3bafedc20e6b319061e683269c3f4bacdf51256decba4d1796e"
+    },
+    {
+      "bytes": 15580,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Small.bin",
+      "sha256": "4258b0b71e90e0d55b7777d2da86f69ebd147d87725830700c0d61d97702471f"
+    },
+    {
+      "bytes": 3090,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Small.gltf",
+      "sha256": "5eea3328365f7c75ca76451216917b3f9f62209a06af8af06256001ea3538e19"
+    },
+    {
+      "bytes": 89980,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Chunks_Large.bin",
+      "sha256": "abbcf2eb0b45b1b57b0279b288730e74ff880a547a8b7b4451fc4a9e229bd386"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Chunks_Large.gltf",
+      "sha256": "441ab568aa7f3446c6f7f650f82dd2513924bc2b01b29435ae434ae44908cbeb"
+    },
+    {
+      "bytes": 32188,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Chunks_Small.bin",
+      "sha256": "58c68f4e870cac393ce76448d597707708c836f52461feccc04182ac6dcc9ef1"
+    },
+    {
+      "bytes": 3078,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Stone_Chunks_Small.gltf",
+      "sha256": "c92409d663f1af77164d74bf8b3522207249591f1f5d4e22b0f3fb5372781094"
+    },
+    {
+      "bytes": 15504,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_A.bin",
+      "sha256": "e0e160f2a47d575e2ac4c255061b424a414387eb69a29c7c192825770d6b2185"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_A.gltf",
+      "sha256": "7107e69418771e5541880a911aafab5404e9019c5da7d8b5c82bbb734df040e8"
+    },
+    {
+      "bytes": 33640,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_B.bin",
+      "sha256": "37035d360f66b81f12a46be3676b6b648e3cb469b2ba4d5313f96a15e239cf38"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_B.gltf",
+      "sha256": "36cc64fda96d840d3cb1f82b41a80d096b8544ec2c71b1a20a7e17776fdd6cea"
+    },
+    {
+      "bytes": 28272,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_C.bin",
+      "sha256": "106215a1c173ae144d27cee0afeffb1d6b92273c18ae8ae37b12d0504b429721"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_C.gltf",
+      "sha256": "900236ea0127364fa0834943eeaf1cfb8f240e826530db941b4428c55797b624"
+    },
+    {
+      "bytes": 69128,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_Stack_Large.bin",
+      "sha256": "f2cf467db5b4da1fb0c45578a4c3d3b2179521307791a4b46a879b8a123f7908"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_Stack_Large.gltf",
+      "sha256": "5010c14e35088fa6c3206588e7fee3c2be660b98d54058c011135f2883a87e35"
+    },
+    {
+      "bytes": 81576,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_Stack_Large_Colored.bin",
+      "sha256": "8bfa904633d0b77981e3eaa27cd9d99afd458a1ee0f100193bb3751a07e1c48e"
+    },
+    {
+      "bytes": 3112,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_Stack_Large_Colored.gltf",
+      "sha256": "7458146206209cd1162e12d5323cf1a9dd6673be0dc07eafd275e238d16863c7"
+    },
+    {
+      "bytes": 65400,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_Stack_Small.bin",
+      "sha256": "742d0a2a32af11e743ae7275a811dd7a462584e39261f0e001cd6ab11f0bda14"
+    },
+    {
+      "bytes": 3087,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Textiles_Stack_Small.gltf",
+      "sha256": "24861a1d9b0d631a5a2a70f6a7caf5c77f1d6ebcb7c4adc354243564e770626d"
+    },
+    {
+      "bytes": 40312,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_A.bin",
+      "sha256": "cc8de89a2079438987df3b0157118b81bb506dd1a89367ec0273ab28e056e7a7"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_A.gltf",
+      "sha256": "39827330b7d77d528149bd57197b4204f72d471cc2cda290fb4a18a6165a1e68"
+    },
+    {
+      "bytes": 31000,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_B.bin",
+      "sha256": "a752bc9e3f5f14603f8fbb37c3f88c559fd7be61228bb434ccfca4cee6c29996"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_B.gltf",
+      "sha256": "b40070e38b66887dfb658e825d7a7bf7b1f2daf6938759d4708834773c4c6f40"
+    },
+    {
+      "bytes": 191568,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_Stack.bin",
+      "sha256": "42912884c56affe69539da3ca4c604c711b7aac882bb3c1aff5c20b5f9248bf7"
+    },
+    {
+      "bytes": 3073,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_Stack.gltf",
+      "sha256": "1730bda0f010bd9772186940aaff56ccdd7753f2682b8d1fb42452aeda62f471"
+    },
+    {
+      "bytes": 1960,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_A.bin",
+      "sha256": "063b834cd5d82f4439dd321fae06b0dcf77d0a45190a20dd553205866c4c3b1f"
+    },
+    {
+      "bytes": 2998,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_A.gltf",
+      "sha256": "6793a656bf58f43bc272532a598f01ea82b3cadce00300937d1267a79e6a231f"
+    },
+    {
+      "bytes": 3512,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_B.bin",
+      "sha256": "02fe92536e988a2b931a9b0b3afe80342b4472207a8f3ee3228a968085ab50c1"
+    },
+    {
+      "bytes": 3005,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_B.gltf",
+      "sha256": "f53ae7d1f0ed2837c1b3f1cacc145ecb51eb9c1247c698eb3a3566830f77f4ca"
+    },
+    {
+      "bytes": 5256,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_C.bin",
+      "sha256": "5cbbc2278b1f8ebb7a3d95ebbeb85f95d32c4c5142401c7a8ed61079fa75e3b3"
+    },
+    {
+      "bytes": 3006,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_C.gltf",
+      "sha256": "475c9b1f4231f194c3f1b7e5e26b4b089e4e27c86a67b91a46fdd59fdf89b108"
+    },
+    {
+      "bytes": 79760,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Large.bin",
+      "sha256": "9307d8f4c63b4745ee7f416334cffa97c23b1b83054cd6dc503370cbaca90fb8"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Large.gltf",
+      "sha256": "f7deefb73d6b94c50b99003d27103717d4eaf174d212c7c493129668b33d6536"
+    },
+    {
+      "bytes": 46912,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Medium.bin",
+      "sha256": "71b5c0b3b68fc8a94d425b9ecd58f8df5fdef25e0229268e04a32e362f3a5614"
+    },
+    {
+      "bytes": 3098,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Medium.gltf",
+      "sha256": "4a411551cd451fcd1d5049c761d042deabdda05dcfbd81937f3901ba98236aa0"
+    },
+    {
+      "bytes": 15376,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Small.bin",
+      "sha256": "e7718185294ffa144582e8df5e0c3cb0d9e23e7d175adb1c2d935e66428a728c"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Small.gltf",
+      "sha256": "40919a583027b72239cb23b86d6560799d24ece07d988bd8c84490c3fc4be212"
+    },
+    {
+      "bytes": 25730,
+      "path": "packs/kaykit-resource-bits/Assets/gltf/resource_bits_texture.png",
+      "sha256": "62a252aba7bc9382effe48d93b976605d8fa70a3a40af7fc52362f5ca89c135b"
+    },
+    {
+      "bytes": 25730,
+      "path": "packs/kaykit-resource-bits/Assets/obj/resource_bits_texture.png",
+      "sha256": "62a252aba7bc9382effe48d93b976605d8fa70a3a40af7fc52362f5ca89c135b"
+    },
+    {
+      "bytes": 1462,
+      "path": "packs/kaykit-resource-bits/License.txt",
+      "sha256": "cfeda9f60f4c03bb8b342ab4448c944ea5dccc84cd697b4b8eaedcdaa46fcc34"
+    },
+    {
+      "bytes": 25730,
+      "path": "packs/kaykit-resource-bits/Textures/resource_bits_texture.png",
+      "sha256": "62a252aba7bc9382effe48d93b976605d8fa70a3a40af7fc52362f5ca89c135b"
+    },
+    {
+      "bytes": 310595,
+      "path": "packs/kaykit-resource-bits/contents.png",
+      "sha256": "016b5d7ee3b52c236c94531c1b9a91eae4b232c083fda02723cab5401b50ef3a"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-resource-bits",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-resource-bits/License.txt",
+  "license_text_sha256": "cfeda9f60f4c03bb8b342ab4448c944ea5dccc84cd697b4b8eaedcdaa46fcc34",
+  "model_count": 76,
+  "models": [
+    "Assets/gltf/Copper_Bar.gltf",
+    "Assets/gltf/Copper_Bars.gltf",
+    "Assets/gltf/Copper_Bars_Stack_Large.gltf",
+    "Assets/gltf/Copper_Bars_Stack_Medium.gltf",
+    "Assets/gltf/Copper_Bars_Stack_Small.gltf",
+    "Assets/gltf/Copper_Nugget_Large.gltf",
+    "Assets/gltf/Copper_Nugget_Medium.gltf",
+    "Assets/gltf/Copper_Nugget_Small.gltf",
+    "Assets/gltf/Copper_Nuggets.gltf",
+    "Assets/gltf/Fuel_A_Barrel.gltf",
+    "Assets/gltf/Fuel_A_Barrel_Dirty.gltf",
+    "Assets/gltf/Fuel_A_Barrels.gltf",
+    "Assets/gltf/Fuel_A_Jerrycan.gltf",
+    "Assets/gltf/Fuel_B_Barrel.gltf",
+    "Assets/gltf/Fuel_B_Barrel_Dirty.gltf",
+    "Assets/gltf/Fuel_B_Barrels.gltf",
+    "Assets/gltf/Fuel_B_Jerrycan.gltf",
+    "Assets/gltf/Fuel_C_Barrel.gltf",
+    "Assets/gltf/Fuel_C_Barrel_Dirty.gltf",
+    "Assets/gltf/Fuel_C_Barrels.gltf",
+    "Assets/gltf/Fuel_C_Jerrycan.gltf",
+    "Assets/gltf/Gold_Bar.gltf",
+    "Assets/gltf/Gold_Bars.gltf",
+    "Assets/gltf/Gold_Bars_Stack_Large.gltf",
+    "Assets/gltf/Gold_Bars_Stack_Medium.gltf",
+    "Assets/gltf/Gold_Bars_Stack_Small.gltf",
+    "Assets/gltf/Gold_Nugget_Large.gltf",
+    "Assets/gltf/Gold_Nugget_Medium.gltf",
+    "Assets/gltf/Gold_Nugget_Small.gltf",
+    "Assets/gltf/Gold_Nuggets.gltf",
+    "Assets/gltf/Iron_Bar.gltf",
+    "Assets/gltf/Iron_Bars.gltf",
+    "Assets/gltf/Iron_Bars_Stack_Large.gltf",
+    "Assets/gltf/Iron_Bars_Stack_Medium.gltf",
+    "Assets/gltf/Iron_Bars_Stack_Small.gltf",
+    "Assets/gltf/Iron_Nugget_Large.gltf",
+    "Assets/gltf/Iron_Nugget_Medium.gltf",
+    "Assets/gltf/Iron_Nugget_Small.gltf",
+    "Assets/gltf/Iron_Nuggets.gltf",
+    "Assets/gltf/Pallet_Wood.gltf",
+    "Assets/gltf/Pallet_Wood_Covered_A.gltf",
+    "Assets/gltf/Pallet_Wood_Covered_B.gltf",
+    "Assets/gltf/Parts_Cog.gltf",
+    "Assets/gltf/Parts_Pile_Large.gltf",
+    "Assets/gltf/Parts_Pile_Medium.gltf",
+    "Assets/gltf/Parts_Pile_Small.gltf",
+    "Assets/gltf/Silver_Bar.gltf",
+    "Assets/gltf/Silver_Bars.gltf",
+    "Assets/gltf/Silver_Bars_Stack_Large.gltf",
+    "Assets/gltf/Silver_Bars_Stack_Medium.gltf",
+    "Assets/gltf/Silver_Bars_Stack_Small.gltf",
+    "Assets/gltf/Silver_Nugget_Large.gltf",
+    "Assets/gltf/Silver_Nugget_Medium.gltf",
+    "Assets/gltf/Silver_Nugget_Small.gltf",
+    "Assets/gltf/Silver_Nuggets.gltf",
+    "Assets/gltf/Stone_Brick.gltf",
+    "Assets/gltf/Stone_Bricks_Stack_Large.gltf",
+    "Assets/gltf/Stone_Bricks_Stack_Medium.gltf",
+    "Assets/gltf/Stone_Bricks_Stack_Small.gltf",
+    "Assets/gltf/Stone_Chunks_Large.gltf",
+    "Assets/gltf/Stone_Chunks_Small.gltf",
+    "Assets/gltf/Textiles_A.gltf",
+    "Assets/gltf/Textiles_B.gltf",
+    "Assets/gltf/Textiles_C.gltf",
+    "Assets/gltf/Textiles_Stack_Large.gltf",
+    "Assets/gltf/Textiles_Stack_Large_Colored.gltf",
+    "Assets/gltf/Textiles_Stack_Small.gltf",
+    "Assets/gltf/Wood_Log_A.gltf",
+    "Assets/gltf/Wood_Log_B.gltf",
+    "Assets/gltf/Wood_Log_Stack.gltf",
+    "Assets/gltf/Wood_Plank_A.gltf",
+    "Assets/gltf/Wood_Plank_B.gltf",
+    "Assets/gltf/Wood_Plank_C.gltf",
+    "Assets/gltf/Wood_Planks_Stack_Large.gltf",
+    "Assets/gltf/Wood_Planks_Stack_Medium.gltf",
+    "Assets/gltf/Wood_Planks_Stack_Small.gltf"
+  ],
+  "original_download_sha256": "7056f1310896a4612a67703fd6d5af389fcccdeb46df0a89e2322aa8e3bcfcf7",
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "source": "https://kaylousberg.itch.io/resource-bits",
+  "status": "downloaded",
+  "style": "smooth textured low-poly",
+  "archive_sha256": "8362e6d36a1fa1c53147cb87e0eb1898ffc10103d2d525d09e07601f47ff1361",
+  "embedded_parts": [
+    "seed/archives/kaykit-resource-bits.zip.part000",
+    "seed/archives/kaykit-resource-bits.zip.part001",
+    "seed/archives/kaykit-resource-bits.zip.part002"
+  ]
+}

@@ -1,0 +1,679 @@
+{
+  "archive_sha256": "eaffd1436a85b07ef0dd95f68ff861b39f9a664d77e41ae276531dd316b3d484",
+  "asset_count": 3,
+  "assets": [
+    "addons/kaykit_space_base_bits/Assets/gltf/spacebits_texture.png",
+    "addons/kaykit_space_base_bits/Assets/obj/spacebits_texture.png",
+    "addons/kaykit_space_base_bits/Assets/textures/spacebits_texture.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "environments",
+  "checked": "2026-10-12",
+  "download": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0/zip/6dfbcac9927d06283752c4defd4882cfe0d29666",
+  "files": [
+    {
+      "bytes": 826,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/LICENSE.txt",
+      "sha256": "e1c732edc054bcc23fcee2409304f03fe0f15c9e5150bfd6a72a0f09d513e93f"
+    },
+    {
+      "bytes": 37052,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.bin",
+      "sha256": "37c8fbcabe0f1dc30b1054767798c9c7c1caefd02b44027769183ccd30b5ed3d"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf",
+      "sha256": "d35b464e862ea0cea36733b0e60b0ca645677615bd8393f598ef27fe19c3938e"
+    },
+    {
+      "bytes": 39752,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_B.bin",
+      "sha256": "7281e6eeb82e956b08a5de68f6a742719809d25597454eb136802dc8246adba5"
+    },
+    {
+      "bytes": 3078,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_B.gltf",
+      "sha256": "3bea817d7a2f35f211f47a429e261d46d5d23d6a09f59cc5ef176804d7256c7b"
+    },
+    {
+      "bytes": 41304,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_C.bin",
+      "sha256": "188bbe7cec55a07578350512d4b10377b87ea51d9f1bd4747c0f5c32a1baf2bb"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_C.gltf",
+      "sha256": "72b3901e37e6ef38855c1dd6110242bd66b962e9b1640275048ec32c69ef1f70"
+    },
+    {
+      "bytes": 50632,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_D.bin",
+      "sha256": "ce857e5ecb3a28758c58bf6a2a041bdddefcd6d79502aaa21834c0d560e5db70"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_D.gltf",
+      "sha256": "0593d967b076c323ac8d2736a1c332f02f7ad2bc8292b3de387417dcd5d00de0"
+    },
+    {
+      "bytes": 47464,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_E.bin",
+      "sha256": "995f7e1e8be046d36ea9c28145468670b35296b9e0b4c4e7c9185b92e5acfb68"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_E.gltf",
+      "sha256": "25b65713f5c37dfad44a64551fe2b1832258926135bbec115f2d1f12089cff6a"
+    },
+    {
+      "bytes": 49452,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_garage.bin",
+      "sha256": "e69d529c31358bef7da10da19fe71e2c31a5c945a444d22d246e288e53794e5a"
+    },
+    {
+      "bytes": 5022,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_garage.gltf",
+      "sha256": "1e0bd62b0dc863f89d56d3bba7dc9d2f9118c39a4b12e907c2e6eb95518da95f"
+    },
+    {
+      "bytes": 6912,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_A.bin",
+      "sha256": "76a3a6623b639e39be8a02132ab897cf30db037dbe5d8fc07c24acad0db5a9ac"
+    },
+    {
+      "bytes": 3007,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_A.gltf",
+      "sha256": "1e502a13961e9f46da9e876f21a2951c8c70d01eca4fa03b0001bb3b3322177a"
+    },
+    {
+      "bytes": 9248,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_A_packed.bin",
+      "sha256": "44fcb35f15fc00745175adc3c945a0d6d386ecee8e08685a92c749ddc8c7f732"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_A_packed.gltf",
+      "sha256": "1aed2167450a444f5b2f5248384e8337ffac900f786248a4163462345dc883da"
+    },
+    {
+      "bytes": 28528,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_A_stacked.bin",
+      "sha256": "32712a2ae797c7304e1d9641e5d26c93f1405292eea00c3764de1eba5fead868"
+    },
+    {
+      "bytes": 3075,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_A_stacked.gltf",
+      "sha256": "bea2bee3b1f4a9da3735ae0da6ffc1ce481468def3b8d8eb9664f5f308656e1a"
+    },
+    {
+      "bytes": 6912,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_B.bin",
+      "sha256": "badf8ae30528c9a75bf46005aef956415c7e90f0d90dc55ec323ec320fa14040"
+    },
+    {
+      "bytes": 3007,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_B.gltf",
+      "sha256": "ee7e58f34fac3f5b18322122d09d09d87b0313785cf3918d1b25d3895ff71cf3"
+    },
+    {
+      "bytes": 9248,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_B_packed.bin",
+      "sha256": "88351224e397fd9ef2b535f551290b7afe0b89a7a20878291249d5ee178815da"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_B_packed.gltf",
+      "sha256": "fe8b1851646194da0b7a4dc9cda14f10c5d16285177f448de9e7a241156d648c"
+    },
+    {
+      "bytes": 28528,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_B_stacked.bin",
+      "sha256": "a2088df9f54a088cbcc70b5914588fd0854c2cd2b1886c11c55bd697c20ceaf0"
+    },
+    {
+      "bytes": 3075,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargo_B_stacked.gltf",
+      "sha256": "543c5b6777ab6ee41c1090308822fd64a5bb279471cad941cfe7f548a42eed1e"
+    },
+    {
+      "bytes": 54216,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargodepot_A.bin",
+      "sha256": "f76de41c52cd868bb9f7e95a9d771866b2d76f2bc174b0ca33cec5d904d76d02"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargodepot_A.gltf",
+      "sha256": "ebed5b7362bfc98e36396edcca6c653a1a51dd8f31ecf7e305f70ab12e7de128"
+    },
+    {
+      "bytes": 57060,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargodepot_B.bin",
+      "sha256": "3e1c124065c8ff0bbc828346be25defa587597ad4f56c1ed15ffa82b0b5cce5f"
+    },
+    {
+      "bytes": 3076,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargodepot_B.gltf",
+      "sha256": "657ab2e1baa6e2e2c72e8bc4fe52d8388b54f7063f7538b78da4faeecfaad29d"
+    },
+    {
+      "bytes": 72980,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargodepot_C.bin",
+      "sha256": "b9cc326e133366ccc05357effda2b49c6efe53e0b5a3362634504b546eff65d8"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/cargodepot_C.gltf",
+      "sha256": "741c4511f53cea9e250ebf12c74293660a6e33dee76d9acd760098ee766a54b4"
+    },
+    {
+      "bytes": 14352,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/containers_A.bin",
+      "sha256": "0cda4c02879269a6c0471b14b8b3aed5ea7ca9a31f218e472ecc6ef4e7ec5966"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/containers_A.gltf",
+      "sha256": "b6b91a095e780704904a9d4d63bd48b8983482ccdbea6d69a14c420a9d83994d"
+    },
+    {
+      "bytes": 14352,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/containers_B.bin",
+      "sha256": "6b4967d012463a24e48f85cbadb303af7b1a00d1b2b47dbbd5450b69b1b94527"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/containers_B.gltf",
+      "sha256": "2f2b3658f900d8c16c827d25ed3b82c4dfab5a63a8fb06b9a4defa329469c24e"
+    },
+    {
+      "bytes": 14352,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/containers_C.bin",
+      "sha256": "ce192f9436f131b26f390cc474302a65d10df14373a99f635a3ba1816f193682"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/containers_C.gltf",
+      "sha256": "44dd2a6195a11fbf6970f62418fd7628c94d87547c866c582311e94fc5ffa343"
+    },
+    {
+      "bytes": 14352,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/containers_D.bin",
+      "sha256": "d2996c621adaa2e39372a12b624c980f717389f307e949d250f66e2e0a7a9bb6"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/containers_D.gltf",
+      "sha256": "b44923aacaa5257c0908208c1a995cc594933c1b61771d2bfa5846c4f37713ca"
+    },
+    {
+      "bytes": 68212,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/drill_structure.bin",
+      "sha256": "140dc0e66630ee54f78fd7f923054eba3393fca004abfc15b3c41d12b21946c9"
+    },
+    {
+      "bytes": 5127,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/drill_structure.gltf",
+      "sha256": "23ab7f68d8bf61dc5b56ab080860f9551fd40edca95442bfb9d3319d183803e6"
+    },
+    {
+      "bytes": 81264,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/lander_A.bin",
+      "sha256": "951679da262411b504f2fda981b75b34f7a69326cde0ee1f9c14212a986190bc"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/lander_A.gltf",
+      "sha256": "630723b9703f9dbc74cd7d456f83b1173af08837713f6ca6d51bdf358e97a0a6"
+    },
+    {
+      "bytes": 71440,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/lander_B.bin",
+      "sha256": "745d8df9c75eb55bd7c1688fa92cf53b73931043120d712336d7985b9369e5d8"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/lander_B.gltf",
+      "sha256": "ff5bedc311964269c3020f4fd709f2c32abbd27f02be9513759b05dcb35f56fe"
+    },
+    {
+      "bytes": 36692,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/lander_base.bin",
+      "sha256": "9d9caa103609644b318848f252ecb92123c5f93ad40a050f74ae7d60b41ce577"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/lander_base.gltf",
+      "sha256": "3c6526d4115ad0c7d3b89a633ac4b0c3b4155ee16e51c6b747db7bfdbe75019c"
+    },
+    {
+      "bytes": 27476,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/landingpad_large.bin",
+      "sha256": "5f89a75d0e706d4a565c2757efd2026f40275d500302c95f0624365b7e5ca4dd"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/landingpad_large.gltf",
+      "sha256": "bf2c624804fa462cf3cbf464f3f4f9bf0aaae2e2d66280e218802d0c683ead02"
+    },
+    {
+      "bytes": 26468,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/landingpad_small.bin",
+      "sha256": "f5a293988a8115520192c337865c9daf9f52773cb4fefe7fb86f06a7d4c2eafc"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/landingpad_small.gltf",
+      "sha256": "0b2d3294910e8c23798e2211a701c25a299b174fb7832b053555e42e7a38771b"
+    },
+    {
+      "bytes": 18264,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/lights.bin",
+      "sha256": "6edc13b5efa016b8020dda7bdc8f57798fd1608129b14dfeceb30f827aeb631a"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/lights.gltf",
+      "sha256": "029a1d553214b256a8c57e3c04f4799ed8610e37fa8645fbfc3d4ce423fed915"
+    },
+    {
+      "bytes": 1716,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/rock_A.bin",
+      "sha256": "3ebba6eb5c2b945460bdf7f9b8f707f664c719a88b78e8b8b3a1e4890db27290"
+    },
+    {
+      "bytes": 2987,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/rock_A.gltf",
+      "sha256": "08cbebe114ca799161eac0d9f0c8c7f7478ccc5dec164a0102368fb0b77e9bb1"
+    },
+    {
+      "bytes": 1880,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/rock_B.bin",
+      "sha256": "f7bab5b32b1d758724be9d1d0b2b6604840dc9dab392024b85a5c4a53e147f72"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/rock_B.gltf",
+      "sha256": "19219bf496926951ed7c9188e02dfab55233b5b51afb571211747ddd485fc9d3"
+    },
+    {
+      "bytes": 5200,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/rocks_A.bin",
+      "sha256": "fb76b5ba35e2ee7875f47b57696d6cf52f3f6719aa7796bd8cc19f5a15ec44e7"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/rocks_A.gltf",
+      "sha256": "08ad445724788d6f746dabb663c04e58811a78882d1b2989051f194ce429d06f"
+    },
+    {
+      "bytes": 8736,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/rocks_B.bin",
+      "sha256": "5ab05abefc2595be9598dab83c4e9bfb02f4682dbc2d21bfe30f3643eb77225a"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/rocks_B.gltf",
+      "sha256": "f38dd2d88419a05ba3118c6eb272346f306448a274e026b9321acf529eae5faa"
+    },
+    {
+      "bytes": 3136,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_base.bin",
+      "sha256": "8eb6708de7b91ecde59216999d5bcc0baa9294b8f3b517eaf1cfa06ace23b618"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_base.gltf",
+      "sha256": "d0a9c2df819ff1e6ae8da8ff0b3628ad55ed10a0ef0339d7965dfd7e43091585"
+    },
+    {
+      "bytes": 41088,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_A.bin",
+      "sha256": "d677640af2b9385ed3d9fb8c33bd4bcc3351acb630262bf13fc9906d99d3cdf2"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_A.gltf",
+      "sha256": "0c5fba67eba76ba52b099cec80402d490a22c3170fd3f1b2d0890c59c4ce9726"
+    },
+    {
+      "bytes": 40560,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_B.bin",
+      "sha256": "98aa6c9ac4dd4f97316e1058e878b70f714c195c2547379f8540b8b45da30d74"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_B.gltf",
+      "sha256": "846560a850d24584920ba3a148a86aa293426cf320f2607ac386800f4b67c403"
+    },
+    {
+      "bytes": 61572,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_C.bin",
+      "sha256": "971c150c2fba8552bd856b31e18288f48d1764bb8d7779648cf7241c56ae5a05"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_C.gltf",
+      "sha256": "d8e35a713e6a5e50122fc0bff1e40003fe88dabe3c62ae7076cc1a74fce9109a"
+    },
+    {
+      "bytes": 16456,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_solarpanels.bin",
+      "sha256": "e48e242860b63b02e720736a1b4c4a20898820bf1a336af3171fe9ed75952216"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/roofmodule_solarpanels.gltf",
+      "sha256": "fe28dc153c7f8b402edb788ef70b3f10b0f2132e1d96720c59cde06565b2e35d"
+    },
+    {
+      "bytes": 6660,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/solarpanel.bin",
+      "sha256": "ebdd5ece824fa0e46c331764590c51297f2799a3bf9d628214cce6930147c270"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/solarpanel.gltf",
+      "sha256": "55ff7bb1e8171b9882547bce0f29a4dd711ed3f097e33c05dab9dd3eceb36c9a"
+    },
+    {
+      "bytes": 25749,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/spacebits_texture.png",
+      "sha256": "f19fe5ced42f72104a3c2e9f15d591622723695dd461a380691a8a21ebb01ae9"
+    },
+    {
+      "bytes": 49524,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/spacetruck.bin",
+      "sha256": "b99230dc223a9839be665f908146687b9811249232d41c22bac0736ce7553dd5"
+    },
+    {
+      "bytes": 10917,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/spacetruck.gltf",
+      "sha256": "4bf9dcd2eb32b547ece2d9323ab86eea6d7b2f44abf30dc936d613b42e2e874b"
+    },
+    {
+      "bytes": 67708,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/spacetruck_large.bin",
+      "sha256": "4cacc7909e3c752a3cd9902bb86798449c36cde51ecc108bedacc8bd6887d1ed"
+    },
+    {
+      "bytes": 10963,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/spacetruck_large.gltf",
+      "sha256": "b7dffb0fd40d92efd2def7e6b8093a5b5331c8fea7a276f40aa0282d29729642"
+    },
+    {
+      "bytes": 32656,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/spacetruck_trailer.bin",
+      "sha256": "469ec96c4bc99d19f8baff359ceeb4da99ab2c5de9bc230ca13d4883f4119382"
+    },
+    {
+      "bytes": 10945,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/spacetruck_trailer.gltf",
+      "sha256": "402e7f492d496162ec7e6e33c6471b6b6bdbb34f2a4a3d9865185767b66c34b1"
+    },
+    {
+      "bytes": 26084,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/structure_low.bin",
+      "sha256": "89d8d514e9d5685e7e31bf150f3d9be13a602ce0a624013ba9cf74d4910c7503"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/structure_low.gltf",
+      "sha256": "11b2b4f4afaa4bdb68be35a46390ac498f02b116f3cf62e832f46a796e1d573f"
+    },
+    {
+      "bytes": 41524,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/structure_tall.bin",
+      "sha256": "1199b0f4abb9491ecadcfb4539d908a84daa4ab1f0beb5ef83ed1123e4a7defb"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/structure_tall.gltf",
+      "sha256": "29e92416379ef83c107d00090ff142cc5a8cddae76defce94cfb1e89bf357ac7"
+    },
+    {
+      "bytes": 840,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_low.bin",
+      "sha256": "b50a9a3aa71883d982d2134f67fec85282d94f72856a8c6f87235fb0bcbaeea3"
+    },
+    {
+      "bytes": 2947,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_low.gltf",
+      "sha256": "1b9846a156f729da1e66cc186d38393125532f521dc76c6bbadf6fe31f77e598"
+    },
+    {
+      "bytes": 2136,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_low_curved.bin",
+      "sha256": "35019280cb245174e5db2761e94eb09f800c439b2f26e630597d37d0d3d30297"
+    },
+    {
+      "bytes": 2966,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_low_curved.gltf",
+      "sha256": "d41f15257ca87b87bf179f2358f87abb24de282f6ea76ae8b1783b976935c0a9"
+    },
+    {
+      "bytes": 4424,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_mining.bin",
+      "sha256": "2bcb357a01facbd009c2ca736e9f1ccb9783d2a985b80a792cb6b50c46835714"
+    },
+    {
+      "bytes": 2979,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_mining.gltf",
+      "sha256": "32a61b860fe1bb6eda5ece94a26f4f78d72b4071d335dc9e256f115b5ea669eb"
+    },
+    {
+      "bytes": 1448,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_slope.bin",
+      "sha256": "9254e2e360b1c4a9e9a54167afc4ea32ca59653d792dcc76948de4ef36ca6e18"
+    },
+    {
+      "bytes": 2954,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_slope.gltf",
+      "sha256": "216182192aaac8af1a07f3f631b043a7f518d51ec41d08cf8eb820c445622e73"
+    },
+    {
+      "bytes": 1740,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_slope_inner_corner.bin",
+      "sha256": "d9dee310fcb3f5b9c88b8602bbe6ac5f2b0d233f23bb42dec82db72dc8452945"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_slope_inner_corner.gltf",
+      "sha256": "06821257f9e30b69968a9be2666f33b5ea6e267d6a66d20b3aa6098ce0397a72"
+    },
+    {
+      "bytes": 1740,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_slope_outer_corner.bin",
+      "sha256": "59dba7d543faf70d79585b94b4ae49dbcfc902e6e9711b1f5c5b8181a5cb64c8"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_slope_outer_corner.gltf",
+      "sha256": "33d7dc097faf3215940fd57b37f476baf320d2482a30437652b9bf90ed9a5606"
+    },
+    {
+      "bytes": 840,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_tall.bin",
+      "sha256": "e2e32ced6e5e45955a15136d8d84744bed0267777da793758c7e44483d16f94f"
+    },
+    {
+      "bytes": 2949,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_tall.gltf",
+      "sha256": "879dbfe6ede0cf2ba372ca7f6e62b7f0707d0626c095d4cbdf2e19b42e859095"
+    },
+    {
+      "bytes": 2136,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_tall_curved.bin",
+      "sha256": "21a194f6fa76bbe42dd88a7aec4144ef375f6d3a2cb5c88d4eae168beca27ef9"
+    },
+    {
+      "bytes": 2968,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_tall_curved.gltf",
+      "sha256": "f0fb326616563bc9088ca2debbc38c4c7f583b5fa6f8a2dc9c524d6601061fe5"
+    },
+    {
+      "bytes": 42048,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_long_A.bin",
+      "sha256": "ebf6034b2a37cad4ae06cc8719b45f36a7a382dcb73cd4328ed0ee74f46647d1"
+    },
+    {
+      "bytes": 3094,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_long_A.gltf",
+      "sha256": "92a3232818685937195c7dc15b85e98cd1c40849ef6d174a673962ff09bf1ce1"
+    },
+    {
+      "bytes": 20136,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_long_B.bin",
+      "sha256": "11041de832434948e0bed0cb38c92892e0b5b46d0f585d31b714ed8a8216e40b"
+    },
+    {
+      "bytes": 3087,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_long_B.gltf",
+      "sha256": "878f591087177c5acaf079839546c756ba6d491cb872b7d37c7f82aaac72c17f"
+    },
+    {
+      "bytes": 11368,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_short_A.bin",
+      "sha256": "c8278ace0fdffbdd0452a998b49a9f9c5e70d2963a3f8fae9e679e2724ca0bce"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_short_A.gltf",
+      "sha256": "54e763a65cc5d2bbf0d202c0872d26cb887a201815f6ff6fe5dda7fa839515b6"
+    },
+    {
+      "bytes": 11368,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_short_B.bin",
+      "sha256": "74b4ba127e62bdc2258b9ebbca5f9f5589341cb988baad8c052b3e62d1d9f74e"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_short_B.gltf",
+      "sha256": "d8cce0aab32b9d34f9d21e17617309807d453475acf483a3f6e81abec521494e"
+    },
+    {
+      "bytes": 38976,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_straight_A.bin",
+      "sha256": "632805e794d9f799f52df64ba38fdef32d63278fc29d2013cc9a668409ca7af4"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_straight_A.gltf",
+      "sha256": "2605eede590fca98d12679389e089bb08e8ece31338a63886387fd09729a4360"
+    },
+    {
+      "bytes": 18088,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_straight_B.bin",
+      "sha256": "21640c6f10d9661820b910c671701f2a18a4a11841f8e31703c090a30d5e1ba9"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/tunnel_straight_B.gltf",
+      "sha256": "1c638ab710c6f5ddf94f8f25057a3bf6d5d4ef2ccb7a6c6de9c72c9992acde4e"
+    },
+    {
+      "bytes": 44124,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/windturbine_low.bin",
+      "sha256": "7290b430d03e4cd57b64f20806f8a71d006f334831aad0940559813f93cd38c5"
+    },
+    {
+      "bytes": 5160,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/windturbine_low.gltf",
+      "sha256": "9bc0489b551010b165b59d3e6f037a6f6c3d92bb7ed971a2a3a9fd662391e4b9"
+    },
+    {
+      "bytes": 29904,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/windturbine_tall.bin",
+      "sha256": "15e0b6d7a47e6cebe5261605b1563abb29df44b9615ac0d334c71e383d8543ad"
+    },
+    {
+      "bytes": 5168,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/windturbine_tall.gltf",
+      "sha256": "5dfde3ac3bb695a4938dcdb2546f1ef6148aebb9f82700a20e2eb2d635174f7d"
+    },
+    {
+      "bytes": 25749,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/obj/spacebits_texture.png",
+      "sha256": "f19fe5ced42f72104a3c2e9f15d591622723695dd461a380691a8a21ebb01ae9"
+    },
+    {
+      "bytes": 25749,
+      "path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/textures/spacebits_texture.png",
+      "sha256": "f19fe5ced42f72104a3c2e9f15d591622723695dd461a380691a8a21ebb01ae9"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-space-base-bits-1.0",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/LICENSE.txt",
+  "license_text_sha256": "e1c732edc054bcc23fcee2409304f03fe0f15c9e5150bfd6a72a0f09d513e93f",
+  "model_count": 57,
+  "models": [
+    "addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/basemodule_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/basemodule_C.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/basemodule_D.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/basemodule_E.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/basemodule_garage.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargo_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargo_A_packed.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargo_A_stacked.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargo_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargo_B_packed.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargo_B_stacked.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargodepot_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargodepot_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/cargodepot_C.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/containers_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/containers_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/containers_C.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/containers_D.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/drill_structure.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/lander_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/lander_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/lander_base.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/landingpad_large.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/landingpad_small.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/lights.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/rock_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/rock_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/rocks_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/rocks_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/roofmodule_base.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/roofmodule_cargo_C.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/roofmodule_solarpanels.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/solarpanel.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/spacetruck.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/spacetruck_large.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/spacetruck_trailer.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/structure_low.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/structure_tall.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/terrain_low.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/terrain_low_curved.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/terrain_mining.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/terrain_slope.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/terrain_slope_inner_corner.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/terrain_slope_outer_corner.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/terrain_tall.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/terrain_tall_curved.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_long_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_long_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_short_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/tunnel_diagonal_short_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/tunnel_straight_A.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/tunnel_straight_B.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/windturbine_low.gltf",
+    "addons/kaykit_space_base_bits/Assets/gltf/windturbine_tall.gltf"
+  ],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "revision": "6dfbcac9927d06283752c4defd4882cfe0d29666",
+  "source": "https://github.com/KayKit-Game-Assets/KayKit-Space-Base-Bits-1.0",
+  "status": "downloaded",
+  "strip_archive_root": true,
+  "style": "smooth textured low-poly",
+  "texture_policy": "original source resolutions, no downsampling"
+}

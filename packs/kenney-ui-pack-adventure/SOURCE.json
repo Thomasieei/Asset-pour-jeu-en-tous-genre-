@@ -1,0 +1,2367 @@
+{
+  "archive_sha256": "982e8ab66842509ee9214f9c2038e594cbe029f19d1dc177fecaad3b41a67ed3",
+  "asset_count": 388,
+  "assets": [
+    "PNG/Default/banner_classic_curtain.png",
+    "PNG/Default/banner_hanging.png",
+    "PNG/Default/banner_modern.png",
+    "PNG/Default/button_brown.png",
+    "PNG/Default/button_brown_close.png",
+    "PNG/Default/button_grey.png",
+    "PNG/Default/button_grey_close.png",
+    "PNG/Default/button_red.png",
+    "PNG/Default/button_red_close.png",
+    "PNG/Default/checkbox_beige_checked.png",
+    "PNG/Default/checkbox_beige_cross.png",
+    "PNG/Default/checkbox_beige_empty.png",
+    "PNG/Default/checkbox_brown_checked.png",
+    "PNG/Default/checkbox_brown_cross.png",
+    "PNG/Default/checkbox_brown_empty.png",
+    "PNG/Default/checkbox_grey_checked.png",
+    "PNG/Default/checkbox_grey_cross.png",
+    "PNG/Default/checkbox_grey_empty.png",
+    "PNG/Default/hexagon_brown.png",
+    "PNG/Default/hexagon_brown_dark.png",
+    "PNG/Default/hexagon_damaged_brown.png",
+    "PNG/Default/hexagon_damaged_brown_dark.png",
+    "PNG/Default/hexagon_grey.png",
+    "PNG/Default/hexagon_grey_dark.png",
+    "PNG/Default/hexagon_grey_green.png",
+    "PNG/Default/hexagon_grey_red.png",
+    "PNG/Default/minimap_arrow_a.png",
+    "PNG/Default/minimap_arrow_b.png",
+    "PNG/Default/minimap_arrow_c.png",
+    "PNG/Default/minimap_arrow_d.png",
+    "PNG/Default/minimap_compass_future_e.png",
+    "PNG/Default/minimap_compass_future_n.png",
+    "PNG/Default/minimap_compass_future_s.png",
+    "PNG/Default/minimap_compass_future_w.png",
+    "PNG/Default/minimap_compass_toon_e.png",
+    "PNG/Default/minimap_compass_toon_n.png",
+    "PNG/Default/minimap_compass_toon_s.png",
+    "PNG/Default/minimap_compass_toon_w.png",
+    "PNG/Default/minimap_icon_exclamation_red.png",
+    "PNG/Default/minimap_icon_exclamation_white.png",
+    "PNG/Default/minimap_icon_exclamation_yellow.png",
+    "PNG/Default/minimap_icon_jewel_red.png",
+    "PNG/Default/minimap_icon_jewel_white.png",
+    "PNG/Default/minimap_icon_jewel_yellow.png",
+    "PNG/Default/minimap_icon_star_red.png",
+    "PNG/Default/minimap_icon_star_white.png",
+    "PNG/Default/minimap_icon_star_yellow.png",
+    "PNG/Default/minimap_ring_brown.png",
+    "PNG/Default/minimap_ring_brown_detail.png",
+    "PNG/Default/minimap_ring_grey.png",
+    "PNG/Default/minimap_ring_grey_detail.png",
+    "PNG/Default/minimap_ring_white.png",
+    "PNG/Default/panel_border_brown.png",
+    "PNG/Default/panel_border_brown_detail.png",
+    "PNG/Default/panel_border_grey.png",
+    "PNG/Default/panel_border_grey_detail.png",
+    "PNG/Default/panel_brown.png",
+    "PNG/Default/panel_brown_arrows.png",
+    "PNG/Default/panel_brown_arrows_dark.png",
+    "PNG/Default/panel_brown_arrows_dark_detail.png",
+    "PNG/Default/panel_brown_arrows_detail.png",
+    "PNG/Default/panel_brown_corners_a.png",
+    "PNG/Default/panel_brown_corners_b.png",
+    "PNG/Default/panel_brown_damaged.png",
+    "PNG/Default/panel_brown_damaged_dark.png",
+    "PNG/Default/panel_brown_dark.png",
+    "PNG/Default/panel_brown_dark_corners_a.png",
+    "PNG/Default/panel_brown_dark_corners_b.png",
+    "PNG/Default/panel_grey.png",
+    "PNG/Default/panel_grey_blue.png",
+    "PNG/Default/panel_grey_bolts.png",
+    "PNG/Default/panel_grey_bolts_blue.png",
+    "PNG/Default/panel_grey_bolts_dark.png",
+    "PNG/Default/panel_grey_bolts_detail_a.png",
+    "PNG/Default/panel_grey_bolts_detail_b.png",
+    "PNG/Default/panel_grey_bolts_green.png",
+    "PNG/Default/panel_grey_bolts_red.png",
+    "PNG/Default/panel_grey_dark.png",
+    "PNG/Default/panel_grey_green.png",
+    "PNG/Default/panel_grey_red.png",
+    "PNG/Default/panel_grid_blueprint.png",
+    "PNG/Default/panel_grid_paper.png",
+    "PNG/Default/pattern_diagonal_grey_large.png",
+    "PNG/Default/pattern_diagonal_grey_small.png",
+    "PNG/Default/pattern_diagonal_red_large.png",
+    "PNG/Default/pattern_diagonal_red_small.png",
+    "PNG/Default/pattern_diagonal_transparent_large.png",
+    "PNG/Default/pattern_diagonal_transparent_small.png",
+    "PNG/Default/pattern_grid_blueprint.png",
+    "PNG/Default/pattern_grid_paper.png",
+    "PNG/Default/progress_blue.png",
+    "PNG/Default/progress_blue_border.png",
+    "PNG/Default/progress_blue_small.png",
+    "PNG/Default/progress_blue_small_border.png",
+    "PNG/Default/progress_green.png",
+    "PNG/Default/progress_green_border.png",
+    "PNG/Default/progress_green_small.png",
+    "PNG/Default/progress_green_small_border.png",
+    "PNG/Default/progress_red.png",
+    "PNG/Default/progress_red_border.png",
+    "PNG/Default/progress_red_small.png",
+    "PNG/Default/progress_red_small_border.png",
+    "PNG/Default/progress_transparent.png",
+    "PNG/Default/progress_transparent_small.png",
+    "PNG/Default/progress_white.png",
+    "PNG/Default/progress_white_border.png",
+    "PNG/Default/progress_white_small.png",
+    "PNG/Default/progress_white_small_border.png",
+    "PNG/Default/round_brown.png",
+    "PNG/Default/round_brown_dark.png",
+    "PNG/Default/round_damaged_brown.png",
+    "PNG/Default/round_damaged_brown_dark.png",
+    "PNG/Default/round_grey.png",
+    "PNG/Default/round_grey_dark.png",
+    "PNG/Default/round_grey_detailed_green.png",
+    "PNG/Default/round_grey_detailed_red.png",
+    "PNG/Default/scrollbar_brown.png",
+    "PNG/Default/scrollbar_brown_small.png",
+    "PNG/Default/scrollbar_future_grey.png",
+    "PNG/Default/scrollbar_future_grey_small.png",
+    "PNG/Default/scrollbar_future_red.png",
+    "PNG/Default/scrollbar_future_red_small.png",
+    "PNG/Default/scrollbar_future_transparent.png",
+    "PNG/Default/scrollbar_future_transparent_small.png",
+    "PNG/Default/scrollbar_grey.png",
+    "PNG/Default/scrollbar_grey_small.png",
+    "PNG/Default/scrollbar_transparent.png",
+    "PNG/Default/scrollbar_transparent_small.png",
+    "PNG/Double/banner_classic_curtain.png",
+    "PNG/Double/banner_hanging.png",
+    "PNG/Double/banner_modern.png",
+    "PNG/Double/button_brown.png",
+    "PNG/Double/button_brown_close.png",
+    "PNG/Double/button_grey.png",
+    "PNG/Double/button_grey_close.png",
+    "PNG/Double/button_red.png",
+    "PNG/Double/button_red_close.png",
+    "PNG/Double/checkbox_beige_checked.png",
+    "PNG/Double/checkbox_beige_cross.png",
+    "PNG/Double/checkbox_beige_empty.png",
+    "PNG/Double/checkbox_brown_checked.png",
+    "PNG/Double/checkbox_brown_cross.png",
+    "PNG/Double/checkbox_brown_empty.png",
+    "PNG/Double/checkbox_grey_checked.png",
+    "PNG/Double/checkbox_grey_cross.png",
+    "PNG/Double/checkbox_grey_empty.png",
+    "PNG/Double/hexagon_brown.png",
+    "PNG/Double/hexagon_brown_dark.png",
+    "PNG/Double/hexagon_damaged_brown.png",
+    "PNG/Double/hexagon_damaged_brown_dark.png",
+    "PNG/Double/hexagon_grey.png",
+    "PNG/Double/hexagon_grey_dark.png",
+    "PNG/Double/hexagon_grey_green.png",
+    "PNG/Double/hexagon_grey_red.png",
+    "PNG/Double/minimap_arrow_a.png",
+    "PNG/Double/minimap_arrow_b.png",
+    "PNG/Double/minimap_arrow_c.png",
+    "PNG/Double/minimap_arrow_d.png",
+    "PNG/Double/minimap_compass_future_e.png",
+    "PNG/Double/minimap_compass_future_n.png",
+    "PNG/Double/minimap_compass_future_s.png",
+    "PNG/Double/minimap_compass_future_w.png",
+    "PNG/Double/minimap_compass_toon_e.png",
+    "PNG/Double/minimap_compass_toon_n.png",
+    "PNG/Double/minimap_compass_toon_s.png",
+    "PNG/Double/minimap_compass_toon_w.png",
+    "PNG/Double/minimap_icon_exclamation_red.png",
+    "PNG/Double/minimap_icon_exclamation_white.png",
+    "PNG/Double/minimap_icon_exclamation_yellow.png",
+    "PNG/Double/minimap_icon_jewel_red.png",
+    "PNG/Double/minimap_icon_jewel_white.png",
+    "PNG/Double/minimap_icon_jewel_yellow.png",
+    "PNG/Double/minimap_icon_star_red.png",
+    "PNG/Double/minimap_icon_star_white.png",
+    "PNG/Double/minimap_icon_star_yellow.png",
+    "PNG/Double/minimap_ring_brown.png",
+    "PNG/Double/minimap_ring_brown_detail.png",
+    "PNG/Double/minimap_ring_grey.png",
+    "PNG/Double/minimap_ring_grey_detail.png",
+    "PNG/Double/minimap_ring_white.png",
+    "PNG/Double/panel_border_brown.png",
+    "PNG/Double/panel_border_brown_detail.png",
+    "PNG/Double/panel_border_grey.png",
+    "PNG/Double/panel_border_grey_detail.png",
+    "PNG/Double/panel_brown.png",
+    "PNG/Double/panel_brown_arrows.png",
+    "PNG/Double/panel_brown_arrows_dark.png",
+    "PNG/Double/panel_brown_arrows_dark_detail.png",
+    "PNG/Double/panel_brown_arrows_detail.png",
+    "PNG/Double/panel_brown_corners_a.png",
+    "PNG/Double/panel_brown_corners_b.png",
+    "PNG/Double/panel_brown_damaged.png",
+    "PNG/Double/panel_brown_damaged_dark.png",
+    "PNG/Double/panel_brown_dark.png",
+    "PNG/Double/panel_brown_dark_corners_a.png",
+    "PNG/Double/panel_brown_dark_corners_b.png",
+    "PNG/Double/panel_grey.png",
+    "PNG/Double/panel_grey_blue.png",
+    "PNG/Double/panel_grey_bolts.png",
+    "PNG/Double/panel_grey_bolts_blue.png",
+    "PNG/Double/panel_grey_bolts_dark.png",
+    "PNG/Double/panel_grey_bolts_detail_a.png",
+    "PNG/Double/panel_grey_bolts_detail_b.png",
+    "PNG/Double/panel_grey_bolts_green.png",
+    "PNG/Double/panel_grey_bolts_red.png",
+    "PNG/Double/panel_grey_dark.png",
+    "PNG/Double/panel_grey_green.png",
+    "PNG/Double/panel_grey_red.png",
+    "PNG/Double/panel_grid_blueprint.png",
+    "PNG/Double/panel_grid_paper.png",
+    "PNG/Double/pattern_diagonal_grey_large.png",
+    "PNG/Double/pattern_diagonal_grey_small.png",
+    "PNG/Double/pattern_diagonal_red_large.png",
+    "PNG/Double/pattern_diagonal_red_small.png",
+    "PNG/Double/pattern_diagonal_transparent_large.png",
+    "PNG/Double/pattern_diagonal_transparent_small.png",
+    "PNG/Double/pattern_grid_blueprint.png",
+    "PNG/Double/pattern_grid_paper.png",
+    "PNG/Double/progress_blue.png",
+    "PNG/Double/progress_blue_border.png",
+    "PNG/Double/progress_blue_small.png",
+    "PNG/Double/progress_blue_small_border.png",
+    "PNG/Double/progress_green.png",
+    "PNG/Double/progress_green_border.png",
+    "PNG/Double/progress_green_small.png",
+    "PNG/Double/progress_green_small_border.png",
+    "PNG/Double/progress_red.png",
+    "PNG/Double/progress_red_border.png",
+    "PNG/Double/progress_red_small.png",
+    "PNG/Double/progress_red_small_border.png",
+    "PNG/Double/progress_transparent.png",
+    "PNG/Double/progress_transparent_small.png",
+    "PNG/Double/progress_white.png",
+    "PNG/Double/progress_white_border.png",
+    "PNG/Double/progress_white_small.png",
+    "PNG/Double/progress_white_small_border.png",
+    "PNG/Double/round_brown.png",
+    "PNG/Double/round_brown_dark.png",
+    "PNG/Double/round_damaged_brown.png",
+    "PNG/Double/round_damaged_brown_dark.png",
+    "PNG/Double/round_grey.png",
+    "PNG/Double/round_grey_dark.png",
+    "PNG/Double/round_grey_detailed_green.png",
+    "PNG/Double/round_grey_detailed_red.png",
+    "PNG/Double/scrollbar_brown.png",
+    "PNG/Double/scrollbar_brown_small.png",
+    "PNG/Double/scrollbar_future_grey.png",
+    "PNG/Double/scrollbar_future_grey_small.png",
+    "PNG/Double/scrollbar_future_red.png",
+    "PNG/Double/scrollbar_future_red_small.png",
+    "PNG/Double/scrollbar_future_transparent.png",
+    "PNG/Double/scrollbar_future_transparent_small.png",
+    "PNG/Double/scrollbar_grey.png",
+    "PNG/Double/scrollbar_grey_small.png",
+    "PNG/Double/scrollbar_transparent.png",
+    "PNG/Double/scrollbar_transparent_small.png",
+    "Preview.png",
+    "Sample.png",
+    "Spritesheet/spritesheet-default.png",
+    "Spritesheet/spritesheet-double.png",
+    "Vector/banner_classic_curtain.svg",
+    "Vector/banner_hanging.svg",
+    "Vector/banner_modern.svg",
+    "Vector/button_brown.svg",
+    "Vector/button_brown_close.svg",
+    "Vector/button_grey.svg",
+    "Vector/button_grey_close.svg",
+    "Vector/button_red.svg",
+    "Vector/button_red_close.svg",
+    "Vector/checkbox_beige_checked.svg",
+    "Vector/checkbox_beige_cross.svg",
+    "Vector/checkbox_beige_empty.svg",
+    "Vector/checkbox_brown_checked.svg",
+    "Vector/checkbox_brown_cross.svg",
+    "Vector/checkbox_brown_empty.svg",
+    "Vector/checkbox_grey_checked.svg",
+    "Vector/checkbox_grey_cross.svg",
+    "Vector/checkbox_grey_empty.svg",
+    "Vector/hexagon_brown.svg",
+    "Vector/hexagon_brown_dark.svg",
+    "Vector/hexagon_damaged_brown.svg",
+    "Vector/hexagon_damaged_brown_dark.svg",
+    "Vector/hexagon_grey.svg",
+    "Vector/hexagon_grey_dark.svg",
+    "Vector/hexagon_grey_green.svg",
+    "Vector/hexagon_grey_red.svg",
+    "Vector/minimap_arrow_a.svg",
+    "Vector/minimap_arrow_b.svg",
+    "Vector/minimap_arrow_c.svg",
+    "Vector/minimap_arrow_d.svg",
+    "Vector/minimap_compass_future_e.svg",
+    "Vector/minimap_compass_future_n.svg",
+    "Vector/minimap_compass_future_s.svg",
+    "Vector/minimap_compass_future_w.svg",
+    "Vector/minimap_compass_toon_e.svg",
+    "Vector/minimap_compass_toon_n.svg",
+    "Vector/minimap_compass_toon_s.svg",
+    "Vector/minimap_compass_toon_w.svg",
+    "Vector/minimap_icon_exclamation_red.svg",
+    "Vector/minimap_icon_exclamation_white.svg",
+    "Vector/minimap_icon_exclamation_yellow.svg",
+    "Vector/minimap_icon_jewel_red.svg",
+    "Vector/minimap_icon_jewel_white.svg",
+    "Vector/minimap_icon_jewel_yellow.svg",
+    "Vector/minimap_icon_star_red.svg",
+    "Vector/minimap_icon_star_white.svg",
+    "Vector/minimap_icon_star_yellow.svg",
+    "Vector/minimap_ring_brown.svg",
+    "Vector/minimap_ring_brown_detail.svg",
+    "Vector/minimap_ring_grey.svg",
+    "Vector/minimap_ring_grey_detail.svg",
+    "Vector/minimap_ring_white.svg",
+    "Vector/panel_border_brown.svg",
+    "Vector/panel_border_brown_detail.svg",
+    "Vector/panel_border_grey.svg",
+    "Vector/panel_border_grey_detail.svg",
+    "Vector/panel_brown.svg",
+    "Vector/panel_brown_arrows.svg",
+    "Vector/panel_brown_arrows_dark.svg",
+    "Vector/panel_brown_arrows_dark_detail.svg",
+    "Vector/panel_brown_arrows_detail.svg",
+    "Vector/panel_brown_corners_a.svg",
+    "Vector/panel_brown_corners_b.svg",
+    "Vector/panel_brown_damaged.svg",
+    "Vector/panel_brown_damaged_dark.svg",
+    "Vector/panel_brown_dark.svg",
+    "Vector/panel_brown_dark_corners_a.svg",
+    "Vector/panel_brown_dark_corners_b.svg",
+    "Vector/panel_grey.svg",
+    "Vector/panel_grey_blue.svg",
+    "Vector/panel_grey_bolts.svg",
+    "Vector/panel_grey_bolts_blue.svg",
+    "Vector/panel_grey_bolts_dark.svg",
+    "Vector/panel_grey_bolts_detail_a.svg",
+    "Vector/panel_grey_bolts_detail_b.svg",
+    "Vector/panel_grey_bolts_green.svg",
+    "Vector/panel_grey_bolts_red.svg",
+    "Vector/panel_grey_dark.svg",
+    "Vector/panel_grey_green.svg",
+    "Vector/panel_grey_red.svg",
+    "Vector/panel_grid_blueprint.svg",
+    "Vector/panel_grid_paper.svg",
+    "Vector/pattern_diagonal_grey_large.svg",
+    "Vector/pattern_diagonal_grey_small.svg",
+    "Vector/pattern_diagonal_red_large.svg",
+    "Vector/pattern_diagonal_red_small.svg",
+    "Vector/pattern_diagonal_transparent_large.svg",
+    "Vector/pattern_diagonal_transparent_small.svg",
+    "Vector/pattern_grid_blueprint.svg",
+    "Vector/pattern_grid_paper.svg",
+    "Vector/progress_blue.svg",
+    "Vector/progress_blue_border.svg",
+    "Vector/progress_blue_small.svg",
+    "Vector/progress_blue_small_border.svg",
+    "Vector/progress_green.svg",
+    "Vector/progress_green_border.svg",
+    "Vector/progress_green_small.svg",
+    "Vector/progress_green_small_border.svg",
+    "Vector/progress_red.svg",
+    "Vector/progress_red_border.svg",
+    "Vector/progress_red_small.svg",
+    "Vector/progress_red_small_border.svg",
+    "Vector/progress_transparent.svg",
+    "Vector/progress_transparent_small.svg",
+    "Vector/progress_white.svg",
+    "Vector/progress_white_border.svg",
+    "Vector/progress_white_small.svg",
+    "Vector/progress_white_small_border.svg",
+    "Vector/round_brown.svg",
+    "Vector/round_brown_dark.svg",
+    "Vector/round_damaged_brown.svg",
+    "Vector/round_damaged_brown_dark.svg",
+    "Vector/round_grey.svg",
+    "Vector/round_grey_dark.svg",
+    "Vector/round_grey_detailed_green.svg",
+    "Vector/round_grey_detailed_red.svg",
+    "Vector/scrollbar_brown.svg",
+    "Vector/scrollbar_brown_small.svg",
+    "Vector/scrollbar_future_grey.svg",
+    "Vector/scrollbar_future_grey_small.svg",
+    "Vector/scrollbar_future_red.svg",
+    "Vector/scrollbar_future_red_small.svg",
+    "Vector/scrollbar_future_transparent.svg",
+    "Vector/scrollbar_future_transparent_small.svg",
+    "Vector/scrollbar_grey.svg",
+    "Vector/scrollbar_grey_small.svg",
+    "Vector/scrollbar_transparent.svg",
+    "Vector/scrollbar_transparent_small.svg"
+  ],
+  "author": "Kenney",
+  "category": "ui",
+  "checked": "2026-10-12",
+  "download": "https://kenney.nl/media/pages/assets/ui-pack-adventure/9a877376bc-1723597274/kenney_ui-pack-adventure.zip",
+  "files": [
+    {
+      "bytes": 713,
+      "path": "packs/kenney-ui-pack-adventure/License.txt",
+      "sha256": "593b79956190ca70b37ce5d0d1c71dd4b5fb4027d4d1d29a91814e950a36e6bd"
+    },
+    {
+      "bytes": 2379,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/banner_classic_curtain.png",
+      "sha256": "e79862a8197a0d19acb90be9b7eb1c33e67e13acaca2bac65878cecacfc0e5ea"
+    },
+    {
+      "bytes": 2165,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/banner_hanging.png",
+      "sha256": "ffd8288d6e628cd121680780ae10b11b9d2d007acf5b36d4d36eaf3e675d64af"
+    },
+    {
+      "bytes": 475,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/banner_modern.png",
+      "sha256": "d3d87876cbfb210db0983fada990ad1be7778f12090bc11d92353021b8e91d25"
+    },
+    {
+      "bytes": 302,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/button_brown.png",
+      "sha256": "ee6d0103b23c877d28296a3fb620b5cdb340dd2c798134a7ea6317d5467d5053"
+    },
+    {
+      "bytes": 394,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/button_brown_close.png",
+      "sha256": "c2ad7ed2e7d83237ffe16917617cc1bde15922a9cb0349d790815b538e694ab9"
+    },
+    {
+      "bytes": 263,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/button_grey.png",
+      "sha256": "293b4d8d2b2beee2873f4db6013de80021932bbcb9ab4f4fe5089f0e97f1326e"
+    },
+    {
+      "bytes": 373,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/button_grey_close.png",
+      "sha256": "6853ea11d6fad13f3fd6f0aad568fd07ab0ab24ce93035b697a67bf5d89e72d6"
+    },
+    {
+      "bytes": 263,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/button_red.png",
+      "sha256": "7305fb0dda92ebfa206bc893806b2f637b1b25e51a61faaa7f6c79cf178a9ac7"
+    },
+    {
+      "bytes": 373,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/button_red_close.png",
+      "sha256": "2e94f027bdb88e57c71dd09d90e22c834d1848921d303f2bcbc7d9f43a2a1b8c"
+    },
+    {
+      "bytes": 508,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_beige_checked.png",
+      "sha256": "4142ff51922d945e3338c21ba56fb281b8b4d586eb18926f4a06eb6943cdfa0d"
+    },
+    {
+      "bytes": 525,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_beige_cross.png",
+      "sha256": "e65b55899923c24be19fd2265bbd5d2dd90adc46bc6e5c033b4aebf59a96667b"
+    },
+    {
+      "bytes": 471,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_beige_empty.png",
+      "sha256": "e46c002e4acc659cc402a91c8267280409c4de60c5a3c19b238a53abcbf9765a"
+    },
+    {
+      "bytes": 536,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_brown_checked.png",
+      "sha256": "cc07d7cc734c05278577610f59a82e0f17ced0eda3a4f7c31536637f5f1a4a63"
+    },
+    {
+      "bytes": 545,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_brown_cross.png",
+      "sha256": "0ba28112173e96cf657ae09604ada9424f5c0c1c78fc74ce6fa354fdf082b0a1"
+    },
+    {
+      "bytes": 466,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_brown_empty.png",
+      "sha256": "416afd256b505233a353672c505714604bd0743f875122a4d70b50587870cd81"
+    },
+    {
+      "bytes": 536,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_grey_checked.png",
+      "sha256": "50be08e09ecfe3e21242b69f6ef27c19057e4ebcfcc09f194b0a8b31245c3277"
+    },
+    {
+      "bytes": 546,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_grey_cross.png",
+      "sha256": "4f5e84055dd438b746ae020070fd9b8b503463ff8e2eff4fb54adf994b3079d3"
+    },
+    {
+      "bytes": 467,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/checkbox_grey_empty.png",
+      "sha256": "842dbf9a58a4f78d9317497c721866b9971219ef7619a5174ee4e51fe8fb813c"
+    },
+    {
+      "bytes": 885,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/hexagon_brown.png",
+      "sha256": "c3336e1133ee2c470cec8c3dd1a147b07861a8cf5bffde62960f936512152317"
+    },
+    {
+      "bytes": 735,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/hexagon_brown_dark.png",
+      "sha256": "96938a0d3bb9e8dfae8e68fdc2dd2049cbb528898d76aacced17c9e0f55c8b63"
+    },
+    {
+      "bytes": 921,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/hexagon_damaged_brown.png",
+      "sha256": "d938766bab1d275604f569a07b044f428cc0b48a83954cf8fe702c158134a5d2"
+    },
+    {
+      "bytes": 747,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/hexagon_damaged_brown_dark.png",
+      "sha256": "2829f74c8100f16f93cd7514db5c71e0de72f94014476f48c36ddf65af8fb1c5"
+    },
+    {
+      "bytes": 865,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/hexagon_grey.png",
+      "sha256": "b32cc4a98924a377901ec065d9eea385fd564277a5d1efd0a3f25b387cc76d0e"
+    },
+    {
+      "bytes": 713,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/hexagon_grey_dark.png",
+      "sha256": "c4e8694831daf8e2fa06fb55763124bf2997ad71f14e86a73fc425023da07dec"
+    },
+    {
+      "bytes": 1053,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/hexagon_grey_green.png",
+      "sha256": "67a7199f7e0d7886d47095ab1a6031eec745dbfdbccb85a59a2e71ddfce94338"
+    },
+    {
+      "bytes": 1052,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/hexagon_grey_red.png",
+      "sha256": "6159a90183c9feacaaa9c599920de5fa1cb866b3984bd5cba44c2b5d41609822"
+    },
+    {
+      "bytes": 303,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_arrow_a.png",
+      "sha256": "6ae39cfe5b23d013576b4d9aa08410503ddecacd690fb5d63382b182d5cb1d8b"
+    },
+    {
+      "bytes": 240,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_arrow_b.png",
+      "sha256": "d270c95898d1f3f814aed74baf5198a65823d965634788e19d9da56759dd3a9c"
+    },
+    {
+      "bytes": 214,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_arrow_c.png",
+      "sha256": "de1ce581d743a8b0ab134b7f54d5696c7db951e851f418ffce6eae53e6018feb"
+    },
+    {
+      "bytes": 243,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_arrow_d.png",
+      "sha256": "7adffd57c9cf6f9b5a1ba4eef7c81536877ab42cd9ffabb70afa2b3b0f0097ab"
+    },
+    {
+      "bytes": 275,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_compass_future_e.png",
+      "sha256": "b86bd7d702112d7c0ed1017f7d9741e144b805230a320d53854b7ac710b0b919"
+    },
+    {
+      "bytes": 481,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_compass_future_n.png",
+      "sha256": "532f7050a2de2f22251c4f25e4d947fc979033594eee65b33ad14e70215aae8d"
+    },
+    {
+      "bytes": 295,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_compass_future_s.png",
+      "sha256": "a47ee158d4b9b7634e217d123d83981009c325f976811a534b93fd83bad81b1d"
+    },
+    {
+      "bytes": 438,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_compass_future_w.png",
+      "sha256": "9b73060c24d61b51b44d71409d24bcc84bd2f9b44e4b98507bb30017b6a69d27"
+    },
+    {
+      "bytes": 329,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_compass_toon_e.png",
+      "sha256": "ad2b161137da81024a9713b6dcb58a139b7ebf5d605d66c7707722163e19c933"
+    },
+    {
+      "bytes": 407,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_compass_toon_n.png",
+      "sha256": "5b4d028d1d9d11927753ca95e936643535def72d8e90cb98917401080e679e68"
+    },
+    {
+      "bytes": 508,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_compass_toon_s.png",
+      "sha256": "71728ebf1b2a2c74728f75e140f12ae5f375d515622a676d43b9ba6903803b26"
+    },
+    {
+      "bytes": 551,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_compass_toon_w.png",
+      "sha256": "251bccd551f2537d9ecef3b378d48e6e3a5f5ecc28dce86e888ec92b610ee4e7"
+    },
+    {
+      "bytes": 234,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_exclamation_red.png",
+      "sha256": "2df41d356f1190bb343835c40f5b1bab538d8aac3cdd7937024569c45621156d"
+    },
+    {
+      "bytes": 234,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_exclamation_white.png",
+      "sha256": "c3eddaf8bc976c2a117edaad4b113b55533760176ac297ffd1ff1ecac8fe5ce1"
+    },
+    {
+      "bytes": 234,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_exclamation_yellow.png",
+      "sha256": "23a454e104e1f3348fbbb7c25a054033f6f23f4d7d0bba145fe341e038a50e54"
+    },
+    {
+      "bytes": 301,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_jewel_red.png",
+      "sha256": "85e81bc328399f54679182bb2a5940f4e57e8030b9a85c203bedca6568a1505f"
+    },
+    {
+      "bytes": 306,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_jewel_white.png",
+      "sha256": "4aa70c094247bc9d3b57cf1a5455bc19ce8ba7419a2659c0b603d0ea165bc68e"
+    },
+    {
+      "bytes": 306,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_jewel_yellow.png",
+      "sha256": "9cf7787780ec2f967a78c4addea500bcc069f0670efdd53d775115ef02de16ba"
+    },
+    {
+      "bytes": 333,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_star_red.png",
+      "sha256": "4b47ae1b6d4115953246acda2d147acd9cf316c1a88a73e4bb7ffcfb17d818bd"
+    },
+    {
+      "bytes": 333,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_star_white.png",
+      "sha256": "b1ea9a099f583307f03b1c9d985304ee826f253dcd66dff89fa1b400bf226028"
+    },
+    {
+      "bytes": 333,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_icon_star_yellow.png",
+      "sha256": "aa4e6902377fc0da239bf6c8244ac9f8c74ebbcac6fb9837728d630c4150475e"
+    },
+    {
+      "bytes": 2336,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_ring_brown.png",
+      "sha256": "693be5f99deb4edce23848136938f7eea4fed0ffc9b914ef872ce3012411655b"
+    },
+    {
+      "bytes": 3178,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_ring_brown_detail.png",
+      "sha256": "4a56a16f08a2187d725f0bbc13b8cbf5fc66c01c1ad0e4b2cdb8e1c4b0a8735a"
+    },
+    {
+      "bytes": 2299,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_ring_grey.png",
+      "sha256": "6bb446a738bb898f25061b573209110afe98f33bc94c0ac2d9ff0f40252fa96e"
+    },
+    {
+      "bytes": 2900,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_ring_grey_detail.png",
+      "sha256": "fc4be8ea98980d42fdd52135dee20d3e299093d1141fe31d6f13ae07439d5f76"
+    },
+    {
+      "bytes": 2318,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/minimap_ring_white.png",
+      "sha256": "816d46d1b221f6908cefbe5bf9c9f132f84ed90a6b2b181f3e6855f40415e0d6"
+    },
+    {
+      "bytes": 621,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_border_brown.png",
+      "sha256": "77c6adf4735ea7cfcfb87df4396a90fba6ea47cdca3dceb79c872af04d113d04"
+    },
+    {
+      "bytes": 399,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_border_brown_detail.png",
+      "sha256": "2088b4593b2e163d137b559aacfcbc6ab816eeb587d10d8ab6e3a62395913873"
+    },
+    {
+      "bytes": 273,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_border_grey.png",
+      "sha256": "78aab5cfbdbbeb4b1e202e8518b6d4e9f775e31003d90c896242ddc71a1e2c9f"
+    },
+    {
+      "bytes": 601,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_border_grey_detail.png",
+      "sha256": "d11a11d4ac30428ef460de5364db13853d9b75834cdce1d3edab7dfe97d35f93"
+    },
+    {
+      "bytes": 277,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown.png",
+      "sha256": "fb166d6c3a55dfd70d361c664df5b0e01811f328a9048455e2c0a285a4fbf1b7"
+    },
+    {
+      "bytes": 956,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_arrows.png",
+      "sha256": "6a2b2de834737cd0b3df20e115bb0b8af42034685221671ccdf0306acbc63635"
+    },
+    {
+      "bytes": 813,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_arrows_dark.png",
+      "sha256": "249eabda7fb41ccffc39adb7663f6bcb082b8b5096717fc07e273df83cb3dc50"
+    },
+    {
+      "bytes": 952,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_arrows_dark_detail.png",
+      "sha256": "8e5476083372620b74c746e76949b9e67eee67ad8c70ff4ff4c1de863afcf3de"
+    },
+    {
+      "bytes": 1107,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_arrows_detail.png",
+      "sha256": "83d67acda024325a5707a2f7f2c9d60c1fd3c2c4eafb7fb3109fbaa49e99f022"
+    },
+    {
+      "bytes": 655,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_corners_a.png",
+      "sha256": "809ef1cdc355cebce955feb1e235f35e61237146c0fc8ef2158bae531e09b85f"
+    },
+    {
+      "bytes": 783,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_corners_b.png",
+      "sha256": "96565230e3202b40754ba475ae6a6db821dc280497aaf033e3a3981109be03fd"
+    },
+    {
+      "bytes": 432,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_damaged.png",
+      "sha256": "b97b79fe14fd61ce02476288b36e8e199c64a2394182baefd8ea89be0f08b608"
+    },
+    {
+      "bytes": 360,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_damaged_dark.png",
+      "sha256": "f8c96c08e60cd93396fc23025edad6d1a4f5b2a363b98e4f8e6f70f21c7eb3bf"
+    },
+    {
+      "bytes": 267,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_dark.png",
+      "sha256": "929c6cb3c63554919672219febd78483f9ba58a11b0def6badb47f9cdc4e029e"
+    },
+    {
+      "bytes": 494,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_dark_corners_a.png",
+      "sha256": "c4f36240361012c810ccaa9de803654e1597dfd3d59b685dedc7d0ad01296483"
+    },
+    {
+      "bytes": 709,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_brown_dark_corners_b.png",
+      "sha256": "9b6c2ae991384799bd177975e31bdf14c108cd0c191f8fe68fc14b14558c4857"
+    },
+    {
+      "bytes": 277,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey.png",
+      "sha256": "bd4f6b9c4f7bc85348b167851b808e49f84c1114d7f61c93027995d6eb2876da"
+    },
+    {
+      "bytes": 389,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_blue.png",
+      "sha256": "8949398499d38370fa3aad04a8ebd9790ada85daee92536da7c99790b094bcc3"
+    },
+    {
+      "bytes": 362,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_bolts.png",
+      "sha256": "bc7010282af249c174d02bebbd842d44c5294b3c92ef6a202e3121e814373173"
+    },
+    {
+      "bytes": 672,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_bolts_blue.png",
+      "sha256": "a349f080f220c7baa1e3deac25c3709088b75b2faf0dec31911cb8c4528656c1"
+    },
+    {
+      "bytes": 312,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_bolts_dark.png",
+      "sha256": "310152411ee07600a0b0fd08ec4cf8d7e8fef1f6511c4590ec251da5ceabe80b"
+    },
+    {
+      "bytes": 621,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_bolts_detail_a.png",
+      "sha256": "c8d221f5a146ea0c75fe4543a5cb78d36121b542964fcd0eb8abded6a0af57b3"
+    },
+    {
+      "bytes": 534,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_bolts_detail_b.png",
+      "sha256": "f01585c5e2f04a2614395d922831b344ecd30eb482c86b1bbda9a8608932be48"
+    },
+    {
+      "bytes": 672,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_bolts_green.png",
+      "sha256": "6447f128a63872c423a9c179270385ba7cffbb2b70fb0907f4b22c26b65ae586"
+    },
+    {
+      "bytes": 672,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_bolts_red.png",
+      "sha256": "25bf18ed60eaadadb6ea522699829d233cc4b8b698bb7512925b93a50b619b96"
+    },
+    {
+      "bytes": 267,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_dark.png",
+      "sha256": "e8161d26cd4748126b692b9e92d02f6063cf92d627f6f82b8f8f6f4338a3114e"
+    },
+    {
+      "bytes": 389,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_green.png",
+      "sha256": "24fc549f3f3f6c2d4b584494d9ae1fa44a7011bed9ff42214a8a27c7819ecc28"
+    },
+    {
+      "bytes": 389,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grey_red.png",
+      "sha256": "8063e95eb0aecfec00c92fdf217dabc5af587048f00d75320633bd6497c7e0d3"
+    },
+    {
+      "bytes": 460,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grid_blueprint.png",
+      "sha256": "10e029f6529edbb9107f12da2f479b00c85635efadf608bd6d8495e0850888a4"
+    },
+    {
+      "bytes": 461,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/panel_grid_paper.png",
+      "sha256": "efca4d25045cad51e33869aa7b0d2ca401331f0dad008d0c5c780fd32b84a186"
+    },
+    {
+      "bytes": 196,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/pattern_diagonal_grey_large.png",
+      "sha256": "500cb87d1eb1c56418f3fb90c0084792f0b0eb17ca4362dfd05caefb52ac80e4"
+    },
+    {
+      "bytes": 168,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/pattern_diagonal_grey_small.png",
+      "sha256": "21a988614ae879bda4824e3c4e88458eff9b8d06ed90ed8b81df9c79bdc143bd"
+    },
+    {
+      "bytes": 211,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/pattern_diagonal_red_large.png",
+      "sha256": "0cddb0857a647be2533d2c020064dc42bfb905b5a8d5adaacebe94cdce19349e"
+    },
+    {
+      "bytes": 183,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/pattern_diagonal_red_small.png",
+      "sha256": "1c63a7e2bf42f6420e57cb9ca646250d3cbef59f0db25d1b8376beeadb56d970"
+    },
+    {
+      "bytes": 213,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/pattern_diagonal_transparent_large.png",
+      "sha256": "0c912385d117ebced1647df2241e6ce5dd88451e5b9acf447551c08f2b8f1867"
+    },
+    {
+      "bytes": 184,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/pattern_diagonal_transparent_small.png",
+      "sha256": "1384be9db9f24b3721e15319e1c43d3cc8a9c229e8d1ddf226bb4de7d6089c20"
+    },
+    {
+      "bytes": 111,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/pattern_grid_blueprint.png",
+      "sha256": "a02ac42b799c9235d52ffbf8a47a5e6636dfd513aeda5ab8f35571ae567e6ea3"
+    },
+    {
+      "bytes": 111,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/pattern_grid_paper.png",
+      "sha256": "f268564512a4b6c3115bdaa1b13986d8335957a5c2fbca1589aea9142a9fc33d"
+    },
+    {
+      "bytes": 379,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_blue.png",
+      "sha256": "6d7a4fb21a20f3157f6767514dac139fc8aab39346ab308db3e5511b906f82d6"
+    },
+    {
+      "bytes": 391,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_blue_border.png",
+      "sha256": "fc6ba1af4061a4c159bfb7d12640396c5d44f8e8574c942617351e04d631a4b8"
+    },
+    {
+      "bytes": 377,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_blue_small.png",
+      "sha256": "cd5aad22c7338fccf75720990ceb4e69782a217e96234773adc9f9f4f113aac8"
+    },
+    {
+      "bytes": 387,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_blue_small_border.png",
+      "sha256": "e3541f08c83ca9de640d7f9e6980e713d7b10e7c67927badfd52558943fdf4b6"
+    },
+    {
+      "bytes": 375,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_green.png",
+      "sha256": "b2cfb6eb5189188eca2e6545a4ee1e87c091f4b36a3d696efdfb20eda6406f46"
+    },
+    {
+      "bytes": 391,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_green_border.png",
+      "sha256": "8f8eb46416eadaac6b0d80034da4678f741da70090f92e4b225d7616570a8193"
+    },
+    {
+      "bytes": 373,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_green_small.png",
+      "sha256": "f79a225a9eff6f407ac5d08f1747ea17fddf65398e836698cee83fb8fe87f548"
+    },
+    {
+      "bytes": 387,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_green_small_border.png",
+      "sha256": "bb338770c82b48d6bb197ad340198eeab719a63823d975aa8296008569586bd0"
+    },
+    {
+      "bytes": 375,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_red.png",
+      "sha256": "87fbc89029e159c282327badad2700ef98971bd40700084f9386677798d003b6"
+    },
+    {
+      "bytes": 391,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_red_border.png",
+      "sha256": "be9b54ce850f7273c8f4f15893bfe2a0fb8ca757cbeed9f20be3ad210d860459"
+    },
+    {
+      "bytes": 372,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_red_small.png",
+      "sha256": "64154f6b7bc2ecacf0c0f77055f7c4b39a0e45f1415187d4e85c0ea7eedb6b14"
+    },
+    {
+      "bytes": 387,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_red_small_border.png",
+      "sha256": "20d807a5dbfa08d8a3214c6fc2c28a4b1a74b53ca27b6e1e2a8f21cb7bddabbc"
+    },
+    {
+      "bytes": 322,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_transparent.png",
+      "sha256": "15abb19477acadd699cd912223382613347ba250df9ad44f5f68c27fd74ab18d"
+    },
+    {
+      "bytes": 315,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_transparent_small.png",
+      "sha256": "ab05b54841b40028f01a701a70cd47e05a714a6970c40f4a884eb9403624ce16"
+    },
+    {
+      "bytes": 379,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_white.png",
+      "sha256": "b7fdaf1b84c50369a058d51b5177d5bc1b33cfefc053b14705c37aa229f0d3e8"
+    },
+    {
+      "bytes": 391,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_white_border.png",
+      "sha256": "ad323d701da9f0309c94a25c2b79f31edd9547d902fc304bc9941e16e1aa811b"
+    },
+    {
+      "bytes": 377,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_white_small.png",
+      "sha256": "4346d52ea3775ff98fbb733461817232c34946be9390d1fb085f314c728421eb"
+    },
+    {
+      "bytes": 387,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/progress_white_small_border.png",
+      "sha256": "9fdc650e3eb3bd69adbb9a8331c1dd093ff8e084411b61ffe74cedc1764068b8"
+    },
+    {
+      "bytes": 1253,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/round_brown.png",
+      "sha256": "fc7c5ada84b1171732378f8770f9ec294c8187496433ce2009130950b48f30f9"
+    },
+    {
+      "bytes": 1029,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/round_brown_dark.png",
+      "sha256": "e8339701c0c4f2fbcc1f829373123950ad1d4da3bc79d32ea24c750a227ad48b"
+    },
+    {
+      "bytes": 1318,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/round_damaged_brown.png",
+      "sha256": "ca888d12bc4925351e37a4c858da1d0757faa33d4e0604f0cafaa2849b200656"
+    },
+    {
+      "bytes": 1083,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/round_damaged_brown_dark.png",
+      "sha256": "06c20effd9df215b68d39f3a67cd8ce47acfbfe430823dbc6f4847d53059e64c"
+    },
+    {
+      "bytes": 1218,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/round_grey.png",
+      "sha256": "e4f2ed2939750e1baedb76f2fb94b9408e9f89256e4e03e997e61d9a787a1015"
+    },
+    {
+      "bytes": 998,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/round_grey_dark.png",
+      "sha256": "296c674f8ab1329c09afc08439e492f2794ddb8d6c755b1620254faa0f88230a"
+    },
+    {
+      "bytes": 1426,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/round_grey_detailed_green.png",
+      "sha256": "b9a193070b334c0be782d91ddfe24ff5f197d7050704cf229465ef394cffde96"
+    },
+    {
+      "bytes": 1426,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/round_grey_detailed_red.png",
+      "sha256": "1d34f2c1890c47daacf9271304d4e1d7293c6a9d59722684d626ea892d333d90"
+    },
+    {
+      "bytes": 250,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_brown.png",
+      "sha256": "d236bb3d4ffd9fed7a2a9976c5700e2774cae5104d5557fb10516ac0033e21cf"
+    },
+    {
+      "bytes": 247,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_brown_small.png",
+      "sha256": "bc1ecad8ee191ceb159659a89b90e704c58159a05f524580e8d73556640c88ea"
+    },
+    {
+      "bytes": 271,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_future_grey.png",
+      "sha256": "688a3132921def4e16e388ea636c6ca9d3826183b9d42cf0dd2b6665f0188bac"
+    },
+    {
+      "bytes": 264,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_future_grey_small.png",
+      "sha256": "fc2129e5c60f152f4b552183d6979edeb27e531eccdea07c91e20f2ac8f9d594"
+    },
+    {
+      "bytes": 271,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_future_red.png",
+      "sha256": "1cb343fe8c7c132f7eb990b74b6174935bf4f5cc52db591a2021346c249dfce1"
+    },
+    {
+      "bytes": 264,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_future_red_small.png",
+      "sha256": "e454c92e8a58c01d1f9f458f62de70a43a84d84aae94cda1700fc634b5ba6cd0"
+    },
+    {
+      "bytes": 284,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_future_transparent.png",
+      "sha256": "2721d0ea3f47889ea087aeb7092ed951b65bd8ce2a6cea99d60839a5eb5d79cd"
+    },
+    {
+      "bytes": 268,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_future_transparent_small.png",
+      "sha256": "d36bcab16e255965d8398115a09cc7ed7897d2a5e7063badbba83bd3b0d08745"
+    },
+    {
+      "bytes": 250,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_grey.png",
+      "sha256": "e31f282d085f5d982b70b35e1c99d8e085f04e051c782647f7036ab6bc408232"
+    },
+    {
+      "bytes": 247,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_grey_small.png",
+      "sha256": "c76551d68ad2010de9a106ff02ced3f4bb7e4be7951dc429b893609131bf7ff4"
+    },
+    {
+      "bytes": 245,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_transparent.png",
+      "sha256": "7ba8ec775d966d01d984d3c5e11062b157acdb975e09e714dd58f783242271fa"
+    },
+    {
+      "bytes": 235,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Default/scrollbar_transparent_small.png",
+      "sha256": "7faac612ccd3ef2793346a2765bbef425bff08b341221cd3ce52fe5c21e360da"
+    },
+    {
+      "bytes": 4451,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/banner_classic_curtain.png",
+      "sha256": "2878ed8d7ca2821dd314135b77e616136dfc3e1078529840c1e290c77e3038e8"
+    },
+    {
+      "bytes": 3736,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/banner_hanging.png",
+      "sha256": "b736f04cd3bbe7e3d33338b3b13ee4eca4887ffaca160e58a91fd5432d4d91fe"
+    },
+    {
+      "bytes": 854,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/banner_modern.png",
+      "sha256": "a22381b8d6370425a1ce326301fc6231d362513e5db74fc7df13278dbf747f64"
+    },
+    {
+      "bytes": 454,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/button_brown.png",
+      "sha256": "777b61044bc1d4502895c14e32966f21c98009f5579f94308779974087b3b48e"
+    },
+    {
+      "bytes": 603,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/button_brown_close.png",
+      "sha256": "7a04c99e11cda3d06446fb004ec6e1d53c45b35af6d8e3cf2d71c1c789f3abaf"
+    },
+    {
+      "bytes": 378,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/button_grey.png",
+      "sha256": "4e7eade4b31d0a064e911a9fd35e7e0e82534527aed5c642eb6d7c4dd9f76847"
+    },
+    {
+      "bytes": 535,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/button_grey_close.png",
+      "sha256": "21a2fb3d13a70c80c1994ce4231bb19decf6624093c2ed930f50f7f47eadb83a"
+    },
+    {
+      "bytes": 378,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/button_red.png",
+      "sha256": "3c6a713d8460767ab060387f452296e5656e20fa275f48fc976eae8c9bf82295"
+    },
+    {
+      "bytes": 534,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/button_red_close.png",
+      "sha256": "9bfaa8e6e2a57b1e5713a976e547ecd7b03dac65225b0d98127d251baae47c67"
+    },
+    {
+      "bytes": 871,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_beige_checked.png",
+      "sha256": "93fbd9b343bcba8d86e3241d67d417f9894a7d4696bf63f79f38c7b3f867c2d2"
+    },
+    {
+      "bytes": 888,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_beige_cross.png",
+      "sha256": "1be40efe9d32fa6c68ed36645862f711301295c1294d272f876ffdc13273eab2"
+    },
+    {
+      "bytes": 813,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_beige_empty.png",
+      "sha256": "ac4b6e65a4baaea9411b42884ad9886b82548d42e224dbeb82aeec2cc6276bac"
+    },
+    {
+      "bytes": 931,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_brown_checked.png",
+      "sha256": "6f6613292ec1a6ac76d53021cd4db64b84084ebfd716b7a423b45df2ed6d97db"
+    },
+    {
+      "bytes": 920,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_brown_cross.png",
+      "sha256": "a232ee098786d0e1fa121eaa48b11a473f6225a91d62785a446711bfee16c8fe"
+    },
+    {
+      "bytes": 802,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_brown_empty.png",
+      "sha256": "e92b6e2a8842755abaa03532b9f2f806555bb5b632f9a77941e143daa5266f7d"
+    },
+    {
+      "bytes": 934,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_grey_checked.png",
+      "sha256": "2c9c14eb63c2edf5054eb4132530bd807f023ed3a3a006aa6aac1a5d067d87f7"
+    },
+    {
+      "bytes": 921,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_grey_cross.png",
+      "sha256": "908145c8f3541c094410cf65304696cbdd502665cc352fc2512bef37073dd47e"
+    },
+    {
+      "bytes": 804,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/checkbox_grey_empty.png",
+      "sha256": "befaf625e0009417e03f390eb2c8b9cdb2c364334e18047566520861cf13b9d9"
+    },
+    {
+      "bytes": 1295,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/hexagon_brown.png",
+      "sha256": "e24b67a96f6fade07e22626d714523c29146d73fe1a84d12a5b96e80f3ffe06c"
+    },
+    {
+      "bytes": 1082,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/hexagon_brown_dark.png",
+      "sha256": "f11dc77b7f6c67194eb16294a0a629fb54dcfe713ebbd26bd7aa4bca22a8d2e5"
+    },
+    {
+      "bytes": 1492,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/hexagon_damaged_brown.png",
+      "sha256": "ac82f3d9e2848d4e08db2aaac214ae06e1076f6298d6c645d22b099cb8669089"
+    },
+    {
+      "bytes": 1237,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/hexagon_damaged_brown_dark.png",
+      "sha256": "4e2e39c5395a602a36eb1cbfe3760f6ed4e41e36f88165dc0834c3cfd4436952"
+    },
+    {
+      "bytes": 1279,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/hexagon_grey.png",
+      "sha256": "f5ea02e2d38d04a14312348fbeb39c1603437abcbc37844ded8069497c5ab22f"
+    },
+    {
+      "bytes": 1068,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/hexagon_grey_dark.png",
+      "sha256": "4274e7a7d8087f64d149d8de6b3bdbf50393a91a19eb835fe43de2171e232b31"
+    },
+    {
+      "bytes": 1776,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/hexagon_grey_green.png",
+      "sha256": "f7c143f19e6a9667fe8685c57143ac0db2b39d35d7c794a14cf84d8d8c3e7b6e"
+    },
+    {
+      "bytes": 1776,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/hexagon_grey_red.png",
+      "sha256": "c101a836a803967075a8e6645b6550ab2a539f67a733ced8d0f8be3ce99148ca"
+    },
+    {
+      "bytes": 407,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_arrow_a.png",
+      "sha256": "85b6c4134c55228e86dda0ec0df1e8fa8260a42727c253244008492697e62bdf"
+    },
+    {
+      "bytes": 323,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_arrow_b.png",
+      "sha256": "60d9945e9db5a0262220c0b71fd427c63e95bbf54eb64664252c859ae7cf1c1e"
+    },
+    {
+      "bytes": 265,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_arrow_c.png",
+      "sha256": "241995893dfcdf99e78ad9717f9c052f62430c368571efc1d90be14073ec8714"
+    },
+    {
+      "bytes": 317,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_arrow_d.png",
+      "sha256": "864138b3a8f5ceddb8730db23e38150f6c6140835a0316062d19d32b6b01110e"
+    },
+    {
+      "bytes": 424,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_compass_future_e.png",
+      "sha256": "020608b47ab6804a49537362836bb69723cbcc6846d14794cf7e2916ec079649"
+    },
+    {
+      "bytes": 779,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_compass_future_n.png",
+      "sha256": "f65e9edd979469ad59c17bea9f5abd1d07a94ab08c68130fc94b16604b36ab82"
+    },
+    {
+      "bytes": 472,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_compass_future_s.png",
+      "sha256": "d7c4b777a6752ad873f6f5ba2bc7d510cccda525ba7b1c3a7353f5cd2014b299"
+    },
+    {
+      "bytes": 694,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_compass_future_w.png",
+      "sha256": "9c6dce98723473bf44cd3a862a162fedd2b5ae236d43bc5221454665604e8ac1"
+    },
+    {
+      "bytes": 504,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_compass_toon_e.png",
+      "sha256": "433dbd106f37da94260b1b7e6acd64ac264665830b68be42cb99d2d534f1fb21"
+    },
+    {
+      "bytes": 654,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_compass_toon_n.png",
+      "sha256": "f4d63f6cca29d733c900f03f7eff63c2ca2e56b545953c6efaf1f86f627dc38e"
+    },
+    {
+      "bytes": 783,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_compass_toon_s.png",
+      "sha256": "e48d9b8c9fc396b03f2c8273eab731b686d3f1d6830256ec19309c7b49049bf6"
+    },
+    {
+      "bytes": 894,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_compass_toon_w.png",
+      "sha256": "da5b6dd94221826f3f3a351340f84a9de719de97bf8a1f3aa808bbe88979b0e1"
+    },
+    {
+      "bytes": 325,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_exclamation_red.png",
+      "sha256": "3c0c7fe76a55038c01d020f06ba5546ed790bd022a9b7c10255cfad68fc351a5"
+    },
+    {
+      "bytes": 325,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_exclamation_white.png",
+      "sha256": "f29edfe5569772d94fe88335b6a39eb00adc298f48592bfe60624a777d3f1295"
+    },
+    {
+      "bytes": 325,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_exclamation_yellow.png",
+      "sha256": "d85d28f05565d8823eff42a3a6462dcfeceb650caa9d941203b8d48a20d1f995"
+    },
+    {
+      "bytes": 401,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_jewel_red.png",
+      "sha256": "a701741e3d42029db363c27ce0e9a07b93db6e1f76fea7e628b6c9e20ad38c4b"
+    },
+    {
+      "bytes": 401,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_jewel_white.png",
+      "sha256": "8f82e1e33d62adee04d192d1d20e0464584ffd5a88de03e2676ed0fc71bb2a9b"
+    },
+    {
+      "bytes": 401,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_jewel_yellow.png",
+      "sha256": "882e85259e27194bd188cf2ef411c9a2ad70ce1fe7107b3fa13c7d93e222c799"
+    },
+    {
+      "bytes": 506,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_star_red.png",
+      "sha256": "1b2ff4f0e2c4b8c4f45bf9c53c3c56f8149374b888b78c3792f9638a75833f90"
+    },
+    {
+      "bytes": 506,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_star_white.png",
+      "sha256": "cab5c1bd9f12be5e8928fc9b1a90c14a60b90d319409ff1d43958b83f6abf280"
+    },
+    {
+      "bytes": 506,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_icon_star_yellow.png",
+      "sha256": "a5c1a3ccc796c07d5e225cb14af90850396cc58fd9ddf5efd93f0bd689914166"
+    },
+    {
+      "bytes": 4941,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_ring_brown.png",
+      "sha256": "2da9868749cfcf526f534c1a88b36a208efa2f8759d5853d18e41df933cf1988"
+    },
+    {
+      "bytes": 6194,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_ring_brown_detail.png",
+      "sha256": "58ddfe66bb631763a9fdb62e33e764ed307a6f5e946b3dd11c1fc95fc17e8ac3"
+    },
+    {
+      "bytes": 4883,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_ring_grey.png",
+      "sha256": "01d1215c6ed3a7d6e0c408efd3aaab7f523649a1408b66ddc3132fe2286fd04b"
+    },
+    {
+      "bytes": 5830,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_ring_grey_detail.png",
+      "sha256": "51ccdc235a856427cfbc5a7b966b77f1ef3140448638dbe6e1a8d8533f8186df"
+    },
+    {
+      "bytes": 4912,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/minimap_ring_white.png",
+      "sha256": "49df57dc73e9037e375b23a8b423d469708fac05cc0d07d93bf1e195eee41518"
+    },
+    {
+      "bytes": 1073,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_border_brown.png",
+      "sha256": "4de63a263833223f0ffa1789114403537b2d876e454dd40f1e516f31332bb3e9"
+    },
+    {
+      "bytes": 668,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_border_brown_detail.png",
+      "sha256": "c1b15362df6e16038a97ba6f873d29529083a11ed4099f9db3132241437af9d5"
+    },
+    {
+      "bytes": 442,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_border_grey.png",
+      "sha256": "52abbede7e9c092db7dcbfeebf8568a7f5ed35e01e06d05211728eb96b4e2093"
+    },
+    {
+      "bytes": 932,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_border_grey_detail.png",
+      "sha256": "952851cdce16306fb4e3f2ae4dc352c387f909eb4d3213f2a75fc87730e19e39"
+    },
+    {
+      "bytes": 447,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown.png",
+      "sha256": "e5bcda84c20a4d2f44082a9ab8094c959b339cfaffa21e67fcb6b4b6a7f09d36"
+    },
+    {
+      "bytes": 1582,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_arrows.png",
+      "sha256": "5460259dcef47cc78b1610ec7a7d896c8ea89360b4d56f79c902805496d3b5db"
+    },
+    {
+      "bytes": 1373,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_arrows_dark.png",
+      "sha256": "05d38afdd6d361a27534bfaea3237f37e6a4e064b201b507c77c301f26673f96"
+    },
+    {
+      "bytes": 1716,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_arrows_dark_detail.png",
+      "sha256": "e6f4e735c29fffea2460a88bfa99b1ef3813684a35afa00b753951c6a4b153e8"
+    },
+    {
+      "bytes": 1961,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_arrows_detail.png",
+      "sha256": "eaf000be299b7844e4eed94a34f0f7e7fe0c12afd7e6824174068b076cd51704"
+    },
+    {
+      "bytes": 1132,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_corners_a.png",
+      "sha256": "9f897ce868fe35af019a9f200c06f174bb79af0b36f5c532ae25c575f18c9241"
+    },
+    {
+      "bytes": 1222,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_corners_b.png",
+      "sha256": "8bc70fd9dfda4dafc78ee8ee915d604dbe1922b942a0ff6f12d394d97b3c32fe"
+    },
+    {
+      "bytes": 722,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_damaged.png",
+      "sha256": "066af13b03f62bc7babd50636d23db4c58ecfd997e3b91e1d76de03069b83041"
+    },
+    {
+      "bytes": 590,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_damaged_dark.png",
+      "sha256": "216e69615c315f07e6093721b759e4d03714b35937db4d7046f938cae56af527"
+    },
+    {
+      "bytes": 436,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_dark.png",
+      "sha256": "8d29384105ed980877ac42b945a81070d99df9bac7c951d802e38fd38426da5b"
+    },
+    {
+      "bytes": 859,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_dark_corners_a.png",
+      "sha256": "89fca2ce36da3fec9eb0d5b21d907d831bed9bff775d7e6c1113c2451a18d38d"
+    },
+    {
+      "bytes": 1127,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_brown_dark_corners_b.png",
+      "sha256": "8e9802379adf5c31636db9d1e2138fe9fb385c7a19ad01df72cec03385dcf9df"
+    },
+    {
+      "bytes": 445,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey.png",
+      "sha256": "823f82a293bc1c61854d7c4f96e1de0f8aec4f767c0754124708ca3ad6bc9879"
+    },
+    {
+      "bytes": 662,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_blue.png",
+      "sha256": "63901af632ee3cf7d97071b51cdfc9331998fbe598667dcba396e80fdc1e174a"
+    },
+    {
+      "bytes": 608,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_bolts.png",
+      "sha256": "e5122a938a54884e50ac70f42e56a5883ab1cf841fcc248bb2c72d968f955092"
+    },
+    {
+      "bytes": 1090,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_bolts_blue.png",
+      "sha256": "d0c593bfb9d8aaa9bab42beea117688f3956b5b5e9bb870df0faebcc705d309d"
+    },
+    {
+      "bytes": 527,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_bolts_dark.png",
+      "sha256": "50d68ac7c4a8420b946425a597ded41c03c9609c3f080a1618ecc7305605475c"
+    },
+    {
+      "bytes": 1002,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_bolts_detail_a.png",
+      "sha256": "edb9ed212acd34e94c3c5bf646921c4357cc3899c87caeb0afa88a9a7c03941e"
+    },
+    {
+      "bytes": 959,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_bolts_detail_b.png",
+      "sha256": "08216f8a62a6e9a9c2c6477d4338579043d415c5c837f95af8fec0f3e9d9c218"
+    },
+    {
+      "bytes": 1090,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_bolts_green.png",
+      "sha256": "96b068f89949033f7b70cf09df2b2aba9a140de953cc673dd37ea1c7a4521535"
+    },
+    {
+      "bytes": 1091,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_bolts_red.png",
+      "sha256": "a0db9ef230be6b0252895d93bb031f03b09128cd0d7ba34461e108ada8a04ec4"
+    },
+    {
+      "bytes": 436,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_dark.png",
+      "sha256": "bf0d5b07ad08949a64ec81592096a2ad63e87d426a610e347bb2f15d1683f524"
+    },
+    {
+      "bytes": 663,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_green.png",
+      "sha256": "a78188eea74f049fdfa5b4988f8b3c282db4b8baa6084d03999856616f7944bb"
+    },
+    {
+      "bytes": 663,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grey_red.png",
+      "sha256": "8c46e14bc57136bcc84e0908f00a35ff6aa55f0cd9d84ac60b764bacd3a23435"
+    },
+    {
+      "bytes": 762,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grid_blueprint.png",
+      "sha256": "f4884d3cde0d348037e7bd1eccd296a48188d342ba406414c6068d24c1f4c388"
+    },
+    {
+      "bytes": 765,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/panel_grid_paper.png",
+      "sha256": "bb1be4616179a1784a90476c4caa1bd2855983b3fcf9797e72326c9f0a3d3267"
+    },
+    {
+      "bytes": 297,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/pattern_diagonal_grey_large.png",
+      "sha256": "1e5903c8ecf6e9b068ef43330e3484c5bfa62453b4c5022059354659f1ef9aac"
+    },
+    {
+      "bytes": 227,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/pattern_diagonal_grey_small.png",
+      "sha256": "f218f1049f8a5d35dea3e2288dcb2cb18d5861a5c04a49148612c8fbb61a13fc"
+    },
+    {
+      "bytes": 312,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/pattern_diagonal_red_large.png",
+      "sha256": "442fab97886c5aad068f5009fabbf5dfc5264b7b4b9dea26bb86b1092ef2c587"
+    },
+    {
+      "bytes": 242,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/pattern_diagonal_red_small.png",
+      "sha256": "bf0bb916f91a9fc18bdb56dd53b5abfa70c032dd10da1872c82d93aeab7e4047"
+    },
+    {
+      "bytes": 313,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/pattern_diagonal_transparent_large.png",
+      "sha256": "bd0716f73bd0f7cf4d25e1ad5c66008595326989dc1f19a8f74b3d3429bda395"
+    },
+    {
+      "bytes": 244,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/pattern_diagonal_transparent_small.png",
+      "sha256": "2f9f11d4d83e4f69d999582aa6e29dd7ca286be711ccca6b77782dc6dc15322a"
+    },
+    {
+      "bytes": 115,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/pattern_grid_blueprint.png",
+      "sha256": "6be9a0dc1b8b364f8d795b3a6706fcca5d133b63a9a04f9b022a78dd802a899d"
+    },
+    {
+      "bytes": 115,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/pattern_grid_paper.png",
+      "sha256": "131803aab203f0615fed9b924bbd4158b86b380d40466781985aa4b1aa671e68"
+    },
+    {
+      "bytes": 592,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_blue.png",
+      "sha256": "f8c4fe2ceaacbaf63c16ebb6b6c9f4b515053044c919404e1d10e1717cc3be30"
+    },
+    {
+      "bytes": 604,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_blue_border.png",
+      "sha256": "6690232f7f16b3d92690df67b4f440d24cd8a01d4ca2cb3b5e96451f08056a37"
+    },
+    {
+      "bytes": 580,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_blue_small.png",
+      "sha256": "322c7c272418a63b981881f5b0bcfac4a9de10200d0d180c7638b16cfae44c3e"
+    },
+    {
+      "bytes": 594,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_blue_small_border.png",
+      "sha256": "0553bcde05c4796538e57411392bc1d6eeab945c70e0d2593ad0b9a23320aa2d"
+    },
+    {
+      "bytes": 582,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_green.png",
+      "sha256": "e0c620da52d9c1dd4531ca8120754f9073078bdbdb8f83873f4c6b44ca8e0a21"
+    },
+    {
+      "bytes": 606,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_green_border.png",
+      "sha256": "f6c0a2c8c9beeb3bed74949c991527c8eda0afdeb6e2c8ccdcb6901aa68992f6"
+    },
+    {
+      "bytes": 570,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_green_small.png",
+      "sha256": "a6babe7658a51ab4dd9a4dd96b4d3ae0b955b90f60e050e61d3ab83100da0d8e"
+    },
+    {
+      "bytes": 594,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_green_small_border.png",
+      "sha256": "b07b2939b649afd461f4715d7f4246acaab98d60b6731b9904bbdf3d64620a6f"
+    },
+    {
+      "bytes": 583,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_red.png",
+      "sha256": "0884b8d3f4601f56fb7f59e62dc61e5ae3a0f170c12e5482cb89d9118780722a"
+    },
+    {
+      "bytes": 605,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_red_border.png",
+      "sha256": "0094386f69ef90e3262bc2de49ba68215d66ef48d709eb6d51217c34ef6fc031"
+    },
+    {
+      "bytes": 569,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_red_small.png",
+      "sha256": "bfc2059fd842c1912ac790b75444ecfa0c6f0180345e5866cbb4778ed18ba0de"
+    },
+    {
+      "bytes": 593,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_red_small_border.png",
+      "sha256": "b2c942a2297c9afa65a61a891cdb46c8fbfb491e63dfb5df0323baa529f79514"
+    },
+    {
+      "bytes": 468,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_transparent.png",
+      "sha256": "7451396adadb7cfac6a3e1eff1be900ddeef42e45b4bd139d6a502a7998f157a"
+    },
+    {
+      "bytes": 458,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_transparent_small.png",
+      "sha256": "f9c6c34f1141d4443c9bb743e345c0d7bbc4b53b3d2fabf83b8701766b601157"
+    },
+    {
+      "bytes": 591,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_white.png",
+      "sha256": "cf31d32a6c6060051bf0717b02d425486c0b7c48e961c013c6db69c5cb3e936c"
+    },
+    {
+      "bytes": 603,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_white_border.png",
+      "sha256": "251bbb1bb667c0232e50f525042fbd038be690759e1fe1604c99e9802962f2ab"
+    },
+    {
+      "bytes": 580,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_white_small.png",
+      "sha256": "a9accf93a94d556ad1dd1a1188c8efa45f3557005063b0d0265671eba1329543"
+    },
+    {
+      "bytes": 594,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/progress_white_small_border.png",
+      "sha256": "f885c21a31d05d67ede47dd7efed0075347d5ca08295cc71cc77657ce553540a"
+    },
+    {
+      "bytes": 2333,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/round_brown.png",
+      "sha256": "d418543a4da683eb9322f8ee0f2856103ef07fdb9a25a38124fdc308e7433341"
+    },
+    {
+      "bytes": 1881,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/round_brown_dark.png",
+      "sha256": "2655330979915ec0517fc91429085e346f53ecbd1a25ed0c8dfe3ad30ea64343"
+    },
+    {
+      "bytes": 2483,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/round_damaged_brown.png",
+      "sha256": "6e10b35ca05a810dcbe450f349b0d9a2da8f7c4fb98f5d7335ac4b85b02f0a9a"
+    },
+    {
+      "bytes": 2006,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/round_damaged_brown_dark.png",
+      "sha256": "828a160a2834b9c3a968baad6d096e94f60cfd8f6e86e1f638c7aec53d2678f2"
+    },
+    {
+      "bytes": 2299,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/round_grey.png",
+      "sha256": "bf1cc6e14400cd85574fae2c2dc6276c95c08539e95423e169f8d806a11c2dc7"
+    },
+    {
+      "bytes": 1841,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/round_grey_dark.png",
+      "sha256": "87720c433c2a33f88abb2e35c9d18efe724ce011332da0df6d6c97e216774a36"
+    },
+    {
+      "bytes": 2580,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/round_grey_detailed_green.png",
+      "sha256": "1d6652ad72437ebb0d025a23183649f274daca826f516b6e65ff64c20eb44fe0"
+    },
+    {
+      "bytes": 2578,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/round_grey_detailed_red.png",
+      "sha256": "e42d2b20d4e9d25e98779bc073c66e6f585de25160720045c5d140219f544ad8"
+    },
+    {
+      "bytes": 334,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_brown.png",
+      "sha256": "f97c2b309410673d4079938e7624ee5093e4c6f3736a59a72e52643023fbd09f"
+    },
+    {
+      "bytes": 318,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_brown_small.png",
+      "sha256": "480f9ed3f5e108372aca7a17e9325a7f0161111d9345832ce3d895832e4a9522"
+    },
+    {
+      "bytes": 348,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_future_grey.png",
+      "sha256": "fdff435adcaa2b48420caac9bb514282385c17e2c00808f6575e0a2801f29850"
+    },
+    {
+      "bytes": 336,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_future_grey_small.png",
+      "sha256": "76401f2e43902b8c94dc56b370182c68f451f9323ce6a2763a23a11bc2d55090"
+    },
+    {
+      "bytes": 348,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_future_red.png",
+      "sha256": "e69eec6676532953df87fe0b1fadec84eb17dcea0ed84546d3fef0b7708a89b3"
+    },
+    {
+      "bytes": 336,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_future_red_small.png",
+      "sha256": "5296b71187fa3021cedb4ff1e12290e593dabae361c8cfc14ed0d292d60d84c3"
+    },
+    {
+      "bytes": 409,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_future_transparent.png",
+      "sha256": "18c768c416d5a478b0c4198ac50df19b91e92725201c375bbe02d2fac1fbca37"
+    },
+    {
+      "bytes": 395,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_future_transparent_small.png",
+      "sha256": "c3a9c0c15c9fe7fd3a4163172768d5511a76962ed9485253988ac7c5fc6a264b"
+    },
+    {
+      "bytes": 334,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_grey.png",
+      "sha256": "195b905235c05e676f093ad42bcffb633f6f61f0477b40bc715e830bfa706637"
+    },
+    {
+      "bytes": 318,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_grey_small.png",
+      "sha256": "5db55ff4d3484cb344fd85164e10539547def60cafeba20f3c4b3b48bfc9dc09"
+    },
+    {
+      "bytes": 374,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_transparent.png",
+      "sha256": "23c2872d54c9be3fb86cf6ede09df451b94ebe006bbf07d8d69aaa7235c535c2"
+    },
+    {
+      "bytes": 361,
+      "path": "packs/kenney-ui-pack-adventure/PNG/Double/scrollbar_transparent_small.png",
+      "sha256": "f563743cd1d95ca280903693e1dcfc997e98bd111239f04bdc717996616b7543"
+    },
+    {
+      "bytes": 48801,
+      "path": "packs/kenney-ui-pack-adventure/Preview.png",
+      "sha256": "a393073d6125c0c3ad11d8675df0689a6fbbd1e7a643f81de9f8c2e69a21c6be"
+    },
+    {
+      "bytes": 30718,
+      "path": "packs/kenney-ui-pack-adventure/Sample.png",
+      "sha256": "7722a97c3774322fa0fa2dda1c596169b9b4581b25afcf59f07ce4b37fe244f5"
+    },
+    {
+      "bytes": 43711,
+      "path": "packs/kenney-ui-pack-adventure/Spritesheet/spritesheet-default.png",
+      "sha256": "a28ca151eb87c71b0731748635dac2c44fcda3f8a2f1e69104facc1857e5214f"
+    },
+    {
+      "bytes": 11482,
+      "path": "packs/kenney-ui-pack-adventure/Spritesheet/spritesheet-default.xml",
+      "sha256": "8675b43a98c03b4e3b53cd01fe74c3430fe1ba5d9fc469fceed18ee7b72f13ff"
+    },
+    {
+      "bytes": 96996,
+      "path": "packs/kenney-ui-pack-adventure/Spritesheet/spritesheet-double.png",
+      "sha256": "b1a7ff4a493ff905c091b192439235a01ad4d14da6d449dcf127a846b7197f39"
+    },
+    {
+      "bytes": 11680,
+      "path": "packs/kenney-ui-pack-adventure/Spritesheet/spritesheet-double.xml",
+      "sha256": "3abc58f9a5643a4dc11bea47d47892b6e704d10b571f0378d111cc1d67fbe185"
+    },
+    {
+      "bytes": 6093,
+      "path": "packs/kenney-ui-pack-adventure/Vector/banner_classic_curtain.svg",
+      "sha256": "6e1a756cbe544edd916f288a41411a933ad8df8abbf9c4eaac0cc5385e88263f"
+    },
+    {
+      "bytes": 6335,
+      "path": "packs/kenney-ui-pack-adventure/Vector/banner_hanging.svg",
+      "sha256": "f9b4a93eb14babd86e3d154d7afab81c4af0e69a01af686caff0875d6367a4ee"
+    },
+    {
+      "bytes": 2433,
+      "path": "packs/kenney-ui-pack-adventure/Vector/banner_modern.svg",
+      "sha256": "a46e9fbb9967b162dc130ad3590f52e805dd9a17bf230ce28d1f62ce75facd33"
+    },
+    {
+      "bytes": 962,
+      "path": "packs/kenney-ui-pack-adventure/Vector/button_brown.svg",
+      "sha256": "822b39af4d2e34ad4434b74e87680978acdb4ec9f35bc3963e4f654244f067e0"
+    },
+    {
+      "bytes": 1283,
+      "path": "packs/kenney-ui-pack-adventure/Vector/button_brown_close.svg",
+      "sha256": "f3e78c400f71395aa38498d0f32244e7ff2e46bc7ad1a21708974e3faaa90bc7"
+    },
+    {
+      "bytes": 706,
+      "path": "packs/kenney-ui-pack-adventure/Vector/button_grey.svg",
+      "sha256": "2f4bb6b6ebb0d2a53bffa773f1ec6453f906ed480a9afee5886bd3c9e580d8f7"
+    },
+    {
+      "bytes": 1097,
+      "path": "packs/kenney-ui-pack-adventure/Vector/button_grey_close.svg",
+      "sha256": "01fcdf7a04ed87a5d6697370f62db7a6d2dcd44640bda2e07644eb089eb75e4c"
+    },
+    {
+      "bytes": 706,
+      "path": "packs/kenney-ui-pack-adventure/Vector/button_red.svg",
+      "sha256": "eb52ea7db7ae3862fdf3396899070d0701949392de1565ba78a30539f14781b7"
+    },
+    {
+      "bytes": 1097,
+      "path": "packs/kenney-ui-pack-adventure/Vector/button_red_close.svg",
+      "sha256": "a14a52c72bb4ae30d17ddb6ddfa8b594f74fdf518774ad132f1c26e468406b43"
+    },
+    {
+      "bytes": 1395,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_beige_checked.svg",
+      "sha256": "d97c0ba5e1267e9f11dc0abd5c322aad08d943badbbcfa1cd7e2fd9f370b3c6d"
+    },
+    {
+      "bytes": 1286,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_beige_cross.svg",
+      "sha256": "34ef1a02be2dc2829b354d4dbd23d1825175ec6dc9e16ad10e95ab5ecbaaa33d"
+    },
+    {
+      "bytes": 1049,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_beige_empty.svg",
+      "sha256": "587e20dc32e61d68b4d499efaecb8c65bfa751d12632c6fb6730946ecd189b0c"
+    },
+    {
+      "bytes": 1440,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_brown_checked.svg",
+      "sha256": "f08d7de08ccb008b2cbcf142ab37278fce86aaca707257233af133a744964197"
+    },
+    {
+      "bytes": 1287,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_brown_cross.svg",
+      "sha256": "5e42628163df42067adb552afc08bd40b0788601b4ff835b230541b8f1d7923d"
+    },
+    {
+      "bytes": 1049,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_brown_empty.svg",
+      "sha256": "ac78aa9766976c7f8dde1103458dc8c22bb8dac0011fb4dfe0b0aea898c133bf"
+    },
+    {
+      "bytes": 1440,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_grey_checked.svg",
+      "sha256": "d16ab14e4234f3e203f7230d1d2bf76815815b77822fe24541899957aaf19d5d"
+    },
+    {
+      "bytes": 1286,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_grey_cross.svg",
+      "sha256": "3aa89a4d653dd3ebef7feef6b8e63465e6d0deb0636dd7738f783585284f7ca2"
+    },
+    {
+      "bytes": 1049,
+      "path": "packs/kenney-ui-pack-adventure/Vector/checkbox_grey_empty.svg",
+      "sha256": "8582734f79e7252acc2be0cf3401877c47be2602c104fa3b4754f2ed527d851d"
+    },
+    {
+      "bytes": 865,
+      "path": "packs/kenney-ui-pack-adventure/Vector/hexagon_brown.svg",
+      "sha256": "251955963e64c821a4e8fa25abd35d21b950d904222895a9d760798a38669073"
+    },
+    {
+      "bytes": 706,
+      "path": "packs/kenney-ui-pack-adventure/Vector/hexagon_brown_dark.svg",
+      "sha256": "04b1f6fad8372550783504525221a319bfeaf0687ee16721487cf97f0793fa04"
+    },
+    {
+      "bytes": 1411,
+      "path": "packs/kenney-ui-pack-adventure/Vector/hexagon_damaged_brown.svg",
+      "sha256": "ef86527049f7072e405091c306cc2a7013e6bedd64796abf437219266745da5b"
+    },
+    {
+      "bytes": 1122,
+      "path": "packs/kenney-ui-pack-adventure/Vector/hexagon_damaged_brown_dark.svg",
+      "sha256": "c0db432d94869385ffa982c1aee7759a17c93358cc92947b0584bd3f02393b93"
+    },
+    {
+      "bytes": 865,
+      "path": "packs/kenney-ui-pack-adventure/Vector/hexagon_grey.svg",
+      "sha256": "5677434806bf92f6155c0dccc81afd83ccc0b9fb6f340e5e6b2641870c34b743"
+    },
+    {
+      "bytes": 706,
+      "path": "packs/kenney-ui-pack-adventure/Vector/hexagon_grey_dark.svg",
+      "sha256": "9b4b1b0453daac1f6717abcd3fd62d27d1c03fad6bd0b226bed2cdedd32ace70"
+    },
+    {
+      "bytes": 2806,
+      "path": "packs/kenney-ui-pack-adventure/Vector/hexagon_grey_green.svg",
+      "sha256": "3c96f7516e98f6120b6c14f86a7ce7e122a5cd984b065798c62681e3a59025f8"
+    },
+    {
+      "bytes": 2806,
+      "path": "packs/kenney-ui-pack-adventure/Vector/hexagon_grey_red.svg",
+      "sha256": "af63c3a2c66cd97930d514466f2f1b9eb94fc1210aacb913e10250a1b79cbf23"
+    },
+    {
+      "bytes": 551,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_arrow_a.svg",
+      "sha256": "16c8cb79035137ff52bcabd371a2bd35d72ea3a6497b7dc01d7902529c1ed86a"
+    },
+    {
+      "bytes": 692,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_arrow_b.svg",
+      "sha256": "2921cf0b09df643a36bfceedf5a38bfa74738a531093e6afbfdaf90638de41fe"
+    },
+    {
+      "bytes": 531,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_arrow_c.svg",
+      "sha256": "37ae88a906e8e05f9a0c0d458b35819deb278061f7c1e11dc659a5978c570209"
+    },
+    {
+      "bytes": 532,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_arrow_d.svg",
+      "sha256": "839c8a0638bd546450ffe043e6e0e870f91fcb80b2f5ebaad739d7d57339f41d"
+    },
+    {
+      "bytes": 1769,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_compass_future_e.svg",
+      "sha256": "a1fa4f6a8834d25ef88a8194097502dcdc3bd2abb864b8992df8435b21d65db7"
+    },
+    {
+      "bytes": 1790,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_compass_future_n.svg",
+      "sha256": "1105e3ffe117bc7b0077991ad3c9b0b08d945ec8e79489ae7555bb3fed08fde8"
+    },
+    {
+      "bytes": 1816,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_compass_future_s.svg",
+      "sha256": "b0ef73146f66f9671eca9770248eedc67472dc5304c01e2ee89a6dec358d1e81"
+    },
+    {
+      "bytes": 1865,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_compass_future_w.svg",
+      "sha256": "ec13cc90d5841aaa2a6401d0a8fa684d7048d918715eb0b345cb6ce0e5632907"
+    },
+    {
+      "bytes": 1101,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_compass_toon_e.svg",
+      "sha256": "3503bf86c6de6e3452a36aece358a76165a063425ffe81884379b1c1c25daaf7"
+    },
+    {
+      "bytes": 1024,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_compass_toon_n.svg",
+      "sha256": "815a4d5533a67d3a5de96d4a80e93bedb1de4b14f43930101197666ca0dd608e"
+    },
+    {
+      "bytes": 2740,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_compass_toon_s.svg",
+      "sha256": "fc7841fe28be3b9f1205d23f477e9049cc66227b9031c82fa3fbf345974bb031"
+    },
+    {
+      "bytes": 1120,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_compass_toon_w.svg",
+      "sha256": "caa1b868df67a5829e5aa1711e614d7d12ba3580c845ac74a5b99f2d96fe7e23"
+    },
+    {
+      "bytes": 720,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_exclamation_red.svg",
+      "sha256": "b220f774d401b3fce29bce2ad9bbdd92a413840f6ad5405ad85a8bc11fe57285"
+    },
+    {
+      "bytes": 720,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_exclamation_white.svg",
+      "sha256": "4b3d1a085238e124e0f5b73265b792cbe2da46267897d605fdd2373dffdf1d74"
+    },
+    {
+      "bytes": 720,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_exclamation_yellow.svg",
+      "sha256": "86cb15130e8f9e1f825069cb35026993824e2a8f9f9c169b76345bb74c666287"
+    },
+    {
+      "bytes": 768,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_jewel_red.svg",
+      "sha256": "610cecf9b1f26c5768ba5264ca579850cd0392ed0989da2828af43fd22ee4484"
+    },
+    {
+      "bytes": 768,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_jewel_white.svg",
+      "sha256": "ddd3f16bd6a97c8a9103660c4c38124d022b4467903ba49f861ebb6a8546b419"
+    },
+    {
+      "bytes": 768,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_jewel_yellow.svg",
+      "sha256": "0862fa161da7e1db1d4d5c022cde654c060e0a5a99c270d000d5ee2c09beb17e"
+    },
+    {
+      "bytes": 1268,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_star_red.svg",
+      "sha256": "65d915309b9510cfaf82d4773468b44a509154c29a87f53bb069c0e367b458da"
+    },
+    {
+      "bytes": 1268,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_star_white.svg",
+      "sha256": "e554e10d6e88460f409806b10c90693a276e7464e7086e1a42c7511f2a11f9b2"
+    },
+    {
+      "bytes": 1268,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_icon_star_yellow.svg",
+      "sha256": "9c29a2133b035584971be10b2addb15043c48929413879cf4eb1851f0d3a68c3"
+    },
+    {
+      "bytes": 1328,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_ring_brown.svg",
+      "sha256": "e3e91029b14fbb7f4b20c4bb2baf9b95ccae328dc2141270163ae50d6c67cc74"
+    },
+    {
+      "bytes": 6276,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_ring_brown_detail.svg",
+      "sha256": "3e04f22be388830430734462c1a99df9cde345e5a0e9a3389791434074042294"
+    },
+    {
+      "bytes": 1328,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_ring_grey.svg",
+      "sha256": "72935e9874bd163bdc6cfe159b927d912efa36b8090fa637ab24fc45cd641f77"
+    },
+    {
+      "bytes": 6276,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_ring_grey_detail.svg",
+      "sha256": "aadd80225938f1a60e729f872d89bf4f16c79df818fd47574061ba5cde695020"
+    },
+    {
+      "bytes": 1328,
+      "path": "packs/kenney-ui-pack-adventure/Vector/minimap_ring_white.svg",
+      "sha256": "6c74468dc3687d9f2e07a3697c97323d9be5abd4079a4de8f383e7701037feec"
+    },
+    {
+      "bytes": 3858,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_border_brown.svg",
+      "sha256": "2bd004c0ee296e8a7cc757f0cdf2ef59522414a3bac4e3a1cc6f05157c9b2bf4"
+    },
+    {
+      "bytes": 926,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_border_brown_detail.svg",
+      "sha256": "a3dea7196441c2a1ca67dbc7108f9876fbdbd74cf342bc9be49079faa7a6d2ea"
+    },
+    {
+      "bytes": 570,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_border_grey.svg",
+      "sha256": "7396f3ba16c1e89e110869673b66c56c8e45976266dadc5834c6c08618a2ff07"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_border_grey_detail.svg",
+      "sha256": "86fb62248ee0c2e0c5862d129b3515a4242baf573b711ddce57981c7411b9e44"
+    },
+    {
+      "bytes": 641,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown.svg",
+      "sha256": "dded438c7b82b4e4d7ba3fd33e74e6e027757247fcb78efdd1001dea1164fea8"
+    },
+    {
+      "bytes": 5078,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_arrows.svg",
+      "sha256": "bf3ba0e4e9c4670a8a3f1d6b34223dcde8e826cd21c4183335fda2e261650e85"
+    },
+    {
+      "bytes": 4391,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_arrows_dark.svg",
+      "sha256": "c0b08ab7a309d4849d1c2360de6008c08a7eb428cdd01821b9f4810acad77065"
+    },
+    {
+      "bytes": 7484,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_arrows_dark_detail.svg",
+      "sha256": "a13a1a0e40beb520e68e1b7e8ad3bb8fca040f43d01aa4aee7a6698473322f9a"
+    },
+    {
+      "bytes": 8131,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_arrows_detail.svg",
+      "sha256": "892bef6006ac7b908b36c34aaf9fca59d7e978650fe9182cfaa7e314c90ec362"
+    },
+    {
+      "bytes": 4210,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_corners_a.svg",
+      "sha256": "13b4010208df6d74b6d371606364290e8b5b8e4842a5ed863e0f74722ae9f8c2"
+    },
+    {
+      "bytes": 4174,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_corners_b.svg",
+      "sha256": "7ae5ba032b836ca6938c288ce4d501f653d41234851532cebba31f76fde07e10"
+    },
+    {
+      "bytes": 1272,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_damaged.svg",
+      "sha256": "edc6653eef75cf79ff2173355eb6636c1ab60f54bd17055a32ae23f1ebce8579"
+    },
+    {
+      "bytes": 842,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_damaged_dark.svg",
+      "sha256": "c5f86e097218c7a51d0f71bfb6937b200998ac7468ff6cee6e26c16dfe0c4407"
+    },
+    {
+      "bytes": 544,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_dark.svg",
+      "sha256": "37ac9f8800348da62e51d1e756bd6ae225fe99efc9ddd1f0e5366e8355135add"
+    },
+    {
+      "bytes": 3507,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_dark_corners_a.svg",
+      "sha256": "83064e4ef629bade17df4bd634c5125942a8ee7f3697fb9823b9e20117bbc147"
+    },
+    {
+      "bytes": 3746,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_brown_dark_corners_b.svg",
+      "sha256": "5a1e2c2cbf8eb4b6898eb7449d148c72bf66ba3d5ac2fbd66645c230b50166b9"
+    },
+    {
+      "bytes": 641,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey.svg",
+      "sha256": "1624011f24e392f8fc28964a4ad77a985f7fccf4c98fc3abe605ae214bba874e"
+    },
+    {
+      "bytes": 2241,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_blue.svg",
+      "sha256": "208656af5c326b7b244758c662327563378001632071a876603f2825944d5250"
+    },
+    {
+      "bytes": 1641,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_bolts.svg",
+      "sha256": "1b55654de72e3f8b216daed3913326e6effc8b3e7bb65712888d158e78adf649"
+    },
+    {
+      "bytes": 6262,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_bolts_blue.svg",
+      "sha256": "edbb215c2b767b1a37d63db0bc93f15a37570a33a342106d36c91fef99d72385"
+    },
+    {
+      "bytes": 3136,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_bolts_dark.svg",
+      "sha256": "a599875ce517a4446cedf9c7abd05017cb00c595cf208f29b9c12121804493e6"
+    },
+    {
+      "bytes": 4057,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_bolts_detail_a.svg",
+      "sha256": "18ef0421d432aca15555de5cfda7a24b3f0bb8b0db936e380de2c1f94514d0e3"
+    },
+    {
+      "bytes": 4434,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_bolts_detail_b.svg",
+      "sha256": "0323ae1f7b4917f89eea10d44e87eb51bf33b7f3b67f0e7cc2b298f1875a543f"
+    },
+    {
+      "bytes": 6275,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_bolts_green.svg",
+      "sha256": "a354967606eedf7cc240647eb51034a809d71f843ad92c67344b8293042f4235"
+    },
+    {
+      "bytes": 6262,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_bolts_red.svg",
+      "sha256": "a0c9a9311007e25ed0ff665e4d4a7f7c4490772d5f95908a9a8ab237b2fd0e82"
+    },
+    {
+      "bytes": 544,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_dark.svg",
+      "sha256": "8ac2268198be9af5f42cd9d4b0d05577af9b4e37508c6b05c31102a63f9bd0bd"
+    },
+    {
+      "bytes": 2241,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_green.svg",
+      "sha256": "7212603e21bd83b51d4d7bee02ae0a6b0e6d39b3043608f7e649fc37ccde12f6"
+    },
+    {
+      "bytes": 2241,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grey_red.svg",
+      "sha256": "032a095768c986b0026734aab7926ba509800c55e3b6f2d3596e125fe30d4137"
+    },
+    {
+      "bytes": 2747,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grid_blueprint.svg",
+      "sha256": "81d1500e7c2a157637c0b50a8a54fdf5c9ff3897e857d586e259886920b30170"
+    },
+    {
+      "bytes": 2748,
+      "path": "packs/kenney-ui-pack-adventure/Vector/panel_grid_paper.svg",
+      "sha256": "1cf9ef7eab511350c3f35b30636208bc96256df1a0a0b4abe7140efbc52b9789"
+    },
+    {
+      "bytes": 329,
+      "path": "packs/kenney-ui-pack-adventure/Vector/pattern_diagonal_grey_large.svg",
+      "sha256": "9ae8fc36b4746baf2e29afb32a41dceb68d8ddc22dfa92183bfa1eb5cb2b81cd"
+    },
+    {
+      "bytes": 437,
+      "path": "packs/kenney-ui-pack-adventure/Vector/pattern_diagonal_grey_small.svg",
+      "sha256": "47c62cb9260e85712f2b669c51e4ae142c7c84d7c85c77d2e054d3e9ca1e61b9"
+    },
+    {
+      "bytes": 232,
+      "path": "packs/kenney-ui-pack-adventure/Vector/pattern_diagonal_red_large.svg",
+      "sha256": "63a13c5e154b3ab7979f7c468254a24391c282fadfc901dba7c326485e4844c5"
+    },
+    {
+      "bytes": 285,
+      "path": "packs/kenney-ui-pack-adventure/Vector/pattern_diagonal_red_small.svg",
+      "sha256": "0f2e9a4df7b08669ee4ca43b1c31918543382ddeda6d86cfd464fbaecfeac1fc"
+    },
+    {
+      "bytes": 251,
+      "path": "packs/kenney-ui-pack-adventure/Vector/pattern_diagonal_transparent_large.svg",
+      "sha256": "2b37c6c6cfddf4ce6f0c149fb54d242559d361ab211b138c6a5ca48349236c3d"
+    },
+    {
+      "bytes": 304,
+      "path": "packs/kenney-ui-pack-adventure/Vector/pattern_diagonal_transparent_small.svg",
+      "sha256": "53cbe4725de8ad226fbcb7196658a1d4e0f19bcc29b2d0c38735a0bb1b1e66bc"
+    },
+    {
+      "bytes": 452,
+      "path": "packs/kenney-ui-pack-adventure/Vector/pattern_grid_blueprint.svg",
+      "sha256": "f20bbaa220e15fedb162fd5ebe011e11f36f23846b4ca45cf0d8b743d3798016"
+    },
+    {
+      "bytes": 452,
+      "path": "packs/kenney-ui-pack-adventure/Vector/pattern_grid_paper.svg",
+      "sha256": "6caf90d2b2bfb688f8c63f95ef6c0b454894b6888d1ef374ce9fc39568c3b997"
+    },
+    {
+      "bytes": 1103,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_blue.svg",
+      "sha256": "37fbb077414bc50eb2636faae9e7757ea01812c52bbef8449e03be6a03150590"
+    },
+    {
+      "bytes": 1137,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_blue_border.svg",
+      "sha256": "703215a039e0c415576ba02b9e9b6572ecffd8d3fa95e06e297279c89afdddbd"
+    },
+    {
+      "bytes": 1034,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_blue_small.svg",
+      "sha256": "baaa34d5bc835588e1d45a33ccd8a7b0bc3ac9eb254cda6ce3a3ab3207975cdf"
+    },
+    {
+      "bytes": 1068,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_blue_small_border.svg",
+      "sha256": "18f5ab25a5c04cafc46aa174a39c9fb96e57b7205ad03d3628c162c1c4bfd924"
+    },
+    {
+      "bytes": 1103,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_green.svg",
+      "sha256": "3f17647d0b79c9d3fed189fe904bbd549a9d84c2deccde3c5ecb84f9f98585e7"
+    },
+    {
+      "bytes": 1137,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_green_border.svg",
+      "sha256": "1048eeb89638ac032f7af7a721915eec75437af843fdb8fad8f68b759829cddf"
+    },
+    {
+      "bytes": 1034,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_green_small.svg",
+      "sha256": "bd479ec92da35f3649fda6800c4bf79ecbec31d7fa12f959c98178dbea4e8035"
+    },
+    {
+      "bytes": 1068,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_green_small_border.svg",
+      "sha256": "8b4c1eb6ffe7b65cce6d5c65df597c39fc9704c8aece187323dc1161bc02d727"
+    },
+    {
+      "bytes": 1103,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_red.svg",
+      "sha256": "e13d96f97cd77892610ea445314d280068263c932a383224cad732002ab51a56"
+    },
+    {
+      "bytes": 1137,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_red_border.svg",
+      "sha256": "964799c881e155a1d448e1b725d692c9e88a1ae7907717da5f835a10761e706b"
+    },
+    {
+      "bytes": 1034,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_red_small.svg",
+      "sha256": "770e042257d46ad95c28d99ddc9a892105933fbefb2a6160a75e588e66623ad5"
+    },
+    {
+      "bytes": 1068,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_red_small_border.svg",
+      "sha256": "d6a7f30496e1ffa2f6096eac5ce3c974a1a2d053be59533794de7447107be3aa"
+    },
+    {
+      "bytes": 763,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_transparent.svg",
+      "sha256": "8bc0065ad65b0dd95d9c8a02c0f1f8838c3d8f367b7708e50d16796375449ff8"
+    },
+    {
+      "bytes": 724,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_transparent_small.svg",
+      "sha256": "5afbbe90f2e2fe70be599b9b79d14b2c6002a69751e4197b101a0a0f14b5f48f"
+    },
+    {
+      "bytes": 1103,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_white.svg",
+      "sha256": "60203340d73286eea25f0ba20b446f29f453b89aa9062eadbfec2cfbaa45a193"
+    },
+    {
+      "bytes": 1137,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_white_border.svg",
+      "sha256": "0b42332c04ab47cd0427caf866595e68b93f7040c05acd89cf3796f60eaf2695"
+    },
+    {
+      "bytes": 1034,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_white_small.svg",
+      "sha256": "093e973eb6bc43a3f74a769e53c5c3ccc2ba7fdec00e94b8beacd7f2248ec8bc"
+    },
+    {
+      "bytes": 1068,
+      "path": "packs/kenney-ui-pack-adventure/Vector/progress_white_small_border.svg",
+      "sha256": "78cd925d8fa0d3d1183c7c83b81b229a9e73cfbcab97dfecd04eff9433f1b28c"
+    },
+    {
+      "bytes": 1450,
+      "path": "packs/kenney-ui-pack-adventure/Vector/round_brown.svg",
+      "sha256": "5d22b2d4053eeb2d6af80d2a85f11479563ecbf796b941341d619665c2e978aa"
+    },
+    {
+      "bytes": 1065,
+      "path": "packs/kenney-ui-pack-adventure/Vector/round_brown_dark.svg",
+      "sha256": "f3e8d99e78c0cf327caafaa23a3464084fbf05a06f0a2bcb56cc3b39ffaad312"
+    },
+    {
+      "bytes": 2335,
+      "path": "packs/kenney-ui-pack-adventure/Vector/round_damaged_brown.svg",
+      "sha256": "be30f9c91c7a00b03a308d5b03bc4c5129b2c8c29fda400a67bca84727081d7c"
+    },
+    {
+      "bytes": 1696,
+      "path": "packs/kenney-ui-pack-adventure/Vector/round_damaged_brown_dark.svg",
+      "sha256": "7c01b9964ea43a826ccc61ec2f2f810aac875bdad6a03beaffba9c0fa5942a25"
+    },
+    {
+      "bytes": 1450,
+      "path": "packs/kenney-ui-pack-adventure/Vector/round_grey.svg",
+      "sha256": "c11158e331f44b5d3d0ee71e34c6a7d5b36815ac98b1d05fb081222e9095579b"
+    },
+    {
+      "bytes": 1065,
+      "path": "packs/kenney-ui-pack-adventure/Vector/round_grey_dark.svg",
+      "sha256": "18d6f6a6f6e891ac35f970ce26d86d233acc4d876261ac77a133e582eae820a4"
+    },
+    {
+      "bytes": 3903,
+      "path": "packs/kenney-ui-pack-adventure/Vector/round_grey_detailed_green.svg",
+      "sha256": "c48abcb3d7291c0e79d6a9a0221f1a20a293176c2c5f99b07ed996f3811797cd"
+    },
+    {
+      "bytes": 3903,
+      "path": "packs/kenney-ui-pack-adventure/Vector/round_grey_detailed_red.svg",
+      "sha256": "20e14a84598dda3129b7bdb95b8d5362475c5ad572a4cd72bbfe5577e60df083"
+    },
+    {
+      "bytes": 707,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_brown.svg",
+      "sha256": "42f8d0a1b6f9a11e3c9612dd4eac161fd561ccb06af35dba9b55f12c1c86b583"
+    },
+    {
+      "bytes": 709,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_brown_small.svg",
+      "sha256": "ea447ff682bafe59ec9f21bf90fae79f53f108a63e1bc5558ce04d5114ad563a"
+    },
+    {
+      "bytes": 832,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_future_grey.svg",
+      "sha256": "35cd4d90e470f20e112fef7cc4f065cb3fdde507670feccfccfdc223746269d8"
+    },
+    {
+      "bytes": 834,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_future_grey_small.svg",
+      "sha256": "4a6fd15fe18a50bb2baadbe11362e9b31b8ba35e608cec1df546934f677e66ad"
+    },
+    {
+      "bytes": 832,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_future_red.svg",
+      "sha256": "6a3d62588c1e77539d73f5cd9b712d7c33e3087ffba21b8a42ac8d6877c87b6e"
+    },
+    {
+      "bytes": 832,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_future_red_small.svg",
+      "sha256": "4b86921b4dab07ac4b2d506541a16df4eb41cb6d5208cfec9a7e26c76b00595e"
+    },
+    {
+      "bytes": 942,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_future_transparent.svg",
+      "sha256": "cccf3f68faca18fdddfedbd7735d6f2f120615aed4ee1bba38c840781c9838cb"
+    },
+    {
+      "bytes": 936,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_future_transparent_small.svg",
+      "sha256": "cf0c7d20d80bb3366d10166da7892fc9bbb25847ae305d8eddb6378a78f1bb35"
+    },
+    {
+      "bytes": 707,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_grey.svg",
+      "sha256": "1de85db822d5f8cc1aba7f0a8b87a7391086ccd20b33e6419e9a819de77fb0ce"
+    },
+    {
+      "bytes": 707,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_grey_small.svg",
+      "sha256": "f97f120219104ed1943f9140ca5eb4f6b961b73b14ee547dc8be683c0b74162f"
+    },
+    {
+      "bytes": 823,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_transparent.svg",
+      "sha256": "f33c624e5f0e696df53b914dc2c0c21a7e1f1b1a2ad2c3051bcf70f79af95b74"
+    },
+    {
+      "bytes": 817,
+      "path": "packs/kenney-ui-pack-adventure/Vector/scrollbar_transparent_small.svg",
+      "sha256": "5c1e3e0e86e26364915b03e8ba91ee32c9bbfc5070f85988cb71d269f74665db"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kenney-ui-pack-adventure",
+  "license": "CC0-1.0",
+  "license_path": "packs/kenney-ui-pack-adventure/License.txt",
+  "license_text_sha256": "593b79956190ca70b37ce5d0d1c71dd4b5fb4027d4d1d29a91814e950a36e6bd",
+  "model_count": 0,
+  "models": [],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "source": "https://kenney.nl/assets/ui-pack-adventure",
+  "status": "downloaded",
+  "style": "smooth vector/UI"
+}

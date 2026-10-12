@@ -1,0 +1,463 @@
+{
+  "archive_sha256": "00777a7b9811a7c7f8dd3fda4e56604f6a93b33673d64557153f354d677b47af",
+  "asset_count": 17,
+  "assets": [
+    "addons/kaykit_character_pack_adventures/Assets/gltf/barbarian_texture.png",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/mage_texture.png",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian_barbarian_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Knight_knight_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Mage_mage_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded_rogue_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_rogue_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/barbarian_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/knight_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/mage_texture.png",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/rogue_texture.png",
+    "addons/kaykit_character_pack_adventures/Textures/barbarian_texture.png",
+    "addons/kaykit_character_pack_adventures/Textures/knight_texture.png",
+    "addons/kaykit_character_pack_adventures/Textures/mage_texture.png",
+    "addons/kaykit_character_pack_adventures/Textures/rogue_texture.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "characters",
+  "checked": "2026-10-12",
+  "download": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0/zip/672074b73ba276876a19e8816ecdc5241817ab47",
+  "files": [
+    {
+      "bytes": 2648,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/arrow.bin",
+      "sha256": "4b12b8c3d0d6a13d50e2f56a07be898d9663052b61ab878659f28875464381f5"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/arrow.gltf",
+      "sha256": "316d885d2377b8d389edab91df4fc2797264beff317adfd66bc88357d68f6b8c"
+    },
+    {
+      "bytes": 15344,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/arrow_bundle.bin",
+      "sha256": "fd17c7411497a551174926b247f02eed19d3c510c3a914e380b4bf12af45de95"
+    },
+    {
+      "bytes": 3078,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/arrow_bundle.gltf",
+      "sha256": "fb103acce8e347972f019fd3d0711ff4b96827995092dcdd4d67971d5be96703"
+    },
+    {
+      "bytes": 12524,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/axe_1handed.bin",
+      "sha256": "0e3e5f009e0706506971fe5b1eae0fa30b0b28c70fd67c4b7943d975a821f4af"
+    },
+    {
+      "bytes": 3087,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/axe_1handed.gltf",
+      "sha256": "dbe0ba59abcae66a464809ee281179b10f85e41ef0d69786d39627472ca7e5dd"
+    },
+    {
+      "bytes": 21960,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/axe_2handed.bin",
+      "sha256": "e5ca2d08f8baa12b510fb27c6a01bb711f102107c8f672443d1d1945f1fb40c0"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/axe_2handed.gltf",
+      "sha256": "9570c2300c57db64a412a377c78f1681a66d7c47d75bb7643e69573e66a3a1d5"
+    },
+    {
+      "bytes": 15089,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/barbarian_texture.png",
+      "sha256": "7329b2ff9709e8d54c886d5ef49c08bd42b12be3bbb2facb1488a6b48b1e8a80"
+    },
+    {
+      "bytes": 25200,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/crossbow_1handed.bin",
+      "sha256": "0401a7f6a6264d60d17fee260518715161aac96f7b4e8e541fd562b1815f9a2a"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/crossbow_1handed.gltf",
+      "sha256": "04fb009d03becf748614610ab21c52cf3a68f4cb21fc0b9544309c498f404136"
+    },
+    {
+      "bytes": 34896,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/crossbow_2handed.bin",
+      "sha256": "1fcadb445d622190bac4bf9b0e6df2b961ed43309b3cfbf8996259175971a537"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/crossbow_2handed.gltf",
+      "sha256": "c38dcbc7beefb76805aaf99098c681b346a021bb44988daf0c5ce787018673ed"
+    },
+    {
+      "bytes": 7656,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/dagger.bin",
+      "sha256": "2ef02dbdc53839cd2506f9dea40dcc401cdda830ae6a887f499333cce0d11be3"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/dagger.gltf",
+      "sha256": "33c577d4d5d268295f13494c930d20d11bf1a82e862aa7bdab4d7d51bc26fcd0"
+    },
+    {
+      "bytes": 14172,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/knight_texture.png",
+      "sha256": "5d250ccc5da020e6126bfa3839f83bd9a465a951ed223e4d13c08b1925e154d4"
+    },
+    {
+      "bytes": 16311,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/mage_texture.png",
+      "sha256": "ea49f094b960402635fe51db9f1864960c97271b17f2e3554e5aca1b2bbba144"
+    },
+    {
+      "bytes": 14644,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/mug_empty.bin",
+      "sha256": "1c0e4868e64347f1016046c0904544fc23cf495a87a63ab6b014758a2e19a957"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/mug_empty.gltf",
+      "sha256": "34ab9c2097fda8820fb633273dfd97ffacefe69cff24b2f3cc3e25c5341c48dc"
+    },
+    {
+      "bytes": 15772,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/mug_full.bin",
+      "sha256": "b79442e95a5f2d02aec88fca5ea16574e5a5210daf1bc6e294a39a4c7d1aeecb"
+    },
+    {
+      "bytes": 3084,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/mug_full.gltf",
+      "sha256": "354aa166f25c2e2f88b309129fb5638f98f852358f638293865c7b8767516fda"
+    },
+    {
+      "bytes": 13884,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/quiver.bin",
+      "sha256": "47091e8d290ab093560f92b680c0cd83934ea2190e817d51dd4ddb0c7825934e"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/quiver.gltf",
+      "sha256": "9d209d5e66037e713393f648c7ae8815687c23d63779e40b17d7917d7e45e015"
+    },
+    {
+      "bytes": 16670,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/rogue_texture.png",
+      "sha256": "a4032e877c3b91939f5cdbb630349c1998fdbc3211bbd587c111125500fe4cc5"
+    },
+    {
+      "bytes": 10628,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_badge.bin",
+      "sha256": "3c0f04767c839868df1f852cb335848c3ba7d94da3078e4c7f8a422f2369560c"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_badge.gltf",
+      "sha256": "51b687316b2f9bfe89e586a6ef5f91cface8a326c9d604c8acea7699d6f3523d"
+    },
+    {
+      "bytes": 10500,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_badge_color.bin",
+      "sha256": "54ed559b5b44b1d3fa0af1abb2d97bc72793788148bb9c2af40b5e037904adc1"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_badge_color.gltf",
+      "sha256": "99c18633f856483dc5ad2e37b397991a469544c7f78aeee331db26d0fbe3b084"
+    },
+    {
+      "bytes": 12008,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round.bin",
+      "sha256": "42da365328fc8804f44cd3db6becc8bc98729f11862b63e51b42820559d6e1e0"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round.gltf",
+      "sha256": "ac502d8b193da7b1224139e3b825f856ec9fa15cd5aa6ca10295cc927402c275"
+    },
+    {
+      "bytes": 11752,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round_barbarian.bin",
+      "sha256": "4e948103979c35a8b4cfae14bd875b484ae23da2dc2bfe98207ad8b69a640fef"
+    },
+    {
+      "bytes": 3112,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round_barbarian.gltf",
+      "sha256": "6ce05b06942d93741b2210c035b8c531a0592cb985ed4252b2f9e9935c7c77ce"
+    },
+    {
+      "bytes": 11752,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round_color.bin",
+      "sha256": "0e689cf61e686a108fb5a08229007e429669ed22b9458aad4c096825755a7c62"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round_color.gltf",
+      "sha256": "fe705e62a3edaae07928ce90f9b305593f868e9c40bd23e73b550e14438108bd"
+    },
+    {
+      "bytes": 21464,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_spikes.bin",
+      "sha256": "de615f1d5bd01a6562a91d0f41960e50c4e35712388b38af4e549832b0677e0c"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_spikes.gltf",
+      "sha256": "c2bb6202c2236ff477573ae4770c55c0586d9a554b6df861bc62d7ec0134e31f"
+    },
+    {
+      "bytes": 21464,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_spikes_color.bin",
+      "sha256": "0ce0dc3e7a3723b0530e46190cd0f13b14ce712d142f9da4979656d6f4390eea"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_spikes_color.gltf",
+      "sha256": "19f5958cb51a73345b6ebde6466cf63f2bad0b1b0b7ebf9ebafe8454fbbbed8d"
+    },
+    {
+      "bytes": 10724,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_square.bin",
+      "sha256": "10937706e32da2a09c3e9f2399c5daf5fd3b47e22c8b898a06c0d28d7630a6b6"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_square.gltf",
+      "sha256": "d2af4fbe4c0e8b93f3c88594b99ab601d5589920d4b0b8dc629143413e7c66c1"
+    },
+    {
+      "bytes": 10724,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_square_color.bin",
+      "sha256": "6e3a079dd9c0cd1ed654b0f1ccd9a62938fb80063a70efe48540cdbafc12c31b"
+    },
+    {
+      "bytes": 3093,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_square_color.gltf",
+      "sha256": "7f1b7343cfe4d669fb94c5776620b3305551fc183eca180ebafe4f6e494c0cae"
+    },
+    {
+      "bytes": 11460,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/smokebomb.bin",
+      "sha256": "a50b0b4807f6f5f9f21ebf9adda2555fa024c36c8afd1395c3d3d6e9d5566e36"
+    },
+    {
+      "bytes": 3073,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/smokebomb.gltf",
+      "sha256": "6a71950c30598377555791b6f54db77d9b69c7a0d14f3619ed84f47490bf8ce5"
+    },
+    {
+      "bytes": 14520,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/spellbook_closed.bin",
+      "sha256": "4cf311c021d81fd418b8eed01dec8f8af743d8f74dd81722f7c5f42f3ba89633"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/spellbook_closed.gltf",
+      "sha256": "25d118c6f1937476eeb480a0e2f072a87f416e15464f63185325b1e3584124d2"
+    },
+    {
+      "bytes": 15128,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/spellbook_open.bin",
+      "sha256": "888e45aff64aba1bea6ef3abfad27024b2697f7adbab319c089bc70c077c4a5b"
+    },
+    {
+      "bytes": 3076,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/spellbook_open.gltf",
+      "sha256": "5a7891f8fe12a0c84dfbb64454b0b6b51328894011021e5c664bc8701aaf40ad"
+    },
+    {
+      "bytes": 18576,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/staff.bin",
+      "sha256": "acf921e547edd8e05e24e0b2edec74fec7c987ccad1ee73549a0726a8059ebce"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/staff.gltf",
+      "sha256": "eb2e277510325a242974ee842453882de2d55b09ec94a43148aff1dd4237c67a"
+    },
+    {
+      "bytes": 13256,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_1handed.bin",
+      "sha256": "780ebfd002cd181fd5b1626f5a6ae8dda0ff2df58c3ff1fd6e7584f53a969d8a"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_1handed.gltf",
+      "sha256": "f88345d0c89d52710ddb00555964fe7a6f4024874d7ee902ee4c742c048a1958"
+    },
+    {
+      "bytes": 19912,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_2handed.bin",
+      "sha256": "0f54186de924388d70b7b5b7b9052c8dda2e20647c4fb36a949723b7ed6b7646"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_2handed.gltf",
+      "sha256": "0f67613f6233d637be60cb27e320dd3b855b73d1ca0249df46999f68efb05494"
+    },
+    {
+      "bytes": 19880,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_2handed_color.bin",
+      "sha256": "8c6a20309dfa812e4683794a110c7ab359da38c8126d2249d7190899ca1af294"
+    },
+    {
+      "bytes": 3093,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_2handed_color.gltf",
+      "sha256": "fd45e23a61d09b46bad57925fb5edea4a633fde06bd1444b77659ffc35660955"
+    },
+    {
+      "bytes": 5956,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/wand.bin",
+      "sha256": "db1c466f40f5ae29468e56dff16af6bfd448518f543a5a4ae2638557084473d9"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/wand.gltf",
+      "sha256": "b726392709e3e7fb4b5157f950500d4a98281503f7cac7d6afdf164578169338"
+    },
+    {
+      "bytes": 3613268,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb",
+      "sha256": "cefc311a0e10c7858b6141f5ada7e33268727564fb8ac1347aab97d000669cc6"
+    },
+    {
+      "bytes": 15089,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian_barbarian_texture.png",
+      "sha256": "7329b2ff9709e8d54c886d5ef49c08bd42b12be3bbb2facb1488a6b48b1e8a80"
+    },
+    {
+      "bytes": 3659532,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Knight.glb",
+      "sha256": "60428e3abc09ba83e595d256e3af8c5c976b46cdae599f0802fc82b4a3445168"
+    },
+    {
+      "bytes": 14172,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Knight_knight_texture.png",
+      "sha256": "5d250ccc5da020e6126bfa3839f83bd9a465a951ed223e4d13c08b1925e154d4"
+    },
+    {
+      "bytes": 3589240,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Mage.glb",
+      "sha256": "cf898585da33fab50c724d31605fb931eb2912e6d2280092141e98ca81ad507d"
+    },
+    {
+      "bytes": 16311,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Mage_mage_texture.png",
+      "sha256": "ea49f094b960402635fe51db9f1864960c97271b17f2e3554e5aca1b2bbba144"
+    },
+    {
+      "bytes": 3616284,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Rogue.glb",
+      "sha256": "e825437cd4d2ee9c1960b517a74a69101e33eb409ae7fa8cedc7134a998fbb7d"
+    },
+    {
+      "bytes": 3597652,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded.glb",
+      "sha256": "93e6e25213009952276d9cf34f5d96a243767334c66f280db0433ddfabb91545"
+    },
+    {
+      "bytes": 16670,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded_rogue_texture.png",
+      "sha256": "a4032e877c3b91939f5cdbb630349c1998fdbc3211bbd587c111125500fe4cc5"
+    },
+    {
+      "bytes": 16670,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_rogue_texture.png",
+      "sha256": "a4032e877c3b91939f5cdbb630349c1998fdbc3211bbd587c111125500fe4cc5"
+    },
+    {
+      "bytes": 15089,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/barbarian_texture.png",
+      "sha256": "7329b2ff9709e8d54c886d5ef49c08bd42b12be3bbb2facb1488a6b48b1e8a80"
+    },
+    {
+      "bytes": 14172,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/knight_texture.png",
+      "sha256": "5d250ccc5da020e6126bfa3839f83bd9a465a951ed223e4d13c08b1925e154d4"
+    },
+    {
+      "bytes": 16311,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/mage_texture.png",
+      "sha256": "ea49f094b960402635fe51db9f1864960c97271b17f2e3554e5aca1b2bbba144"
+    },
+    {
+      "bytes": 16670,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/rogue_texture.png",
+      "sha256": "a4032e877c3b91939f5cdbb630349c1998fdbc3211bbd587c111125500fe4cc5"
+    },
+    {
+      "bytes": 891,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/LICENSE.txt",
+      "sha256": "ae322141814056dda0deea7540d74c41d87aee1da319977cd1bd84ee5a923629"
+    },
+    {
+      "bytes": 15089,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Textures/barbarian_texture.png",
+      "sha256": "7329b2ff9709e8d54c886d5ef49c08bd42b12be3bbb2facb1488a6b48b1e8a80"
+    },
+    {
+      "bytes": 14172,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Textures/knight_texture.png",
+      "sha256": "5d250ccc5da020e6126bfa3839f83bd9a465a951ed223e4d13c08b1925e154d4"
+    },
+    {
+      "bytes": 16311,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Textures/mage_texture.png",
+      "sha256": "ea49f094b960402635fe51db9f1864960c97271b17f2e3554e5aca1b2bbba144"
+    },
+    {
+      "bytes": 16670,
+      "path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Textures/rogue_texture.png",
+      "sha256": "a4032e877c3b91939f5cdbb630349c1998fdbc3211bbd587c111125500fe4cc5"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-character-pack-adventures-1.0",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/LICENSE.txt",
+  "license_text_sha256": "ae322141814056dda0deea7540d74c41d87aee1da319977cd1bd84ee5a923629",
+  "model_count": 32,
+  "models": [
+    "addons/kaykit_character_pack_adventures/Assets/gltf/arrow.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/arrow_bundle.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/axe_1handed.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/axe_2handed.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/crossbow_1handed.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/crossbow_2handed.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/dagger.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/mug_empty.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/mug_full.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/quiver.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_badge.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_badge_color.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_round.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_round_barbarian.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_round_color.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_spikes.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_spikes_color.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_square.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/shield_square_color.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/smokebomb.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/spellbook_closed.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/spellbook_open.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/staff.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/sword_1handed.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/sword_2handed.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/sword_2handed_color.gltf",
+    "addons/kaykit_character_pack_adventures/Assets/gltf/wand.gltf",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Barbarian.glb",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Knight.glb",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Mage.glb",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Rogue.glb",
+    "addons/kaykit_character_pack_adventures/Characters/gltf/Rogue_Hooded.glb"
+  ],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "revision": "672074b73ba276876a19e8816ecdc5241817ab47",
+  "source": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Adventures-1.0",
+  "status": "downloaded",
+  "strip_archive_root": true,
+  "style": "smooth textured low-poly",
+  "texture_policy": "original source resolutions, no downsampling"
+}

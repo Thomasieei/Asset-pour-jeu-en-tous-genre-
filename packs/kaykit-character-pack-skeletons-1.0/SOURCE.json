@@ -1,0 +1,243 @@
+{
+  "archive_sha256": "2e3e1107009fcb1ff4b2bccfe91c7e823264e267f20124438916f21a2d6b8e6f",
+  "asset_count": 7,
+  "assets": [
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/skeleton_texture.png",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Mage_skeleton_texture.png",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Minion_skeleton_texture.png",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Rogue_skeleton_texture.png",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Warrior_skeleton_texture.png",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/skeleton_texture.png",
+    "addons/kaykit_character_pack_skeletons/Textures/skeleton_texture.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "characters",
+  "checked": "2026-10-12",
+  "download": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Character-Pack-Skeletons-1.0/zip/15b62b9bad122f72926c10fb14d622c73819fa54",
+  "files": [
+    {
+      "bytes": 2648,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow.bin",
+      "sha256": "53c7e3820b4ff34985b0a0752260651a7e0b6ce1c15494d52a967a95113e0fe7"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow.gltf",
+      "sha256": "1eb2987d92641ebc4f72965a04ab71bad0b738fa4a42c246f42d2dca5c7bbc47"
+    },
+    {
+      "bytes": 3536,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Broken.bin",
+      "sha256": "4a4258f4b0478a1b0b34a79e1b9dc0e370d96f08c97746a958d41f6c31c2ff93"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Broken.gltf",
+      "sha256": "72754044363b2b6fdcd3283bad5dbc07a3484bc90aac063920b70d19c616c781"
+    },
+    {
+      "bytes": 2820,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Broken_Half.bin",
+      "sha256": "01c4ac892d96ba06aa9d264ac4be6ceb4e4ff1ce87e4a00391b4a2d2d60756d4"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Broken_Half.gltf",
+      "sha256": "ca39b44a48b0796a8b2523293a86862a608678ac3bc8c1625e947c0b7800b802"
+    },
+    {
+      "bytes": 2288,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Half.bin",
+      "sha256": "104341da05179c751a94e5c4640aa0c13aeaf2e8dc31bedffd344a1d1d3d979d"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Half.gltf",
+      "sha256": "d1fcf3a769275e7672f7cf8caa27862a364901e55e363a94a3894a8820322fe0"
+    },
+    {
+      "bytes": 25348,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Axe.bin",
+      "sha256": "f994f9e1b3297961a2b27120adb81ccc61ef7a901586b584fa53fdba8b962cc7"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Axe.gltf",
+      "sha256": "44c8b65942cbb573c99dc14c2a188fad8c47e29ad9764d27b47e6f57bb7e4ebd"
+    },
+    {
+      "bytes": 20056,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Blade.bin",
+      "sha256": "ccf4f6642130d11650400fa649669ccdb784280eef235fac3a12a197cbc7debe"
+    },
+    {
+      "bytes": 3047,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Blade.gltf",
+      "sha256": "682a1df2eecb93dea35de628d6b93ca40d1b83586422356f3c1956741f2abf76"
+    },
+    {
+      "bytes": 28624,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Crossbow.bin",
+      "sha256": "dfe637f4d112fcfa515a6f8c921034bb017c68896751cceb8119675c157fa1f8"
+    },
+    {
+      "bytes": 3052,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Crossbow.gltf",
+      "sha256": "8b7b8adbc33d2b9921637735d3f319b86a98b8bab9dbbce022541cc732e415ce"
+    },
+    {
+      "bytes": 18620,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Quiver.bin",
+      "sha256": "6842e8ca16f74d37d99e5ebed5d6b76e52a4582dbc643ba4c066ca726b4a8b89"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Quiver.gltf",
+      "sha256": "9178941924de968f6182e02cafbfc6b8bf63f021fb374c9d71ebaa1b61960e90"
+    },
+    {
+      "bytes": 33292,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Large_A.bin",
+      "sha256": "06d975dbf7058088c0ad2cde1932e15435b5d374de3be21199a97d3be25d776d"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Large_A.gltf",
+      "sha256": "7844df0f1607259c45d01fd4f9d7bad03b5bfe50897a136831915fecff240a92"
+    },
+    {
+      "bytes": 18820,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Large_B.bin",
+      "sha256": "63c946bfd449948616fdc9b57869294c9a0f28b2d78276a3e46d3231bef41ebe"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Large_B.gltf",
+      "sha256": "805d38c667b11f74418f36ed6549bacf041f4583caa0f1274202a368f4a43a53"
+    },
+    {
+      "bytes": 21688,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Small_A.bin",
+      "sha256": "0a56f31d33ec36483163aa680279884b1b488cd634fe73541089d7032fac7962"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Small_A.gltf",
+      "sha256": "9d1d5acb0d945d36aebc57ffb9b64ad016967973e4353a632246e5c7e07346e2"
+    },
+    {
+      "bytes": 28636,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Small_B.bin",
+      "sha256": "a458d1caa5b5e1221dde6dde279eba464210bb167b2581ca4827255d3c4794c4"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Small_B.gltf",
+      "sha256": "5543075e85cb5c4290c076a1e6f1df31708cb1e45eb8a87b75ef16fce38b4d83"
+    },
+    {
+      "bytes": 69244,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Staff.bin",
+      "sha256": "2b91a59316cea919b2a8b3d94ab85e3b5faa9fdb607a9ab633a6bb6d1e6bbf2f"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Staff.gltf",
+      "sha256": "6bb554fef0889dc9e1a69a71ddae793a772fc18eea059ded61be4f8157fd2f04"
+    },
+    {
+      "bytes": 17037,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/skeleton_texture.png",
+      "sha256": "15741a25c53e04fa9bf3beac3bc0de442359404b1ff9be863b892cb551ad3657"
+    },
+    {
+      "bytes": 4761048,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Mage.glb",
+      "sha256": "e05b0f5cfa395271c9f75fd07c0a0613c56f401ece4ab644e080001a79971075"
+    },
+    {
+      "bytes": 17037,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Mage_skeleton_texture.png",
+      "sha256": "15741a25c53e04fa9bf3beac3bc0de442359404b1ff9be863b892cb551ad3657"
+    },
+    {
+      "bytes": 4814296,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Minion.glb",
+      "sha256": "6ffc003f895bed0b074791e0e490846210a2e2f8fc7da300aba53cc185f95968"
+    },
+    {
+      "bytes": 17037,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Minion_skeleton_texture.png",
+      "sha256": "15741a25c53e04fa9bf3beac3bc0de442359404b1ff9be863b892cb551ad3657"
+    },
+    {
+      "bytes": 4827024,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Rogue.glb",
+      "sha256": "4003f2b77891bb56f7e0de7d555abcb497aebbcaee35b614211f16275f9ccae3"
+    },
+    {
+      "bytes": 17037,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Rogue_skeleton_texture.png",
+      "sha256": "15741a25c53e04fa9bf3beac3bc0de442359404b1ff9be863b892cb551ad3657"
+    },
+    {
+      "bytes": 4863620,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Warrior.glb",
+      "sha256": "178b6fda810b814c250d8a2010c24dfd9b458b9006dd323353e620b7ff118bbe"
+    },
+    {
+      "bytes": 17037,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Warrior_skeleton_texture.png",
+      "sha256": "15741a25c53e04fa9bf3beac3bc0de442359404b1ff9be863b892cb551ad3657"
+    },
+    {
+      "bytes": 17037,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/skeleton_texture.png",
+      "sha256": "15741a25c53e04fa9bf3beac3bc0de442359404b1ff9be863b892cb551ad3657"
+    },
+    {
+      "bytes": 914,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/LICENSE.txt",
+      "sha256": "5d822abca4e08c5a91d329e5372b3dc605cba8d994f752cb0f7dfdb7a0a79954"
+    },
+    {
+      "bytes": 17037,
+      "path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Textures/skeleton_texture.png",
+      "sha256": "15741a25c53e04fa9bf3beac3bc0de442359404b1ff9be863b892cb551ad3657"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-character-pack-skeletons-1.0",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/LICENSE.txt",
+  "license_text_sha256": "5d822abca4e08c5a91d329e5372b3dc605cba8d994f752cb0f7dfdb7a0a79954",
+  "model_count": 17,
+  "models": [
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Broken.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Broken_Half.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Half.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Axe.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Blade.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Crossbow.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Quiver.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Large_A.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Large_B.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Small_A.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Small_B.gltf",
+    "addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Staff.gltf",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Mage.glb",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Minion.glb",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Rogue.glb",
+    "addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Warrior.glb"
+  ],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "revision": "15b62b9bad122f72926c10fb14d622c73819fa54",
+  "source": "https://github.com/KayKit-Game-Assets/KayKit-Character-Pack-Skeletons-1.0",
+  "status": "downloaded",
+  "strip_archive_root": true,
+  "style": "smooth textured low-poly",
+  "texture_policy": "original source resolutions, no downsampling"
+}

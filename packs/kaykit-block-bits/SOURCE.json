@@ -1,0 +1,520 @@
+{
+  "asset_count": 7,
+  "assets": [
+    "Assets/fbx/block_bits_texture.png",
+    "Assets/fbx(unity)/block_bits_texture.png",
+    "Assets/gltf/block_bits_texture.png",
+    "Assets/obj/block_bits_texture.png",
+    "Textures/block_bits_texture.png",
+    "contents.png",
+    "sample.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "environments",
+  "checked": "2026-10-12",
+  "download_method": "official free tier; no donation or purchase",
+  "files": [
+    {
+      "bytes": 31211,
+      "path": "packs/kaykit-block-bits/Assets/fbx/block_bits_texture.png",
+      "sha256": "a5fba2cb82f62d41f764f33d98482fec9e35756a2dbd07fd5e5806b59710d6c7"
+    },
+    {
+      "bytes": 31211,
+      "path": "packs/kaykit-block-bits/Assets/fbx(unity)/block_bits_texture.png",
+      "sha256": "a5fba2cb82f62d41f764f33d98482fec9e35756a2dbd07fd5e5806b59710d6c7"
+    },
+    {
+      "bytes": 31211,
+      "path": "packs/kaykit-block-bits/Assets/gltf/block_bits_texture.png",
+      "sha256": "a5fba2cb82f62d41f764f33d98482fec9e35756a2dbd07fd5e5806b59710d6c7"
+    },
+    {
+      "bytes": 35848,
+      "path": "packs/kaykit-block-bits/Assets/gltf/bricks_A.bin",
+      "sha256": "19fc38a937214d5e940602e7b8dd2deb44611ef32c2fe88ec68a6be0f3039578"
+    },
+    {
+      "bytes": 2949,
+      "path": "packs/kaykit-block-bits/Assets/gltf/bricks_A.gltf",
+      "sha256": "275377599f4423f57cbde85fc7b47c81aedd63fd7b4f6b8591b0cbc6437b4dfc"
+    },
+    {
+      "bytes": 35848,
+      "path": "packs/kaykit-block-bits/Assets/gltf/bricks_B.bin",
+      "sha256": "7fe91d008ab54d685d7d32cd87e39c5ca6372960129cb6b0887bcd806558fb6e"
+    },
+    {
+      "bytes": 2949,
+      "path": "packs/kaykit-block-bits/Assets/gltf/bricks_B.gltf",
+      "sha256": "2049743b8e9124a8bb88f81fac72ed2139843e7ce5e63e2f4c6dab46b7875aee"
+    },
+    {
+      "bytes": 3720,
+      "path": "packs/kaykit-block-bits/Assets/gltf/colored_block_blue.bin",
+      "sha256": "df17c662d4bfaff95c009874507101e376be30cc6f53be46378e7a3c7b73acb0"
+    },
+    {
+      "bytes": 2967,
+      "path": "packs/kaykit-block-bits/Assets/gltf/colored_block_blue.gltf",
+      "sha256": "2cf25a32c4c7375f9b43a5e3570a0a58eb4a8cc86c80b124cf24bd04032ad0f3"
+    },
+    {
+      "bytes": 3720,
+      "path": "packs/kaykit-block-bits/Assets/gltf/colored_block_green.bin",
+      "sha256": "729366fca2de785b680a708dfaba33987f9c7403acd2b088baf562cc3bf62cad"
+    },
+    {
+      "bytes": 2970,
+      "path": "packs/kaykit-block-bits/Assets/gltf/colored_block_green.gltf",
+      "sha256": "9e666cd6d36d9818340a96f30b7c79c5d91ef73d58c7af440079e0c91739cfe8"
+    },
+    {
+      "bytes": 3720,
+      "path": "packs/kaykit-block-bits/Assets/gltf/colored_block_red.bin",
+      "sha256": "932124f025c7c3bb1caf2f3cf0e448b4bbff9f5ff6bbaae0a1c34a6f4af5b9e3"
+    },
+    {
+      "bytes": 2964,
+      "path": "packs/kaykit-block-bits/Assets/gltf/colored_block_red.gltf",
+      "sha256": "af89b9972b8eaa5820b1c9c0b0880c5650f5a09a108b6ef5d1e724de6c0348ff"
+    },
+    {
+      "bytes": 3720,
+      "path": "packs/kaykit-block-bits/Assets/gltf/colored_block_yellow.bin",
+      "sha256": "9208f5ae911f3cbc71c0ba10b6333e00fae5ff9f09a68d9e77dbc2287fca2449"
+    },
+    {
+      "bytes": 2973,
+      "path": "packs/kaykit-block-bits/Assets/gltf/colored_block_yellow.gltf",
+      "sha256": "9f94ff9991e4d15d1af6c6078cf8fd4e1813b3266c74e565a501f7afdb8a7611"
+    },
+    {
+      "bytes": 90944,
+      "path": "packs/kaykit-block-bits/Assets/gltf/decorative_block_blue.bin",
+      "sha256": "1b607ceb9f2e3b91c7918de870ac4db7deb6280753cf623cfe563d95ffd9851f"
+    },
+    {
+      "bytes": 2993,
+      "path": "packs/kaykit-block-bits/Assets/gltf/decorative_block_blue.gltf",
+      "sha256": "7984ec92db4605cbe453fa47bf3f05749e2f47298899492bc03f1db3889f1781"
+    },
+    {
+      "bytes": 90944,
+      "path": "packs/kaykit-block-bits/Assets/gltf/decorative_block_green.bin",
+      "sha256": "81e01f879f0fb4e6063aabada66a2c4894f33e48064533a84a0b0d4eccd5d782"
+    },
+    {
+      "bytes": 2996,
+      "path": "packs/kaykit-block-bits/Assets/gltf/decorative_block_green.gltf",
+      "sha256": "643bf2a48a1462cb771392c2afc362475e06c765252e0ee86b1f667fdf97d37b"
+    },
+    {
+      "bytes": 90944,
+      "path": "packs/kaykit-block-bits/Assets/gltf/decorative_block_red.bin",
+      "sha256": "b1133c37f1edc993f9b0f973867f5b3b781fee1cd2d8ada0e50b317a8343fb8d"
+    },
+    {
+      "bytes": 2990,
+      "path": "packs/kaykit-block-bits/Assets/gltf/decorative_block_red.gltf",
+      "sha256": "5d0dec713f386fd61fbf62a4d4e103a9a1e86f115ff55ee9c2979094fb25d625"
+    },
+    {
+      "bytes": 90944,
+      "path": "packs/kaykit-block-bits/Assets/gltf/decorative_block_yellow.bin",
+      "sha256": "b28b3d8b29b1523362701b3e069abf919936fae16df8534c5f58e6c211dd42df"
+    },
+    {
+      "bytes": 2999,
+      "path": "packs/kaykit-block-bits/Assets/gltf/decorative_block_yellow.gltf",
+      "sha256": "39d3061b919fd93dc7f3949d5df5092cc2cffddb45f68296260409b86a184f4b"
+    },
+    {
+      "bytes": 63312,
+      "path": "packs/kaykit-block-bits/Assets/gltf/dirt.bin",
+      "sha256": "093aea838eafc677d88f93ff13fd8723de953158503d17b2f5cbd8639a9356f6"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-block-bits/Assets/gltf/dirt.gltf",
+      "sha256": "c433a871c9d38adc9265ce962802c56b79ef7ffae1e21934f134efd08c5108c7"
+    },
+    {
+      "bytes": 41340,
+      "path": "packs/kaykit-block-bits/Assets/gltf/dirt_with_grass.bin",
+      "sha256": "033197bf940627e7a8a48c7a15fd97d406de8737396e546748076b192b4ae0e3"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-block-bits/Assets/gltf/dirt_with_grass.gltf",
+      "sha256": "e39aa7f7be90a5070c1505df40cd701eac7bbffbb91bf05ce4db7fa01f97f668"
+    },
+    {
+      "bytes": 53644,
+      "path": "packs/kaykit-block-bits/Assets/gltf/dirt_with_snow.bin",
+      "sha256": "7b5e9eddbee13c029e415b2788d11d497adcf9861943ed83f3c9ea02c5b155ff"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-block-bits/Assets/gltf/dirt_with_snow.gltf",
+      "sha256": "13b33540b8071ff0b5768a1c3c31b3fb6db198a5dd0010dc70e6de3dfee46f7f"
+    },
+    {
+      "bytes": 8208,
+      "path": "packs/kaykit-block-bits/Assets/gltf/glass.bin",
+      "sha256": "5fd756a7709991eba05a18d3f9562f829169e9af5a91d931f037388979185a78"
+    },
+    {
+      "bytes": 3124,
+      "path": "packs/kaykit-block-bits/Assets/gltf/glass.gltf",
+      "sha256": "a85fc4fafbad685fda1278cd2f8bdd5cdad2493323d3f77243886215fd6c3699"
+    },
+    {
+      "bytes": 16656,
+      "path": "packs/kaykit-block-bits/Assets/gltf/grass.bin",
+      "sha256": "3e962c11551e640138285d23646ce16a152661c1848827eacbc873baa5e8a639"
+    },
+    {
+      "bytes": 3004,
+      "path": "packs/kaykit-block-bits/Assets/gltf/grass.gltf",
+      "sha256": "35ab00088a1dddd7609c86a6440f9dacdf693854c02b8d2bf91a3d6c1ca6e45f"
+    },
+    {
+      "bytes": 28960,
+      "path": "packs/kaykit-block-bits/Assets/gltf/grass_with_snow.bin",
+      "sha256": "7d0f66326aa1f25d99d75ef38c0c92f63e0256e1d3d480fe005947496b725526"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-block-bits/Assets/gltf/grass_with_snow.gltf",
+      "sha256": "bda4aa7062c9ee1f8a9156ad787b9584b37e3fe5aef898256149d695915eabab"
+    },
+    {
+      "bytes": 63312,
+      "path": "packs/kaykit-block-bits/Assets/gltf/gravel.bin",
+      "sha256": "ee4c34cea164b2abd23c770ed5761ce2700215f75770c582d5c38f394bbc0e1d"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-block-bits/Assets/gltf/gravel.gltf",
+      "sha256": "70add414e110da0367e16df065f95b5325ba4e616aa071bb38dc8b71d196fb80"
+    },
+    {
+      "bytes": 41340,
+      "path": "packs/kaykit-block-bits/Assets/gltf/gravel_with_grass.bin",
+      "sha256": "c48d2ed3d2a32d436ca6569cafe9591ffbd0baf77ff71798ebfb210734d3bb5d"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-block-bits/Assets/gltf/gravel_with_grass.gltf",
+      "sha256": "c2e20df0406342bb70903a967ad8abee80e44b0babbb28bd9955f35af8d068ee"
+    },
+    {
+      "bytes": 53644,
+      "path": "packs/kaykit-block-bits/Assets/gltf/gravel_with_snow.bin",
+      "sha256": "9786c5b6b6c0805da58e60b325ddfbb67c68ca66d807d1c3d9de9a21fd5a2da0"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-block-bits/Assets/gltf/gravel_with_snow.gltf",
+      "sha256": "1f0877b92c9e78e1c1664e0925af776601aeb3237ddf5d108114ac6b6c6edda5"
+    },
+    {
+      "bytes": 83400,
+      "path": "packs/kaykit-block-bits/Assets/gltf/lava.bin",
+      "sha256": "ae654e4f8d60bb3a94c7ce68336ad53094a6fd453f5706cab5391a4d55191403"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-block-bits/Assets/gltf/lava.gltf",
+      "sha256": "288569cd8f1f37b9809c0fb5a1af32c866e6f8b5bf2cafb9aa918cc10164354e"
+    },
+    {
+      "bytes": 30912,
+      "path": "packs/kaykit-block-bits/Assets/gltf/metal.bin",
+      "sha256": "f4bf932e66b01a0314a5dbff36f547a884b3e528fe330906daf10e78dab45732"
+    },
+    {
+      "bytes": 2940,
+      "path": "packs/kaykit-block-bits/Assets/gltf/metal.gltf",
+      "sha256": "d3a00cc6cc3a23f1a930fee433e74fee2515ce37d1748a9ef3f856f3ec1dd1e0"
+    },
+    {
+      "bytes": 7680,
+      "path": "packs/kaykit-block-bits/Assets/gltf/prototype.bin",
+      "sha256": "b50afc9d58e3f9e87d171ff68edc49519b369dc062d0fa707acfb8d362ca96dc"
+    },
+    {
+      "bytes": 2945,
+      "path": "packs/kaykit-block-bits/Assets/gltf/prototype.gltf",
+      "sha256": "94a145a9cf6dd960eae0ff3ec5574166d601fa86c18c1d11f2299a612f278f17"
+    },
+    {
+      "bytes": 63312,
+      "path": "packs/kaykit-block-bits/Assets/gltf/sand_A.bin",
+      "sha256": "bec8a2e6f396fd4704ae976d505e54a0fde09c3d90a1ab61c857d1af5d1499d5"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-block-bits/Assets/gltf/sand_A.gltf",
+      "sha256": "f5a5f86735add8f57920fdaeaf28d4f41f0c0502df1b81cc8b70a2422893469e"
+    },
+    {
+      "bytes": 42048,
+      "path": "packs/kaykit-block-bits/Assets/gltf/sand_B.bin",
+      "sha256": "f2e42b32316776de2b6d4f114ca7eaa4fe71f9bbf1aecc588fab45f4fd0be3a3"
+    },
+    {
+      "bytes": 3010,
+      "path": "packs/kaykit-block-bits/Assets/gltf/sand_B.gltf",
+      "sha256": "5579a7dffb88933fe553f8465ff603ff27897a57f22e756688e09110cc82d63a"
+    },
+    {
+      "bytes": 41340,
+      "path": "packs/kaykit-block-bits/Assets/gltf/sand_with_grass.bin",
+      "sha256": "09a9df9ad1abeadc95e405d351501f8a1f4ece0f1f9f9a0f444857a2be33d302"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-block-bits/Assets/gltf/sand_with_grass.gltf",
+      "sha256": "01295cfa5fdbaf595182501bf83497f28fcee41d1d0c8138447575b38cfa9316"
+    },
+    {
+      "bytes": 53644,
+      "path": "packs/kaykit-block-bits/Assets/gltf/sand_with_snow.bin",
+      "sha256": "7f82ce6e901614cb2f3540e8dd7777a813b18749a1fa56d998c13aa8c2b65eb3"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-block-bits/Assets/gltf/sand_with_snow.gltf",
+      "sha256": "3451910e2eac89604d4e55566b2df3482941a7aca8856821a5f200e813ff0e38"
+    },
+    {
+      "bytes": 3720,
+      "path": "packs/kaykit-block-bits/Assets/gltf/snow.bin",
+      "sha256": "39ee318895747352aa9152457a095e30e1d062fa586a849bc2a447103233c45e"
+    },
+    {
+      "bytes": 2925,
+      "path": "packs/kaykit-block-bits/Assets/gltf/snow.gltf",
+      "sha256": "7a2055ff4622499a1e9838bfae366d7c884ef3ff8ba962af14c570b5854c0658"
+    },
+    {
+      "bytes": 62144,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone.bin",
+      "sha256": "ea131008903ec3e6cf2a0c6ef4db9407ab1cfe8349e09e243fe0a42e2d321f04"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone.gltf",
+      "sha256": "51f87c415dbbfb026896c559202a6f77d62e22f682c26ea33cb7b0a2c87edfd3"
+    },
+    {
+      "bytes": 54592,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone_dark.bin",
+      "sha256": "3e4ede7486724a22565deab4fae28b53f2dda1836e84d26fb25d3989c35a8a63"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone_dark.gltf",
+      "sha256": "925928f18b355e1cf150ad623e9ec23393cee68247abd944329f4c24eef73494"
+    },
+    {
+      "bytes": 62144,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone_with_copper.bin",
+      "sha256": "b428207a8b81b3f6d11d278764787512c812b0b810ec2ba6bc307ced1d1f8152"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone_with_copper.gltf",
+      "sha256": "315821963d092a3abf92d7699eeb210271f7da00eedc37d8581fc106927e8668"
+    },
+    {
+      "bytes": 62144,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone_with_gold.bin",
+      "sha256": "728ace3059f1b970d4ea100dcd37be6d417a991f872f9850187940ecc2911700"
+    },
+    {
+      "bytes": 3075,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone_with_gold.gltf",
+      "sha256": "a839a801aa827bf08a83e31ad4f6a5a810f9e89f765aea6dd3915d852ba873df"
+    },
+    {
+      "bytes": 62144,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone_with_silver.bin",
+      "sha256": "c54b08c1a61ed7925a289ba8c215fe3bee1ff505e0df2e0eddb61436b55ea441"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-block-bits/Assets/gltf/stone_with_silver.gltf",
+      "sha256": "ff1744b6c69f60a4220f2b4014e3003f1b41de0c621366de1e26ca8f0f39cc4e"
+    },
+    {
+      "bytes": 6056,
+      "path": "packs/kaykit-block-bits/Assets/gltf/striped_block_blue.bin",
+      "sha256": "a6f763e5dddf7db09e9ec053b2b466e661999ed4157fd131ed30e09e38727405"
+    },
+    {
+      "bytes": 2971,
+      "path": "packs/kaykit-block-bits/Assets/gltf/striped_block_blue.gltf",
+      "sha256": "660e572c6efb4c05a5b9ab5ea9fccc94d7ccf43c191d40078d923e1c7410401c"
+    },
+    {
+      "bytes": 6056,
+      "path": "packs/kaykit-block-bits/Assets/gltf/striped_block_green.bin",
+      "sha256": "6037fdee038b7ea26793014d5a2b1e26e0f8edafc60024610a0f56b9812df993"
+    },
+    {
+      "bytes": 2974,
+      "path": "packs/kaykit-block-bits/Assets/gltf/striped_block_green.gltf",
+      "sha256": "a29c3e0da9c630222c5f6bb526dd2497dd8cb3bdc42e875a695b0827db3f5db7"
+    },
+    {
+      "bytes": 6056,
+      "path": "packs/kaykit-block-bits/Assets/gltf/striped_block_red.bin",
+      "sha256": "c977c2fc782b412144749838c0fbc5306638f744344410920dfb06475d70a47e"
+    },
+    {
+      "bytes": 2968,
+      "path": "packs/kaykit-block-bits/Assets/gltf/striped_block_red.gltf",
+      "sha256": "9b91a3173c3bdfb4e109002253bbecb1126a16b5e82369676f48b37ef1939559"
+    },
+    {
+      "bytes": 6056,
+      "path": "packs/kaykit-block-bits/Assets/gltf/striped_block_yellow.bin",
+      "sha256": "2973fec2f0253280ab51784c7756b78e3934bf10782e8ffadf41e3b7a308f250"
+    },
+    {
+      "bytes": 2977,
+      "path": "packs/kaykit-block-bits/Assets/gltf/striped_block_yellow.gltf",
+      "sha256": "f53b842f9e43404a8c4fa4115c5583193fe21ce9dabb5efbe12dea497fc565a8"
+    },
+    {
+      "bytes": 18416,
+      "path": "packs/kaykit-block-bits/Assets/gltf/tree.bin",
+      "sha256": "f7fd0b2f44be78ff2825c8d04e0b026da230a294ba613bcba2d1a863bbb6d8a6"
+    },
+    {
+      "bytes": 3001,
+      "path": "packs/kaykit-block-bits/Assets/gltf/tree.gltf",
+      "sha256": "95489fc56fcb57675b72fcbbfa304478e40a27237db17bd55b43df94ede08aa4"
+    },
+    {
+      "bytes": 28960,
+      "path": "packs/kaykit-block-bits/Assets/gltf/tree_with_snow.bin",
+      "sha256": "0a4d693dcb47dabc2bef8b6e12aba789e08cf63ce61c79122da2b8491fd1d004"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-block-bits/Assets/gltf/tree_with_snow.gltf",
+      "sha256": "86cc1b999f7189ca2d5d9b381ac1963ed116e033ca6e5a964fb49542ea92b86b"
+    },
+    {
+      "bytes": 21460,
+      "path": "packs/kaykit-block-bits/Assets/gltf/water.bin",
+      "sha256": "26d61d72969c638bafbbae44bdbf79e556e4cd2397c17feccf3a30cdd7aa2ecb"
+    },
+    {
+      "bytes": 2954,
+      "path": "packs/kaykit-block-bits/Assets/gltf/water.gltf",
+      "sha256": "bcad0a3922494a11807a3a290850bc9361564c4564072d0dde38d73125d7ed46"
+    },
+    {
+      "bytes": 55136,
+      "path": "packs/kaykit-block-bits/Assets/gltf/wood.bin",
+      "sha256": "f7135170ffe0a14a7b566ef5d1d10a6a0c83906783c5bdb579cbb4f724d2a13e"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-block-bits/Assets/gltf/wood.gltf",
+      "sha256": "63ad9bdf917b243aac6ff5b39a3bca160a1abee731bedec9217fb3fa72b248b9"
+    },
+    {
+      "bytes": 31211,
+      "path": "packs/kaykit-block-bits/Assets/obj/block_bits_texture.png",
+      "sha256": "a5fba2cb82f62d41f764f33d98482fec9e35756a2dbd07fd5e5806b59710d6c7"
+    },
+    {
+      "bytes": 1426,
+      "path": "packs/kaykit-block-bits/License.txt",
+      "sha256": "0a446bc960e2ccee8e0701e4b73d8b8426aaeae8d84cebd650b17c6ef23cbb79"
+    },
+    {
+      "bytes": 31211,
+      "path": "packs/kaykit-block-bits/Textures/block_bits_texture.png",
+      "sha256": "a5fba2cb82f62d41f764f33d98482fec9e35756a2dbd07fd5e5806b59710d6c7"
+    },
+    {
+      "bytes": 936833,
+      "path": "packs/kaykit-block-bits/contents.png",
+      "sha256": "8e9e757e433cebbf44bbfa773384eff7a764297e0818b9f83e7203f8c3077bb1"
+    },
+    {
+      "bytes": 874866,
+      "path": "packs/kaykit-block-bits/sample.png",
+      "sha256": "66f1b97e0b90f32210b7125da31d6f8f7da893fd48099232131af8d005716a85"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-block-bits",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-block-bits/License.txt",
+  "license_text_sha256": "0a446bc960e2ccee8e0701e4b73d8b8426aaeae8d84cebd650b17c6ef23cbb79",
+  "model_count": 40,
+  "models": [
+    "Assets/gltf/bricks_A.gltf",
+    "Assets/gltf/bricks_B.gltf",
+    "Assets/gltf/colored_block_blue.gltf",
+    "Assets/gltf/colored_block_green.gltf",
+    "Assets/gltf/colored_block_red.gltf",
+    "Assets/gltf/colored_block_yellow.gltf",
+    "Assets/gltf/decorative_block_blue.gltf",
+    "Assets/gltf/decorative_block_green.gltf",
+    "Assets/gltf/decorative_block_red.gltf",
+    "Assets/gltf/decorative_block_yellow.gltf",
+    "Assets/gltf/dirt.gltf",
+    "Assets/gltf/dirt_with_grass.gltf",
+    "Assets/gltf/dirt_with_snow.gltf",
+    "Assets/gltf/glass.gltf",
+    "Assets/gltf/grass.gltf",
+    "Assets/gltf/grass_with_snow.gltf",
+    "Assets/gltf/gravel.gltf",
+    "Assets/gltf/gravel_with_grass.gltf",
+    "Assets/gltf/gravel_with_snow.gltf",
+    "Assets/gltf/lava.gltf",
+    "Assets/gltf/metal.gltf",
+    "Assets/gltf/prototype.gltf",
+    "Assets/gltf/sand_A.gltf",
+    "Assets/gltf/sand_B.gltf",
+    "Assets/gltf/sand_with_grass.gltf",
+    "Assets/gltf/sand_with_snow.gltf",
+    "Assets/gltf/snow.gltf",
+    "Assets/gltf/stone.gltf",
+    "Assets/gltf/stone_dark.gltf",
+    "Assets/gltf/stone_with_copper.gltf",
+    "Assets/gltf/stone_with_gold.gltf",
+    "Assets/gltf/stone_with_silver.gltf",
+    "Assets/gltf/striped_block_blue.gltf",
+    "Assets/gltf/striped_block_green.gltf",
+    "Assets/gltf/striped_block_red.gltf",
+    "Assets/gltf/striped_block_yellow.gltf",
+    "Assets/gltf/tree.gltf",
+    "Assets/gltf/tree_with_snow.gltf",
+    "Assets/gltf/water.gltf",
+    "Assets/gltf/wood.gltf"
+  ],
+  "original_download_sha256": "0729d8e701b79ea20b329eae170bfe2c6ab7843d88b24f208e6675bcb8524334",
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "block building games; not the primary fantasy RPG art direction",
+  "source": "https://kaylousberg.itch.io/block-bits",
+  "status": "downloaded",
+  "style": "smooth textured low-poly",
+  "archive_sha256": "c4c93463d10144b45fa8a279f15da38bac8131a34f3b3ef9400c9c3cac66be25",
+  "embedded_parts": [
+    "seed/archives/kaykit-block-bits.zip.part000",
+    "seed/archives/kaykit-block-bits.zip.part001",
+    "seed/archives/kaykit-block-bits.zip.part002",
+    "seed/archives/kaykit-block-bits.zip.part003"
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "archive_sha256": "f2193d072726d6758a5f7871b2dcc54dcce0d5c35c6f0a62f92549b327c81232",
+  "asset_count": 100,
+  "assets": [
+    "Audio/back_001.ogg",
+    "Audio/back_002.ogg",
+    "Audio/back_003.ogg",
+    "Audio/back_004.ogg",
+    "Audio/bong_001.ogg",
+    "Audio/click_001.ogg",
+    "Audio/click_002.ogg",
+    "Audio/click_003.ogg",
+    "Audio/click_004.ogg",
+    "Audio/click_005.ogg",
+    "Audio/close_001.ogg",
+    "Audio/close_002.ogg",
+    "Audio/close_003.ogg",
+    "Audio/close_004.ogg",
+    "Audio/confirmation_001.ogg",
+    "Audio/confirmation_002.ogg",
+    "Audio/confirmation_003.ogg",
+    "Audio/confirmation_004.ogg",
+    "Audio/drop_001.ogg",
+    "Audio/drop_002.ogg",
+    "Audio/drop_003.ogg",
+    "Audio/drop_004.ogg",
+    "Audio/error_001.ogg",
+    "Audio/error_002.ogg",
+    "Audio/error_003.ogg",
+    "Audio/error_004.ogg",
+    "Audio/error_005.ogg",
+    "Audio/error_006.ogg",
+    "Audio/error_007.ogg",
+    "Audio/error_008.ogg",
+    "Audio/glass_001.ogg",
+    "Audio/glass_002.ogg",
+    "Audio/glass_003.ogg",
+    "Audio/glass_004.ogg",
+    "Audio/glass_005.ogg",
+    "Audio/glass_006.ogg",
+    "Audio/glitch_001.ogg",
+    "Audio/glitch_002.ogg",
+    "Audio/glitch_003.ogg",
+    "Audio/glitch_004.ogg",
+    "Audio/maximize_001.ogg",
+    "Audio/maximize_002.ogg",
+    "Audio/maximize_003.ogg",
+    "Audio/maximize_004.ogg",
+    "Audio/maximize_005.ogg",
+    "Audio/maximize_006.ogg",
+    "Audio/maximize_007.ogg",
+    "Audio/maximize_008.ogg",
+    "Audio/maximize_009.ogg",
+    "Audio/minimize_001.ogg",
+    "Audio/minimize_002.ogg",
+    "Audio/minimize_003.ogg",
+    "Audio/minimize_004.ogg",
+    "Audio/minimize_005.ogg",
+    "Audio/minimize_006.ogg",
+    "Audio/minimize_007.ogg",
+    "Audio/minimize_008.ogg",
+    "Audio/minimize_009.ogg",
+    "Audio/open_001.ogg",
+    "Audio/open_002.ogg",
+    "Audio/open_003.ogg",
+    "Audio/open_004.ogg",
+    "Audio/pluck_001.ogg",
+    "Audio/pluck_002.ogg",
+    "Audio/question_001.ogg",
+    "Audio/question_002.ogg",
+    "Audio/question_003.ogg",
+    "Audio/question_004.ogg",
+    "Audio/scratch_001.ogg",
+    "Audio/scratch_002.ogg",
+    "Audio/scratch_003.ogg",
+    "Audio/scratch_004.ogg",
+    "Audio/scratch_005.ogg",
+    "Audio/scroll_001.ogg",
+    "Audio/scroll_002.ogg",
+    "Audio/scroll_003.ogg",
+    "Audio/scroll_004.ogg",
+    "Audio/scroll_005.ogg",
+    "Audio/select_001.ogg",
+    "Audio/select_002.ogg",
+    "Audio/select_003.ogg",
+    "Audio/select_004.ogg",
+    "Audio/select_005.ogg",
+    "Audio/select_006.ogg",
+    "Audio/select_007.ogg",
+    "Audio/select_008.ogg",
+    "Audio/switch_001.ogg",
+    "Audio/switch_002.ogg",
+    "Audio/switch_003.ogg",
+    "Audio/switch_004.ogg",
+    "Audio/switch_005.ogg",
+    "Audio/switch_006.ogg",
+    "Audio/switch_007.ogg",
+    "Audio/tick_001.ogg",
+    "Audio/tick_002.ogg",
+    "Audio/tick_004.ogg",
+    "Audio/toggle_001.ogg",
+    "Audio/toggle_002.ogg",
+    "Audio/toggle_003.ogg",
+    "Audio/toggle_004.ogg"
+  ],
+  "author": "Kenney",
+  "category": "audio",
+  "checked": "2026-10-12",
+  "download": "https://kenney.nl/media/pages/assets/interface-sounds/fa43c1dd4d-1677589452/kenney_interface-sounds.zip",
+  "files": [
+    {
+      "bytes": 6997,
+      "path": "packs/kenney-interface-sounds/Audio/back_001.ogg",
+      "sha256": "07db973f79f6ae0f2edc34561e7592e24d0577455919fb602cb8ecc0da991dcf"
+    },
+    {
+      "bytes": 7029,
+      "path": "packs/kenney-interface-sounds/Audio/back_002.ogg",
+      "sha256": "61581c58194e3f19f531072edabbc344204c7e0a2887b8ededce4357bcf09195"
+    },
+    {
+      "bytes": 7208,
+      "path": "packs/kenney-interface-sounds/Audio/back_003.ogg",
+      "sha256": "ff5e87de1230b1a5f1fa83e5a4ba9d7eb1c07154267ac34b510a17d4caa03cef"
+    },
+    {
+      "bytes": 6923,
+      "path": "packs/kenney-interface-sounds/Audio/back_004.ogg",
+      "sha256": "c22e3c49f42c2a5ba6748e91283efe124f32822469c1258c3e5d7b3d7ab9361c"
+    },
+    {
+      "bytes": 4848,
+      "path": "packs/kenney-interface-sounds/Audio/bong_001.ogg",
+      "sha256": "d21d0f0b782445db579d11e2506b24cd1ac9d664ee33aeaf807761aa7b6fd710"
+    },
+    {
+      "bytes": 4876,
+      "path": "packs/kenney-interface-sounds/Audio/click_001.ogg",
+      "sha256": "ccfb7fa0cccdd9faec0eb16033c732b1e308d139d80f799161495d58f7adcdb9"
+    },
+    {
+      "bytes": 4275,
+      "path": "packs/kenney-interface-sounds/Audio/click_002.ogg",
+      "sha256": "adcd1f4adc35f1b41bc1b5bbefeff7aa44f2f3f0d96d3199b544140c7c1e761c"
+    },
+    {
+      "bytes": 4371,
+      "path": "packs/kenney-interface-sounds/Audio/click_003.ogg",
+      "sha256": "2fa929138bc3a0f432696588f66eac94b8f6d463905ec8808c6461ce4b054292"
+    },
+    {
+      "bytes": 4486,
+      "path": "packs/kenney-interface-sounds/Audio/click_004.ogg",
+      "sha256": "09e2c1b643b71b9aff9932b4e02d78db116446b9a14b00a5b2a9b28d2668fd8e"
+    },
+    {
+      "bytes": 4410,
+      "path": "packs/kenney-interface-sounds/Audio/click_005.ogg",
+      "sha256": "a3ee7ebb036bc3cdc218ae52bb27548c4f49bcf07505274f8b61b1af8236acc2"
+    },
+    {
+      "bytes": 9915,
+      "path": "packs/kenney-interface-sounds/Audio/close_001.ogg",
+      "sha256": "44af8249b933e0fd35ec957a638bb1a0b01f85b53fbe9674bf77bd3ca3168ef4"
+    },
+    {
+      "bytes": 14752,
+      "path": "packs/kenney-interface-sounds/Audio/close_002.ogg",
+      "sha256": "bc4279d2bb2bf86592473eab6a8eab55e51b54a8619315000dbd780a83b102d8"
+    },
+    {
+      "bytes": 15648,
+      "path": "packs/kenney-interface-sounds/Audio/close_003.ogg",
+      "sha256": "39a1a7f3bc001766c1881841e9903c6b16f5a10b5666e0791d7f6444677d8b05"
+    },
+    {
+      "bytes": 16263,
+      "path": "packs/kenney-interface-sounds/Audio/close_004.ogg",
+      "sha256": "41b41e01ac75f4bc5a9c8dc3b0de744fa7f877757463692783c12a8ae4bfae6b"
+    },
+    {
+      "bytes": 8968,
+      "path": "packs/kenney-interface-sounds/Audio/confirmation_001.ogg",
+      "sha256": "063564703b6094d70718a3e787a55cc9141611e4ecd6b6637f8828f79b4a8c3a"
+    },
+    {
+      "bytes": 14169,
+      "path": "packs/kenney-interface-sounds/Audio/confirmation_002.ogg",
+      "sha256": "33b17a9a9a2397c62b285c52c33a907fdffb476909c99e42dde603f6a7a8b12c"
+    },
+    {
+      "bytes": 9535,
+      "path": "packs/kenney-interface-sounds/Audio/confirmation_003.ogg",
+      "sha256": "3091bf0be0497f825769ee0733ca7bdc3bcd59bd6c6e8f2ba8f93d580ff38022"
+    },
+    {
+      "bytes": 12391,
+      "path": "packs/kenney-interface-sounds/Audio/confirmation_004.ogg",
+      "sha256": "568967a3d9f8a8f6af54ea01729c4882284308f2a27d78c07ffd7ee0d6951661"
+    },
+    {
+      "bytes": 5859,
+      "path": "packs/kenney-interface-sounds/Audio/drop_001.ogg",
+      "sha256": "692ee3a6f1821402ca649ff735bee9591dc4846c8098fc7d6a90fd15fa57c1af"
+    },
+    {
+      "bytes": 6411,
+      "path": "packs/kenney-interface-sounds/Audio/drop_002.ogg",
+      "sha256": "4ac4d1cef7e936965cbf795852ca2020300b9e2ba7daa59f2bf4f1f7bf416218"
+    },
+    {
+      "bytes": 6288,
+      "path": "packs/kenney-interface-sounds/Audio/drop_003.ogg",
+      "sha256": "43d086d50f90493a98cd2e09aa6dbf150d164f1578e1ec768d21cb185571ad87"
+    },
+    {
+      "bytes": 7230,
+      "path": "packs/kenney-interface-sounds/Audio/drop_004.ogg",
+      "sha256": "10738707f9300f9b963ceba46d5da2ed4a221faf7d39484a643c2d3bc151c5f2"
+    },
+    {
+      "bytes": 7373,
+      "path": "packs/kenney-interface-sounds/Audio/error_001.ogg",
+      "sha256": "46e67425d16339772e8d328fb36a49426c9467418686e11beeb71ff84b0f6433"
+    },
+    {
+      "bytes": 7369,
+      "path": "packs/kenney-interface-sounds/Audio/error_002.ogg",
+      "sha256": "76810ec365f41078fd0507101da5bb7b8730fe011dde43908329fdabd8575e79"
+    },
+    {
+      "bytes": 12256,
+      "path": "packs/kenney-interface-sounds/Audio/error_003.ogg",
+      "sha256": "885b28175c7b511118bcffab95675b48bbac9005cf6514656ebdad979276b3ab"
+    },
+    {
+      "bytes": 6393,
+      "path": "packs/kenney-interface-sounds/Audio/error_004.ogg",
+      "sha256": "0b574cea597d96507e782ae9764f88482ce49f46e931e57054bf7150047f2d69"
+    },
+    {
+      "bytes": 7266,
+      "path": "packs/kenney-interface-sounds/Audio/error_005.ogg",
+      "sha256": "3f75b11df5b06d68d2c25fbf0e9c9d9e7dd9250562a4007ee34856b8a309a2ae"
+    },
+    {
+      "bytes": 8288,
+      "path": "packs/kenney-interface-sounds/Audio/error_006.ogg",
+      "sha256": "a97513d7fd2b12b1210c423be943b4c1ab0e899b11db95855e9b74836e646ae0"
+    },
+    {
+      "bytes": 10225,
+      "path": "packs/kenney-interface-sounds/Audio/error_007.ogg",
+      "sha256": "f1ee4c1ac8bfe1a82eacb54b26f49e8974bab93bcf10c01800bc10dbf730f559"
+    },
+    {
+      "bytes": 9215,
+      "path": "packs/kenney-interface-sounds/Audio/error_008.ogg",
+      "sha256": "eba17ecb2a426bfd4a8a6acff5f8a86202b6424a77af0fd842e37809a1ab6d81"
+    },
+    {
+      "bytes": 6103,
+      "path": "packs/kenney-interface-sounds/Audio/glass_001.ogg",
+      "sha256": "183eebee20eb0a532b0b85104d139cbf2673eb66d95c3cc733ac9ea98362e7e8"
+    },
+    {
+      "bytes": 4917,
+      "path": "packs/kenney-interface-sounds/Audio/glass_002.ogg",
+      "sha256": "08e972c73e53c91d6d310e107e80db60edce78ae47225889a028e628a6f3da49"
+    },
+    {
+      "bytes": 5732,
+      "path": "packs/kenney-interface-sounds/Audio/glass_003.ogg",
+      "sha256": "9a6f16e3c2eff6fe5d017a4755a28306b14555728831cd00d70308e8f9689566"
+    },
+    {
+      "bytes": 8323,
+      "path": "packs/kenney-interface-sounds/Audio/glass_004.ogg",
+      "sha256": "2379b58f953e3d86982aa8cddcae763022c6258e9820171bf905ce58b4e97766"
+    },
+    {
+      "bytes": 6206,
+      "path": "packs/kenney-interface-sounds/Audio/glass_005.ogg",
+      "sha256": "1f6c88008d0d9fe449197512811785e1d4638daf408a96a4a02756530e019172"
+    },
+    {
+      "bytes": 6956,
+      "path": "packs/kenney-interface-sounds/Audio/glass_006.ogg",
+      "sha256": "840500be48078f1210f1fd7a9ac4e5665ed9b6f4a2b8dce91a237152a65e94cc"
+    },
+    {
+      "bytes": 5121,
+      "path": "packs/kenney-interface-sounds/Audio/glitch_001.ogg",
+      "sha256": "da78c642bbd95da2c364ed0e991ebbfc5a4c0d281165d932b5819e0dd31a39d2"
+    },
+    {
+      "bytes": 5473,
+      "path": "packs/kenney-interface-sounds/Audio/glitch_002.ogg",
+      "sha256": "1da06a2e63ce131f5e0316ca27c75fc0d672db7a8f9b986c70693f2bd992eabc"
+    },
+    {
+      "bytes": 4915,
+      "path": "packs/kenney-interface-sounds/Audio/glitch_003.ogg",
+      "sha256": "d55e0c64aee9f1ab2ba9523d0e256ca76639c3ec2f230405e2ff25aff36020b3"
+    },
+    {
+      "bytes": 5225,
+      "path": "packs/kenney-interface-sounds/Audio/glitch_004.ogg",
+      "sha256": "d0f4db4d12f88592bc328bd621d356d099eaa2dda37bab37a6cf17891c5026d1"
+    },
+    {
+      "bytes": 12111,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_001.ogg",
+      "sha256": "fd3e75e1de2f2fda90aceeacaeb0427ac8bddd3b07a6ce2a8f9ba923df3771f9"
+    },
+    {
+      "bytes": 9915,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_002.ogg",
+      "sha256": "cc51162cb4506158b953b121bf479aad070056533ade5c5cd2f980183127ceb4"
+    },
+    {
+      "bytes": 11748,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_003.ogg",
+      "sha256": "df16f25d45189f5d44d6a482ab20d5067350ca8525a9affa1f8ce599e31a20a5"
+    },
+    {
+      "bytes": 17723,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_004.ogg",
+      "sha256": "59c7a24b204be24d2a44a86d1e4d18c2cf51fa0446967a14b2590e8fb3afaf34"
+    },
+    {
+      "bytes": 20900,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_005.ogg",
+      "sha256": "0ee06fc3ee494723fc95b2224f9dc0af857f2903e7f94d5d33d8e67f454b3cf7"
+    },
+    {
+      "bytes": 11618,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_006.ogg",
+      "sha256": "f050b3bb77cb0b901bc8df43d2cc1872c353aebae10b4030cf8ae681726ad343"
+    },
+    {
+      "bytes": 8097,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_007.ogg",
+      "sha256": "3400931f3f3a1e9cf253efef9069bcdf053edd2234e4ee9bf88977c389943484"
+    },
+    {
+      "bytes": 9085,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_008.ogg",
+      "sha256": "57c074e600e193a303ce781c04c0ccc191c6030f9f106594fd94a65e55435c17"
+    },
+    {
+      "bytes": 7650,
+      "path": "packs/kenney-interface-sounds/Audio/maximize_009.ogg",
+      "sha256": "b4d56386258b3cc1c8f6e5a22465f8cd65de3d4309e022664050f43151e466cd"
+    },
+    {
+      "bytes": 11924,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_001.ogg",
+      "sha256": "8481912bc7fa5828924a00ef15b6cd613b994956e0817bd3122065c9b2896d2d"
+    },
+    {
+      "bytes": 9441,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_002.ogg",
+      "sha256": "670e47846dc003fe29d39c8dfebb8635bfcacae3c0916392c0e8bff659493ad6"
+    },
+    {
+      "bytes": 11739,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_003.ogg",
+      "sha256": "400e1041499de85ec8b5529a35ff36787288175c4696cf2018ecff24a3a3fd29"
+    },
+    {
+      "bytes": 17099,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_004.ogg",
+      "sha256": "fcfe6fbb03a728e90b907f34d2ec7bf3ea1857397c3e47ee01990c1be059e4f6"
+    },
+    {
+      "bytes": 19501,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_005.ogg",
+      "sha256": "4e6792a98c75d3ff187c0c55561c38c569e02c64757ebebb98831cfe84e3e172"
+    },
+    {
+      "bytes": 11292,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_006.ogg",
+      "sha256": "39d7c47855b9642f43548b7b132c20e20a1490c7eb13d10008c32fcb24da19f8"
+    },
+    {
+      "bytes": 7677,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_007.ogg",
+      "sha256": "e951505044de0d5d87b72ce7f312ac3fbbdde025ec8c10db70f9d2651a2c8947"
+    },
+    {
+      "bytes": 9298,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_008.ogg",
+      "sha256": "bc14c17875436dcaaf809c25db5e61454dbc35612880f329ff37a95ef9b6a865"
+    },
+    {
+      "bytes": 7665,
+      "path": "packs/kenney-interface-sounds/Audio/minimize_009.ogg",
+      "sha256": "885c20fc8b5b52226288794842a403821cd16e9800ec1d76be7a2f1655542eb8"
+    },
+    {
+      "bytes": 9834,
+      "path": "packs/kenney-interface-sounds/Audio/open_001.ogg",
+      "sha256": "a27c6bb0df7da1e6af5dd5937593c98bc58b6e513f42fe6a3254cd6a6949c648"
+    },
+    {
+      "bytes": 14975,
+      "path": "packs/kenney-interface-sounds/Audio/open_002.ogg",
+      "sha256": "24ff224fe2c09c6aed1b41249825382dc74cf324b887ff279d8494912ce2beee"
+    },
+    {
+      "bytes": 15046,
+      "path": "packs/kenney-interface-sounds/Audio/open_003.ogg",
+      "sha256": "bcdca6b5c9c33aa15ca3fb18a1fa8d98a01b528b85be08c5a610e57c75fc022d"
+    },
+    {
+      "bytes": 15879,
+      "path": "packs/kenney-interface-sounds/Audio/open_004.ogg",
+      "sha256": "4e02b8287bc4d9e7bf7a889cb9e48613c8eb22a310dfb0bf29c2bfd0a1e4bea5"
+    },
+    {
+      "bytes": 6317,
+      "path": "packs/kenney-interface-sounds/Audio/pluck_001.ogg",
+      "sha256": "be97ec4893a02d6eccfb678daa76c83e34cb2583b834ec2593d2641def739fa4"
+    },
+    {
+      "bytes": 6941,
+      "path": "packs/kenney-interface-sounds/Audio/pluck_002.ogg",
+      "sha256": "c977fe249ff42d1c93a552b33abc13a8399df3879fa510475426e5c4bbac1da9"
+    },
+    {
+      "bytes": 11700,
+      "path": "packs/kenney-interface-sounds/Audio/question_001.ogg",
+      "sha256": "abb8f9e4eb2071491b0b15f84ee302386b1847609310c1b000ae174639a6cc5a"
+    },
+    {
+      "bytes": 9455,
+      "path": "packs/kenney-interface-sounds/Audio/question_002.ogg",
+      "sha256": "46056f10c70dda860e93bd27b66f4d33c0b7154eff28def06471b50028efa5b3"
+    },
+    {
+      "bytes": 8233,
+      "path": "packs/kenney-interface-sounds/Audio/question_003.ogg",
+      "sha256": "00bafc564e29c12e99da584864a750260e7110378251d63d3aa5b3d727836efe"
+    },
+    {
+      "bytes": 9821,
+      "path": "packs/kenney-interface-sounds/Audio/question_004.ogg",
+      "sha256": "585ecb58b529dc49b5c5ce5ba93427bf73b7052bae55e49c43ba8f169c93ac99"
+    },
+    {
+      "bytes": 8989,
+      "path": "packs/kenney-interface-sounds/Audio/scratch_001.ogg",
+      "sha256": "5c294d2e1a6b6d07ee2d75b17105a55ad3527e5482dd60652dc49c2ea4c70096"
+    },
+    {
+      "bytes": 9319,
+      "path": "packs/kenney-interface-sounds/Audio/scratch_002.ogg",
+      "sha256": "2b07edafc1f3f49c4813f2b0ae9481c566c1f9962a22d5f5b79da7111e058e56"
+    },
+    {
+      "bytes": 8849,
+      "path": "packs/kenney-interface-sounds/Audio/scratch_003.ogg",
+      "sha256": "2d80371b55ebe2e8b916b84093a8ae7717d09a80c6b617079ade5bd0dacba7b7"
+    },
+    {
+      "bytes": 16478,
+      "path": "packs/kenney-interface-sounds/Audio/scratch_004.ogg",
+      "sha256": "26009c67ef90ee7a5a2bc458ef9e7f5a9da83da9397a830cff9e4a1813914687"
+    },
+    {
+      "bytes": 15824,
+      "path": "packs/kenney-interface-sounds/Audio/scratch_005.ogg",
+      "sha256": "65742c15dca9853611e1c9e83bd04ac0d693f79896715cafa90bad39745d7a62"
+    },
+    {
+      "bytes": 21633,
+      "path": "packs/kenney-interface-sounds/Audio/scroll_001.ogg",
+      "sha256": "320c6aafb2c7a503eae508dc443b72d7f7c0a317bfd16813157ed400cd04cf16"
+    },
+    {
+      "bytes": 24628,
+      "path": "packs/kenney-interface-sounds/Audio/scroll_002.ogg",
+      "sha256": "6fbcda22bc45349c66f1ba4b56d6c211b12264e83667de4b9af1e4ffcef74be5"
+    },
+    {
+      "bytes": 29488,
+      "path": "packs/kenney-interface-sounds/Audio/scroll_003.ogg",
+      "sha256": "c2fecaa6e37c73d7141d0bd303d1c2231428d97c19ce83d50236a56804818643"
+    },
+    {
+      "bytes": 20348,
+      "path": "packs/kenney-interface-sounds/Audio/scroll_004.ogg",
+      "sha256": "431398a3c12ba3aa30ead97f3e2f9b05eb00978facf04b31bda138ab77a2f54c"
+    },
+    {
+      "bytes": 20448,
+      "path": "packs/kenney-interface-sounds/Audio/scroll_005.ogg",
+      "sha256": "e39d059462225efa31f758fb2e01871cc96781972b5062873a24a55c88174e02"
+    },
+    {
+      "bytes": 5468,
+      "path": "packs/kenney-interface-sounds/Audio/select_001.ogg",
+      "sha256": "aec0c31ea934a35936ae0d2ab8fac8123c93aa5647f935853a58dbaf90278b7a"
+    },
+    {
+      "bytes": 5463,
+      "path": "packs/kenney-interface-sounds/Audio/select_002.ogg",
+      "sha256": "4cc6ac5341b9b2c86fef80c347de028e9ab9f2e037586ac7d9fa59a403a1c012"
+    },
+    {
+      "bytes": 6901,
+      "path": "packs/kenney-interface-sounds/Audio/select_003.ogg",
+      "sha256": "9a612fd2f513d52a296906b41071c990f75defe56be3bee60d2d4e2423b51b8b"
+    },
+    {
+      "bytes": 6909,
+      "path": "packs/kenney-interface-sounds/Audio/select_004.ogg",
+      "sha256": "eb6cb435f3f2ab14f85f46a2bdd9073ec511d0f1f8d8c890c6636045703a5fd4"
+    },
+    {
+      "bytes": 6767,
+      "path": "packs/kenney-interface-sounds/Audio/select_005.ogg",
+      "sha256": "ad09146e4ea33b931b2f5dfb4051a4f1fe4a36f1a48c42c5e9269c292ae21214"
+    },
+    {
+      "bytes": 8101,
+      "path": "packs/kenney-interface-sounds/Audio/select_006.ogg",
+      "sha256": "b44550fa8d3276c072ce7c3c1315d949f7a28a95bc22b3618ad4eea62eac8abe"
+    },
+    {
+      "bytes": 6580,
+      "path": "packs/kenney-interface-sounds/Audio/select_007.ogg",
+      "sha256": "cd4390dd2b24f09016a5fa1be63334fa0f1859811f4cf29c02e8e2750f6a2cd0"
+    },
+    {
+      "bytes": 6339,
+      "path": "packs/kenney-interface-sounds/Audio/select_008.ogg",
+      "sha256": "f703b6b1c62dae1c246a46d5c2442802588f68be2df4d17e0d65cf7e0dbfc826"
+    },
+    {
+      "bytes": 6753,
+      "path": "packs/kenney-interface-sounds/Audio/switch_001.ogg",
+      "sha256": "3b74efad87f1e69dbd1d05c5ad952ab90859b5a3d11da6ec5bd79b4f03b42afa"
+    },
+    {
+      "bytes": 7097,
+      "path": "packs/kenney-interface-sounds/Audio/switch_002.ogg",
+      "sha256": "6fc395be2ad1f99ce318a5d28f98fb76dbeb676d83a0b28239d8c1fb90736180"
+    },
+    {
+      "bytes": 9653,
+      "path": "packs/kenney-interface-sounds/Audio/switch_003.ogg",
+      "sha256": "ca12dd32103f401481d5aff56d5e9831174e99bb577139c09b07d046eb8b837e"
+    },
+    {
+      "bytes": 7248,
+      "path": "packs/kenney-interface-sounds/Audio/switch_004.ogg",
+      "sha256": "541c19cc1ab712a9efc5765df602e7d0da09d9cafdd297ce1e19b092289fd62f"
+    },
+    {
+      "bytes": 7814,
+      "path": "packs/kenney-interface-sounds/Audio/switch_005.ogg",
+      "sha256": "e94dfab6fd6558068ab3ea97e22e4b4f16b83ee440e6abf33ec4c4e9fbe8a70e"
+    },
+    {
+      "bytes": 7873,
+      "path": "packs/kenney-interface-sounds/Audio/switch_006.ogg",
+      "sha256": "2676ddc4e341ee557b4d1dc8767ef8655540d66fb3ded6a1614080dbc4dc6f18"
+    },
+    {
+      "bytes": 7921,
+      "path": "packs/kenney-interface-sounds/Audio/switch_007.ogg",
+      "sha256": "eeaf60c2abc7e1b715e2b032401bcbf6b3753b77f96b238f861a034a75515967"
+    },
+    {
+      "bytes": 4497,
+      "path": "packs/kenney-interface-sounds/Audio/tick_001.ogg",
+      "sha256": "9d057b918024c787bbe6c00beed13a7ef72a3fa0c259add3cef36582792f4230"
+    },
+    {
+      "bytes": 4514,
+      "path": "packs/kenney-interface-sounds/Audio/tick_002.ogg",
+      "sha256": "869442f54214be902ec7437f79e400dc91c1bfd90d18a6dd2d5b7e41ffbf457b"
+    },
+    {
+      "bytes": 5031,
+      "path": "packs/kenney-interface-sounds/Audio/tick_004.ogg",
+      "sha256": "0253d5f7d8d2afbbc370eac2a4539bb844239f0c98343e516d376b137c06d27c"
+    },
+    {
+      "bytes": 7369,
+      "path": "packs/kenney-interface-sounds/Audio/toggle_001.ogg",
+      "sha256": "ca1d2dde5f0b286abac4f070e23edab8f30927c8a533665cdf2ac6492a415e49"
+    },
+    {
+      "bytes": 8056,
+      "path": "packs/kenney-interface-sounds/Audio/toggle_002.ogg",
+      "sha256": "1f564f5520cfa0764028ce245ad97599d3ece8f0ab504554c403af92ac72b900"
+    },
+    {
+      "bytes": 8654,
+      "path": "packs/kenney-interface-sounds/Audio/toggle_003.ogg",
+      "sha256": "7e69aba356d590826cce291bbd9dc6a85d7c53858b0e3712fcad30e1ad080b23"
+    },
+    {
+      "bytes": 6695,
+      "path": "packs/kenney-interface-sounds/Audio/toggle_004.ogg",
+      "sha256": "d7bf2236fc95a0fe1e3b278259392bcb062644e2d4ec5f9c96f7c09a9928262f"
+    },
+    {
+      "bytes": 574,
+      "path": "packs/kenney-interface-sounds/License.txt",
+      "sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kenney-interface-sounds",
+  "license": "CC0-1.0",
+  "license_path": "packs/kenney-interface-sounds/License.txt",
+  "license_text_sha256": "f7966c773bbed0eca6a9c75081c44a178b38eae112724dbb5fdfbd4192d118a9",
+  "model_count": 0,
+  "models": [],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "source": "https://kenney.nl/assets/interface-sounds",
+  "status": "downloaded",
+  "style": "audio"
+}

@@ -1,0 +1,635 @@
+{
+  "archive_sha256": "84be044ad8aa6d7b2e5e6e01ce6f2cc97133c07c04f9de7d98dc2677a0234242",
+  "asset_count": 3,
+  "assets": [
+    "addons/kaykit_furniture_bits/Assets/gltf/furniturebits_texture.png",
+    "addons/kaykit_furniture_bits/Assets/obj/furniturebits_texture.png",
+    "addons/kaykit_furniture_bits/Assets/texture/furniturebits_texture.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "environments",
+  "checked": "2026-10-12",
+  "download": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0/zip/96d5930a8dbdb363409bbc2d3341718b00e17c9c",
+  "files": [
+    {
+      "bytes": 827,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/LICENSE.txt",
+      "sha256": "cd675f2adc31eb5fedaedc1072d8ddc27b917f523682f0561837c03dc56393cb"
+    },
+    {
+      "bytes": 17312,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/armchair.bin",
+      "sha256": "7e8762add696dc52fe545c3f25d6d25331e70f2fafbdf9ea79de75a75effec2b"
+    },
+    {
+      "bytes": 3019,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/armchair.gltf",
+      "sha256": "5236bd9c4945fb60d5ac4d4b064c0c0c74bcded1c280b474d3899a1d84d68b25"
+    },
+    {
+      "bytes": 20420,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/armchair_pillows.bin",
+      "sha256": "b40556981e1bd4593ccaf7a14593f32e20859c2f2e6022a0ed0d1a278a4194a0"
+    },
+    {
+      "bytes": 3036,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/armchair_pillows.gltf",
+      "sha256": "1344db27a72870fb0a1b43ffcfe12f5f3dd3284f5dcecd10ed593d6e0d940f79"
+    },
+    {
+      "bytes": 24648,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/bed_double_A.bin",
+      "sha256": "0eb1bc50981bdb0c0ff95b30b6783dc5d40fd61497a4a21165d366e301c6e53c"
+    },
+    {
+      "bytes": 3011,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/bed_double_A.gltf",
+      "sha256": "55451127bbeb9734bb88c1a761a6246eaaf89ac33eee2f703d78053719e5c4e5"
+    },
+    {
+      "bytes": 27856,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/bed_double_B.bin",
+      "sha256": "34c2a62639167e346b916fad93823d7a9cf25b4a93b71fd634dfa50c6bbc24ed"
+    },
+    {
+      "bytes": 3011,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/bed_double_B.gltf",
+      "sha256": "f74f5d6d126f4821294cdf0985e7365743d28893098e625f01b58fdb75093cb4"
+    },
+    {
+      "bytes": 22044,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/bed_single_A.bin",
+      "sha256": "fc7631db4540d31cbe76dac3c672bc8836ee302796d14bba428bda84b9237f5b"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/bed_single_A.gltf",
+      "sha256": "7b2852bb66bf82cad3e0d03a499b1480879790fa66b645347e3e73761c4fe3f5"
+    },
+    {
+      "bytes": 25348,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/bed_single_B.bin",
+      "sha256": "a1b26c1848d104381b311cae4dbd4b6d574a3d79e6c9fe88087405f3a99bb918"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/bed_single_B.gltf",
+      "sha256": "f702283107f35fe400aa55775baa9515cbd9adaf9e2003b3441fd5cbedb9a07c"
+    },
+    {
+      "bytes": 11576,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/book_set.bin",
+      "sha256": "3aa3fcc774b46c7ffe2b1a3109bf006749163bbb392cfca930b34bfba4b67853"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/book_set.gltf",
+      "sha256": "437bfaba3f3413a0b825627a1cb905765a191f4708be51838c9b60c8132cbe61"
+    },
+    {
+      "bytes": 3992,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/book_single.bin",
+      "sha256": "0aa0921f471184039e85488a80041a0b4aee6f68589ad53077eea03f4659d66c"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/book_single.gltf",
+      "sha256": "7b86695b060681fc6de8ac70fc1f24b870edcaf84bfe4ed98b7e706ae594d464"
+    },
+    {
+      "bytes": 23304,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cabinet_medium.bin",
+      "sha256": "3fc4bff757a36226ecb9504dd6e9d031a5a6c957cb9cc2bb636f12ab49e877e6"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cabinet_medium.gltf",
+      "sha256": "139419c479c6f8b38ac24e12ce85bf81a199e05067a544db879f7e403446c9dc"
+    },
+    {
+      "bytes": 49020,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cabinet_medium_decorated.bin",
+      "sha256": "03b4374eeab5d9d9a7cb83a410b00aff243cf8d3f39ea0230ecceeedd93fbe8f"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cabinet_medium_decorated.gltf",
+      "sha256": "144b417f282e689ad4c40e8357c5ab76ad26fe3ca0fd777cca29d59eb6013a81"
+    },
+    {
+      "bytes": 19468,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cabinet_small.bin",
+      "sha256": "b29dfd659c0b0f7b5a97377e42b52ebcd8245780bcbf024b383f45ec0e59641d"
+    },
+    {
+      "bytes": 3001,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cabinet_small.gltf",
+      "sha256": "06ce4ee6232ee68e791927e838bb8e77c11391b7de9ba3141374626a910772e5"
+    },
+    {
+      "bytes": 27552,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cabinet_small_decorated.bin",
+      "sha256": "b123a747dd82f2088e2e823e9a3e42cb581b42878e67ac9060363c7d612e07f2"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cabinet_small_decorated.gltf",
+      "sha256": "3d241df76df2030583c7ebdc292063b5ded40cf9c642e8cfb18b4e0855f3702a"
+    },
+    {
+      "bytes": 17536,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cactus_medium_A.bin",
+      "sha256": "be9378a1328b82751ac651de9387d7b20db4ffbb5e1c087b0e634a00ebf7cc0f"
+    },
+    {
+      "bytes": 3072,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cactus_medium_A.gltf",
+      "sha256": "902c48a87bf8e48a2d72055485eaaeae3aefd91224e5af914aeb42fca99759a8"
+    },
+    {
+      "bytes": 17536,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cactus_medium_B.bin",
+      "sha256": "3b19e4f559ff111ef66f8bfaea3989f31368ca86d4c46212be4ee26d1a56aee4"
+    },
+    {
+      "bytes": 3072,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cactus_medium_B.gltf",
+      "sha256": "849e6bf20405548890ebff081970f92a39af6e749a3fbb0ecc8f0363748c5e3b"
+    },
+    {
+      "bytes": 9320,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cactus_small_A.bin",
+      "sha256": "43dae3699635f54fb84199b7a998c1144690c3e54d6c3fc3c045c38aa54f7fdc"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cactus_small_A.gltf",
+      "sha256": "4e2d93fb22b7f6097f3726b1fc513647873428224c01b17abdbe79c01c1e959b"
+    },
+    {
+      "bytes": 9320,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cactus_small_B.bin",
+      "sha256": "84b85293ba5ede54f1c970531e679bb181c584adb65bf96ad94c52122319edb3"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/cactus_small_B.gltf",
+      "sha256": "f3f9555486151b309d682a94dc120d893167bd8f506f61c20264a23c8b54d38d"
+    },
+    {
+      "bytes": 16504,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_A.bin",
+      "sha256": "8db53212634ccc983dc0e9940f2809b3951abe91d0cc8ad040cf74d7100f19a8"
+    },
+    {
+      "bytes": 3022,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_A.gltf",
+      "sha256": "fdc71044f23c89c5cff9093cff18bac295c9b750e73daf3cbd8ee6ca9e930dbb"
+    },
+    {
+      "bytes": 16504,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.bin",
+      "sha256": "726ea8962909becf3d925d272928a8e26a1f345fc9f8f165e7424221c69be733"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+      "sha256": "e17a16127b9a3e44ef8888c9d52fe7ec09a06b348934627816a538720793af8d"
+    },
+    {
+      "bytes": 18240,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_B.bin",
+      "sha256": "1862f8c8392a67e39219e480ba2aafd19e67bbbfe7c6d3b459f082dea041a1fa"
+    },
+    {
+      "bytes": 3049,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_B.gltf",
+      "sha256": "e9cb04ebee4a60a22a26449b46c22efd3c7a022a3bab937ac813ed30f4392855"
+    },
+    {
+      "bytes": 18240,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_B_wood.bin",
+      "sha256": "223864f633ba3c5fb06e239a907b5f379fe0a3ad4f5c5fff2577e97ef0f6250d"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_B_wood.gltf",
+      "sha256": "7a19685725e1878f960e0ce724eaffc9a2a5fe36c0496608dd5328aa73290f03"
+    },
+    {
+      "bytes": 12608,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_C.bin",
+      "sha256": "dbcd655953927997f2a4f61676692d053f4eb261b364fe5441276aa4614cfc9d"
+    },
+    {
+      "bytes": 3036,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_C.gltf",
+      "sha256": "fc042915c24c52f96f0571db348a2de275b15c0065c3e561fce37d4dbc81568a"
+    },
+    {
+      "bytes": 10832,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_stool.bin",
+      "sha256": "c99c96e2440a55c6c08ac929493424b221b11482618229fcf8574baa93ab4566"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_stool.gltf",
+      "sha256": "6f830305b9afb97f8d77d52a92971ee237d3012db2ca1abbd4abafc2d82f4c46"
+    },
+    {
+      "bytes": 10832,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_stool_wood.bin",
+      "sha256": "59ebde1791f6c46b6f3880cbe5632e44b123466a1bc7d2d2f3008da9a2a492ac"
+    },
+    {
+      "bytes": 3052,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/chair_stool_wood.gltf",
+      "sha256": "b1670bee678ab5920ad8ef3a6fb7c6146054bb7b859798f86aaac96be5765f35"
+    },
+    {
+      "bytes": 21416,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/couch.bin",
+      "sha256": "00f6c9892aa87e2894e049ba47d697307c158c5096eb41bdd44474d5e7ecf5e0"
+    },
+    {
+      "bytes": 3014,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/couch.gltf",
+      "sha256": "1a5b74b3a3368870783743c5ce7baa61f45f71131dca66af80b35fd4ac63c222"
+    },
+    {
+      "bytes": 27632,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/couch_pillows.bin",
+      "sha256": "3157c7ce9717ff69f198f9da0395d7a57e9ab230f2161990f86e21395608cc3e"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/couch_pillows.gltf",
+      "sha256": "d3396c15fc460c5db1e2db95b06bb623140c269369f2e9bc38dc4d3b5807011c"
+    },
+    {
+      "bytes": 15605,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/furniturebits_texture.png",
+      "sha256": "de62db37a80d1801c3d9eb674890ae04b04469e0c149481a51fa250562c628dc"
+    },
+    {
+      "bytes": 11648,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/lamp_standing.bin",
+      "sha256": "ee58a9e2776406071c8ac60714f1b4dd7ad83a11848ee24aec77b297c9d535d9"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/lamp_standing.gltf",
+      "sha256": "ff42a083e688c94948493c441d4db51c7e0736336525b3eed4f4da75825b88b7"
+    },
+    {
+      "bytes": 12816,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/lamp_table.bin",
+      "sha256": "c3d4cc2fea09cfb3037b9ece861abf6126cae3226858f18de37bd8cf87a06145"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/lamp_table.gltf",
+      "sha256": "7cc2e9f24145551bfc919247e74a414bbd40bc2fde1fb9a1ac33e16cb9d0497b"
+    },
+    {
+      "bytes": 3176,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_large_A.bin",
+      "sha256": "85368442c0af0cc12cd32fa512284391905219dd7a88e3360d69a1a25db2262c"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_large_A.gltf",
+      "sha256": "b12aadc4e0179aa9c27a18cd31f5a980159188a20d11cc62b9c5a97e4381c59f"
+    },
+    {
+      "bytes": 3176,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_large_B.bin",
+      "sha256": "ff87db23fa7e1b9c7e55c8a25bbb9b5d37f11bf94c36e1d97b104fa8d9b22660"
+    },
+    {
+      "bytes": 3054,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_large_B.gltf",
+      "sha256": "1ee9d4842d9f4626e08ffce88e34293a7a8b11ffdc1cd0340eb934c209a97cdc"
+    },
+    {
+      "bytes": 3176,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_medium.bin",
+      "sha256": "ae120086448ad5f8c8a2e1a360355f9052f4b7848e5b422b00398827b9355e8d"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_medium.gltf",
+      "sha256": "768ebf5e81d2d4dfe87276e70b7373ee541592ca409a57067e5e76626a010926"
+    },
+    {
+      "bytes": 3176,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_A.bin",
+      "sha256": "e0e7dd8c5fcbc564e19934d9b820942aaa0637c1a7112e714d56db9d90926db6"
+    },
+    {
+      "bytes": 3073,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_A.gltf",
+      "sha256": "4482cf85a994f9ba3ef45fe490858e5633ef0f09767f79a8511b826024e1de85"
+    },
+    {
+      "bytes": 3176,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_B.bin",
+      "sha256": "08da006ae3bb669f591b742ce25aa9007068282be3cae1fc43525f623ab25fca"
+    },
+    {
+      "bytes": 3073,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_B.gltf",
+      "sha256": "b65a9e655be3dbdfa02c0363bf5652461b480f53a584a3749d19e26120435bfa"
+    },
+    {
+      "bytes": 3176,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_C.bin",
+      "sha256": "0b4a3ef34939cf0232bf0d01a398095238704385314e02c196e44d38c9322a14"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_C.gltf",
+      "sha256": "ca88e60a46bfa85e6b22bd318b2d2aac33a247ab0d480ae995fa13157f4d2731"
+    },
+    {
+      "bytes": 4092,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_standing_A.bin",
+      "sha256": "5c1f0b5344fea1938b5058bc6f1f5b402593728a6d0b926e3eb542e1de0807d3"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_standing_A.gltf",
+      "sha256": "214ae94eacc35984cfec9185ef05e6c930bea45c974b3cec013e991b841fae1b"
+    },
+    {
+      "bytes": 4188,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_standing_B.bin",
+      "sha256": "e94f9884301a778cee61c3c03b63e7c013a66a1dc32f42f75e25650e9918c203"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pictureframe_standing_B.gltf",
+      "sha256": "93933e6d9b96b8f3718e2dc7be1723e8bf8604f35dd035796a88618f2a33dddc"
+    },
+    {
+      "bytes": 2724,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pillow_A.bin",
+      "sha256": "9a295dd293a96e518b0388d3cfcbc7c0ce491e46cfe2c5e3affa016b99e8c0ff"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pillow_A.gltf",
+      "sha256": "c24247361c709675257b516dfab950708adf8c086710e8a1fc85e572ea5ebb61"
+    },
+    {
+      "bytes": 2724,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pillow_B.bin",
+      "sha256": "4cf9482b7fc816e038da3f25a793761b30d60880cb24b4f04ce1aee5f07f9d53"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/pillow_B.gltf",
+      "sha256": "cf47391e684e93241ba5f9db6bb1e518700fe3a7a79b7f58c40e38ee62e9e36d"
+    },
+    {
+      "bytes": 6560,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_oval_A.bin",
+      "sha256": "4d55cba0cc3e86c930b320a14a25d2742e8bd214f298bfbf23f73329b0cea32e"
+    },
+    {
+      "bytes": 2970,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_oval_A.gltf",
+      "sha256": "5d49e065dcb89c0585a17c41823b19788c6e41ab2d8dd45299250241911b1231"
+    },
+    {
+      "bytes": 6560,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_oval_B.bin",
+      "sha256": "57804d2de6c6ce964b5e597d288492912d99fc90a311e86ea6e80a6a22087a55"
+    },
+    {
+      "bytes": 2970,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_oval_B.gltf",
+      "sha256": "34e61ec3d96e4af2de6691fa376796469d157f82f91fbc69d69a2e364ce95851"
+    },
+    {
+      "bytes": 1800,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_A.bin",
+      "sha256": "10eb71fc2b20b056b6186526d451ee0a560c425495402d7818f4413795aba506"
+    },
+    {
+      "bytes": 2971,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_A.gltf",
+      "sha256": "892417306a01eac711c6af97b148fc152d375940ec3660964b36e10ea2a8cfda"
+    },
+    {
+      "bytes": 1800,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_B.bin",
+      "sha256": "d60abedef14aed184c9231fc59ff296bd9435b8fe28844804c5aa4515beb3b70"
+    },
+    {
+      "bytes": 2971,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_B.gltf",
+      "sha256": "03fba0522315e872a545fe915f111aaaa54d5682329766e98e1fcb6e9a78ba51"
+    },
+    {
+      "bytes": 2712,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_stripes_A.bin",
+      "sha256": "4ce28e95c940d486b3bb94e91b79a8ad9633b3628dbd6f07be03a6ec6b3ac579"
+    },
+    {
+      "bytes": 2988,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_stripes_A.gltf",
+      "sha256": "daeafdd3efd5c2d3781426d1bb48ac6dc31893dea30abd3e6f2b22ff70890c55"
+    },
+    {
+      "bytes": 2712,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_stripes_B.bin",
+      "sha256": "b4fbacb59a9289490f74d059e921efcc6aaef54a3ba3e8f4b927886aed93da5c"
+    },
+    {
+      "bytes": 2988,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_stripes_B.gltf",
+      "sha256": "dbad49ace370c37e3821b5f029dd8af0ed0ea6b768180983ca960d5b2565fa85"
+    },
+    {
+      "bytes": 10104,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_A_big.bin",
+      "sha256": "d133c5a07e63360d69a1363d6a96cc011b4db9e645358824fb8f274b02a59700"
+    },
+    {
+      "bytes": 3025,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_A_big.gltf",
+      "sha256": "e2f1e24576e603a390f29f5c55c2013389cebaddb0255e1a4808e35ef1279873"
+    },
+    {
+      "bytes": 10104,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_A_small.bin",
+      "sha256": "4e87b996fe8184cac7d556d0ea854513bd7d04e674d254fb8c7d296320cbdfc0"
+    },
+    {
+      "bytes": 3033,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_A_small.gltf",
+      "sha256": "198fb7851f987c51c8dba4ea2e22c27345467c1cbef700995699c10298f9edd5"
+    },
+    {
+      "bytes": 10104,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_B_large.bin",
+      "sha256": "30bbd1a44054d02245bd7388d7143c5f676928d4e293a93f9fd442479afd4840"
+    },
+    {
+      "bytes": 3047,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_B_large.gltf",
+      "sha256": "438921fdd044014a02f4e77e4b02205222d83cec3632db2eb8dad50173b24d5c"
+    },
+    {
+      "bytes": 25772,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_B_large_decorated.bin",
+      "sha256": "80b560eac9dd1d2750149f96f4845ead4c734f446088975a5c0a1c259dd50611"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_B_large_decorated.gltf",
+      "sha256": "fc613ad31e07529ad1ec9044a8e7e900821c8636efbd714a3238292326a49fad"
+    },
+    {
+      "bytes": 10104,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_B_small.bin",
+      "sha256": "7e75cbd1c734a901852c4dc924dc47f9fa75eaed85b19503a6b24218b5efcdb1"
+    },
+    {
+      "bytes": 3049,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_B_small.gltf",
+      "sha256": "6e6a946ef20fc916247f9ff59b74a3c958edad53c2594356086e7e36fcde5e6e"
+    },
+    {
+      "bytes": 23416,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_B_small_decorated.bin",
+      "sha256": "de3efcfcdc9572dfb1f82d22f99017d56e0b7c1451ce9bbe12fe1d828f8c677f"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/shelf_B_small_decorated.gltf",
+      "sha256": "7a8748dbe6dc428aa45dbef650c7d10bccee41e823c832ecd9a95b870675aa59"
+    },
+    {
+      "bytes": 12408,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/table_low.bin",
+      "sha256": "e9f604c5676bfa974d6d1bf45757a11d298ac40e8e7981be29d249936c8339cd"
+    },
+    {
+      "bytes": 2990,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/table_low.gltf",
+      "sha256": "3bf202a3ee70ee95943c26419bd5f540353a16b8b6a0b41449746f85c3319a2a"
+    },
+    {
+      "bytes": 9328,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/table_medium.bin",
+      "sha256": "0e6ba8fd006f673d946979e45487067f4e274be9bbd07816fd371578d2a37518"
+    },
+    {
+      "bytes": 2973,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/table_medium.gltf",
+      "sha256": "fd5e5fe8bbf1d3729b6bd725165d58490e9cbd8dd46ce42314b01f20951a302b"
+    },
+    {
+      "bytes": 9328,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/table_medium_long.bin",
+      "sha256": "b436c4b982a7defac5310f6ca17bf387f24c8c9b843e035c09d23094ace9b788"
+    },
+    {
+      "bytes": 2987,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/table_medium_long.gltf",
+      "sha256": "e3ba8f08ce5964d602cde13ecba2b837f90b3ed22d092e28fa489f3c216e2488"
+    },
+    {
+      "bytes": 9328,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/table_small.bin",
+      "sha256": "e18bad66ad227a4a374fd58fbe6870a73c0f3f3687cb363506e0d77e07964066"
+    },
+    {
+      "bytes": 2979,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/table_small.gltf",
+      "sha256": "6ae46ef60d18cf1fe507fbb2fb20235144af2ac7101f410269a761ac91ae9aee"
+    },
+    {
+      "bytes": 15605,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/obj/furniturebits_texture.png",
+      "sha256": "de62db37a80d1801c3d9eb674890ae04b04469e0c149481a51fa250562c628dc"
+    },
+    {
+      "bytes": 15605,
+      "path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/texture/furniturebits_texture.png",
+      "sha256": "de62db37a80d1801c3d9eb674890ae04b04469e0c149481a51fa250562c628dc"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-furniture-bits-1.0",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/LICENSE.txt",
+  "license_text_sha256": "cd675f2adc31eb5fedaedc1072d8ddc27b917f523682f0561837c03dc56393cb",
+  "model_count": 53,
+  "models": [
+    "addons/kaykit_furniture_bits/Assets/gltf/armchair.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/armchair_pillows.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/bed_double_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/bed_double_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/bed_single_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/bed_single_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/book_set.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/book_single.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/cabinet_medium.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/cabinet_medium_decorated.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/cabinet_small.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/cabinet_small_decorated.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/cactus_medium_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/cactus_medium_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/cactus_small_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/cactus_small_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/chair_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/chair_A_wood.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/chair_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/chair_B_wood.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/chair_C.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/chair_stool.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/chair_stool_wood.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/couch.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/couch_pillows.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/lamp_standing.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/lamp_table.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pictureframe_large_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pictureframe_large_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pictureframe_medium.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pictureframe_small_C.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pictureframe_standing_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pictureframe_standing_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pillow_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/pillow_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/rug_oval_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/rug_oval_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_stripes_A.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/rug_rectangle_stripes_B.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/shelf_A_big.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/shelf_A_small.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/shelf_B_large.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/shelf_B_large_decorated.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/shelf_B_small.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/shelf_B_small_decorated.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/table_low.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/table_medium.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/table_medium_long.gltf",
+    "addons/kaykit_furniture_bits/Assets/gltf/table_small.gltf"
+  ],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "revision": "96d5930a8dbdb363409bbc2d3341718b00e17c9c",
+  "source": "https://github.com/KayKit-Game-Assets/KayKit-Furniture-Bits-1.0",
+  "status": "downloaded",
+  "strip_archive_root": true,
+  "style": "smooth textured low-poly",
+  "texture_policy": "original source resolutions, no downsampling"
+}

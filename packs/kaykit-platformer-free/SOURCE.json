@@ -1,0 +1,4277 @@
+{
+  "asset_count": 26,
+  "assets": [
+    "Assets/fbx/blue/platformer_texture.png",
+    "Assets/fbx/green/platformer_texture.png",
+    "Assets/fbx/neutral/platformer_texture.png",
+    "Assets/fbx/red/platformer_texture.png",
+    "Assets/fbx/yellow/platformer_texture.png",
+    "Assets/fbx(unity)/blue/platformer_texture.png",
+    "Assets/fbx(unity)/green/platformer_texture.png",
+    "Assets/fbx(unity)/neutral/platformer_texture.png",
+    "Assets/fbx(unity)/red/platformer_texture.png",
+    "Assets/fbx(unity)/yellow/platformer_texture.png",
+    "Assets/gltf/blue/platformer_texture.png",
+    "Assets/gltf/green/platformer_texture.png",
+    "Assets/gltf/neutral/platformer_texture.png",
+    "Assets/gltf/red/platformer_texture.png",
+    "Assets/gltf/yellow/platformer_texture.png",
+    "Assets/obj/blue/platformer_texture.png",
+    "Assets/obj/green/platformer_texture.png",
+    "Assets/obj/neutral/platformer_texture.png",
+    "Assets/obj/red/platformer_texture.png",
+    "Assets/obj/yellow/platformer_texture.png",
+    "Samples/sample1.png",
+    "Samples/sample2.png",
+    "Samples/sample3.png",
+    "Samples/sample4.png",
+    "Textures/platformer_texture.png",
+    "contents.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "environments",
+  "checked": "2026-10-12",
+  "download_method": "official free tier; no donation or purchase",
+  "files": [
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx/blue/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx/green/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx/neutral/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx/red/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx/yellow/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx(unity)/blue/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx(unity)/green/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx(unity)/neutral/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx(unity)/red/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/fbx(unity)/yellow/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 28016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/arch_blue.bin",
+      "sha256": "e88e2a3ffb72e301105d1035748d773281c449447d34f3707247b3c9433f80a4"
+    },
+    {
+      "bytes": 3033,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/arch_blue.gltf",
+      "sha256": "c606809ac0d7e7401c6412d5bb7ec5b125d6099d9d84c5cf83e901207b61991d"
+    },
+    {
+      "bytes": 28016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/arch_tall_blue.bin",
+      "sha256": "1378303050d56e3d5d0ee8df075508818769dc28e970d16190e2e14e2507664b"
+    },
+    {
+      "bytes": 3047,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/arch_tall_blue.gltf",
+      "sha256": "4f420d253cf8636eab71f4b04c6852d72e9dad19d0dc931c3e2175200d1b9657"
+    },
+    {
+      "bytes": 28544,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/arch_wide_blue.bin",
+      "sha256": "b88b97ecf3507b393deb887c5f495ff7862432ccd73a9edf59ed8e19a0e4bee3"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/arch_wide_blue.gltf",
+      "sha256": "c35fce0a94d8da9ad2abcbcc72f8a7b577253bb1c6a09877ffac04365758e668"
+    },
+    {
+      "bytes": 14368,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/ball_blue.bin",
+      "sha256": "5ce4f3053057901f1c5eb2abc5d903dfb8ef41afb8f3c9940c7099e6b57c9669"
+    },
+    {
+      "bytes": 3021,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/ball_blue.gltf",
+      "sha256": "3f61e029b27e23ed063110fc797ebdd62294d97f2ce3372df96fe3cd0c07178c"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_1x1x1_blue.bin",
+      "sha256": "e65fd8395f89817d4dfcbc38a6d86cdf13e6b64ad12fd468e6da5f2e9f298a92"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_1x1x1_blue.gltf",
+      "sha256": "eb01a833ffccbb41d2f3f79d12ca6de841764bbbe2c41a803ae57dac02cc32dc"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_1x1x2_blue.bin",
+      "sha256": "60e955fbf7d381b7a87fb3e8f28fa7cfed45cf8e88997bc28381f4bc68ce3c8d"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_1x1x2_blue.gltf",
+      "sha256": "c1e9fb8c2293c7d4584e3d8117dbd2da3a1fa5e74f49b8d39d50b7a60fd6500f"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_1x1x4_blue.bin",
+      "sha256": "c8075ffd69e37b3c206b70509b1109afeed203569bfcb6856f631bc0d8e3b299"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_1x1x4_blue.gltf",
+      "sha256": "aa8e8bb38a15c25fe96ca545c2564a55329803ecf8c88a88cd02ce38844180a3"
+    },
+    {
+      "bytes": 7224,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_2x1x1_blue.bin",
+      "sha256": "b1deceb1cac42de5906104784781b10c2b5083ed6c2dcec7beb0a0a39d0c03e8"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_2x1x1_blue.gltf",
+      "sha256": "83f34d5c69b81ede7adb23c998b6f884add87e33d9534c8739d3b724d4354e28"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_2x1x2_blue.bin",
+      "sha256": "a5301cb8ac5655f8b0a88456340afa9479b9751d763de603fad4c93a138f4b4f"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_2x1x2_blue.gltf",
+      "sha256": "30cc6318257b6287f3f8d6329cc1fb04832725d7d5a0fb3dcc1db4904b3a97bb"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_2x1x4_blue.bin",
+      "sha256": "76bc22fb21f7f08dcb2e48dddfb8e00e5e66aab6c0eb839bf8dcca9dd68cc027"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_2x1x4_blue.gltf",
+      "sha256": "5e39c16ec4c2f169df2a04e28fe01c1f9f618ccf8c2fe99bdf9c428eb2e40af7"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_3x1x1_blue.bin",
+      "sha256": "f892978941733f6f880402657ce5ae3d4f9841118a876c5478053ad76c00d9dd"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_3x1x1_blue.gltf",
+      "sha256": "a04b26af9f3639408d8979c24a34e38ebc2108c48f6d6cd56368f648ee021837"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_3x1x2_blue.bin",
+      "sha256": "f8de15cb40ba534bd8aa92f45133de61cc6e855fedd6ae40578a86d484ecf255"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_3x1x2_blue.gltf",
+      "sha256": "57a5c93d1a48cf30035aa59083a60d0cb6a380f17b405898f647c7c7a870fd9c"
+    },
+    {
+      "bytes": 7032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_3x1x4_blue.bin",
+      "sha256": "798528f836d612388d99565da29c9b70ce76ef006370beb10cd4906daf735061"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_3x1x4_blue.gltf",
+      "sha256": "cba1a726a658eb6bbba3c63d48ad2d739a18207f8a726748eb6796a07b3f9028"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_4x1x1_blue.bin",
+      "sha256": "b1a65110e8799c8be33c68445f910ce85fdff8d366b524f3d44094ea1bd110be"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_4x1x1_blue.gltf",
+      "sha256": "2ce1583da723f3a06e6c148678f2a70ea9c3cfc106d15a8ef254b55798422309"
+    },
+    {
+      "bytes": 7288,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_4x1x2_blue.bin",
+      "sha256": "9b49ee4c06dd8e04ae11ff001ea4b66fb8bcc78679b4cb538c5ba0cebe25369e"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_4x1x2_blue.gltf",
+      "sha256": "dd7905f1daacc8e15ccdc3165c8c4ab0471c6416d372dc7cb55f0515f758daba"
+    },
+    {
+      "bytes": 7096,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_4x1x4_blue.bin",
+      "sha256": "bf599bb515ea93d993c450cd715468eb21558f12abe5edbb5f59231acd04ef2f"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/barrier_4x1x4_blue.gltf",
+      "sha256": "5e48a61a4ea8d9db8217a4b25056c1d5131697eeecd6728bab71035d641925bd"
+    },
+    {
+      "bytes": 17760,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bomb_A_blue.bin",
+      "sha256": "a21cd676550a082206435a2548fbacacd42c16c066226ca686f65ec2bccb52bf"
+    },
+    {
+      "bytes": 3063,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bomb_A_blue.gltf",
+      "sha256": "091356964c6aba1db93a948b61dc220b06517ae388b0288cb7e57dc6b202aa1c"
+    },
+    {
+      "bytes": 30176,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bomb_B_blue.bin",
+      "sha256": "752daa994244bbbcce25f805d280f3421cfd5f24df1d50cda482284d8311db19"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bomb_B_blue.gltf",
+      "sha256": "a053598ead06cb507b2bec4e33886dd134259030366e329a054241d5681289ad"
+    },
+    {
+      "bytes": 5480,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bracing_large_blue.bin",
+      "sha256": "1124772c71f9c29c37ddb9a3ad1cd4c00c11a56020aa5a8a80df3ae7e6480ad3"
+    },
+    {
+      "bytes": 3021,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bracing_large_blue.gltf",
+      "sha256": "8df23eac84b817b8edb3118accfdb2cefb35bfeff84c34bd0db3322403430087"
+    },
+    {
+      "bytes": 5480,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bracing_medium_blue.bin",
+      "sha256": "74472657eddd2ce9201ab0cfc930f9ae0af6afd652b232f20a6d9276c05fdb4e"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bracing_medium_blue.gltf",
+      "sha256": "ddf4472aba06b947da3850a12732765f73bf45914c31519fb531b6d0a38f2c15"
+    },
+    {
+      "bytes": 3592,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bracing_small_blue.bin",
+      "sha256": "c5a553deab8fc6f7626e8ad67bb6aee2703b58d601ac56fbad7e443fdbb0240d"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/bracing_small_blue.gltf",
+      "sha256": "97394e0ecf341dbc8b1b7df9fb33a1836c8b220452ee5ab498cf65d67adc0227"
+    },
+    {
+      "bytes": 8192,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/button_base_blue.bin",
+      "sha256": "5659503d698e152b77839156e424e98abb1d286b0aceda483badf09d6d306dcd"
+    },
+    {
+      "bytes": 4950,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/button_base_blue.gltf",
+      "sha256": "aef8b4c43b9bae2101cd83806a8bb8756885915e73fe763191b17216b7ba6ae7"
+    },
+    {
+      "bytes": 4816,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/cone_blue.bin",
+      "sha256": "ac53239a807c92efdb701fcd329c446303a8f3c31bdc580f0bbb47db3f2e09e6"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/cone_blue.gltf",
+      "sha256": "e100116c4fb1c369d38291b636943ebb9fc852ecb24f90ba7754a91f8b1a0266"
+    },
+    {
+      "bytes": 4576,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/diamond_blue.bin",
+      "sha256": "fd261318f753c1d6f36acd2efe17bfe4ddb491727aaa9d3946375df7e39ce14f"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/diamond_blue.gltf",
+      "sha256": "5b62b2feb4e34963c5df7580788134910cc955d4cf827c574025336df8cb8a4f"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/flag_A_blue.bin",
+      "sha256": "358414eb58330c2082cc4185771c2e224216269ad2a0ab087306d0c86a07a28c"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/flag_A_blue.gltf",
+      "sha256": "f047713f733dd27dc7ea42fd93bd89316cb2b3da4b57644409b725c76cd3a023"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/flag_B_blue.bin",
+      "sha256": "35c9b6086f6c995217a6031dcaa0d89dcd3cec02affd793d49bcddd0ec106f86"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/flag_B_blue.gltf",
+      "sha256": "dfd6d7c6eaa1dad23a4068a70a38c82a5884dab7462db57432aecb67d7ed849f"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/flag_C_blue.bin",
+      "sha256": "91352282a1308a59a380ad58e7914805073974954598ccd557d5f9046ab6ddb6"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/flag_C_blue.gltf",
+      "sha256": "ba405accd7b9224c1a23ae22a1b93ff31857d2c10419471de4583ff4fd63595b"
+    },
+    {
+      "bytes": 5612,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/heart_blue.bin",
+      "sha256": "eb9aacd1a77c7020132f3cc7f969c741afd5c99c176858a0fff25a1ad78dfdbf"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/heart_blue.gltf",
+      "sha256": "3d6ddad8b0d3a58f7b876d5c6fbe5b1babc5ba1c868f3aa127741672b210a686"
+    },
+    {
+      "bytes": 37824,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/hoop_angled_blue.bin",
+      "sha256": "5c78713459af79116b2bbe5d21380c0af46cba8a69b130f5e2f3cde60e9681be"
+    },
+    {
+      "bytes": 3082,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/hoop_angled_blue.gltf",
+      "sha256": "d72aacab1c99afcca9396d96fe151f7a5e7b9db7208a10a314da9a2ba4ed9f54"
+    },
+    {
+      "bytes": 19456,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/hoop_blue.bin",
+      "sha256": "248ff8283c61483a99b01612fe2d363bc538796275f166381343b54b45026b48"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/hoop_blue.gltf",
+      "sha256": "53ce403f60fb7cf8cc2889e5465bd651ed3fde79d38a60bc7c94b78513f8511a"
+    },
+    {
+      "bytes": 14320,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/lever_floor_base_blue.bin",
+      "sha256": "b14df7b7dabbdb016f60deb04d3a4e642097d8404273a71e1fbf388b44b55556"
+    },
+    {
+      "bytes": 5184,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/lever_floor_base_blue.gltf",
+      "sha256": "77a6bdd950c7117a3279fd26e276c50082a1fbbc2c922cf80b01ee2636bbcb1f"
+    },
+    {
+      "bytes": 13776,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/lever_wall_base_A_blue.bin",
+      "sha256": "097aec72cf04a5520d04b785f08b11ba7705621728e3bc4d2c6f8fb726f23d73"
+    },
+    {
+      "bytes": 5169,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/lever_wall_base_A_blue.gltf",
+      "sha256": "feca2ce73782714263ff07929bb44e1e23c41558c1f2300c7a79a5269e8e3dbb"
+    },
+    {
+      "bytes": 10016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/lever_wall_base_B_blue.bin",
+      "sha256": "af2f57a1d068fe0add210ece66933741b9442571e89a28b488d4718d7ea1cb94"
+    },
+    {
+      "bytes": 5179,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/lever_wall_base_B_blue.gltf",
+      "sha256": "879f764e26d37cbcaaa4c9ff4bc89c76b6365b2c77e548d3b8d1b0752fecc633"
+    },
+    {
+      "bytes": 25984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_180_A_blue.bin",
+      "sha256": "36d5cbf2650bdd982fb400d183cd035390b4b14f900fc8b86e944a7d74c05826"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_180_A_blue.gltf",
+      "sha256": "3f9d818bce41ef0c5e6dce5a50fc5533b2a2c6ad3dbf7eeb7085fd87d301ad66"
+    },
+    {
+      "bytes": 35488,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_180_B_blue.bin",
+      "sha256": "51f5b4e2949cd77608811b9e7f17aa0dcd587912de465a5d30e9576f10576402"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_180_B_blue.gltf",
+      "sha256": "98a0674bc8cacc262e3dc861d501ce0ceb2711277160d1211b9344631f0dbeec"
+    },
+    {
+      "bytes": 14720,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_90_A_blue.bin",
+      "sha256": "06d1337aa2dd49ab5361fb7691388ffbb61eb1e8d09f5b852eba6a825bc5b521"
+    },
+    {
+      "bytes": 3019,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_90_A_blue.gltf",
+      "sha256": "a1a76bb7d7a8c7eb51b931275449ea90ef8f58dc22396ce2d8acbbfd0bdf11f8"
+    },
+    {
+      "bytes": 17824,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_90_B_blue.bin",
+      "sha256": "c61c666a39777f8bfd6f004f84b36bae2cbbda83c34da970e2462a40dcc240cf"
+    },
+    {
+      "bytes": 3019,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_90_B_blue.gltf",
+      "sha256": "df1f0a29590812d32cfc8fc2075761bd4eb42ae7b3ee788bc47d45c6060da33d"
+    },
+    {
+      "bytes": 10944,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_end_blue.bin",
+      "sha256": "0bfa7b936a12b4228fd356b33cf19be43d18d0449072ad77485abde6d0dcb88a"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_end_blue.gltf",
+      "sha256": "f1070ad99072dcc187ba11077633a7a05c02f4749eb1074a85fa57f57932fd18"
+    },
+    {
+      "bytes": 4864,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_straight_A_blue.bin",
+      "sha256": "a2e13629d153839af462dd9a4928a4603e5e6b3489d261ad75ef4476160c0ae2"
+    },
+    {
+      "bytes": 2982,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_straight_A_blue.gltf",
+      "sha256": "08281e03108f8bb86d37a13ec977cfe26bad5bcad1900a09100c89269624f47d"
+    },
+    {
+      "bytes": 7552,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_straight_B_blue.bin",
+      "sha256": "8c520a5ddf7dd4922fcaf9015e004a820636cd5ddc82926b7fe2190360048287"
+    },
+    {
+      "bytes": 2983,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/pipe_straight_B_blue.gltf",
+      "sha256": "171a18f70b4d59a9bc6f9ad1df5adf0b9ff751c16a66dc225d05e126461adfc0"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_1x1x1_blue.bin",
+      "sha256": "72feb20c5a90c1b0a122fb85765e824127cb7509b08b936fb82316f5fda7429a"
+    },
+    {
+      "bytes": 2986,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_1x1x1_blue.gltf",
+      "sha256": "8507450c05a7c5f0b16ed942cc8f4217a455bdf5932b549cd3828da2f07c81ec"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_2x2x1_blue.bin",
+      "sha256": "1c7cba75064a27993820f3dfdbae3d5f1236ccc5a3b74cbb887d882f27dd7c14"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_2x2x1_blue.gltf",
+      "sha256": "9a8e54aef9abf016664f96c516fe32c511e106a7d596411210743f8b4dad1a54"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_2x2x2_blue.bin",
+      "sha256": "2218d2078fe8bd2850458b975079735b3ef1f35f6d548b2e5c19213e3e5a5a87"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_2x2x2_blue.gltf",
+      "sha256": "8f8de0da7040de83f5caad0322e3e4abd085987841a4934e10b8af1c3ab085b3"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_2x2x4_blue.bin",
+      "sha256": "3918581d039773ca5649c5bc891fe44f58ac33fde4f625c7fdeeb7eccc5ee59d"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_2x2x4_blue.gltf",
+      "sha256": "fc370d54b683f1de2f47ae52f9ae31be4a5fe5ae21edfe710756efa247c653cb"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x2x1_blue.bin",
+      "sha256": "1e58f576708cd14be5348ad1ede137d08f020377b90ba95c6c7f632e5eaf7182"
+    },
+    {
+      "bytes": 3012,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x2x1_blue.gltf",
+      "sha256": "a33000af449daca76c7ee8b3b7fe200ae1de7efcf187b381137167a71c9e900c"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x2x2_blue.bin",
+      "sha256": "07ab351a280e5d53159875162d223531b0a2db921771f0037c7d1184df23f57e"
+    },
+    {
+      "bytes": 3012,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x2x2_blue.gltf",
+      "sha256": "2e658621a5a2b20e4690dd88105595789a733848ace3d3e8023974679ee89dc5"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x2x4_blue.bin",
+      "sha256": "9ac0c60614b92371a7c9326907f4b385925c90618aa7ca922fcc0e18bf67674c"
+    },
+    {
+      "bytes": 3012,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x2x4_blue.gltf",
+      "sha256": "c7f886e1e77fc954b8cf791058d083136eaa8409683310fd484bcb489e400889"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x4x1_blue.bin",
+      "sha256": "e5fd1e9a14fb5f86f6c1190c23ed372932d098cadcc6d1d00d74b3a12484aaf1"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x4x1_blue.gltf",
+      "sha256": "01b8767fb100e7ec7b0e597bd6754f110d8e48281a1a76c0e10cc2bf3521b617"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x4x2_blue.bin",
+      "sha256": "ec39dd7d4f94b301957adade63cefb7cf3f6a190bba5cc37bbed0a67b816ec65"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x4x2_blue.gltf",
+      "sha256": "2e40050d947ea412c3f6b46110f66a70fb51fa2a7f1df37aa2b8a7b3b96884e4"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x4x4_blue.bin",
+      "sha256": "1a60ab05ca3774ca9f51b56bbb9e1275dbe49fee820aed9d5f0f0e93b927b6ed"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_4x4x4_blue.gltf",
+      "sha256": "17c957a0b9e1de88bf98a364b9d000d2cdeef785b054d8ea16e58517cd7e5b9a"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x2x1_blue.bin",
+      "sha256": "cf38044c4a1063750dce32238d105ccaef886be5a21f82968448ed2171d92d45"
+    },
+    {
+      "bytes": 3012,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x2x1_blue.gltf",
+      "sha256": "5d397fc03e2ca836755c225a6e497df20e235c7795462ff00ade6173026ed00a"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x2x2_blue.bin",
+      "sha256": "c0441165d29fbd7bec1b42ca6613294dd6b98c32188bbb14795e475ab185f71e"
+    },
+    {
+      "bytes": 3012,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x2x2_blue.gltf",
+      "sha256": "24929bb58c7bb31b1624c7564ef8898914bded9a8d5932569eebdcf89a82da27"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x2x4_blue.bin",
+      "sha256": "e3cd6968590122bceb43ed353944b06185837ae91e64e2a9b368eb6fddc6f16e"
+    },
+    {
+      "bytes": 3012,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x2x4_blue.gltf",
+      "sha256": "e9b119b9e73e6e02603878b44b469ada0ed19ab9e268298c8c0854a157b750d8"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x6x1_blue.bin",
+      "sha256": "8dcafa5added032123f7564db21cad9798a14e977dba946129d73fc63dfa6e58"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x6x1_blue.gltf",
+      "sha256": "f9738f2ef27077b846ba26887bc397e2325df71a8041825f2a6cbf7512f6edba"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x6x2_blue.bin",
+      "sha256": "5bd8e337ceb31da821b9bba1a8022787d85de09db474a8a1dd44285f99feb7eb"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x6x2_blue.gltf",
+      "sha256": "d4cedee15251f0a5bde6dd4ab588382c508a8ac82825d356bf634315ac3995fb"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x6x4_blue.bin",
+      "sha256": "9cec51654ec8ff33ef693c8c46da4af03e5367d600b3dada6dc8bead604afa5e"
+    },
+    {
+      "bytes": 2978,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_6x6x4_blue.gltf",
+      "sha256": "2a19dbd40bf130b760f14e5cf0f809caea56e0b73bf5aa91c495942ff885e1ad"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_arrow_2x2x1_blue.bin",
+      "sha256": "4d30a88f6a77c51ee0e7bd35d2a076c0a5156313ce8d6fc62625ed5677e23ef3"
+    },
+    {
+      "bytes": 2998,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_arrow_2x2x1_blue.gltf",
+      "sha256": "1f6f00a6de1fbdad1db5ce926be634bfab5d4a9e24d3e2e404a40032ae4706ff"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_arrow_4x4x1_blue.bin",
+      "sha256": "3dff674a4ac1dffe8ad354a435ce1fe6d9247fba0e2bf3d57feaa5b587297d1d"
+    },
+    {
+      "bytes": 2998,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_arrow_4x4x1_blue.gltf",
+      "sha256": "5c79694e6c49f55314395ef5498ed576df897152b11aa775e28c830018bab432"
+    },
+    {
+      "bytes": 14456,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_decorative_1x1x1_blue.bin",
+      "sha256": "c887c22c00b00df4e837be170645dc10dcadde9e0be91f24a1a17b71e50abc24"
+    },
+    {
+      "bytes": 3023,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_decorative_1x1x1_blue.gltf",
+      "sha256": "aa542fd216fcf74f50d7eb915898e3cfc17f581f2e45238730667b8808760873"
+    },
+    {
+      "bytes": 14456,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_decorative_2x2x2_blue.bin",
+      "sha256": "b41c4c96582e3e65746318f9e7b0c5ddc5bee094c627640027d3c1c6fe5a2fc2"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_decorative_2x2x2_blue.gltf",
+      "sha256": "6f52a9f0aa7e2e6ab8d94ee76f682997d2476cdc06c082c06b29fc2a10708937"
+    },
+    {
+      "bytes": 12400,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_hole_6x6x1_blue.bin",
+      "sha256": "0a8895f3e86b94bc70b5fe36b55f1edebb2c2213c8ea19cf5a6722e7d55d6db3"
+    },
+    {
+      "bytes": 2997,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_hole_6x6x1_blue.gltf",
+      "sha256": "5f0ea1a5e7d06ba36438b07c94a5bf3ef70664512eb9931780f3af00a25ffea1"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_2x2x2_blue.bin",
+      "sha256": "76871af13cb7255a5fa2102eed99ef8c5a54c7c21f77504ce5f9329fc10ce320"
+    },
+    {
+      "bytes": 2997,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_2x2x2_blue.gltf",
+      "sha256": "b2722fdd835f71e765da885a5707127a406953a2ce82ed080b992125d45b308f"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_2x4x4_blue.bin",
+      "sha256": "7ad91cc4f3dfe3085ab61dc34ccd0f70535d69915e2c6dced809f957a882a7d4"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_2x4x4_blue.gltf",
+      "sha256": "8dd25eb0f24d962ac59ab79ed21a60000425bb68d6ab1d8cc96e6415212b7b92"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_2x6x4_blue.bin",
+      "sha256": "d5b17e5034ab1f245e6fcc41a1ed09e1673774a906d4717bfbbf2fe3cf2969c4"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_2x6x4_blue.gltf",
+      "sha256": "452722eb4a9f664a9390ab2fe6a5bdc3ca48f5356fd7bbfa2bff1ae5fbe3235c"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_4x2x2_blue.bin",
+      "sha256": "6a7735074df0cc6c3ea9527181f34bd9ed7def75e21a4df26fb0e5af48acceee"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_4x2x2_blue.gltf",
+      "sha256": "4335a95f2266423ceaafafc61200c31f111d884f7955b140347bf1a88c55107b"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_4x4x4_blue.bin",
+      "sha256": "c3a99a943b8c120159e9e0d23b52148ee879ab88dc65b6c6e9474b54f9da29a4"
+    },
+    {
+      "bytes": 2997,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_4x4x4_blue.gltf",
+      "sha256": "5b312acb0071bcd2d1c5d55021126240872ec7099dd151dacd8bd22345a64507"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_4x6x4_blue.bin",
+      "sha256": "34b6fea39b9c95942d47a73ab9b1d72f00e80f801801e69a10e0afae63a266a3"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_4x6x4_blue.gltf",
+      "sha256": "337409e7f8fb5a8ed21269c8fd0c7215d03f1588b6eadd4375c77804fdd933a8"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_6x2x2_blue.bin",
+      "sha256": "9f35ee2b09a2688cc28b8b1eea7bc50a22ea97c6e85774e6dc1c6775f798fc18"
+    },
+    {
+      "bytes": 3031,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_6x2x2_blue.gltf",
+      "sha256": "cd552c3af7b5ccb0cd12302b9087345823c2bb0c479f23921f00f430a4c960ec"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_6x4x4_blue.bin",
+      "sha256": "2dae1067cd497deddd179435ec4bb042e115f602e90c26bedb293e628fef2292"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_6x4x4_blue.gltf",
+      "sha256": "56a33286d58cc294495d10a2593906ad2f1ec8c6f9e5465a003a2d0d9f4809eb"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_6x6x4_blue.bin",
+      "sha256": "971d90894102b521a0b65cb9984acce7c8ca45b85bce646fc624c6ccabcb12c9"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platform_slope_6x6x4_blue.gltf",
+      "sha256": "2db490e005d46fb32bf30eed9107642a6d0124cd80936fb4e3dd68f793b97fb4"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 7680,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/power_blue.bin",
+      "sha256": "7d20002d057e869fc7545f0366dce3e8f5d07533647f420e493997acb2b40c7d"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/power_blue.gltf",
+      "sha256": "eeeb66af6bf397367d3040d1bc86181e4a115c25a16cc8c7761fb729d7944b20"
+    },
+    {
+      "bytes": 8028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_corner_double_blue.bin",
+      "sha256": "e6be5476d829269e62bb23b2a7b4819754ea1c5179cd26ccedd2b401b932554d"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_corner_double_blue.gltf",
+      "sha256": "0135ade0a3aca9b351e08f4e74d828a5e67df7d9a1a286b1fcfc7d4b280326c0"
+    },
+    {
+      "bytes": 8324,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_corner_padded_blue.bin",
+      "sha256": "b421598a717c849d3e5bb277752205928912496529a42d3c8ee3b649e2a9eb08"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_corner_padded_blue.gltf",
+      "sha256": "81614915de1eaa6a4f2e44bc9b74856245e7ed1c60e808db6ba0ce111816f5ab"
+    },
+    {
+      "bytes": 5364,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_corner_single_blue.bin",
+      "sha256": "665d2b53aff8bcf67564b7e7f861cd2ead88f76e476b3fa4e7e3b161ce84084b"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_corner_single_blue.gltf",
+      "sha256": "c0489352d730d37a85088247ecadd26f44f01ee326db35a0ad6eed64e4ee79c9"
+    },
+    {
+      "bytes": 5208,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_straight_double_blue.bin",
+      "sha256": "241c772fdad5f89000c39028f0842ec48ec71d5a8d4dadff03bcd14482957d81"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_straight_double_blue.gltf",
+      "sha256": "bb6ff17edbacc538264a06c069471bbac77bc8224050cfdc3a07a97b65d1fbe3"
+    },
+    {
+      "bytes": 4984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_straight_padded_blue.bin",
+      "sha256": "240e25fa3da7ac95ba12b380b7cf06f013bd8828e957a6f189bce2a36833e67b"
+    },
+    {
+      "bytes": 3093,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_straight_padded_blue.gltf",
+      "sha256": "6d4f843f12c29b2686c67e9bbcec69fa7be4f40f418d64c4f231e14ebeb13397"
+    },
+    {
+      "bytes": 3504,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_straight_single_blue.bin",
+      "sha256": "a8070741efe32ead04c30f70eef5815cb77fb71329496a1bc06f19d3ad517110"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/railing_straight_single_blue.gltf",
+      "sha256": "743df59f6f3dc12bca37280127521408a0f5586918ec391852a4c4e4bf7be920"
+    },
+    {
+      "bytes": 11864,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/signage_arrow_stand_blue.bin",
+      "sha256": "db171d18c11218760ab0450910fc87023b4fdfd0081ae2fcb2770506228dbf2a"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/signage_arrow_stand_blue.gltf",
+      "sha256": "fd2558e57f8b371f2ea4d7f155ebf6e9e8d1094a7c4ba7cb634474689ef24662"
+    },
+    {
+      "bytes": 7016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/signage_arrow_wall_blue.bin",
+      "sha256": "0b365cb50e6e496477133f2f96a90bc3fb16c012b53697fa182b0b19044a4da3"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/signage_arrow_wall_blue.gltf",
+      "sha256": "00ef1517573840cab027f42365397046076074e106ccbbadc0ee4aa129ab55f1"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/signage_arrows_left_blue.bin",
+      "sha256": "e55a60ecc0c15eeb04644129fb0cb2d9013cfcf9e14d919560996d41cf5e52ce"
+    },
+    {
+      "bytes": 3096,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/signage_arrows_left_blue.gltf",
+      "sha256": "806581856e9fa4a8a1bcecdc290d8d634c5ca53e258c4c5e4e08bd064b4647b6"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/signage_arrows_right_blue.bin",
+      "sha256": "b983f6e5c22468316441a34d1b2ec229cf8bec49567a3c18d588095f6bc98542"
+    },
+    {
+      "bytes": 3099,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/signage_arrows_right_blue.gltf",
+      "sha256": "1961bc74d2936b17e02db1f1a4aff5054d1cc69b2436ddf73e7302f847923a4b"
+    },
+    {
+      "bytes": 22352,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/spring_pad_blue.bin",
+      "sha256": "56b91c98b18f82de9d90d09eb049b69f15958122f59f40e75103c4eb9d167ef5"
+    },
+    {
+      "bytes": 3001,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/spring_pad_blue.gltf",
+      "sha256": "b6513901f48786aae4f106dbc8f66dfd8da3767d2871ab31f3a9e0273ffb8181"
+    },
+    {
+      "bytes": 3560,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/star_blue.bin",
+      "sha256": "f43a5c54bdea355a02267793b23181dbfff11cef06afd1bdab1ebcdb1674d883"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/blue/star_blue.gltf",
+      "sha256": "1b500c8166c27c8af740eae20d3539356ef101b205ce242e293bb15cab860800"
+    },
+    {
+      "bytes": 28016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/arch_green.bin",
+      "sha256": "525281f9f76aa64a0a44a771f503e4102f245917c20ed8dddfb14114d3bb9880"
+    },
+    {
+      "bytes": 3036,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/arch_green.gltf",
+      "sha256": "9962236d37afb5b09aa670198680d65e388563a216b81977de54504094b0b609"
+    },
+    {
+      "bytes": 28016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/arch_tall_green.bin",
+      "sha256": "d6ce310a0360c1a36de0178284611776fb1863ff68b19def3cdbb91d39e230b9"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/arch_tall_green.gltf",
+      "sha256": "b6374568fba7937f78e7eeace44e6463b8549775e86ddf818ca37e511c06b856"
+    },
+    {
+      "bytes": 28544,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/arch_wide_green.bin",
+      "sha256": "8bc1cb512c8434eff854db4c7a3f929d118d2a9a113d1cfcd36c1284e5f77f85"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/arch_wide_green.gltf",
+      "sha256": "782798a78383dbb387c18d78ac0d12e123f8dc32b88ee454c03dc4335e627058"
+    },
+    {
+      "bytes": 14368,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/ball_green.bin",
+      "sha256": "d6bb87cf5a7e894cc8f289ebc7d78525b523d7fccc5085b146c5397b5376deb3"
+    },
+    {
+      "bytes": 3024,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/ball_green.gltf",
+      "sha256": "326ef847c38c41acbfdc6a2c8f9d787f42c40fc1c6beaaebcd22b710a8627237"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_1x1x1_green.bin",
+      "sha256": "3a12848ee6d3a418bce078d1cfe42469f988092aff71c40cff460175a0957209"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_1x1x1_green.gltf",
+      "sha256": "4f78bc3ca769454d706a15824df361ef0170f2be920ab28dd57b3f9234dc6a78"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_1x1x2_green.bin",
+      "sha256": "9d3dbaeae66f1ca143d79c60452729a6f6acc48bd3971814d84668bf2073f9ee"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_1x1x2_green.gltf",
+      "sha256": "fa76fa14f448d23719c6e8d770e331ea764fedd80419053c9a68e6a3a051af8e"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_1x1x4_green.bin",
+      "sha256": "a07794142f871b145285b413e5f8a92c871ec4ff10b04279f0a9b3184dc65b01"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_1x1x4_green.gltf",
+      "sha256": "474b6f9f80adcbc454c0279508974518ef76af5c0f2890790170c25f6023dc3d"
+    },
+    {
+      "bytes": 7224,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_2x1x1_green.bin",
+      "sha256": "09990c022b240d8f5e74f813a232b57a3d0fd0a72b1abcf301f18a460954b014"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_2x1x1_green.gltf",
+      "sha256": "fd463f77330445e0552ee5c2ebb0ead6c1e5f1332e87afee99910807f90a3d31"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_2x1x2_green.bin",
+      "sha256": "e14b3521abf8bab65546cb4f9a973de57d351753927c7ae8f601d12c6ba0a7c0"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_2x1x2_green.gltf",
+      "sha256": "f56315210f30376d27f4fe39de3cda7bdca9669af89a6e698e743539106c3a2e"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_2x1x4_green.bin",
+      "sha256": "5df93415f4a2f1455f79d4522b73be2a6501ba31103b954ab685cafd0c75dc98"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_2x1x4_green.gltf",
+      "sha256": "132bc42ba6087152bb7179363333aa271404c8db38545eee850a2878b664af44"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_3x1x1_green.bin",
+      "sha256": "825aba7d86548f501629bd61d5b191f6f4d930a3907e634b5f6c1ec1b4321687"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_3x1x1_green.gltf",
+      "sha256": "03a0252ae23eaf1e3df8d275875eaf4f30f9db64295575511ee8aafa9a9b5e19"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_3x1x2_green.bin",
+      "sha256": "c8c97ebe1006eb0bc8313b97bbd17fd70910183865b975cfa53212039b1826e8"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_3x1x2_green.gltf",
+      "sha256": "2a21e95bc3fc050e9b322a6ad5452f657af0b2cad9b6d6fd68e87f4f39e1b93e"
+    },
+    {
+      "bytes": 7032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_3x1x4_green.bin",
+      "sha256": "178ee760d6f7301c93fa4bb5630bfeab28b68d361a1e5550ecb60b17cbab73ca"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_3x1x4_green.gltf",
+      "sha256": "6abecf346cc2fdeddb731c8390c7abe57c6905d05563eb59711c573b1c36c5b3"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_4x1x1_green.bin",
+      "sha256": "568f426afb9b35f1a5bb74c10ca93325f21eebecb6b7185fb6a20bfd24a27b80"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_4x1x1_green.gltf",
+      "sha256": "a259c36c2965e69adf82130dbc1158f5b8767ac8d42ab1a6d605002837270879"
+    },
+    {
+      "bytes": 7288,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_4x1x2_green.bin",
+      "sha256": "d346bb795825ca6887ee02a529e16364d4ad9302df3d8bce5a18fd5a9e91331f"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_4x1x2_green.gltf",
+      "sha256": "283a10e89a0264b4a848f02271f04e811a55289d27b793722ab76e868828f470"
+    },
+    {
+      "bytes": 7096,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_4x1x4_green.bin",
+      "sha256": "eff2bb96b3c5d4d1d6c6979c45e50d9fff5512ef64351187fd061a63f003c73a"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/barrier_4x1x4_green.gltf",
+      "sha256": "54968c05827ed533eb26041c6de907856251ab366ff04420a49f6ee84aa7e99b"
+    },
+    {
+      "bytes": 17760,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bomb_A_green.bin",
+      "sha256": "a4c069b333e17f427cfec78d695265cb5244f7fda1838bf1bf34d6f02bc37648"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bomb_A_green.gltf",
+      "sha256": "0c70f5921996b1ca3a9432339e0b6545613d2e58e92a01fd065db6b1bfc47f55"
+    },
+    {
+      "bytes": 30176,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bomb_B_green.bin",
+      "sha256": "0b0f5800892ab2c27644f9478a52577597df07f6e6afb7556c8620679010d142"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bomb_B_green.gltf",
+      "sha256": "c79ceead7a716a274210d547cf125ee4bb17d980232742096496d06e96f55370"
+    },
+    {
+      "bytes": 5480,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bracing_large_green.bin",
+      "sha256": "6009640567c9c58446f309e973a78734b42b8204851b72276751bed6a46c9291"
+    },
+    {
+      "bytes": 3024,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bracing_large_green.gltf",
+      "sha256": "8850b0bcc9fe023381743366b2aa1007cef69b1df63855876b6b4497af2fbfe8"
+    },
+    {
+      "bytes": 5480,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bracing_medium_green.bin",
+      "sha256": "dfe719990494f4840726239944092c344573484c2eb92769fe86b5f3d457f561"
+    },
+    {
+      "bytes": 3091,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bracing_medium_green.gltf",
+      "sha256": "29474621e543963ed0558c6bd623bcae82021807ecf2b6f48cce0f10f8ace880"
+    },
+    {
+      "bytes": 3592,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bracing_small_green.bin",
+      "sha256": "be803762627fa681797d96359afe0eb9e31e8fd2b2b5a9cb9f21064b1aec4eb3"
+    },
+    {
+      "bytes": 3084,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/bracing_small_green.gltf",
+      "sha256": "1a5ba859e4e53a103154546850a248fcb4dbf976a589bf46d1e53752a7de25c9"
+    },
+    {
+      "bytes": 8192,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/button_base_green.bin",
+      "sha256": "4d9f44f183ca05fdf8da3bed58013fabc566dbf01bfa6f8ddd433fde6681c13a"
+    },
+    {
+      "bytes": 4955,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/button_base_green.gltf",
+      "sha256": "a3b86ba2612b6c2638733d735df300a63b4536df30e986cba74fa407b90dbacf"
+    },
+    {
+      "bytes": 4720,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/cone_green.bin",
+      "sha256": "582de69be1621c5fbd9a3cade14261b022b8b93ac5414725614b18b5bd88daed"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/cone_green.gltf",
+      "sha256": "1d5fbb24db7b2f0888d2c70d0a112ff4958c28a65f034cb76aa9fff79ac4b782"
+    },
+    {
+      "bytes": 4576,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/diamond_green.bin",
+      "sha256": "b64bac593fd40a0ccd95c29532b8b9d134c981470bf1eb509b6b2087dc148aca"
+    },
+    {
+      "bytes": 3063,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/diamond_green.gltf",
+      "sha256": "22cbaf496b04de056650293d2353fc3e3fc6c8e7ec01498c860012e531c7094b"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/flag_A_green.bin",
+      "sha256": "9825445a43e27f19eec54e61da0a109d287cd3e690bd01ff6beb14beb5256c76"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/flag_A_green.gltf",
+      "sha256": "7ec024650777f7edaa475d075cd4eccf79f8ef2b4cbd192314c49ff172a3c006"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/flag_B_green.bin",
+      "sha256": "2cb7cc386d730577b6aabc68f607133049fb51be5980b2d296d54aff5c7df662"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/flag_B_green.gltf",
+      "sha256": "f05fa420457e8cafe529d80e635fde5c5373bffc7e17fcfe9868742d5f7e2dc6"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/flag_C_green.bin",
+      "sha256": "721cf7dac61cd98ea23860c155c88a58a16e5b1ac491eb21d4238e50be753ad5"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/flag_C_green.gltf",
+      "sha256": "7296a4f9dd74fc9dec13fe6c548c5d36c29c3a98ae393e181de61382716c2285"
+    },
+    {
+      "bytes": 5612,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/heart_green.bin",
+      "sha256": "e2bd5fa2d7ed00d47e99e892f44daac1ca322f1b5911163ba8531c05ec9336f3"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/heart_green.gltf",
+      "sha256": "fedf8492377b6f3faf932f35c67ba3bf0ebe7329a5e8f2708350942bb83cfa7e"
+    },
+    {
+      "bytes": 37824,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/hoop_angled_green.bin",
+      "sha256": "e201e5a17464e726167e55699263227f31c50b9801980f9f69855f700ccb5e01"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/hoop_angled_green.gltf",
+      "sha256": "29f14c54cc1548a27ed77114d72b6e00b0f92ddc29cde5b28e9efaaa39416e23"
+    },
+    {
+      "bytes": 19456,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/hoop_green.bin",
+      "sha256": "09968e889fb44626fffd510dbaf85858c7f53484abd4afa502b9ca34121472c5"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/hoop_green.gltf",
+      "sha256": "c9abd15e5fffaaf6bbf60894ca541c902d559c7031bbea1079063ebfe94b5596"
+    },
+    {
+      "bytes": 14320,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/lever_floor_base_green.bin",
+      "sha256": "b1b72b376bfa76b431a95501b77379b8014bfb75cf105168111cb5564b3795c9"
+    },
+    {
+      "bytes": 5189,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/lever_floor_base_green.gltf",
+      "sha256": "c4f2a9e0f557e5aca91a1083a8c83c17257fd0751284059ca36cfd1529f02518"
+    },
+    {
+      "bytes": 13776,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/lever_wall_base_A_green.bin",
+      "sha256": "0e5e39341f8349f6758dd2cd0c39879550ad91765153ab4ee2b467f5cbbae29f"
+    },
+    {
+      "bytes": 5174,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/lever_wall_base_A_green.gltf",
+      "sha256": "22092df89d0e11df2fcf6b9fea19ef78421a24ef13e3503ba46522317434e33d"
+    },
+    {
+      "bytes": 10016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/lever_wall_base_B_green.bin",
+      "sha256": "e3acb3eb6e4486f2dc29cfd4eff153cd1e43c977e1838e7e6b5cadd3e1241392"
+    },
+    {
+      "bytes": 5184,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/lever_wall_base_B_green.gltf",
+      "sha256": "709ba289864a0ff222e293eed7bf51692df4eeccb498184631c856c54a8da749"
+    },
+    {
+      "bytes": 25984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_180_A_green.bin",
+      "sha256": "5394b8dde59e3365c4ff963484eecb088b1dc82256c99adaa8e8875fbbd107bc"
+    },
+    {
+      "bytes": 3012,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_180_A_green.gltf",
+      "sha256": "357d469707798ff127e9eb3e5860e157ba25a960560e9ca6d7c265b6e95ecfcc"
+    },
+    {
+      "bytes": 34304,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_180_B_green.bin",
+      "sha256": "52e77fb5467abb9ca0684c9c44f29105549f12dfc0f84d6be6ab6d6acfc8e237"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_180_B_green.gltf",
+      "sha256": "b02f3c9e8096306a2bf787c0c85d1cd14d51b5477a57e39e909ac43441fff01b"
+    },
+    {
+      "bytes": 14720,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_90_A_green.bin",
+      "sha256": "4ae4687f330dc69e9839397c75596a8e4dd162dd0cdc8be19d04e20129c1e617"
+    },
+    {
+      "bytes": 3022,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_90_A_green.gltf",
+      "sha256": "17c1cffabfca7197067d7e29ce5393fdf3022e9c8c2fc39a5657335beebe8eca"
+    },
+    {
+      "bytes": 17312,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_90_B_green.bin",
+      "sha256": "71652cb5b5a2ceb4fe28d7c7e38f25af5b50602264f1213a7473e26e93d99fa8"
+    },
+    {
+      "bytes": 3022,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_90_B_green.gltf",
+      "sha256": "f359673517857a2a3f0c70b3ee0a5621ff0fd32a27a5fda776cb13f8294bf815"
+    },
+    {
+      "bytes": 10944,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_end_green.bin",
+      "sha256": "f9ac889a7f3c5c718a7f0e594ba2f49d432afc6291984c4714da6d549ea7ee4a"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_end_green.gltf",
+      "sha256": "18f4f268bc3f5569c35ef359d98c79f13cbaa7cd1a95d49b83ae23a9aa5f419d"
+    },
+    {
+      "bytes": 4864,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_straight_A_green.bin",
+      "sha256": "576a560011d77d0fddbe5639bb530f4a7bbd3b138fbb987d2d47fb1c2c2a226d"
+    },
+    {
+      "bytes": 2985,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_straight_A_green.gltf",
+      "sha256": "f7b4b2449565ccbfa66221f29ac5f41bfeeead14705fdd078661f013e07cedc0"
+    },
+    {
+      "bytes": 7488,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_straight_B_green.bin",
+      "sha256": "32b9f389919cfc61e8b650d46d38b1d884cca33997550b564245cdc3fe7b366a"
+    },
+    {
+      "bytes": 2986,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/pipe_straight_B_green.gltf",
+      "sha256": "11e254fbe8453e50275c622730923a605cfc63f91c4f05ca3fb321e91c59bc30"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_1x1x1_green.bin",
+      "sha256": "e051285d44b7589ad60666cbf9c8500500f428fd0625559b3ffae43fb7483c58"
+    },
+    {
+      "bytes": 2989,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_1x1x1_green.gltf",
+      "sha256": "706fc50bec5039f1e10ef5138544cd1d5ed516bec40d997495021a1ac27c2634"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_2x2x1_green.bin",
+      "sha256": "43b08d477b5d54a338fae228c00a4cd42d51ef47d4b72edae860c3b6848e45ea"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_2x2x1_green.gltf",
+      "sha256": "c4b525d42de9558c0c55e9ab32254d9a1d0f6912bda69b4f2cb2c2f5ea5da62d"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_2x2x2_green.bin",
+      "sha256": "d1d2657e74fd947efefb7d494cec4c7b36e71c8156f9e6abe76afdaee8d979e1"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_2x2x2_green.gltf",
+      "sha256": "13a12561395ce693170115ab5a83efe7e7e3616e2bf4032bf8a4098ace8a8e7a"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_2x2x4_green.bin",
+      "sha256": "9645c8cf0f1b8caf18105f604253fbefbff9fba18154bb1df0751524ff849e9b"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_2x2x4_green.gltf",
+      "sha256": "e4fceda5dc79b43154a395bb0a0ee4356434a2985a96e15ab97bd1b0834bda43"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x2x1_green.bin",
+      "sha256": "9764317663dabc96bc27fd8312f9714d3f31dee65a85dde1d0e6845e3aa40074"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x2x1_green.gltf",
+      "sha256": "7bed305f73282cc0f39a186e268adb90b34f618a64e03a460908fe47ab774e2e"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x2x2_green.bin",
+      "sha256": "654df16f9071e7c14caadf154dc8fc5e35bd3faadbf39a76b4c5151f0377d18e"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x2x2_green.gltf",
+      "sha256": "26349ef04713cc060a532104ae7a0bb814493d00e752b0265480e02e13d093af"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x2x4_green.bin",
+      "sha256": "0109dd9c73170c77807515c6b73ec8f8b6778d5f989851ec3e308ca9e4b644f4"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x2x4_green.gltf",
+      "sha256": "4b6347a73825c834c516b02249c131f247d033eb084b06d0903d1f28b272463e"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x4x1_green.bin",
+      "sha256": "7f369dfd96f4cd4534b19896a2d16300d0d791afedba5fdcc6cec13032cf85bc"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x4x1_green.gltf",
+      "sha256": "f713de2aff979e3a41a4caa3f273f2c8e57c633072edf3052034a8f0538b1b43"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x4x2_green.bin",
+      "sha256": "3efc806ae77f09f0cb81f19b6bf9f92a6d000b0102f8255c39eceea5c6c326a9"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x4x2_green.gltf",
+      "sha256": "1958c1f5f0903d6ddf7830cf0e87d9cb2eb3dc19401619b0e20f4a4eae0dff66"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x4x4_green.bin",
+      "sha256": "c10916c5351e7b30f6d5e211e309e8327fcfe34be21e37febdb9ae0cfa2ff51c"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_4x4x4_green.gltf",
+      "sha256": "67b6724a5e124c194a3982a7f7b4ca96a9ac6535c41c6e89b43ff687b501dc2b"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x2x1_green.bin",
+      "sha256": "d90d313d5ee3eed85f313f6b49096a57aa2f00399ca42e955a14384e5211a7b3"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x2x1_green.gltf",
+      "sha256": "d1f918ccb86d6aa942118d954cded56dbb2d566c6d3cf1dc1dd28a3ec19af7cc"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x2x2_green.bin",
+      "sha256": "408c445541f6b030d8d267ffbe22ca3d114702f69334b8130d184b9588985047"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x2x2_green.gltf",
+      "sha256": "0b7bfdb8289669ab9a2e25e8ed0686a4b953beeca53fc2c30a44e60413eb9701"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x2x4_green.bin",
+      "sha256": "bec0873e5fdca3de0f10671ff08aa3fffa2f5dd48a4a4587a929b402a2d707f4"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x2x4_green.gltf",
+      "sha256": "788a26ced2d3e76990923dfe90c5b7f9086c5cbb091048f93850ed834fdcd313"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x6x1_green.bin",
+      "sha256": "549cb65e59b1db7ea111ddf8304e51d9d217161e5637e3d6480c4faa9b2b3784"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x6x1_green.gltf",
+      "sha256": "8b11f68c8a833a925ae99ffb51347f122bc8aacb09fe89ad9d96d031ce01c1d6"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x6x2_green.bin",
+      "sha256": "b5a586ae64a2b8fd1d69502b70793a1d18a824e4cca359a04e14e13c9ac60bec"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x6x2_green.gltf",
+      "sha256": "36f93b5a13e71e5276cc076f6256223800c49f86d177f20a3191fed029de7ce1"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x6x4_green.bin",
+      "sha256": "b37f23e1aaeaff87b336255c22183ed8eaad12a5346340aef8a2dacaa6138cc9"
+    },
+    {
+      "bytes": 2981,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_6x6x4_green.gltf",
+      "sha256": "0cfd2c9fe38cc9228139e50e888fbe05f75747e1a50f4d1e735fee3978b496f4"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_arrow_2x2x1_green.bin",
+      "sha256": "d5346aba2a2057322955919c755c5f24d28eb973600126391ca5d603629d6da5"
+    },
+    {
+      "bytes": 3001,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_arrow_2x2x1_green.gltf",
+      "sha256": "da7995ee81efc290fd7b623c17fcc5387dc8ad2de2c714b8d108f43b43470515"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_arrow_4x4x1_green.bin",
+      "sha256": "e9b16513738c324087c89dde4f9eb8f37034b94b69cc6f024816bab151153b77"
+    },
+    {
+      "bytes": 3001,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_arrow_4x4x1_green.gltf",
+      "sha256": "51062520fe2632c0c2a85c0fad2cb3ce6dc984053ff5bae93d8f8a9a41b1a3b1"
+    },
+    {
+      "bytes": 14328,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_decorative_1x1x1_green.bin",
+      "sha256": "d7f3be18e956334c079dfbfc4ae0ba95daa76b9295b7f6ecfc4e4ff30bf66147"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_decorative_1x1x1_green.gltf",
+      "sha256": "555531fa42f491762cc73ae0cccc1d6e3eb03d063047ab1a473db9063a73c191"
+    },
+    {
+      "bytes": 14328,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_decorative_2x2x2_green.bin",
+      "sha256": "b76a3407da7b551ba2d85909a7a8dc7694956ff87a1a763ff65cd13183fd322f"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_decorative_2x2x2_green.gltf",
+      "sha256": "f46b62719720056dad1d3bd4d33a7a1be0efc1c9c4da73174323812cf96e65ed"
+    },
+    {
+      "bytes": 12368,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_hole_6x6x1_green.bin",
+      "sha256": "dfd849735941ccb74c8a6796aa8d28c1e2ed184c23cfee52b117f5ba43639e94"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_hole_6x6x1_green.gltf",
+      "sha256": "fbc5f5ffa07498b61c76bebead1ff01e1ba72c8f2813e0deebfc102bcdc393b0"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_2x2x2_green.bin",
+      "sha256": "8c8c3e12b87cdaace7c2393568921e010d5a63aeee3d701e4009216e5e798b2d"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_2x2x2_green.gltf",
+      "sha256": "b146b76d96fc8d8cf5d82b5f1e73f470330e9b5ecd575c888f16faed80c7dad3"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_2x4x4_green.bin",
+      "sha256": "38353ad7b4766e7a580f506054c4b95a928e26390cd70a01b9d1d2f6080e05cd"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_2x4x4_green.gltf",
+      "sha256": "4282930a2c4b5905e4d3c67fa615d73988d815cb827b0b2939b06676d2a0046e"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_2x6x4_green.bin",
+      "sha256": "00587d7e8f058c615016e7b0c341bee7acd4adac6cee9b62518d2e087d2e4cbb"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_2x6x4_green.gltf",
+      "sha256": "9ea36d65f0c44dfeeb0799474c6dd43d28593c1f590869410627fa5eb6acf001"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_4x2x2_green.bin",
+      "sha256": "44232440ba90cdf3bc7bb686806bd68ad7e260ed80fa4463ec1ef399901a45ea"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_4x2x2_green.gltf",
+      "sha256": "f3c0d89c5118d46eff16bfa31b8395dd575e8d899658379a9f513bcfa20f435d"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_4x4x4_green.bin",
+      "sha256": "32de5f853e7fff2177c26f2f029f6b4401eba3bf7276af88eb46cd89768fef21"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_4x4x4_green.gltf",
+      "sha256": "f465603ba3df58d797f7df4e9c33a8accf780a977b189fd0c886f21066f0a57a"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_4x6x4_green.bin",
+      "sha256": "9297497df15da2af2ee66106e6f60e5c15ac5cc9f2d54cbec7757cdcd4e1ded8"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_4x6x4_green.gltf",
+      "sha256": "d48799363b05910d4c976947afb30417cff4bf00e32911d8ba413d4d32ca353f"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_6x2x2_green.bin",
+      "sha256": "291b42e6aac05c329484e98f7b76d405e304fc7a3f019a54a1a09e8d308a0118"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_6x2x2_green.gltf",
+      "sha256": "7eacd5ab59966a1b113992297d3c29fca1905ccf0f226988edd45f3911dd02d8"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_6x4x4_green.bin",
+      "sha256": "6289de8228ef5ec3f864d4f3fcf27af28b5f42405ffb5d51700b0c871dc6e471"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_6x4x4_green.gltf",
+      "sha256": "9ef95ee013d9c1e4277d08dea42efed1c85b59fda297f11e103fbfe4dfe94f3b"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_6x6x4_green.bin",
+      "sha256": "72deb5f353c7d2fc4020b418b7427cca9551d08487e28e46329eab8dced2e11c"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platform_slope_6x6x4_green.gltf",
+      "sha256": "8779dc9f036bca05774c943f5a9987ba46634cd6b8d48960068efc80e06443f2"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 7520,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/power_green.bin",
+      "sha256": "42ded18e84efe6af3c49a2b1028783faae4b5f9dd9050214db77888426b28d1d"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/power_green.gltf",
+      "sha256": "ea5ee9928c4a4b8037f226e18cb59262ab15c2f556c2bb3539e863e2c4bfeedc"
+    },
+    {
+      "bytes": 8028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_corner_double_green.bin",
+      "sha256": "c5a19f5afd422e6e940b0097a22c2891a96eb041c97fc4fb6329e2e03574ce31"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_corner_double_green.gltf",
+      "sha256": "e9a06d2c5cfb66aef81db7e374ee8e01a8273d14bb9ed055d1813fd183b9077a"
+    },
+    {
+      "bytes": 8324,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_corner_padded_green.bin",
+      "sha256": "61f60444407f9b917520b3699eeef0519e3d20a83b32ca9bc42c6e4976dcbf17"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_corner_padded_green.gltf",
+      "sha256": "392a8a2fe16dc9fb14d305e6c475c756fe6a870a7afe6d47436f54502eb19f88"
+    },
+    {
+      "bytes": 5364,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_corner_single_green.bin",
+      "sha256": "5acea414f53596045f443d64a8e5eb5bc79508ec11699860a120b14c6a619a2d"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_corner_single_green.gltf",
+      "sha256": "015e76b0c5d984ff2c1164978538a447d58d6efba1f60c0624ddbb8268847c7b"
+    },
+    {
+      "bytes": 5208,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_straight_double_green.bin",
+      "sha256": "98ac859f95803efdd388224dfdad6d1252aa9df3dc983869a87c6b88e1a8765e"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_straight_double_green.gltf",
+      "sha256": "2504375308e75ff719ee0d78457040ce170f2c9eeefd52d7146a04a48c3b7566"
+    },
+    {
+      "bytes": 4984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_straight_padded_green.bin",
+      "sha256": "9add96f57000cda5cdd92581ee591ae34b4aed59eab50b1fa62aeb912f40f2dd"
+    },
+    {
+      "bytes": 3096,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_straight_padded_green.gltf",
+      "sha256": "2b1617e723767c5daed4b270950d02cb27f284fc7c36dbbc64fd028efe6f619a"
+    },
+    {
+      "bytes": 3504,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_straight_single_green.bin",
+      "sha256": "b9fd51ff660a1489875388a025c8ee57fa58762515168c4a9b0fda2374285318"
+    },
+    {
+      "bytes": 3091,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/railing_straight_single_green.gltf",
+      "sha256": "06deb8d65a8ecd873fb78a94f3b724d8c22f1cb58b969df0c7b7e6c672e6f2f2"
+    },
+    {
+      "bytes": 11864,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/signage_arrow_stand_green.bin",
+      "sha256": "9541c28cec74e8bc165dae9b0b95d8232e42a7d50c6167c83944b6f285af71dd"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/signage_arrow_stand_green.gltf",
+      "sha256": "2f45b002571431ea5236f085ce8684d8524dc31498311c82861d0c5eeecc65a3"
+    },
+    {
+      "bytes": 7016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/signage_arrow_wall_green.bin",
+      "sha256": "35772fbea7d1ed8ceef07d2531fb669930533f6f656e7ef0117a512399895bc0"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/signage_arrow_wall_green.gltf",
+      "sha256": "d2218ddbc607eda2dbd007a7529d158e6725f2ce8e31b82fd506518c30b29652"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/signage_arrows_left_green.bin",
+      "sha256": "a405381d9f4855b3e4e413c8d35d73385c2c8cbd1b33ef8b47952be8aba25873"
+    },
+    {
+      "bytes": 3099,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/signage_arrows_left_green.gltf",
+      "sha256": "488bb89e924b8c0b379c29ddf102dece8ec0382c984221d3e119fad13590c31c"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/signage_arrows_right_green.bin",
+      "sha256": "b3c29478d29f965a1d7ad863c51fc70d8a54b69b14f1c4852d1261900ee060f3"
+    },
+    {
+      "bytes": 3102,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/signage_arrows_right_green.gltf",
+      "sha256": "888b36cff45449dcd086126013b8dc09c59398adab0a06674e488878c8a2e292"
+    },
+    {
+      "bytes": 21776,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/spring_pad_green.bin",
+      "sha256": "eeab919eac99f1d23911634ea875d48e21096b53d897abbc102107badbc9a777"
+    },
+    {
+      "bytes": 3004,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/spring_pad_green.gltf",
+      "sha256": "2f9a6b171bffecdbe66488c97969fff42781e4e462c80a22548dc05a2f969a5a"
+    },
+    {
+      "bytes": 3560,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/star_green.bin",
+      "sha256": "b5dd117d2150da87978f7696c0a5e9232c8057e3ea8dc36812f2e0840fb27b09"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/green/star_green.gltf",
+      "sha256": "728a905ea9d8f46bb588e3e6704e163bc904788904b347530c694f476b775ba0"
+    },
+    {
+      "bytes": 14368,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/ball.bin",
+      "sha256": "62a05f7e3541920caeb0c18c85b636df649c5ac061831f1f85ca294d590cacfa"
+    },
+    {
+      "bytes": 3006,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/ball.gltf",
+      "sha256": "d151c3c9190979fc784ba47b06ff76bafbbcc49002beca674c5eaaebf9ea6c4c"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_1x1x1.bin",
+      "sha256": "0b83c22a0fc673e14eca4c79847fec9ddaa96769c0b6f40013f70459ddfb65f9"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_1x1x1.gltf",
+      "sha256": "2880619e71e8eafec2b7375ead7d00e0e016e22c28819089390bf9be015b3bee"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_1x1x2.bin",
+      "sha256": "b1b6c2b4155f1ab4276914be8d0c326a36da2c7d2ff000e2ace8abee86afe7c0"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_1x1x2.gltf",
+      "sha256": "9a84868b5b3aa4f81c7eaf881aae53b6481576238bc2ae99abaab2aae5ac2636"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_1x1x4.bin",
+      "sha256": "76b55220c95e8d27b149d632fa80cfb5d7c28baf48b50b22bfce2b9b9b0f30c8"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_1x1x4.gltf",
+      "sha256": "c68d12c27b1ab15093480b300724b1c08bd6e65458e065c6df71ed235edd51e8"
+    },
+    {
+      "bytes": 7224,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_2x1x1.bin",
+      "sha256": "810e740c343702728f47a02db5cc9403b524315655e145443b84b32cbf0e4edf"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_2x1x1.gltf",
+      "sha256": "914c170139feef51688a365f9bc1b68b6e10adab9d05d2a6f85b6df2573dc5ef"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_2x1x2.bin",
+      "sha256": "2e27e32393c199a860b437f50ccb9328e74534eab3d1c2e98dbd6b6554371135"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_2x1x2.gltf",
+      "sha256": "8f43ea12c849815769b454086af7caac62401a44e803599e0ceea34c69a82135"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_2x1x4.bin",
+      "sha256": "e2cf68e7dad93063ec5b02fa776e6ee3a0e796ba1aa9ec898ac5b79146f34b66"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_2x1x4.gltf",
+      "sha256": "1b774bc4c6eabe5d596b778f4eb52b6de522aca4491af650e263a58c50e096e7"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_3x1x1.bin",
+      "sha256": "c6722cc023be34f3186ee506061e03797668c7e5a662c9415270ce8a76160020"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_3x1x1.gltf",
+      "sha256": "45fe002d3ff218a313257070184ccfe67da268c0022216f64676d18d50d1bf3a"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_3x1x2.bin",
+      "sha256": "266bcd15ae0399bc448cf587864e5a413c0e040592adc887402687369c50bb1f"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_3x1x2.gltf",
+      "sha256": "3de80ff08fd1ff0ddecd8d535f3c124526e20966ee9974ee4009614b23aed29a"
+    },
+    {
+      "bytes": 7032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_3x1x4.bin",
+      "sha256": "9d433c81282f4c3665206c46bbfbdaca43b1bf19d5cf53dc6b836afe6189c340"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_3x1x4.gltf",
+      "sha256": "f81024fd1cd294a301b3e14084795252a8494e909213b42f0dd721f56d46fc44"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_4x1x1.bin",
+      "sha256": "1cc34f78effc7ca23668fe3000c5b76bbc30b88eccd31eb5702a319f4dd920c4"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_4x1x1.gltf",
+      "sha256": "47179465996f7a9a7a87e8f34fbf243e3ae819deae8ac32a5e43ffb25b0204ab"
+    },
+    {
+      "bytes": 7288,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_4x1x2.bin",
+      "sha256": "98b8d419f6059cd56960c3302be3fa16850a659e2bcfcfd4a6a3b4329b844478"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_4x1x2.gltf",
+      "sha256": "9cca64ebee19c856b15c6bd3dd1e3e6b3b89bbf497ab82571dca4edc90608eba"
+    },
+    {
+      "bytes": 7096,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_4x1x4.bin",
+      "sha256": "07389dcc37d835b32301b4eb98475339cbdac9db960e7cd54f2384b50556090b"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/barrier_4x1x4.gltf",
+      "sha256": "adf1a65191f57fc0dd6f7186914523bb8b7647aca98bef979c305f41a129e927"
+    },
+    {
+      "bytes": 17760,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/bomb.bin",
+      "sha256": "cae10f4e3117f80c1df855776cdb90bce22c7f449ac583bab71b6e0d288c7874"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/bomb.gltf",
+      "sha256": "3ebcf207c329ad4371e0315373f2c32d409e9f7e85a0e224978b1af6a4ee3898"
+    },
+    {
+      "bytes": 4752,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/cone.bin",
+      "sha256": "ff1ff50a48a16aecbbeece0c53a2c0ae0820ea25b80324acc12b50c6b9f5266a"
+    },
+    {
+      "bytes": 2963,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/cone.gltf",
+      "sha256": "319fccaf7cfde2ef0d5f5db8d2a95949fdb1ebd847bf0903e1ea51df936e4614"
+    },
+    {
+      "bytes": 25616,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/floor_wood_1x1.bin",
+      "sha256": "efa2d637e5f48f66e5c82a7d62313a232eeb4834e00349b3f9a15c36185e3a5e"
+    },
+    {
+      "bytes": 3010,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/floor_wood_1x1.gltf",
+      "sha256": "c93d8ffb94a4b2ed859ed2c67d066a5280effdb7621491f22d429af22b510b52"
+    },
+    {
+      "bytes": 25616,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/floor_wood_2x2.bin",
+      "sha256": "b9829d779710437dbef2962777a5ff89fe602fe616d4dd81ce0707c02f6ba7c3"
+    },
+    {
+      "bytes": 3005,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/floor_wood_2x2.gltf",
+      "sha256": "d2a83066d0bd894b81cad63cbdb2b63c64a74d5f7da7f276f73252d9242519f1"
+    },
+    {
+      "bytes": 25616,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/floor_wood_2x6.bin",
+      "sha256": "ceb56109d7629f63da78ec1de3efe323f395bfac6e3bf3ebc8c7e61a4841974d"
+    },
+    {
+      "bytes": 2971,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/floor_wood_2x6.gltf",
+      "sha256": "f8e73c0862f22bbbbf3582783abde4a272809107772ffe9283335477eca68c75"
+    },
+    {
+      "bytes": 25616,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/floor_wood_4x4.bin",
+      "sha256": "f94aac96baa5a5d476aa5084e8cf47c2a63bfb068626b98ff635ce185eccbccd"
+    },
+    {
+      "bytes": 2988,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/floor_wood_4x4.gltf",
+      "sha256": "ff2e0748a76ac52c96b58d497b09f64c8de67e8851a0de73e5e2198973b92d0e"
+    },
+    {
+      "bytes": 13200,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_1x1x1.bin",
+      "sha256": "e3ab142aa4a8370936599ad73fb552c475ec0fecf832118e52829ff6bce929e3"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_1x1x1.gltf",
+      "sha256": "b871426a8f4159eb64d898ea62882e3337281bfbc1880f6f366a6878a394bc0c"
+    },
+    {
+      "bytes": 13264,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_1x1x2.bin",
+      "sha256": "eb8851572def48ca364a7b544a2aa02fd9fac503ce65954b76d96061b84ea90a"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_1x1x2.gltf",
+      "sha256": "3b1dd4c7d4fcad9209c0517ceaf9e32cb92e40cff5c32f2e3a77dbe4f41955c3"
+    },
+    {
+      "bytes": 13200,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_1x1x4.bin",
+      "sha256": "a88651e0ca57df4f490618441d535a6e79d01e1fdd142a40567a50ab53f33be6"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_1x1x4.gltf",
+      "sha256": "784fbcd6681136d7e021e932a633649531b662abf149b8c873d70a465832ade4"
+    },
+    {
+      "bytes": 13200,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_1x1x8.bin",
+      "sha256": "8b139ac3af2339d7b20d175c42d49723b0c78fb75445e65da7e27f7251999372"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_1x1x8.gltf",
+      "sha256": "574dce8362b161c34d12fbc5ca85a7683c909884ebbb20b3eb10a925e2c8b7be"
+    },
+    {
+      "bytes": 13200,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_2x2x2.bin",
+      "sha256": "5185e3616eb910a1c173797018cdeb9f69a22ad780eb077c3631ea3ce0fed37a"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_2x2x2.gltf",
+      "sha256": "2f888224fe6ad2fc41fc90508c1b181c5512815217ae499258689035356a1ad8"
+    },
+    {
+      "bytes": 15440,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_2x2x4.bin",
+      "sha256": "6f9959f0e5df46e26704061ff9a75747e7e959c5ea985d8783bc12fe4fd20e1f"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_2x2x4.gltf",
+      "sha256": "1e5b775384c91dfcc4e43ef10e9fd41b4d40e889fbc79c807dd2fa45ac9f96ac"
+    },
+    {
+      "bytes": 17520,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_2x2x8.bin",
+      "sha256": "fec8db257a5a687fc221bd9bef0c34c6a6236555b54cf611193674f14bcb77a9"
+    },
+    {
+      "bytes": 3047,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/pillar_2x2x8.gltf",
+      "sha256": "3fd30db215d21dff973e911822923fb012e2cca77785a453717231d7f9c85e1e"
+    },
+    {
+      "bytes": 25616,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/platform_wood_1x1x1.bin",
+      "sha256": "5c49eb445305d4948272c86fce73c117bbeba17ad55badab78ab1dc077f20de0"
+    },
+    {
+      "bytes": 3023,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/platform_wood_1x1x1.gltf",
+      "sha256": "0594788d83426da168ad511c6456841758e3260acb13a980e2c2236800bbc64d"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 24528,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/sign.bin",
+      "sha256": "2dd926b0dbec96b8e87de8a216e10c167a7a319cd56a6e626602ec12352b388a"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/sign.gltf",
+      "sha256": "7898eea8c245291a2c2beee11bf2f4cab138a1e3b7ecd4f9fd443ae8da2e0b5d"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/signage_arrows_left.bin",
+      "sha256": "0c757f0c7b8b401be0bb6d16eebc67e7fa86a546a854c2f434d0f0416d999960"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/signage_arrows_left.gltf",
+      "sha256": "6db1b89f2c54f8c86b726e8eb34c9ad8165f4d85f11fc57ec6d949fd6a943660"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/signage_arrows_right.bin",
+      "sha256": "ad311870207f9f76bcb35ff8b72f2b4de4f52df8576344e1dc3018981e1d460d"
+    },
+    {
+      "bytes": 3084,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/signage_arrows_right.gltf",
+      "sha256": "b1dc102f524f5294f83ad744112bf9427b9c3edeb3f70db7e9ecd890a83f6957"
+    },
+    {
+      "bytes": 34600,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/signage_finish.bin",
+      "sha256": "dd58aa2287f808688f76283c4b5f06252d731bd919c513a6773971ba93ee4223"
+    },
+    {
+      "bytes": 5119,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/signage_finish.gltf",
+      "sha256": "aad42f1db9849bf1db538b38f12bad32465f32daf8e19f27ed0ebfe2c0d5751e"
+    },
+    {
+      "bytes": 44712,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/signage_finish_wide.bin",
+      "sha256": "6c5beddf3a2929ea750e19752acd1975a0779b7c2e880b1795a537e345b76c6e"
+    },
+    {
+      "bytes": 5148,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/signage_finish_wide.gltf",
+      "sha256": "aa088fa3fc24da03f326a017cd11b1978f5b937336b3c0e4ae5527010041ddcf"
+    },
+    {
+      "bytes": 27088,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/spring.bin",
+      "sha256": "0004f7c88f61442cdd02dc79eb57e9d1b6d599d5b4063345f4d8e4482fd4ac47"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/spring.gltf",
+      "sha256": "d407a80b408852f88c6bc894ef5e8b9c593188fa466d8f128abfc371214d6fee"
+    },
+    {
+      "bytes": 6272,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/structure_A.bin",
+      "sha256": "19b32b7388f717cf3e8000f97b4959ed7a76ede1e7dbaad339c366939cc8b638"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/structure_A.gltf",
+      "sha256": "01aa9e7e59ff5b6d547efe4d266d32fbe0c9b412d85d5f5b39e619b054a60f4f"
+    },
+    {
+      "bytes": 15392,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/structure_B.bin",
+      "sha256": "dcafe8bcf6d619394af63499953a61491dd9618284d16a053dbe42d04936fb06"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/structure_B.gltf",
+      "sha256": "acb95558bbe13c10e386d58b054ee49c8f2004c734ae531d1f15e48c747a9bc6"
+    },
+    {
+      "bytes": 8736,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/structure_C.bin",
+      "sha256": "a4bc1f34e97daaace259d6600110cc66f76fb1be8aab9167411b4c5c423ccceb"
+    },
+    {
+      "bytes": 3024,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/structure_C.gltf",
+      "sha256": "86656de630f2124ffb273582a0eb77fe6ed3ab08ed7c1a8122fce5a0f3d7018c"
+    },
+    {
+      "bytes": 1192,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/strut_horizontal.bin",
+      "sha256": "526b2a56b82354a3cb57ec8e5708a79b0715231b16f02e37455340f98ad86f41"
+    },
+    {
+      "bytes": 2974,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/strut_horizontal.gltf",
+      "sha256": "f6818aefb17635239e8481e04ca5fe31f71f3a6ab689cd69d8b77cccc977b975"
+    },
+    {
+      "bytes": 1192,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/strut_vertical.bin",
+      "sha256": "103335beccb354f26ad2a7dab9ee9ddea499e6009f0f8ea61104d7ad33afac5b"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/neutral/strut_vertical.gltf",
+      "sha256": "52e465c4bcac694da33e1bcfade306e3019c192b7da633c779a2dd9e7ed3d70d"
+    },
+    {
+      "bytes": 28016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/arch_red.bin",
+      "sha256": "99e99237c7c031c64736e9dbcd8c827be46bd728d0077039c892a70d30b1cafe"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/arch_red.gltf",
+      "sha256": "babe4451c8d5f9b2d6036acaae143e647401fa906301c4688e25e5c18e126c94"
+    },
+    {
+      "bytes": 28016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/arch_tall_red.bin",
+      "sha256": "9777b8bb14aa163ea91eba1d433b79ca733e52e729f51ceaa5a8a98e07f43167"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/arch_tall_red.gltf",
+      "sha256": "f23eec53ee67a95d917f5d54d7d6195d4c2f9eb2f4c36171b3ed09a9b97fa3ce"
+    },
+    {
+      "bytes": 28544,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/arch_wide_red.bin",
+      "sha256": "c3cefc4d55e6216ac897129c8a53a060cdeaeb30e7a72dde8fb4dee8b61a9342"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/arch_wide_red.gltf",
+      "sha256": "ab65a678addd02fb2f296f5c54a8251200eaee974a6d1600a50321dc926f6abd"
+    },
+    {
+      "bytes": 14368,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/ball_red.bin",
+      "sha256": "8440a5ca71ed75e8acebf18c0e12482d4bb873dd9293b79924253f2b0e615f9d"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/ball_red.gltf",
+      "sha256": "0dcd336ead1db69118c6256e13364c73b03f24d698fed86f1bf62f4866d1c5eb"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_1x1x1_red.bin",
+      "sha256": "e24860d8eafe1687990ffd0940e4a556c3762233dfc1d8e1b9d1565d3e527011"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_1x1x1_red.gltf",
+      "sha256": "ebd978780dab52ecaa7cc61861f4c89f2415de2313e307360dfc8f17aedeba2b"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_1x1x2_red.bin",
+      "sha256": "502952b192c24c569751c49698885c902146c7268b27fab315b1d95ed4b760dd"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_1x1x2_red.gltf",
+      "sha256": "0cf259112c1f05dd70956c7c7abaa571dfc6639bb3d9b101b338e88cc94cafb2"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_1x1x4_red.bin",
+      "sha256": "f1932faefd09bdd0afd251b441fc5e49bb85302f4e865dab2c6a78250a69d315"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_1x1x4_red.gltf",
+      "sha256": "74dbbee562634dd4f01d331cc00c59b01b403f1dda60aa2c4498ed189a45fbdf"
+    },
+    {
+      "bytes": 7224,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_2x1x1_red.bin",
+      "sha256": "90d667920e681d025eeeed9e16f9db7f15b16768d350a5f35f55734019c35edb"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_2x1x1_red.gltf",
+      "sha256": "52ce7936ea4aef6a020d1f4aa25867d6d2fa3405488ce8ddf968f8236d34a16b"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_2x1x2_red.bin",
+      "sha256": "6bd7a8192be13d68d138f1a3b09d59879f0858a1a7318ba932cbe42566e32bf4"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_2x1x2_red.gltf",
+      "sha256": "6b681f2fdf70a3d429b5b5c3d0348b2bb4e78842f584910748a7a7550f60f906"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_2x1x4_red.bin",
+      "sha256": "b9b5dda48389c7f9e14a6e2fd5389c75d0ecd01de8576a804a1442cb9f1c97ee"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_2x1x4_red.gltf",
+      "sha256": "35614beba50f97e6d55f5ae0d3d37832df271a7d7ca03935c715e8396028cc66"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_3x1x1_red.bin",
+      "sha256": "8fd04f4bd280f53b91e1c1f6b642db94c65b4175fe46864b0ab8f46baf5dc4ec"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_3x1x1_red.gltf",
+      "sha256": "1fc4cf00d40e7f4ea6b62de08886fb50f10bcc564aabb06513430ab8f169d146"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_3x1x2_red.bin",
+      "sha256": "653b4a5578a65429e81f852297cc53e5601c6503cfa34770075ace659764228b"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_3x1x2_red.gltf",
+      "sha256": "68758e6c19707d73d43cdfafd300dd8ecfa73f57a2c83bc6eb2becad4d7c8a0a"
+    },
+    {
+      "bytes": 7032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_3x1x4_red.bin",
+      "sha256": "634d10ae0ea2de4abf7ed21ee8b0b542a92a3673b44ea425cb6fbb1a1e1ff3a9"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_3x1x4_red.gltf",
+      "sha256": "bdc6d0f3401d9b4466de0ce7b40d3a7d73a5fcce6bcf981f9f8679a0b535f345"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_4x1x1_red.bin",
+      "sha256": "229b6861b0c26da28015b5bcd2dfdc2f753fdfa35a549c90b9433d28b2f4808a"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_4x1x1_red.gltf",
+      "sha256": "09fb061be59f121c60fe017ecf3ee1276efcd4e03f97853370e156bc9ddf7ea0"
+    },
+    {
+      "bytes": 7288,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_4x1x2_red.bin",
+      "sha256": "feee3aba5c85acf0655f8d7f0e38e4fbbf1bf209935f51f7ab20362833210efb"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_4x1x2_red.gltf",
+      "sha256": "552a0ad8324d8696472bf7a30ad9d1eeb007e439f2f2861c3dc8bc4b3a64f03c"
+    },
+    {
+      "bytes": 7096,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_4x1x4_red.bin",
+      "sha256": "b114815c34aaaf7014d2ec12e179a8defa954500994689eec7cb716cd6ae2617"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/barrier_4x1x4_red.gltf",
+      "sha256": "bb006285506b13ce54863498a3ebd941d58277cfbd6fbdc6f0beca04fd9116f1"
+    },
+    {
+      "bytes": 17760,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bomb_A_red.bin",
+      "sha256": "b29299a0a4bd114b67bcb0bc8a6b7f0780fed9a408bf649a84e9ae177bcf96b4"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bomb_A_red.gltf",
+      "sha256": "798fc229895032ec9a695efec7cc818208c6f9ff51c8518cc34bf81ba0987a78"
+    },
+    {
+      "bytes": 30176,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bomb_B_red.bin",
+      "sha256": "c409cf751f82411d956894a2b4dd2b743a3b6e172311b74b45467006acb987a8"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bomb_B_red.gltf",
+      "sha256": "bdb82dcf762f20b62949682d863103407dbec7ad1613150b6ba8a138ac9d739e"
+    },
+    {
+      "bytes": 5480,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bracing_large_red.bin",
+      "sha256": "75dd6a71a6317eb86bf2c235f8e13f0f8b20cdd9d9b6a4a259db6b136574dc0c"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bracing_large_red.gltf",
+      "sha256": "12342f9d0f0371ad3d9a34541de1e9b29509c142c26e1fe2e224f7c6f02b3ccd"
+    },
+    {
+      "bytes": 5480,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bracing_medium_red.bin",
+      "sha256": "fe7ba7da4c807212d27ae9a536c3457efe5976012ee2c7c3752cc57c53387491"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bracing_medium_red.gltf",
+      "sha256": "c3947b892fc01ce4083c5ddbe0b73ff814dc917bbd2087f736eef0651990ef95"
+    },
+    {
+      "bytes": 3592,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bracing_small_red.bin",
+      "sha256": "3080371368293a512a08cbabd9ecce92442ceae186e845e3d5ee2439dc3caf90"
+    },
+    {
+      "bytes": 3078,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/bracing_small_red.gltf",
+      "sha256": "0bb493cd56e44decaef830eed10be7d0bb7b1a1293dda6feb7a0a3f7ad329482"
+    },
+    {
+      "bytes": 8192,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/button_base_red.bin",
+      "sha256": "b513b760297acab2c5a29306b62b69b85ac3274b69e56cc74a1b2e4602fc8842"
+    },
+    {
+      "bytes": 4945,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/button_base_red.gltf",
+      "sha256": "dba2bbc22a98a88ba728be7d1aea1150fd410be01f8dbe937a5ae87c376ca01d"
+    },
+    {
+      "bytes": 4784,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/cone_red.bin",
+      "sha256": "dccf8a4b0f1f2afc0a621eacbf180456e86fa99ee3d9af13ff6cc51dd7546abc"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/cone_red.gltf",
+      "sha256": "e8334389702a6833ae70239bd2833d7ff26ffbf2e86a8dd81ce1ca0471e099c9"
+    },
+    {
+      "bytes": 4576,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/diamond_red.bin",
+      "sha256": "2fd1c97d755340c19eee4d28660bdc0d2ec38c0cebe94e4fe1aa529aa8728c3d"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/diamond_red.gltf",
+      "sha256": "b4f2a3aa44abc69220ba3f6058a6a40a27bf8fcde9de0577e31d00a038fdee30"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/flag_A_red.bin",
+      "sha256": "eef083e50ea637a80aa2b93894e4d448d9f9171471dd969375a872b11c5f9074"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/flag_A_red.gltf",
+      "sha256": "9941db792fa5193593f6978edcb740569f705c2e870283f37f00ba892cc25610"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/flag_B_red.bin",
+      "sha256": "ff53a92936f24acb17433aaa9d6cf4c474734cd4dcee8612a5928b3d4ca5e657"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/flag_B_red.gltf",
+      "sha256": "3442aab4b34379d0805192acdbd4dffedc8baddecd932988759e99cc20a7565c"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/flag_C_red.bin",
+      "sha256": "3abec5a163da4518d0a2938daf834704b42be16e0f0ebccc14193454c44ff556"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/flag_C_red.gltf",
+      "sha256": "fa5bc3f29622d1d8e381b40b367f87114c20f002ac3046f8edaddeb65e9e183b"
+    },
+    {
+      "bytes": 5612,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/heart_red.bin",
+      "sha256": "2c67de83c74b023e0ffaf5b487d41ff22894f61a811e7d72cda770176fc293f9"
+    },
+    {
+      "bytes": 3055,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/heart_red.gltf",
+      "sha256": "e7144dca45a625dde21da32a73e317f1b41270878f1bf904aa09bdbdb3cf171b"
+    },
+    {
+      "bytes": 37824,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/hoop_angled_red.bin",
+      "sha256": "142fdcd6803591c6e968bb13da460c613c48920acd921e7f9e9df1a5bbb64cc1"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/hoop_angled_red.gltf",
+      "sha256": "d33e058a65c4b4c279b298026e4c3e832c865cf9b63bf1bea124d45306c42294"
+    },
+    {
+      "bytes": 19456,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/hoop_red.bin",
+      "sha256": "5c87ef330d41611b5447e139083aed0af36826942551accdc69c0f25a30890f4"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/hoop_red.gltf",
+      "sha256": "cec2c75b55594a66d16ca58aa5cd415bfd0de8bc87570f534ceca42d50d5dad6"
+    },
+    {
+      "bytes": 14320,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/lever_floor_base_red.bin",
+      "sha256": "c9e8c71a7e074d97b2fa38a477649dd3aa917786c1c792c3a9f9ab955b0cbf84"
+    },
+    {
+      "bytes": 5179,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/lever_floor_base_red.gltf",
+      "sha256": "2ff62d8806ab2d76dfa45cd5ce58efee0e57ca67a6506d83c794d0039ba2c982"
+    },
+    {
+      "bytes": 13776,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/lever_wall_base_A_red.bin",
+      "sha256": "a3710c63850ff1e214587b553739e878d79103e71641242c302940b6ad361e9b"
+    },
+    {
+      "bytes": 5164,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/lever_wall_base_A_red.gltf",
+      "sha256": "e37c6cd5f222c1b44d82292c891dd127d4a782a7f640a631342caf17c1298467"
+    },
+    {
+      "bytes": 10016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/lever_wall_base_B_red.bin",
+      "sha256": "4d98a147cede2fd268d08a7a5cfe57bda307a686426258050c23fb625876468a"
+    },
+    {
+      "bytes": 5174,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/lever_wall_base_B_red.gltf",
+      "sha256": "ce84e66644d66b4a25138654317b0d42488ce3f471bbc41f3a43cbbfd859c2ad"
+    },
+    {
+      "bytes": 25984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_180_A_red.bin",
+      "sha256": "37221fe2061e658b585199adc5844894dfa3fd25c16d15beae90ae53708e21e0"
+    },
+    {
+      "bytes": 3006,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_180_A_red.gltf",
+      "sha256": "82ba482b98f09cf371dbfe8b961fa11b347c5494e24e87702d451346e441234f"
+    },
+    {
+      "bytes": 34688,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_180_B_red.bin",
+      "sha256": "758b38c21ef38e383112ef4f1a0ea68c3a51355bd38d94e08cb6ed658696a959"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_180_B_red.gltf",
+      "sha256": "c33684d0ed0b66e9f69c94fd215d7d9d094e088b7fb2425492b83471af882b0f"
+    },
+    {
+      "bytes": 14720,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_90_A_red.bin",
+      "sha256": "6df0e5d48e92171737fcb4be6bf5a4edb5414fbf9e9797cc3d681a6a3c78fd93"
+    },
+    {
+      "bytes": 3016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_90_A_red.gltf",
+      "sha256": "b4dec3af21b51491230f7977b123b01fb48457128630f9a364adba95fee8c100"
+    },
+    {
+      "bytes": 17344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_90_B_red.bin",
+      "sha256": "fe44a009bc786663e993666062f4c1a695ef32efe1cdd277580eac3682499eb9"
+    },
+    {
+      "bytes": 3016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_90_B_red.gltf",
+      "sha256": "5c5aa7a79cc76c924634b47d23c99b3f75a31223c8e064dc0083fbe559f0fece"
+    },
+    {
+      "bytes": 10944,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_end_red.bin",
+      "sha256": "d25311e21dac20d8af81a0c5e1c3cfda53eb028373cd4cf98b46cdb5e8d4e990"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_end_red.gltf",
+      "sha256": "04daff4c290a054010c8bd1aa8ce93c76a1dca8c00792be0bb99bea6d012365d"
+    },
+    {
+      "bytes": 4864,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_straight_A_red.bin",
+      "sha256": "e1743a4376ea0988729547dea8e8bef0553da23552a4f9bb2a7918a52fc749ed"
+    },
+    {
+      "bytes": 2979,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_straight_A_red.gltf",
+      "sha256": "c4f29992cc7ba6f0bf25b8472a61ac5ad32a1dbcb79194cf80769c1116d38c70"
+    },
+    {
+      "bytes": 7488,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_straight_B_red.bin",
+      "sha256": "18b34c8cd95bc3a13e2fd0369994e0225c610287a77b4b38eb529e92a283e150"
+    },
+    {
+      "bytes": 2980,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/pipe_straight_B_red.gltf",
+      "sha256": "429ec4073d3e478b1bd08fdc9e95975e37d1393a151e1cbe0f9ba07c081d416f"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_1x1x1_red.bin",
+      "sha256": "b928c825bad764bc81eb070d8d72b957521e37dee3bda30c9bab45cfbceb8afc"
+    },
+    {
+      "bytes": 2983,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_1x1x1_red.gltf",
+      "sha256": "a18077f4e000906693f4c6c173ad041995d1e69207c613e2c6533499d8f30c81"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_2x2x1_red.bin",
+      "sha256": "638922fae95a20cbd653fe46198116a5bd203a69065d6f925f6ba92ef2146dd0"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_2x2x1_red.gltf",
+      "sha256": "104c18f070f6fd0190da0fd896ffc23a2193008156c87d616dcf9ad0fe0c96fd"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_2x2x2_red.bin",
+      "sha256": "750cfb011a1c7b9787891c2920a397c61adaa868b996e234fa6d2a7af1f8bfcd"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_2x2x2_red.gltf",
+      "sha256": "dbb920d275961bbdc81c73ad5b96edfa14772023fa8a9e106a06dc422b6de6d5"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_2x2x4_red.bin",
+      "sha256": "a85635aa8f75adc7b5e3d7b736e9a8f309ba81128151855b12cff53f7b31a5ca"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_2x2x4_red.gltf",
+      "sha256": "06ade45e097fc9839d328af304c4d7a87ec4ca65a82b51dfa0a5c0d25c664286"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x2x1_red.bin",
+      "sha256": "d003d355ee36598fa5d06f08a4326c1a166ba4c028cbebdeb596040580e4629d"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x2x1_red.gltf",
+      "sha256": "132890a4ebfefba30923e7af1be8854ec9680723ffc8078cc6c7fa3fcf1ebf60"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x2x2_red.bin",
+      "sha256": "84d9b259a1c0fff66c19678913d3251ab3b327684399af5b94e87981d6b3af50"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x2x2_red.gltf",
+      "sha256": "2f9b6787cb9c37f7ed32e2e5816e30f5e97336894f1db7d0cf821cb37eebabf2"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x2x4_red.bin",
+      "sha256": "f7323482b3da40f7fe69c5796dc92f50063c2b27e04083c39e4bffb23ca5b8af"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x2x4_red.gltf",
+      "sha256": "0329fbc15c6eccda2507ac58eb170848524e9ddd50d91bada59cf04680ae8af8"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x4x1_red.bin",
+      "sha256": "7b011cd7485c453f93a974a1e72ee521e5e37cdadac3802b26d66609a4d0bac5"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x4x1_red.gltf",
+      "sha256": "4ac42d65fe59a64ee92c42e8bb9d830fc16220206537a8ebcd7924a499e4a6e2"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x4x2_red.bin",
+      "sha256": "dee98d99dcfb295b11b30e6e375ad6d2920489254f6a50cf9e18228075c93c94"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x4x2_red.gltf",
+      "sha256": "d5b2e5ad2b8d2f62475e891c4a96283e7c32f83d73d7b3885e42a48a3fb3b04e"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x4x4_red.bin",
+      "sha256": "0f9e1d439be10405c183152cd8cd6f99a6b059bf8d880e75a5b420786a024e80"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_4x4x4_red.gltf",
+      "sha256": "f0960ae4bccd2830f120f24c57f14ba288980bf410d7c530aa7be668663db6e4"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x2x1_red.bin",
+      "sha256": "2d04326b2bb4af770c9088f2318fe3633517bedc8688c7b939a557ad1097b3b6"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x2x1_red.gltf",
+      "sha256": "7300346d53253fd049e640fe712d68ad8ed3cd87570201e5d1fccf441d891fec"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x2x2_red.bin",
+      "sha256": "4b15fc144d54612fbd9abbfcc96a4a8e31b1e68b148b8b7484771c72f1247552"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x2x2_red.gltf",
+      "sha256": "c812b5be6b1db8b790a4060f10b68ef04718d5abc1c432f1d669b10606cf326d"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x2x4_red.bin",
+      "sha256": "0fa8ab444ea809f77aff56938f07000bfa7951d61a34856c9673f73dbac1f0ef"
+    },
+    {
+      "bytes": 3009,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x2x4_red.gltf",
+      "sha256": "75fcce013c4ec0a21b2e07186453040b0e06f500e1ed702d5081cbb22ca76963"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x6x1_red.bin",
+      "sha256": "c7699fdcf77c56579278663774bcbbdf5f738e4a9c5e277118a5ed84ac815ad9"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x6x1_red.gltf",
+      "sha256": "4bfc807e35b06b23d3f22905ca04ca3ee814b3e76077bb41c86c6882cf222ea9"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x6x2_red.bin",
+      "sha256": "ea0dbbf328222bf31dd0105b4339824964acc49d62f79e8b450062b2c0a312b2"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x6x2_red.gltf",
+      "sha256": "4c0a314bf41d950725072f5fcf9027c1756a80ac6a9e7ee7e51ae9b318f71574"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x6x4_red.bin",
+      "sha256": "5b471d6a8b546749ea4accc22b204a6aafdd0391cb650a1193d9162b184fd780"
+    },
+    {
+      "bytes": 2975,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_6x6x4_red.gltf",
+      "sha256": "7794f5d50f66fe22835db67b2d858b112391a899b6fe070744a5b41ca3927da0"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_arrow_2x2x1_red.bin",
+      "sha256": "6bd862d78f581a52fb65f9ed25155e0514ca2e9ae75abd013377184a7abb47c6"
+    },
+    {
+      "bytes": 2995,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_arrow_2x2x1_red.gltf",
+      "sha256": "59a3e987aaf4fb34d84b8c4fff128d00dc22dcc39d04f80c6ab157193598bac1"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_arrow_4x4x1_red.bin",
+      "sha256": "dc3c1d31b39f49265cd0ca6b75cda6219b98cc11651cdd8096a9776093b5ddd9"
+    },
+    {
+      "bytes": 2995,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_arrow_4x4x1_red.gltf",
+      "sha256": "eaa434fb22e3a4405b970a14983f8828c8024f6882c26fbb5f2e67ffbe718098"
+    },
+    {
+      "bytes": 14328,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_decorative_1x1x1_red.bin",
+      "sha256": "663fbef98a0d3c1af627b9b67be57e87ddddddf74997988ba12168329067a12a"
+    },
+    {
+      "bytes": 3020,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_decorative_1x1x1_red.gltf",
+      "sha256": "3fb7e6a5ca1f4d16b3a5a1f2a2a865ab4bab03a70af4b96ff372deda2aaeb1a6"
+    },
+    {
+      "bytes": 14328,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_decorative_2x2x2_red.bin",
+      "sha256": "e73b316390a3e60d1e52835888930f500baf044c5a03a87e47782e83eea23a0d"
+    },
+    {
+      "bytes": 3012,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_decorative_2x2x2_red.gltf",
+      "sha256": "ddabde5fbc66cc0258e2056f462d444b10fc57b7942b449ae4e6ac0565de03ee"
+    },
+    {
+      "bytes": 12400,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_hole_6x6x1_red.bin",
+      "sha256": "2dd49f334c84bc0b4d77286b20182f6639b49ea48e943cbd2f5b401536d30c77"
+    },
+    {
+      "bytes": 2994,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_hole_6x6x1_red.gltf",
+      "sha256": "45183fa2211c0b7b8c34891bbe6c17b9b5d329b0a8830dfb8819a86ad26c56dc"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_2x2x2_red.bin",
+      "sha256": "d857e4f3e04583db15edf4d97d99f0ebeec57ee628d851b65d65449d202ce0a4"
+    },
+    {
+      "bytes": 2994,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_2x2x2_red.gltf",
+      "sha256": "daa33c52d6d659b5faccc2a693277920fd4fb29e378259cc457bc2b5045956d7"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_2x4x4_red.bin",
+      "sha256": "dd5154429914878316aced5f78d70a005501bcfcfb3221f7faffae9ed4673b8a"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_2x4x4_red.gltf",
+      "sha256": "5534f2a09cea79669efb3248c0d447ff1a01e625d5f15eedd96dadd2e86b921f"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_2x6x4_red.bin",
+      "sha256": "f3f1290195771a3b4738684090b4238de1014996930f549a320e0995361b3582"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_2x6x4_red.gltf",
+      "sha256": "ef74262d0205ed0ceb959935b7d96c5a80c63bf99255698664601c1af9eff061"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_4x2x2_red.bin",
+      "sha256": "bec84eab366e4cf7f81faf89b7592f777ac9dac6c45130e097fb4e749b1692d9"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_4x2x2_red.gltf",
+      "sha256": "2aea6c53f5cb2a57afcae9b697e021fd6db883903a2ef8cc439be8d24a50112f"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_4x4x4_red.bin",
+      "sha256": "12040aaf2df2d2eadce8509fe5d481ec2a7adb787c96e4d01702b566333d0b13"
+    },
+    {
+      "bytes": 2994,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_4x4x4_red.gltf",
+      "sha256": "fcc1f0d7ce465b830d092c48f2a763abad43f00bd64e89a9f28a90748d19a6e5"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_4x6x4_red.bin",
+      "sha256": "d4af388a41ce8910f35a1a83b30f5c644c58ad91ac9e25857a0e7b77e42452f0"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_4x6x4_red.gltf",
+      "sha256": "2954a716956b233e4e62f90c5c186989add7cbc0707f6568f7f784d2f1862c14"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_6x2x2_red.bin",
+      "sha256": "a5e0b5eac8701deb8417c256d7fd2ef8c01fc9c7b75f9d89d46c253c44381557"
+    },
+    {
+      "bytes": 3028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_6x2x2_red.gltf",
+      "sha256": "1df13c6f6239a90f3fb0001917a51d035b5b2593bfc5df8a9b7321506e8d2391"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_6x4x4_red.bin",
+      "sha256": "288d420fc8b587803420b0b6b20c7357e1d04194bedef50dac7019e044ec711f"
+    },
+    {
+      "bytes": 3026,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_6x4x4_red.gltf",
+      "sha256": "747cf5afb31ac4743fb2ca20e01873c24dd325a1cf21cc4787ed60039a19714f"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_6x6x4_red.bin",
+      "sha256": "123116fd6538a6a983a8f04c3461ccdf36725d977285fe06742d57042a2bfec6"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platform_slope_6x6x4_red.gltf",
+      "sha256": "96e2fbd4c9e3bc3e671d1c29fd8c6211cbc79005886d124fde7c2a3c7ea3d205"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 7680,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/power_red.bin",
+      "sha256": "16932c8ddde66dbab07a5fdcb9cdf7c49ff884a74be4692a8625557c760f1b88"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/power_red.gltf",
+      "sha256": "9c9a6a8c3e144a3bc55d21f4921832897aff3649c7ca91aec782ad1cfeb7e53a"
+    },
+    {
+      "bytes": 8028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_corner_double_red.bin",
+      "sha256": "622cec540f098986bda887c918784ac0aa42ed3fab2a3b1a433928b4d95052fd"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_corner_double_red.gltf",
+      "sha256": "c1c29ff7918b87b134c7440c0d81fb052e96ea2fc9b0aa8716f0a0cebae272c1"
+    },
+    {
+      "bytes": 8324,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_corner_padded_red.bin",
+      "sha256": "c97e45ebe2091b4180e409ca172f5be1e6a817ad95e8b17cac51ef19ea2a5ddb"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_corner_padded_red.gltf",
+      "sha256": "2be6b8dd8689dea35446248f603ee6daa84069c5eb4980157d098f0239078960"
+    },
+    {
+      "bytes": 5364,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_corner_single_red.bin",
+      "sha256": "396d5ba9822e19fa6dc3608d2cc75acbfaa1cec6e2de806c7fc59311103ee7b5"
+    },
+    {
+      "bytes": 3082,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_corner_single_red.gltf",
+      "sha256": "56f2c5906a87c764e07c5943ebae433c79decf9f154cc8c068ddb6c79cdd691f"
+    },
+    {
+      "bytes": 5208,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_straight_double_red.bin",
+      "sha256": "b6eb2d448ff7f5318aec2e8281c04927faa9d4364ea7d2928cc2b475bbd9fa7f"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_straight_double_red.gltf",
+      "sha256": "eca95ec4a2ba80ed43cf028c6b4a6ff8ab168083ee9aa4aa42c71cee1f37e8ee"
+    },
+    {
+      "bytes": 4984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_straight_padded_red.bin",
+      "sha256": "a2de6c3a543d6b7b5744800850b3821fe81bc15313bccea95fbae411cfbb26eb"
+    },
+    {
+      "bytes": 3090,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_straight_padded_red.gltf",
+      "sha256": "e60f8b28eb30f65be372277dc134cf69a9ba7a4220461757cdb165abed3f9efe"
+    },
+    {
+      "bytes": 3504,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_straight_single_red.bin",
+      "sha256": "5417e84cf23ca921b41edd7d8e95f842a12d6bdaf635e2c36f4c27a2469b7a93"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/railing_straight_single_red.gltf",
+      "sha256": "42cd2454a0c771236710db1b3dc5a508dccc5aeb090e78b25cd0448dd915f620"
+    },
+    {
+      "bytes": 11864,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/signage_arrow_stand_red.bin",
+      "sha256": "362cbbf93436972471a18651165ce8e4102d9ef2ebbb708f8d69c6c69166f508"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/signage_arrow_stand_red.gltf",
+      "sha256": "f52e65ff2ab57eb692018827585759c97adb0f5c0da912d4fded2929baab562b"
+    },
+    {
+      "bytes": 7016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/signage_arrow_wall_red.bin",
+      "sha256": "3be18e1042cf2b6e59e7b78e00828c6ba8f021b22c21d2d39a1ae5931daa04fd"
+    },
+    {
+      "bytes": 3034,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/signage_arrow_wall_red.gltf",
+      "sha256": "3e0702c9eeacd45c2f44fd65cf90e8d464a8a2f36cccdcbd2c243e85cdedb30b"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/signage_arrows_left_red.bin",
+      "sha256": "1a4c1ec1d50f459d55df89fc9ac95af4885f2f5b80dfc8c126611429c5a3df6e"
+    },
+    {
+      "bytes": 3093,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/signage_arrows_left_red.gltf",
+      "sha256": "16d17d5667ac1279a006396eb0b6e76113175731415117ffd7b03671ffd06ed8"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/signage_arrows_right_red.bin",
+      "sha256": "cf750b9c2899fa58da4c6edd406aef84bcc1b4b300168fd682cf03135fd95fa5"
+    },
+    {
+      "bytes": 3096,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/signage_arrows_right_red.gltf",
+      "sha256": "823e075e761b6bffe29e25665d28a42edaede51dd86fab5cb39b78c0be19b5a7"
+    },
+    {
+      "bytes": 21808,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/spring_pad_red.bin",
+      "sha256": "22b9fec00e5c6503f1ecd6bfab387bb4e1a1807a6defd5412851f9ae90c05a86"
+    },
+    {
+      "bytes": 2998,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/spring_pad_red.gltf",
+      "sha256": "b91b6ccda14aa2a16e282cddabfc8ba58cfae915f7f9d00944feb6fb6ac1ef76"
+    },
+    {
+      "bytes": 3560,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/star_red.bin",
+      "sha256": "c100236921c612efdbb948f61bc998b05d75c161af4728fd10f91d7ae318e965"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/red/star_red.gltf",
+      "sha256": "00ca5784392f89be386f5806063e42c8b3e8f9c8da82ed848cdcce1bbbcbc44c"
+    },
+    {
+      "bytes": 28016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/arch_tall_yellow.bin",
+      "sha256": "c673a60c8856f5b32867c98afef2b0077a421eedf8bffc3fbfda3c6792a441ab"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/arch_tall_yellow.gltf",
+      "sha256": "bb455b0162b66f86d377ab3efbbfd25b7d69e9e1923e849e56040b95ea9db7a0"
+    },
+    {
+      "bytes": 28544,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/arch_wide_yellow.bin",
+      "sha256": "d476fc9d48cc282262a8f07110a4f5f595abccb09b10d10bc24ad2bf89031970"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/arch_wide_yellow.gltf",
+      "sha256": "9af28a5e3049c3282ab2348751bbf2d8ddae41d475929bd304cdf90de95abfb8"
+    },
+    {
+      "bytes": 28016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/arch_yellow.bin",
+      "sha256": "1a906f761738120236dd17e58301a2c9471a2a7eed586ad9a3210fe9b6ba1979"
+    },
+    {
+      "bytes": 3039,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/arch_yellow.gltf",
+      "sha256": "680c357c9a4ad610d299f63f0e5c62c391a564e88745b43bfa53b8e7bbc2407d"
+    },
+    {
+      "bytes": 14368,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/ball_yellow.bin",
+      "sha256": "f299ee13cc5d5735a2bffb62fbd0b57c4900960dade6ac17ed4f2e17499ec52b"
+    },
+    {
+      "bytes": 3027,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/ball_yellow.gltf",
+      "sha256": "1e1cbd186534dd6189c45fbdcb2117e8c3a3abe350705d29b54b90cbcd17b859"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_1x1x1_yellow.bin",
+      "sha256": "e27396f75849b377da4a46146f257671d3c70e1ef716ea815dc03392f9dd13a9"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_1x1x1_yellow.gltf",
+      "sha256": "e83aeb57059e650337a62962d22e0d7f180ace11edf840034fa39e2f24a0bd5c"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_1x1x2_yellow.bin",
+      "sha256": "7a2bed78f2dd4cbf393c3f05b1a18ef796431cb906e5c798cd7880a9edd8a4ee"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_1x1x2_yellow.gltf",
+      "sha256": "145681977dd200184c543d48cf4a6bc4bd0c78552d07805c794b41e668fc62c3"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_1x1x4_yellow.bin",
+      "sha256": "417f49b6ed7f36bc1cb6610d079f2ecd2fdfbeb196a66267903ca50a813675ee"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_1x1x4_yellow.gltf",
+      "sha256": "8d61e3dbdbb8d994ae95df006104e960f251625c5ccfd643e58917954bc88bcf"
+    },
+    {
+      "bytes": 7224,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_2x1x1_yellow.bin",
+      "sha256": "d575c7959a919e5cfe69baa587bb14105e2cde18a4f6b61d60ab3234060a6f5c"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_2x1x1_yellow.gltf",
+      "sha256": "628366b2a8e5b465b97b32e9ffa456cf07ac5f0daa797c8a61a637769f631846"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_2x1x2_yellow.bin",
+      "sha256": "1cea626ade3a4ab8976c878dd71521db42fedc16327fc6f2e136595ce6d542e4"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_2x1x2_yellow.gltf",
+      "sha256": "0487c9cf9304d58b9c8bc4522a644f85aaa13d4505e49c7e474e0f7389ba6b7f"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_2x1x4_yellow.bin",
+      "sha256": "91377c59168800583b942996914d9e7582746c9aca3465e94b0b345c368c0881"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_2x1x4_yellow.gltf",
+      "sha256": "31e9daa5a11a31e450152ab341b1ae7dd9947df63b9119d8d330fd46c4873f84"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_3x1x1_yellow.bin",
+      "sha256": "98d7df33eb414f9e87116ea6dae6eb2913b1d7b742a885831cad638651d5ff2a"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_3x1x1_yellow.gltf",
+      "sha256": "9849e5cad03b9c641bb03fef6ff7b7c6bac44685f2a6900f86ef314016c2c81c"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_3x1x2_yellow.bin",
+      "sha256": "a4dca8a09d3513b371f803e105b1828a558314ccd6c04c8b4140867b6db5bfb1"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_3x1x2_yellow.gltf",
+      "sha256": "e97ec0de270580ff5057d22a4c25c981b2c0b23a4db1c0493b27cfe0543de06c"
+    },
+    {
+      "bytes": 7032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_3x1x4_yellow.bin",
+      "sha256": "8966f060fc912d4c2f5abbfcb007c6b9af2e317841e097b3e7c45f1fc55824ff"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_3x1x4_yellow.gltf",
+      "sha256": "a19fc62f189f93d20d80f2b599301c3a5ec8e80f71d88c36c5b796a175d411fd"
+    },
+    {
+      "bytes": 7160,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_4x1x1_yellow.bin",
+      "sha256": "97901d3b436c1caa35611889f4b4062fde73d77b725320edc1ff76fa7ba66a5f"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_4x1x1_yellow.gltf",
+      "sha256": "1d0cdf283af76fd0cbe01644ef4709b291faf73f5df5305aa3c181a5bd06ff8b"
+    },
+    {
+      "bytes": 7288,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_4x1x2_yellow.bin",
+      "sha256": "1a79d8c8c80a603f044b1cbb4e7d3e5452470152e953c668ebcdafaa23127c9c"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_4x1x2_yellow.gltf",
+      "sha256": "21c1189597d488b55675770fab02984a760f1d25eafcf873e566334bed92a77e"
+    },
+    {
+      "bytes": 7096,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_4x1x4_yellow.bin",
+      "sha256": "6abf4f8ec604189c980673b9fe1d3f9ede6908408c655d2121c852f2e77cb24b"
+    },
+    {
+      "bytes": 3049,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/barrier_4x1x4_yellow.gltf",
+      "sha256": "e37547a02da3aca9473c5eaad00903005fd0a39b9132f0b52c0b03e814e0298e"
+    },
+    {
+      "bytes": 17760,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bomb_A_yellow.bin",
+      "sha256": "faaee1b8c17b49eaf6f8101baea647c21a24c8fe80ed2ca6df8ef586c74cd677"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bomb_A_yellow.gltf",
+      "sha256": "e631f3e6a69b18364adee06b2f908f59e64976b1119d0f8d22eb55e4417c1f24"
+    },
+    {
+      "bytes": 30176,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bomb_B_yellow.bin",
+      "sha256": "095b6438989adfe8f7755c146578b1e3330c03dfafe6890fa8d7bd80417fe48a"
+    },
+    {
+      "bytes": 3070,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bomb_B_yellow.gltf",
+      "sha256": "e1c55e953da6c7bde911c58f67d21e5d2c9db83be80546d0ed3b90a6b5f76de9"
+    },
+    {
+      "bytes": 5480,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bracing_large_yellow.bin",
+      "sha256": "a2f3595053da318bb36a6078637762a3e768415e1520b6f072290becc92e68a5"
+    },
+    {
+      "bytes": 3027,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bracing_large_yellow.gltf",
+      "sha256": "5bbfd1f9d456388fc04fee5fd443bf5fad11515ae8ee9f40ac65a2d63c8dd332"
+    },
+    {
+      "bytes": 5480,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bracing_medium_yellow.bin",
+      "sha256": "89672fbba29a396cf81ff74defedfd057001edf90a49a3a68f9031e03ac8c8ce"
+    },
+    {
+      "bytes": 3094,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bracing_medium_yellow.gltf",
+      "sha256": "689a60d040bdbfa0158a4e9c06c6a5e9a4f140b325f8a6a82eb6828a122386c0"
+    },
+    {
+      "bytes": 3592,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bracing_small_yellow.bin",
+      "sha256": "6715fd105717630a32bfd1641f85e1551c9e15043eff1200368812f0844264cb"
+    },
+    {
+      "bytes": 3087,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/bracing_small_yellow.gltf",
+      "sha256": "1c0411a455a7f170708f63624f85445d6da3016ab4e71c4d8355389b80330348"
+    },
+    {
+      "bytes": 8192,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/button_base_yellow.bin",
+      "sha256": "b4dcb6a1ea50ef7bedea26f69cd4971c167de964d0a5e162bf80b95c0783b275"
+    },
+    {
+      "bytes": 4960,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/button_base_yellow.gltf",
+      "sha256": "3256f07c3ebf2a8e15ec691930574d53fbe9090f5fca9701064a2c24f48134d6"
+    },
+    {
+      "bytes": 4720,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/cone_yellow.bin",
+      "sha256": "df217f8dabfb4d6b0c70403bd24c09a9668a6d7959c7d0dcbea7437c061f67c1"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/cone_yellow.gltf",
+      "sha256": "7030af39d31b58562067f8892561118d858cf01ef57da78d3e06277fa26a1efb"
+    },
+    {
+      "bytes": 4576,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/diamond_yellow.bin",
+      "sha256": "ba48f7c430caf67a1ed3f801125b8ef789048c27e09a2f8a97dd444bc24c4413"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/diamond_yellow.gltf",
+      "sha256": "aae2173ad677e66222957c25aae89814d31a6762b27494bdc49cffd6ea363eeb"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/flag_A_yellow.bin",
+      "sha256": "520f9a2eb7461781c14dc25c8155c33a30531b6cb8ab428a89224499b931e79c"
+    },
+    {
+      "bytes": 3074,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/flag_A_yellow.gltf",
+      "sha256": "7a588346d7add731b60f299c10e0d05d4f69a5d463092caec72ba969267f3961"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/flag_B_yellow.bin",
+      "sha256": "17edde4e60c659bcef5249cdca55765aecafc4d412d9df1fcc43c0458861d58f"
+    },
+    {
+      "bytes": 3074,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/flag_B_yellow.gltf",
+      "sha256": "b42bda950cef6530f0366571534b53fe8072499aec34ddc0d319633d442ea542"
+    },
+    {
+      "bytes": 19460,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/flag_C_yellow.bin",
+      "sha256": "645eaf723ed22e1f38f83647bad36b8f52ccb2960143d8042f79ef078bf194ac"
+    },
+    {
+      "bytes": 3074,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/flag_C_yellow.gltf",
+      "sha256": "b70e89405e2c06afb9c162e7e89eaaf8f00473ecdf9d723bbf98ebc1abd84299"
+    },
+    {
+      "bytes": 5612,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/heart_yellow.bin",
+      "sha256": "9fede52e832c1987eb4092e41ab5189a1d262b80f2e75394d63588b12cf57241"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/heart_yellow.gltf",
+      "sha256": "fbe765e8d10aa022515c02f7b508f15ab0d0d21e50688bf7145284144c348114"
+    },
+    {
+      "bytes": 37824,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/hoop_angled_yellow.bin",
+      "sha256": "6875f55ff450cddfb3af4ee9bd791b24e6d14eb697c5e990f91ef56b56a89347"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/hoop_angled_yellow.gltf",
+      "sha256": "d18c21d02d277bad65aeab30ef3756db640319a9ccd949050b7d186af8753981"
+    },
+    {
+      "bytes": 19456,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/hoop_yellow.bin",
+      "sha256": "6384092623edf77b2f88e759c09ea4348e5a82441bb14804cde4b58ea1490f7b"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/hoop_yellow.gltf",
+      "sha256": "02d100bb46abaf414dc461a6bc6bb4f51a23eac7211d28a3895adb7960f6afcb"
+    },
+    {
+      "bytes": 14320,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/lever_floor_base_yellow.bin",
+      "sha256": "fe92144dbbf220efc1adb701a6282220cf45d4ba9db90ff6996405cb170c4028"
+    },
+    {
+      "bytes": 5194,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/lever_floor_base_yellow.gltf",
+      "sha256": "89661e8ec7c34ebc0bb77905307c991ea1000f1df36b3e140518fe2e5b511319"
+    },
+    {
+      "bytes": 13776,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/lever_wall_base_A_yellow.bin",
+      "sha256": "fea733b3da4587df967241f30fedb186a70d974d196243c76bec4c09daf72b68"
+    },
+    {
+      "bytes": 5179,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/lever_wall_base_A_yellow.gltf",
+      "sha256": "b490009cfda8e07f4a6c7e80b839cc00fc76348eb8aeb79463fe06823358c667"
+    },
+    {
+      "bytes": 10016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/lever_wall_base_B_yellow.bin",
+      "sha256": "128be452a6de5f6929b11e638f37577e2ccb3bdb6f0e144b3783802dbee60db6"
+    },
+    {
+      "bytes": 5189,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/lever_wall_base_B_yellow.gltf",
+      "sha256": "6477f69ef0acc8515326e6eec77715a76f1c3bcb9ba2587dd2261fe7790fba19"
+    },
+    {
+      "bytes": 25984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_180_A_yellow.bin",
+      "sha256": "87a4a1f162564f96364aae69a5e586556ea43dbf8a18142c003dec7143be81c3"
+    },
+    {
+      "bytes": 3015,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_180_A_yellow.gltf",
+      "sha256": "bb6b440c09ef2b2d1f6866814c14944ed1af1254e71f06d0b6e16f695242bff1"
+    },
+    {
+      "bytes": 34304,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_180_B_yellow.bin",
+      "sha256": "d88690648f2b22edbf11add21a9e7ada8c0c61e3c63c4bcaab1c9067179512a1"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_180_B_yellow.gltf",
+      "sha256": "5dd1d975d5207b5a9b708de6e79134b5091338aee818689fa70141506eb29177"
+    },
+    {
+      "bytes": 14720,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_90_A_yellow.bin",
+      "sha256": "f50e026005d84dc1068dba89308e59a27951bd79db7c105ad08eca131ac048f9"
+    },
+    {
+      "bytes": 3025,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_90_A_yellow.gltf",
+      "sha256": "8880289f8a27eb59fc8a963a07b83da465b0ba0c1953d577c2c88723908c4045"
+    },
+    {
+      "bytes": 17312,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_90_B_yellow.bin",
+      "sha256": "45ac91404edee4c96716d74978dba14f531ea8eb9ebcdac74579d1eb9d03b12d"
+    },
+    {
+      "bytes": 3025,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_90_B_yellow.gltf",
+      "sha256": "be13198ebb6df06017cd2511f01129ba3ca244ab0c17a757753156d228a75a6a"
+    },
+    {
+      "bytes": 10944,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_end_yellow.bin",
+      "sha256": "63e6cd7da1d45b8d2f3c6ba0782a4853553aa5ef6c6a9ae509ec3dd98e96dd3b"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_end_yellow.gltf",
+      "sha256": "34438f6e4875b1ed0b7ccb4b7871c9a9b6d2881aef303843b8748a5c4acf7adb"
+    },
+    {
+      "bytes": 4864,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_straight_A_yellow.bin",
+      "sha256": "316913ca37fc369a211513942141a8fee81b794c9a96b668ac7ee619d2f8423d"
+    },
+    {
+      "bytes": 2988,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_straight_A_yellow.gltf",
+      "sha256": "2fcbd4f1865ac83de164bad52a8139ea0b769c39869273a78e6fda659627cb48"
+    },
+    {
+      "bytes": 7488,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_straight_B_yellow.bin",
+      "sha256": "aa3674464c352e6a44d34f039111b53e7b1109bed78f152c0214cea1801b8968"
+    },
+    {
+      "bytes": 2989,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/pipe_straight_B_yellow.gltf",
+      "sha256": "01c86a8345eceddb830497a379ced1817a83c4555c9b0d6cf7e3e9e768fc1812"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_1x1x1_yellow.bin",
+      "sha256": "2080398c9417b7171642837608316d5fa893ecd851656ca69e0db35d55ba7f7d"
+    },
+    {
+      "bytes": 2992,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_1x1x1_yellow.gltf",
+      "sha256": "e0b3a67b95dd7b75246e8fa22d432b3ea9f922456445cf4fa637986707011aea"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_2x2x1_yellow.bin",
+      "sha256": "c00e917ec6844e48f91b0cd89d9396eaa1ea1750cd92abc3cf77762ede3e556d"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_2x2x1_yellow.gltf",
+      "sha256": "7afe84641ea7ce06c5c37fd1b6af175f0f25edb586f7454b366b4591ece13c92"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_2x2x2_yellow.bin",
+      "sha256": "0ca7003e8a40fc7c315e285eec2a9074312f47157a63878a17b14e89d36fe5db"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_2x2x2_yellow.gltf",
+      "sha256": "37573679d0d06e3f799b45e2677c72607dc9124af12c14ed5050fbdf23256054"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_2x2x4_yellow.bin",
+      "sha256": "9e6de548d517dc7a98dd574049a36a62a1b06a874e183dc15f9ff7350d99c696"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_2x2x4_yellow.gltf",
+      "sha256": "df345ca7974f0521cdbc0ef03787d045efe914925a84360e070caf63c4d8bf19"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x2x1_yellow.bin",
+      "sha256": "de51777e5230023743cf67999799506b409f1c64f06bc1ddef8c2c71c8c63b65"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x2x1_yellow.gltf",
+      "sha256": "091631cc455658c0961efbe09d46f1fadce03204590f074a3c63fc412f68ece3"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x2x2_yellow.bin",
+      "sha256": "aec483058acbfa669e46e51639d1f5906e3ce441fdc5e5906cc6361ef469ba17"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x2x2_yellow.gltf",
+      "sha256": "80a43bb50868a8c565e5c747c916967c4e1ba95cd224e76a74503d3df53a93a3"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x2x4_yellow.bin",
+      "sha256": "a34d456e2d4ea4d47e578fb5754dd24508d05de7691eabfdd9a4023d4744e49b"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x2x4_yellow.gltf",
+      "sha256": "971626e73b25af1ef048166434f5a4c6a010e73197c75497bfe9a70ca2db9f06"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x4x1_yellow.bin",
+      "sha256": "70a1234e81e4bce03a208a5d973a890b022c62ba1f9cb60a945a662418dc7492"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x4x1_yellow.gltf",
+      "sha256": "4d5d9d9f7156b611b7f5402302fb05ef4f40a1bce4a7ca38e44f04dd01b262e5"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x4x2_yellow.bin",
+      "sha256": "ce66cce1a1396810e9a4c8eaa68453a176ff6c69431d0d4180eb4801d052b8e9"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x4x2_yellow.gltf",
+      "sha256": "cf11eb943060e6b9155e16fc8ad99f4a0ceeb3c6884ce00c03349d640f4e16d2"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x4x4_yellow.bin",
+      "sha256": "cd2f7e17f78858d54688e89306eb967b7fdced03bb611e77a889b8d84aca6e3b"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_4x4x4_yellow.gltf",
+      "sha256": "b27a62b8c0154f5a20d773605e520e0d7d4c80da36673e829cb4b04e18ca2875"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x2x1_yellow.bin",
+      "sha256": "4551bc2d0690a9ef8e4f164d7bd0a182326b52d9201e9213c820f14d47ecb3ac"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x2x1_yellow.gltf",
+      "sha256": "19fdda68636bc0e0c807cec3983b815893bb829cefa6f16dcb138cbd2f4d776b"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x2x2_yellow.bin",
+      "sha256": "a8c439ced2c34856d5d41b02254c43955e25729ade181ba79dc1db0ef8c164ea"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x2x2_yellow.gltf",
+      "sha256": "c9c5d4ec316cff33bd68478743995daf22de5b8a47a44c02adff2cf5ef10ab13"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x2x4_yellow.bin",
+      "sha256": "d2b1a9074b193685a5cda47dfb2995f7584374cab3ae4d56e45853cbf892d3a5"
+    },
+    {
+      "bytes": 3018,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x2x4_yellow.gltf",
+      "sha256": "a14fa107006544d63fc4b3a4e9f81319a4225c3efcfb4e0cc912fce5e5f6b018"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x6x1_yellow.bin",
+      "sha256": "95bc6faf9ade58af81edb8103570607795f2e3a3be2ad83e6c6433d27aac4c47"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x6x1_yellow.gltf",
+      "sha256": "62ba22e6d671c6177f22eec7d0d0d7f08f09dc504f9004551aca3c0c8e6de657"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x6x2_yellow.bin",
+      "sha256": "84ebcc72a7c0219cad75b9f2abb14aef84ed6fbd52c06b69ebd44ba520c0fc74"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x6x2_yellow.gltf",
+      "sha256": "c4af10c00aec9b312472b4322ed424d7cf26a26951cfd07474ad507ca6e2cd97"
+    },
+    {
+      "bytes": 4344,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x6x4_yellow.bin",
+      "sha256": "7dcaaed2a40711352f7898b2abd2d69d90c88b2077105c5b438a3304941ced86"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_6x6x4_yellow.gltf",
+      "sha256": "a1ad193a1adf7f19efa1a0334959894012b2cc20a027f101d46dbd7725fe8364"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_arrow_2x2x1_yellow.bin",
+      "sha256": "9c06817c09e7627822b3fc27eae6cd569cbb6f6241bd79efe6e44c1f618ba1d0"
+    },
+    {
+      "bytes": 3004,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_arrow_2x2x1_yellow.gltf",
+      "sha256": "2eca435a8edce40ca781521d5013ebc04858d51341b1021ceeedfa9bea74053c"
+    },
+    {
+      "bytes": 8672,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_arrow_4x4x1_yellow.bin",
+      "sha256": "8b593ecb6d91739347d4f526775340d17aa0b0d3e97e4cf7c56c284d85d0e6ea"
+    },
+    {
+      "bytes": 3004,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_arrow_4x4x1_yellow.gltf",
+      "sha256": "183498e5f0f6456ef0af3d82d96fa0f0b926c6252b0ae04d659666cdcd001240"
+    },
+    {
+      "bytes": 14328,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_decorative_1x1x1_yellow.bin",
+      "sha256": "0ac7ba40545e63c3b9f0ff8af887001def6b9746f0b93f9c20c8587cd862964d"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_decorative_1x1x1_yellow.gltf",
+      "sha256": "a2c9f3469b46cb1f456470c77e2ca6b29ed791ac69c01f51e52d1af67d44400d"
+    },
+    {
+      "bytes": 14328,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_decorative_2x2x2_yellow.bin",
+      "sha256": "4cfad835d721a55dbcbb2571a2fed983baf7c163c394632478a12dfb0dced8b5"
+    },
+    {
+      "bytes": 3021,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_decorative_2x2x2_yellow.gltf",
+      "sha256": "37d64db288870c778dac33fe9afd136f089d0ef30d573740bf06059062edb8a9"
+    },
+    {
+      "bytes": 12368,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_hole_6x6x1_yellow.bin",
+      "sha256": "3f2e1c80899d668b5441431c63933938eeb1f47746c7b8312be4d6189cd63954"
+    },
+    {
+      "bytes": 3003,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_hole_6x6x1_yellow.gltf",
+      "sha256": "8c8736e4be3690ec636a598bb0015f7e83fe6755845832fe92597e6d555224d9"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_2x2x2_yellow.bin",
+      "sha256": "ba96d593ecffee8576c58b7d6aef0127df06544997a5a9cb0482d68a9e35e86d"
+    },
+    {
+      "bytes": 3003,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_2x2x2_yellow.gltf",
+      "sha256": "fb912491270a34c4ae6d92e0d8cdcf7cddc98cdf035f85564352a946d4d8afa0"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_2x4x4_yellow.bin",
+      "sha256": "e0209bcecb0496d0dd720cab4a1f0815c0fe19512350d14a038387c25bfc3d4d"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_2x4x4_yellow.gltf",
+      "sha256": "73de98345f415a2dcced64a58821f7367b55bc1a8048e334b36fa9c0395faa82"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_2x6x4_yellow.bin",
+      "sha256": "ce3533db7afe997377cde57ae9028c3180fc988e71b663aaa9a51bb1b8a791a7"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_2x6x4_yellow.gltf",
+      "sha256": "eadc186ac5e83108dab0cd45565b3f36f1a1bb431ab6324d813325ae5edc5f67"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_4x2x2_yellow.bin",
+      "sha256": "9fe4b117b96f97e4f241f9f026151bac5ccbd39a13bee150d73ae2b38cfceaec"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_4x2x2_yellow.gltf",
+      "sha256": "032a9dc400c4f33dd29e7fc87d88d17bcc1c0406a70475a5e88e50706cd47389"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_4x4x4_yellow.bin",
+      "sha256": "5bc78a5aae33a81de587ece964c97ba5eba95634de6840f3821030290be670e4"
+    },
+    {
+      "bytes": 3003,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_4x4x4_yellow.gltf",
+      "sha256": "9ac5dc15ea93e8c26e38ca6a8b1e29fa8eda75e1cfdcda4f4dc75696374c9011"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_4x6x4_yellow.bin",
+      "sha256": "be361eed576acd8a12877b4cf7c9b7072868c4d79e8bf8b8f90c0a52f1064431"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_4x6x4_yellow.gltf",
+      "sha256": "380acfc329f5cdcf1de0a4fc92aeab739560c841034e0e48a6f9d024238bf9ce"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_6x2x2_yellow.bin",
+      "sha256": "44f13efb7f5455ed98bd3b062c59cdaa014e25e929ae042e0afbface49e00635"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_6x2x2_yellow.gltf",
+      "sha256": "92ea26e4fda308e38a075d39f4e4a587e255d1e95638e41fde2ea5a4e8b5f7b4"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_6x4x4_yellow.bin",
+      "sha256": "3dee1fb113ec8fdb001fffb1763a9e2ed10818df8e16dbd03083e0b883618d74"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_6x4x4_yellow.gltf",
+      "sha256": "51ee6f98ad6f419162437dbd9a97a1af8b8ccb2a8115aab279d66de0f354f6de"
+    },
+    {
+      "bytes": 6008,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_6x6x4_yellow.bin",
+      "sha256": "1e8732d9828c25d2079023161a79ad14d9efa5e246b35c88fe699c2905875ea7"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platform_slope_6x6x4_yellow.gltf",
+      "sha256": "2ee98cf3c295e39e3d03aef86aa8d39387182ca451da28670129bff625963c48"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 7520,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/power_yellow.bin",
+      "sha256": "87dd60a534c6950d70bf7816171343524da163cd6fc14f36be6f59eccf7c21c7"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/power_yellow.gltf",
+      "sha256": "be31ecdb1ade904e42996f4a9f466effcdf412543a251abf2c104048afe946ba"
+    },
+    {
+      "bytes": 8028,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_corner_double_yellow.bin",
+      "sha256": "0fa47d8a92c291c6be5c734bea18211c31c4709a1fd0959c83f5ce084125c571"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_corner_double_yellow.gltf",
+      "sha256": "df34ab321537e404545c488bb83c5cd9c75f2ac01b45aa8d97296ca5e3db3837"
+    },
+    {
+      "bytes": 8324,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_corner_padded_yellow.bin",
+      "sha256": "8b01b50e0bd77ec6d1bffecd1b484484c5c636d871a21796df5c33b488091215"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_corner_padded_yellow.gltf",
+      "sha256": "ff4b81d481ce70d1eaa9c43252bd218f3ff5bff8df21cdd7b72f75f9bf352636"
+    },
+    {
+      "bytes": 5364,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_corner_single_yellow.bin",
+      "sha256": "f3a9c7c641424ad50e0582100922b5ac15bec133644c598d2288f7e2eba89b37"
+    },
+    {
+      "bytes": 3091,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_corner_single_yellow.gltf",
+      "sha256": "c0cd85cca81385b0cbb9e2e3cda11a4c65ad90f931f5a6e071b3ae0a3a3376ad"
+    },
+    {
+      "bytes": 5208,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_straight_double_yellow.bin",
+      "sha256": "4a4b855f8a07805eab4b162c9c5a40fb2cae4d357ac1a4d0c5cb3d79e117c6b4"
+    },
+    {
+      "bytes": 3098,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_straight_double_yellow.gltf",
+      "sha256": "edcc9f1ea89a93742c2772c32bd83d30afdc811936ef661ef522088b93f1aa69"
+    },
+    {
+      "bytes": 4984,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_straight_padded_yellow.bin",
+      "sha256": "8726ea6d451e12038562ade71c00b8724b9c1f03e6b85e545f606c8a01d50e5b"
+    },
+    {
+      "bytes": 3099,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_straight_padded_yellow.gltf",
+      "sha256": "f6d12346fb3d1e5874350c61bdc04fa5770cac4b89516545a539d55bb827ca87"
+    },
+    {
+      "bytes": 3504,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_straight_single_yellow.bin",
+      "sha256": "cca531a779259c8db2bd0892ebde576a31f9a395bd04a9a05ec368653bc706fc"
+    },
+    {
+      "bytes": 3094,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/railing_straight_single_yellow.gltf",
+      "sha256": "7a7498794bb1ce4b365e0e5db774a58023d23220b25bf5e7ba2ad86cc5632df5"
+    },
+    {
+      "bytes": 11864,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/signage_arrow_stand_yellow.bin",
+      "sha256": "15ac6e79de4a498a92e271ba89641fea690ccc1d6bb7f492468a7980ddab1e4a"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/signage_arrow_stand_yellow.gltf",
+      "sha256": "5b8097d02c108e30f88eebcfd6ea78aedb0b8749c54c0dd1e1f1ad6f30bb2df7"
+    },
+    {
+      "bytes": 7016,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/signage_arrow_wall_yellow.bin",
+      "sha256": "77cb22aadd73ada9c3bb8887a1ad69007a48a938b594374b5a24a39135c33608"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/signage_arrow_wall_yellow.gltf",
+      "sha256": "8304aa821ffbab99a0d546cdc07c5ae5ecd418616f1f304f2ba4df1cab11e8ca"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/signage_arrows_left_yellow.bin",
+      "sha256": "8fc0fbbab859ff82e35ed18716d020383a7b6cda512a5ec385a8b0e4cb0893e2"
+    },
+    {
+      "bytes": 3102,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/signage_arrows_left_yellow.gltf",
+      "sha256": "80a86733b021032b43180d82f9be702c79611a37ee40869ffc0034626adc55b1"
+    },
+    {
+      "bytes": 44952,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/signage_arrows_right_yellow.bin",
+      "sha256": "078d59f9d02ed215c2f37228aaaac2701addc256bb8a0c5e03df1567e88131fb"
+    },
+    {
+      "bytes": 3105,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/signage_arrows_right_yellow.gltf",
+      "sha256": "2cb4be1868312374d21f26931d6ad3a64f995445d85fee014dfc90f288f953c7"
+    },
+    {
+      "bytes": 21776,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/spring_pad_yellow.bin",
+      "sha256": "ac119b1137ff0bcff9708666d1d8393adb86b104fdd5aaa006bbc774c0ddb6c0"
+    },
+    {
+      "bytes": 3007,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/spring_pad_yellow.gltf",
+      "sha256": "505f7a44dda1feb8ad640a64b692c4b7dc2dbc068d8fa97eb3aff4b7ad40df8b"
+    },
+    {
+      "bytes": 3560,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/star_yellow.bin",
+      "sha256": "4fc43b30c28011447831529a68c2003f1fd4f9e898e26dc9bc802f3778bbdbff"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-platformer-free/Assets/gltf/yellow/star_yellow.gltf",
+      "sha256": "78f141454d04b301dbd0a6c3df92ced44bb8f20ce79d06f2223c44ef79536ed2"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/obj/blue/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/obj/green/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/obj/neutral/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/obj/red/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Assets/obj/yellow/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 1320,
+      "path": "packs/kaykit-platformer-free/License.txt",
+      "sha256": "3fcf0b55c93cfb61138490e2e660a3889427d97c0cfffec2f0d50a9864e9ec69"
+    },
+    {
+      "bytes": 1671192,
+      "path": "packs/kaykit-platformer-free/Samples/sample1.png",
+      "sha256": "2c3c9e37792938075298e163282a76093c2881609c7651e895b38a188c305b79"
+    },
+    {
+      "bytes": 1849041,
+      "path": "packs/kaykit-platformer-free/Samples/sample2.png",
+      "sha256": "4374ecccd3599827ef475f6ef011e0fc32e1865a517b8be99d07cd2d8199a809"
+    },
+    {
+      "bytes": 1998751,
+      "path": "packs/kaykit-platformer-free/Samples/sample3.png",
+      "sha256": "7445b7b6e3600e6eecca112a3297062946a21930094caad6dd8099632641d566"
+    },
+    {
+      "bytes": 1805561,
+      "path": "packs/kaykit-platformer-free/Samples/sample4.png",
+      "sha256": "abd8fcc5c65d4f1d4389a2929359ace75dcdddbf35954ddf2f92a50c6df74c3b"
+    },
+    {
+      "bytes": 38588,
+      "path": "packs/kaykit-platformer-free/Textures/platformer_texture.png",
+      "sha256": "2771a7c3f7fd59bcba08dc967858942d9f83820ecc9146e98d25707a07210273"
+    },
+    {
+      "bytes": 2017628,
+      "path": "packs/kaykit-platformer-free/contents.png",
+      "sha256": "4ee7acf0d2862512f5ce8f9a95f9281813c9078d76124307694ae43382e6f4c2"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-platformer-free",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-platformer-free/License.txt",
+  "license_text_sha256": "3fcf0b55c93cfb61138490e2e660a3889427d97c0cfffec2f0d50a9864e9ec69",
+  "model_count": 370,
+  "models": [
+    "Assets/gltf/blue/arch_blue.gltf",
+    "Assets/gltf/blue/arch_tall_blue.gltf",
+    "Assets/gltf/blue/arch_wide_blue.gltf",
+    "Assets/gltf/blue/ball_blue.gltf",
+    "Assets/gltf/blue/barrier_1x1x1_blue.gltf",
+    "Assets/gltf/blue/barrier_1x1x2_blue.gltf",
+    "Assets/gltf/blue/barrier_1x1x4_blue.gltf",
+    "Assets/gltf/blue/barrier_2x1x1_blue.gltf",
+    "Assets/gltf/blue/barrier_2x1x2_blue.gltf",
+    "Assets/gltf/blue/barrier_2x1x4_blue.gltf",
+    "Assets/gltf/blue/barrier_3x1x1_blue.gltf",
+    "Assets/gltf/blue/barrier_3x1x2_blue.gltf",
+    "Assets/gltf/blue/barrier_3x1x4_blue.gltf",
+    "Assets/gltf/blue/barrier_4x1x1_blue.gltf",
+    "Assets/gltf/blue/barrier_4x1x2_blue.gltf",
+    "Assets/gltf/blue/barrier_4x1x4_blue.gltf",
+    "Assets/gltf/blue/bomb_A_blue.gltf",
+    "Assets/gltf/blue/bomb_B_blue.gltf",
+    "Assets/gltf/blue/bracing_large_blue.gltf",
+    "Assets/gltf/blue/bracing_medium_blue.gltf",
+    "Assets/gltf/blue/bracing_small_blue.gltf",
+    "Assets/gltf/blue/button_base_blue.gltf",
+    "Assets/gltf/blue/cone_blue.gltf",
+    "Assets/gltf/blue/diamond_blue.gltf",
+    "Assets/gltf/blue/flag_A_blue.gltf",
+    "Assets/gltf/blue/flag_B_blue.gltf",
+    "Assets/gltf/blue/flag_C_blue.gltf",
+    "Assets/gltf/blue/heart_blue.gltf",
+    "Assets/gltf/blue/hoop_angled_blue.gltf",
+    "Assets/gltf/blue/hoop_blue.gltf",
+    "Assets/gltf/blue/lever_floor_base_blue.gltf",
+    "Assets/gltf/blue/lever_wall_base_A_blue.gltf",
+    "Assets/gltf/blue/lever_wall_base_B_blue.gltf",
+    "Assets/gltf/blue/pipe_180_A_blue.gltf",
+    "Assets/gltf/blue/pipe_180_B_blue.gltf",
+    "Assets/gltf/blue/pipe_90_A_blue.gltf",
+    "Assets/gltf/blue/pipe_90_B_blue.gltf",
+    "Assets/gltf/blue/pipe_end_blue.gltf",
+    "Assets/gltf/blue/pipe_straight_A_blue.gltf",
+    "Assets/gltf/blue/pipe_straight_B_blue.gltf",
+    "Assets/gltf/blue/platform_1x1x1_blue.gltf",
+    "Assets/gltf/blue/platform_2x2x1_blue.gltf",
+    "Assets/gltf/blue/platform_2x2x2_blue.gltf",
+    "Assets/gltf/blue/platform_2x2x4_blue.gltf",
+    "Assets/gltf/blue/platform_4x2x1_blue.gltf",
+    "Assets/gltf/blue/platform_4x2x2_blue.gltf",
+    "Assets/gltf/blue/platform_4x2x4_blue.gltf",
+    "Assets/gltf/blue/platform_4x4x1_blue.gltf",
+    "Assets/gltf/blue/platform_4x4x2_blue.gltf",
+    "Assets/gltf/blue/platform_4x4x4_blue.gltf",
+    "Assets/gltf/blue/platform_6x2x1_blue.gltf",
+    "Assets/gltf/blue/platform_6x2x2_blue.gltf",
+    "Assets/gltf/blue/platform_6x2x4_blue.gltf",
+    "Assets/gltf/blue/platform_6x6x1_blue.gltf",
+    "Assets/gltf/blue/platform_6x6x2_blue.gltf",
+    "Assets/gltf/blue/platform_6x6x4_blue.gltf",
+    "Assets/gltf/blue/platform_arrow_2x2x1_blue.gltf",
+    "Assets/gltf/blue/platform_arrow_4x4x1_blue.gltf",
+    "Assets/gltf/blue/platform_decorative_1x1x1_blue.gltf",
+    "Assets/gltf/blue/platform_decorative_2x2x2_blue.gltf",
+    "Assets/gltf/blue/platform_hole_6x6x1_blue.gltf",
+    "Assets/gltf/blue/platform_slope_2x2x2_blue.gltf",
+    "Assets/gltf/blue/platform_slope_2x4x4_blue.gltf",
+    "Assets/gltf/blue/platform_slope_2x6x4_blue.gltf",
+    "Assets/gltf/blue/platform_slope_4x2x2_blue.gltf",
+    "Assets/gltf/blue/platform_slope_4x4x4_blue.gltf",
+    "Assets/gltf/blue/platform_slope_4x6x4_blue.gltf",
+    "Assets/gltf/blue/platform_slope_6x2x2_blue.gltf",
+    "Assets/gltf/blue/platform_slope_6x4x4_blue.gltf",
+    "Assets/gltf/blue/platform_slope_6x6x4_blue.gltf",
+    "Assets/gltf/blue/power_blue.gltf",
+    "Assets/gltf/blue/railing_corner_double_blue.gltf",
+    "Assets/gltf/blue/railing_corner_padded_blue.gltf",
+    "Assets/gltf/blue/railing_corner_single_blue.gltf",
+    "Assets/gltf/blue/railing_straight_double_blue.gltf",
+    "Assets/gltf/blue/railing_straight_padded_blue.gltf",
+    "Assets/gltf/blue/railing_straight_single_blue.gltf",
+    "Assets/gltf/blue/signage_arrow_stand_blue.gltf",
+    "Assets/gltf/blue/signage_arrow_wall_blue.gltf",
+    "Assets/gltf/blue/signage_arrows_left_blue.gltf",
+    "Assets/gltf/blue/signage_arrows_right_blue.gltf",
+    "Assets/gltf/blue/spring_pad_blue.gltf",
+    "Assets/gltf/blue/star_blue.gltf",
+    "Assets/gltf/green/arch_green.gltf",
+    "Assets/gltf/green/arch_tall_green.gltf",
+    "Assets/gltf/green/arch_wide_green.gltf",
+    "Assets/gltf/green/ball_green.gltf",
+    "Assets/gltf/green/barrier_1x1x1_green.gltf",
+    "Assets/gltf/green/barrier_1x1x2_green.gltf",
+    "Assets/gltf/green/barrier_1x1x4_green.gltf",
+    "Assets/gltf/green/barrier_2x1x1_green.gltf",
+    "Assets/gltf/green/barrier_2x1x2_green.gltf",
+    "Assets/gltf/green/barrier_2x1x4_green.gltf",
+    "Assets/gltf/green/barrier_3x1x1_green.gltf",
+    "Assets/gltf/green/barrier_3x1x2_green.gltf",
+    "Assets/gltf/green/barrier_3x1x4_green.gltf",
+    "Assets/gltf/green/barrier_4x1x1_green.gltf",
+    "Assets/gltf/green/barrier_4x1x2_green.gltf",
+    "Assets/gltf/green/barrier_4x1x4_green.gltf",
+    "Assets/gltf/green/bomb_A_green.gltf",
+    "Assets/gltf/green/bomb_B_green.gltf",
+    "Assets/gltf/green/bracing_large_green.gltf",
+    "Assets/gltf/green/bracing_medium_green.gltf",
+    "Assets/gltf/green/bracing_small_green.gltf",
+    "Assets/gltf/green/button_base_green.gltf",
+    "Assets/gltf/green/cone_green.gltf",
+    "Assets/gltf/green/diamond_green.gltf",
+    "Assets/gltf/green/flag_A_green.gltf",
+    "Assets/gltf/green/flag_B_green.gltf",
+    "Assets/gltf/green/flag_C_green.gltf",
+    "Assets/gltf/green/heart_green.gltf",
+    "Assets/gltf/green/hoop_angled_green.gltf",
+    "Assets/gltf/green/hoop_green.gltf",
+    "Assets/gltf/green/lever_floor_base_green.gltf",
+    "Assets/gltf/green/lever_wall_base_A_green.gltf",
+    "Assets/gltf/green/lever_wall_base_B_green.gltf",
+    "Assets/gltf/green/pipe_180_A_green.gltf",
+    "Assets/gltf/green/pipe_180_B_green.gltf",
+    "Assets/gltf/green/pipe_90_A_green.gltf",
+    "Assets/gltf/green/pipe_90_B_green.gltf",
+    "Assets/gltf/green/pipe_end_green.gltf",
+    "Assets/gltf/green/pipe_straight_A_green.gltf",
+    "Assets/gltf/green/pipe_straight_B_green.gltf",
+    "Assets/gltf/green/platform_1x1x1_green.gltf",
+    "Assets/gltf/green/platform_2x2x1_green.gltf",
+    "Assets/gltf/green/platform_2x2x2_green.gltf",
+    "Assets/gltf/green/platform_2x2x4_green.gltf",
+    "Assets/gltf/green/platform_4x2x1_green.gltf",
+    "Assets/gltf/green/platform_4x2x2_green.gltf",
+    "Assets/gltf/green/platform_4x2x4_green.gltf",
+    "Assets/gltf/green/platform_4x4x1_green.gltf",
+    "Assets/gltf/green/platform_4x4x2_green.gltf",
+    "Assets/gltf/green/platform_4x4x4_green.gltf",
+    "Assets/gltf/green/platform_6x2x1_green.gltf",
+    "Assets/gltf/green/platform_6x2x2_green.gltf",
+    "Assets/gltf/green/platform_6x2x4_green.gltf",
+    "Assets/gltf/green/platform_6x6x1_green.gltf",
+    "Assets/gltf/green/platform_6x6x2_green.gltf",
+    "Assets/gltf/green/platform_6x6x4_green.gltf",
+    "Assets/gltf/green/platform_arrow_2x2x1_green.gltf",
+    "Assets/gltf/green/platform_arrow_4x4x1_green.gltf",
+    "Assets/gltf/green/platform_decorative_1x1x1_green.gltf",
+    "Assets/gltf/green/platform_decorative_2x2x2_green.gltf",
+    "Assets/gltf/green/platform_hole_6x6x1_green.gltf",
+    "Assets/gltf/green/platform_slope_2x2x2_green.gltf",
+    "Assets/gltf/green/platform_slope_2x4x4_green.gltf",
+    "Assets/gltf/green/platform_slope_2x6x4_green.gltf",
+    "Assets/gltf/green/platform_slope_4x2x2_green.gltf",
+    "Assets/gltf/green/platform_slope_4x4x4_green.gltf",
+    "Assets/gltf/green/platform_slope_4x6x4_green.gltf",
+    "Assets/gltf/green/platform_slope_6x2x2_green.gltf",
+    "Assets/gltf/green/platform_slope_6x4x4_green.gltf",
+    "Assets/gltf/green/platform_slope_6x6x4_green.gltf",
+    "Assets/gltf/green/power_green.gltf",
+    "Assets/gltf/green/railing_corner_double_green.gltf",
+    "Assets/gltf/green/railing_corner_padded_green.gltf",
+    "Assets/gltf/green/railing_corner_single_green.gltf",
+    "Assets/gltf/green/railing_straight_double_green.gltf",
+    "Assets/gltf/green/railing_straight_padded_green.gltf",
+    "Assets/gltf/green/railing_straight_single_green.gltf",
+    "Assets/gltf/green/signage_arrow_stand_green.gltf",
+    "Assets/gltf/green/signage_arrow_wall_green.gltf",
+    "Assets/gltf/green/signage_arrows_left_green.gltf",
+    "Assets/gltf/green/signage_arrows_right_green.gltf",
+    "Assets/gltf/green/spring_pad_green.gltf",
+    "Assets/gltf/green/star_green.gltf",
+    "Assets/gltf/neutral/ball.gltf",
+    "Assets/gltf/neutral/barrier_1x1x1.gltf",
+    "Assets/gltf/neutral/barrier_1x1x2.gltf",
+    "Assets/gltf/neutral/barrier_1x1x4.gltf",
+    "Assets/gltf/neutral/barrier_2x1x1.gltf",
+    "Assets/gltf/neutral/barrier_2x1x2.gltf",
+    "Assets/gltf/neutral/barrier_2x1x4.gltf",
+    "Assets/gltf/neutral/barrier_3x1x1.gltf",
+    "Assets/gltf/neutral/barrier_3x1x2.gltf",
+    "Assets/gltf/neutral/barrier_3x1x4.gltf",
+    "Assets/gltf/neutral/barrier_4x1x1.gltf",
+    "Assets/gltf/neutral/barrier_4x1x2.gltf",
+    "Assets/gltf/neutral/barrier_4x1x4.gltf",
+    "Assets/gltf/neutral/bomb.gltf",
+    "Assets/gltf/neutral/cone.gltf",
+    "Assets/gltf/neutral/floor_wood_1x1.gltf",
+    "Assets/gltf/neutral/floor_wood_2x2.gltf",
+    "Assets/gltf/neutral/floor_wood_2x6.gltf",
+    "Assets/gltf/neutral/floor_wood_4x4.gltf",
+    "Assets/gltf/neutral/pillar_1x1x1.gltf",
+    "Assets/gltf/neutral/pillar_1x1x2.gltf",
+    "Assets/gltf/neutral/pillar_1x1x4.gltf",
+    "Assets/gltf/neutral/pillar_1x1x8.gltf",
+    "Assets/gltf/neutral/pillar_2x2x2.gltf",
+    "Assets/gltf/neutral/pillar_2x2x4.gltf",
+    "Assets/gltf/neutral/pillar_2x2x8.gltf",
+    "Assets/gltf/neutral/platform_wood_1x1x1.gltf",
+    "Assets/gltf/neutral/sign.gltf",
+    "Assets/gltf/neutral/signage_arrows_left.gltf",
+    "Assets/gltf/neutral/signage_arrows_right.gltf",
+    "Assets/gltf/neutral/signage_finish.gltf",
+    "Assets/gltf/neutral/signage_finish_wide.gltf",
+    "Assets/gltf/neutral/spring.gltf",
+    "Assets/gltf/neutral/structure_A.gltf",
+    "Assets/gltf/neutral/structure_B.gltf",
+    "Assets/gltf/neutral/structure_C.gltf",
+    "Assets/gltf/neutral/strut_horizontal.gltf",
+    "Assets/gltf/neutral/strut_vertical.gltf",
+    "Assets/gltf/red/arch_red.gltf",
+    "Assets/gltf/red/arch_tall_red.gltf",
+    "Assets/gltf/red/arch_wide_red.gltf",
+    "Assets/gltf/red/ball_red.gltf",
+    "Assets/gltf/red/barrier_1x1x1_red.gltf",
+    "Assets/gltf/red/barrier_1x1x2_red.gltf",
+    "Assets/gltf/red/barrier_1x1x4_red.gltf",
+    "Assets/gltf/red/barrier_2x1x1_red.gltf",
+    "Assets/gltf/red/barrier_2x1x2_red.gltf",
+    "Assets/gltf/red/barrier_2x1x4_red.gltf",
+    "Assets/gltf/red/barrier_3x1x1_red.gltf",
+    "Assets/gltf/red/barrier_3x1x2_red.gltf",
+    "Assets/gltf/red/barrier_3x1x4_red.gltf",
+    "Assets/gltf/red/barrier_4x1x1_red.gltf",
+    "Assets/gltf/red/barrier_4x1x2_red.gltf",
+    "Assets/gltf/red/barrier_4x1x4_red.gltf",
+    "Assets/gltf/red/bomb_A_red.gltf",
+    "Assets/gltf/red/bomb_B_red.gltf",
+    "Assets/gltf/red/bracing_large_red.gltf",
+    "Assets/gltf/red/bracing_medium_red.gltf",
+    "Assets/gltf/red/bracing_small_red.gltf",
+    "Assets/gltf/red/button_base_red.gltf",
+    "Assets/gltf/red/cone_red.gltf",
+    "Assets/gltf/red/diamond_red.gltf",
+    "Assets/gltf/red/flag_A_red.gltf",
+    "Assets/gltf/red/flag_B_red.gltf",
+    "Assets/gltf/red/flag_C_red.gltf",
+    "Assets/gltf/red/heart_red.gltf",
+    "Assets/gltf/red/hoop_angled_red.gltf",
+    "Assets/gltf/red/hoop_red.gltf",
+    "Assets/gltf/red/lever_floor_base_red.gltf",
+    "Assets/gltf/red/lever_wall_base_A_red.gltf",
+    "Assets/gltf/red/lever_wall_base_B_red.gltf",
+    "Assets/gltf/red/pipe_180_A_red.gltf",
+    "Assets/gltf/red/pipe_180_B_red.gltf",
+    "Assets/gltf/red/pipe_90_A_red.gltf",
+    "Assets/gltf/red/pipe_90_B_red.gltf",
+    "Assets/gltf/red/pipe_end_red.gltf",
+    "Assets/gltf/red/pipe_straight_A_red.gltf",
+    "Assets/gltf/red/pipe_straight_B_red.gltf",
+    "Assets/gltf/red/platform_1x1x1_red.gltf",
+    "Assets/gltf/red/platform_2x2x1_red.gltf",
+    "Assets/gltf/red/platform_2x2x2_red.gltf",
+    "Assets/gltf/red/platform_2x2x4_red.gltf",
+    "Assets/gltf/red/platform_4x2x1_red.gltf",
+    "Assets/gltf/red/platform_4x2x2_red.gltf",
+    "Assets/gltf/red/platform_4x2x4_red.gltf",
+    "Assets/gltf/red/platform_4x4x1_red.gltf",
+    "Assets/gltf/red/platform_4x4x2_red.gltf",
+    "Assets/gltf/red/platform_4x4x4_red.gltf",
+    "Assets/gltf/red/platform_6x2x1_red.gltf",
+    "Assets/gltf/red/platform_6x2x2_red.gltf",
+    "Assets/gltf/red/platform_6x2x4_red.gltf",
+    "Assets/gltf/red/platform_6x6x1_red.gltf",
+    "Assets/gltf/red/platform_6x6x2_red.gltf",
+    "Assets/gltf/red/platform_6x6x4_red.gltf",
+    "Assets/gltf/red/platform_arrow_2x2x1_red.gltf",
+    "Assets/gltf/red/platform_arrow_4x4x1_red.gltf",
+    "Assets/gltf/red/platform_decorative_1x1x1_red.gltf",
+    "Assets/gltf/red/platform_decorative_2x2x2_red.gltf",
+    "Assets/gltf/red/platform_hole_6x6x1_red.gltf",
+    "Assets/gltf/red/platform_slope_2x2x2_red.gltf",
+    "Assets/gltf/red/platform_slope_2x4x4_red.gltf",
+    "Assets/gltf/red/platform_slope_2x6x4_red.gltf",
+    "Assets/gltf/red/platform_slope_4x2x2_red.gltf",
+    "Assets/gltf/red/platform_slope_4x4x4_red.gltf",
+    "Assets/gltf/red/platform_slope_4x6x4_red.gltf",
+    "Assets/gltf/red/platform_slope_6x2x2_red.gltf",
+    "Assets/gltf/red/platform_slope_6x4x4_red.gltf",
+    "Assets/gltf/red/platform_slope_6x6x4_red.gltf",
+    "Assets/gltf/red/power_red.gltf",
+    "Assets/gltf/red/railing_corner_double_red.gltf",
+    "Assets/gltf/red/railing_corner_padded_red.gltf",
+    "Assets/gltf/red/railing_corner_single_red.gltf",
+    "Assets/gltf/red/railing_straight_double_red.gltf",
+    "Assets/gltf/red/railing_straight_padded_red.gltf",
+    "Assets/gltf/red/railing_straight_single_red.gltf",
+    "Assets/gltf/red/signage_arrow_stand_red.gltf",
+    "Assets/gltf/red/signage_arrow_wall_red.gltf",
+    "Assets/gltf/red/signage_arrows_left_red.gltf",
+    "Assets/gltf/red/signage_arrows_right_red.gltf",
+    "Assets/gltf/red/spring_pad_red.gltf",
+    "Assets/gltf/red/star_red.gltf",
+    "Assets/gltf/yellow/arch_tall_yellow.gltf",
+    "Assets/gltf/yellow/arch_wide_yellow.gltf",
+    "Assets/gltf/yellow/arch_yellow.gltf",
+    "Assets/gltf/yellow/ball_yellow.gltf",
+    "Assets/gltf/yellow/barrier_1x1x1_yellow.gltf",
+    "Assets/gltf/yellow/barrier_1x1x2_yellow.gltf",
+    "Assets/gltf/yellow/barrier_1x1x4_yellow.gltf",
+    "Assets/gltf/yellow/barrier_2x1x1_yellow.gltf",
+    "Assets/gltf/yellow/barrier_2x1x2_yellow.gltf",
+    "Assets/gltf/yellow/barrier_2x1x4_yellow.gltf",
+    "Assets/gltf/yellow/barrier_3x1x1_yellow.gltf",
+    "Assets/gltf/yellow/barrier_3x1x2_yellow.gltf",
+    "Assets/gltf/yellow/barrier_3x1x4_yellow.gltf",
+    "Assets/gltf/yellow/barrier_4x1x1_yellow.gltf",
+    "Assets/gltf/yellow/barrier_4x1x2_yellow.gltf",
+    "Assets/gltf/yellow/barrier_4x1x4_yellow.gltf",
+    "Assets/gltf/yellow/bomb_A_yellow.gltf",
+    "Assets/gltf/yellow/bomb_B_yellow.gltf",
+    "Assets/gltf/yellow/bracing_large_yellow.gltf",
+    "Assets/gltf/yellow/bracing_medium_yellow.gltf",
+    "Assets/gltf/yellow/bracing_small_yellow.gltf",
+    "Assets/gltf/yellow/button_base_yellow.gltf",
+    "Assets/gltf/yellow/cone_yellow.gltf",
+    "Assets/gltf/yellow/diamond_yellow.gltf",
+    "Assets/gltf/yellow/flag_A_yellow.gltf",
+    "Assets/gltf/yellow/flag_B_yellow.gltf",
+    "Assets/gltf/yellow/flag_C_yellow.gltf",
+    "Assets/gltf/yellow/heart_yellow.gltf",
+    "Assets/gltf/yellow/hoop_angled_yellow.gltf",
+    "Assets/gltf/yellow/hoop_yellow.gltf",
+    "Assets/gltf/yellow/lever_floor_base_yellow.gltf",
+    "Assets/gltf/yellow/lever_wall_base_A_yellow.gltf",
+    "Assets/gltf/yellow/lever_wall_base_B_yellow.gltf",
+    "Assets/gltf/yellow/pipe_180_A_yellow.gltf",
+    "Assets/gltf/yellow/pipe_180_B_yellow.gltf",
+    "Assets/gltf/yellow/pipe_90_A_yellow.gltf",
+    "Assets/gltf/yellow/pipe_90_B_yellow.gltf",
+    "Assets/gltf/yellow/pipe_end_yellow.gltf",
+    "Assets/gltf/yellow/pipe_straight_A_yellow.gltf",
+    "Assets/gltf/yellow/pipe_straight_B_yellow.gltf",
+    "Assets/gltf/yellow/platform_1x1x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_2x2x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_2x2x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_2x2x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_4x2x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_4x2x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_4x2x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_4x4x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_4x4x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_4x4x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_6x2x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_6x2x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_6x2x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_6x6x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_6x6x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_6x6x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_arrow_2x2x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_arrow_4x4x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_decorative_1x1x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_decorative_2x2x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_hole_6x6x1_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_2x2x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_2x4x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_2x6x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_4x2x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_4x4x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_4x6x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_6x2x2_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_6x4x4_yellow.gltf",
+    "Assets/gltf/yellow/platform_slope_6x6x4_yellow.gltf",
+    "Assets/gltf/yellow/power_yellow.gltf",
+    "Assets/gltf/yellow/railing_corner_double_yellow.gltf",
+    "Assets/gltf/yellow/railing_corner_padded_yellow.gltf",
+    "Assets/gltf/yellow/railing_corner_single_yellow.gltf",
+    "Assets/gltf/yellow/railing_straight_double_yellow.gltf",
+    "Assets/gltf/yellow/railing_straight_padded_yellow.gltf",
+    "Assets/gltf/yellow/railing_straight_single_yellow.gltf",
+    "Assets/gltf/yellow/signage_arrow_stand_yellow.gltf",
+    "Assets/gltf/yellow/signage_arrow_wall_yellow.gltf",
+    "Assets/gltf/yellow/signage_arrows_left_yellow.gltf",
+    "Assets/gltf/yellow/signage_arrows_right_yellow.gltf",
+    "Assets/gltf/yellow/spring_pad_yellow.gltf",
+    "Assets/gltf/yellow/star_yellow.gltf"
+  ],
+  "original_download_sha256": "7e140ee01abf99a5896cf93a02ff3dc6a23a7222109fd04854821f44a3a3adeb",
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "source": "https://kaylousberg.itch.io/kaykit-platformer",
+  "status": "downloaded",
+  "style": "smooth textured low-poly",
+  "archive_sha256": "6ee21145968ed6e6e2702096d75621c2c2ec7de33cabea144a84954f92a73757",
+  "embedded_parts": [
+    "seed/archives/kaykit-platformer-free.zip.part000",
+    "seed/archives/kaykit-platformer-free.zip.part001",
+    "seed/archives/kaykit-platformer-free.zip.part002",
+    "seed/archives/kaykit-platformer-free.zip.part003",
+    "seed/archives/kaykit-platformer-free.zip.part004",
+    "seed/archives/kaykit-platformer-free.zip.part005",
+    "seed/archives/kaykit-platformer-free.zip.part006",
+    "seed/archives/kaykit-platformer-free.zip.part007",
+    "seed/archives/kaykit-platformer-free.zip.part008",
+    "seed/archives/kaykit-platformer-free.zip.part009",
+    "seed/archives/kaykit-platformer-free.zip.part010",
+    "seed/archives/kaykit-platformer-free.zip.part011",
+    "seed/archives/kaykit-platformer-free.zip.part012",
+    "seed/archives/kaykit-platformer-free.zip.part013",
+    "seed/archives/kaykit-platformer-free.zip.part014",
+    "seed/archives/kaykit-platformer-free.zip.part015",
+    "seed/archives/kaykit-platformer-free.zip.part016"
+  ]
+}

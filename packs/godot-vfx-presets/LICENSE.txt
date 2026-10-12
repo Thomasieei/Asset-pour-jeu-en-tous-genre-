@@ -1,0 +1,1 @@
+CC0 1.0 Universal. Effect scene code is dedicated to the public domain. Particle texture dependency: Kenney Particle Pack, CC0. Original license remains in packs/kenney-particle-pack/License.txt.

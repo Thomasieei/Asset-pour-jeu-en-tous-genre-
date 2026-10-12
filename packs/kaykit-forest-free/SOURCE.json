@@ -1,0 +1,1235 @@
+{
+  "asset_count": 7,
+  "assets": [
+    "Assets/fbx/forest_texture.png",
+    "Assets/fbx(unity)/forest_texture.png",
+    "Assets/gltf/forest_texture.png",
+    "Assets/obj/forest_texture.png",
+    "Samples/Forest_Nature_Pack_sample1.png",
+    "Textures/forest_texture.png",
+    "contents.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "environments",
+  "checked": "2026-10-12",
+  "download_method": "official free tier; no donation or purchase",
+  "files": [
+    {
+      "bytes": 48679,
+      "path": "packs/kaykit-forest-free/Assets/fbx/forest_texture.png",
+      "sha256": "406c01e0ac1d3368fc7b26ff5fb0d3335ba5e48bd19a703540ed92ee3971ea39"
+    },
+    {
+      "bytes": 48679,
+      "path": "packs/kaykit-forest-free/Assets/fbx(unity)/forest_texture.png",
+      "sha256": "406c01e0ac1d3368fc7b26ff5fb0d3335ba5e48bd19a703540ed92ee3971ea39"
+    },
+    {
+      "bytes": 2352,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_A_Color1.bin",
+      "sha256": "66ba041776959c19849954c9d2393528783461ca6dd11ebe1c1f6b9026b63c0c"
+    },
+    {
+      "bytes": 3054,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_A_Color1.gltf",
+      "sha256": "bc6cf33dbed296a181d8afbd82ffe1c44ee5e57cb095f9efdf4b63e93c165b70"
+    },
+    {
+      "bytes": 4656,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_B_Color1.bin",
+      "sha256": "9ff9a26a0d1c7e468727c0ad2503bee8462e971e71366739a18ac0a38c3648f0"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_B_Color1.gltf",
+      "sha256": "523f15a4a27759251ba6c3d666d6b651804ed7a5a0db8615454110651081d774"
+    },
+    {
+      "bytes": 4656,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_C_Color1.bin",
+      "sha256": "513ae2e9ef7f19eecfbde317c469610193950756b17eecbb348b38c036bcb9d2"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_C_Color1.gltf",
+      "sha256": "b67ad1166a944eab3d1c88a3255216784848fca45a3a0d1eef6e56c05f4474e7"
+    },
+    {
+      "bytes": 4656,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_D_Color1.bin",
+      "sha256": "18fe83c4b2bcf63390541bcce81922012a94085b1edf22f1b2e31e4cc0d8f13a"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_D_Color1.gltf",
+      "sha256": "6778d25fa7184280066f8bef50cc352e214ab784b510a33aa04d239f62159a26"
+    },
+    {
+      "bytes": 16368,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_E_Color1.bin",
+      "sha256": "f1dd47b3b1f33df677766d1d036feb9d3e91e80cf487cdf41b674b05741a9413"
+    },
+    {
+      "bytes": 3063,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_E_Color1.gltf",
+      "sha256": "cfe17afe69486867ffc6dac72fd86712c4dd5f0bcd710fe365dd8fe3a18c51fd"
+    },
+    {
+      "bytes": 16320,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_F_Color1.bin",
+      "sha256": "fde9448c422b232cbd859700fd76bcbb8da0c5d943648efefc20efff27f0aeda"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_F_Color1.gltf",
+      "sha256": "dbbbb5bf67e76492ad8caeee35e487dbaae4a33ad649d01899b6edcb28a3aba8"
+    },
+    {
+      "bytes": 27984,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_G_Color1.bin",
+      "sha256": "0d92a1b580872bd8df4159bec725f0cf0881c7c56e6f2cf74ba7c212034cef69"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_G_Color1.gltf",
+      "sha256": "4979a6a515beb25a0a5e1987fccc6f47ac5d15baf7148a8fb63a3f10a17074be"
+    },
+    {
+      "bytes": 1032,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_A_Color1.bin",
+      "sha256": "156a986b87b097725a1c675ea20eeaf3f788014742dbf4b8f0fd2c69f27cad98"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_A_Color1.gltf",
+      "sha256": "c41284ba3191bdda026380527edf9fb0dcf03b5dd26c8779ed056edb6526c444"
+    },
+    {
+      "bytes": 2440,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_B_Color1.bin",
+      "sha256": "b0f7b67b91b9696946e5ae616abbe139811d0949049876ed43a5a4f69b970aa0"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_B_Color1.gltf",
+      "sha256": "a56841ace35231c41b81f3038f5bd180fd0c6ffbd8bc0ab3070bd31e99e58aad"
+    },
+    {
+      "bytes": 2440,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_C_Color1.bin",
+      "sha256": "1b796e64b2a988daf322f09d67830cd70446e700ba69c62e63945f8a60d57983"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_C_Color1.gltf",
+      "sha256": "d6544824738f219cbecdf4e31b3832bcea89fd5b4a21bd22a8f28b087628e67c"
+    },
+    {
+      "bytes": 4504,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_D_Color1.bin",
+      "sha256": "91638fe4a07c3ed1fca925e6f94a92707ffd5ee28f06f6d5c1c6dbb1c5c5c2f5"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_D_Color1.gltf",
+      "sha256": "5554f4f1e2f12797a373141a12890e56c5c2cce653611d2a6a2591346c5d2758"
+    },
+    {
+      "bytes": 10792,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_E_Color1.bin",
+      "sha256": "a2b39dff1b5896e3c6e6e9776cb83276b2b69fd2e649c0b6145e0acd4c67a34e"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_E_Color1.gltf",
+      "sha256": "cac6ebda50aefa5e3fe54a456dd0a6a05d8e2eabd7a7447f1a24a4ecd474f7f2"
+    },
+    {
+      "bytes": 8352,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_F_Color1.bin",
+      "sha256": "91f641083c48a6660a2d30e73448597ee9d11426c3f3063af283dd66bd312178"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_2_F_Color1.gltf",
+      "sha256": "6337258963e1f97007950e81315350fc4be8ac4d5bcc4f142fc67e851a4f977e"
+    },
+    {
+      "bytes": 5248,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_3_A_Color1.bin",
+      "sha256": "7f4893327535d30c255da52eac62d1feb2b5688ed9b4f79a48787acdd0cfa6fe"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_3_A_Color1.gltf",
+      "sha256": "c1806cb5331a53bbd57a57fa678dce6484ac45e8b609caf4c619d3dae0fcd7b8"
+    },
+    {
+      "bytes": 6752,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_3_B_Color1.bin",
+      "sha256": "4d2ad0322d702b69b41842766790f3f367fb78529ad5934140cfefbdba795131"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_3_B_Color1.gltf",
+      "sha256": "76fa503c91e86a2689e6fd630ff201d7eb285f7f28da70542c34d65a1cd5f59f"
+    },
+    {
+      "bytes": 7552,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_3_C_Color1.bin",
+      "sha256": "35bf6f924385486024949effbc8c08422cb84ef93873e05996944713d216e07a"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_3_C_Color1.gltf",
+      "sha256": "213548d4e6dd7d9cb4e225136a545c477e91530f421fdabcc919a8d50922a09c"
+    },
+    {
+      "bytes": 1032,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_A_Color1.bin",
+      "sha256": "e6716cb3d232d0f24f719ef9edf61fb1218e570f3767228c4dc155eaf7e2f56f"
+    },
+    {
+      "bytes": 3049,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_A_Color1.gltf",
+      "sha256": "56b56b9187350ad1222a4bd61112ed3c2a839a49ad876ca6e01ef17b426f3d02"
+    },
+    {
+      "bytes": 1032,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_B_Color1.bin",
+      "sha256": "f961082141ccac163560a209a6b7c9fbe7251d47d603f72d55e559d48f9e5acd"
+    },
+    {
+      "bytes": 3054,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_B_Color1.gltf",
+      "sha256": "e5e67884c2746f229586d5e342a4e603c6345800ea54afff847aab2bdc16f03b"
+    },
+    {
+      "bytes": 2568,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_C_Color1.bin",
+      "sha256": "cd7d1c4b753dafeb6c51a04d4d196c5b8170e5bc28303d1406f42e277d0d9931"
+    },
+    {
+      "bytes": 3052,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_C_Color1.gltf",
+      "sha256": "7423fd4cc074944e6ed6d2db2fbdceb12eb417c79ee48cd1645ab95e5e1897f0"
+    },
+    {
+      "bytes": 3096,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_D_Color1.bin",
+      "sha256": "6f591e7b1ca0dcf6d1ee868162f7018c7d6b0958d7c4f3fc8629cc38be7d4e66"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_D_Color1.gltf",
+      "sha256": "4c5d0727c6907ad3120bce7d81a297fe52153d9a24ca5a57edea38eb405478c4"
+    },
+    {
+      "bytes": 6696,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_E_Color1.bin",
+      "sha256": "0db64df18782e6481e895eb5407825e347fb16abb84d92cb6252c644d59bffa5"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_E_Color1.gltf",
+      "sha256": "add6e1ebbd19cd36a1e042320be0d7498d45e13417c2d62673057573ee9adfd0"
+    },
+    {
+      "bytes": 6696,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_F_Color1.bin",
+      "sha256": "a485d19d0c015f7d4c1d75fe1cd1f00a4c7078c03ad6fbb578cb179155787a35"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Bush_4_F_Color1.gltf",
+      "sha256": "775fc0c91ee6aee712d607093a1f4aa4a932432dfdddd9e06c8b37c8b06cb2b1"
+    },
+    {
+      "bytes": 2056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_A_Color1.bin",
+      "sha256": "d293510be3ca4a6062dc305c22a143ba134fc49af65aaba064cc8f8d868d6c6e"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_A_Color1.gltf",
+      "sha256": "58686904164d636e8731544fbb6911bf1ebc068841fe6c127f0c509b1449212b"
+    },
+    {
+      "bytes": 660,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_A_Singlesided_Color1.bin",
+      "sha256": "06b6bab266b192ad1659748fc938e1db29dfb7d775ba556f4b5132816ae60954"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_A_Singlesided_Color1.gltf",
+      "sha256": "8adcb284e5b7de6b363fd13866c23b6e96c9a3a461aefecc0d5cfd67136cd3ff"
+    },
+    {
+      "bytes": 6168,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_B_Color1.bin",
+      "sha256": "217a485ca9f647a77e8cadb79972b2a4e04757547f05aab7b3dfb70ccf02eb1a"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_B_Color1.gltf",
+      "sha256": "a11d2572b48595f1b05b560e347be83e08aa4189a19686ea211c9207d343be1d"
+    },
+    {
+      "bytes": 1980,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_B_Singlesided_Color1.bin",
+      "sha256": "7d920f1f9d52f1be708946b64d3cab8804884e22a36998e9ae72e42d76e21b3e"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_B_Singlesided_Color1.gltf",
+      "sha256": "b3f2a1e6a10b1b4b5e726cdaa52841bbb5e169aec1ce3dcab4e88e1054ab165c"
+    },
+    {
+      "bytes": 18504,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_C_Color1.bin",
+      "sha256": "ad2163a749bf75785f441eac9af6aa444eff591960ad5277c0433551628dbac3"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_C_Color1.gltf",
+      "sha256": "449d1a5cc0e808eccdad297bd45d4c86439ceb97703c66db940f36879d242dd1"
+    },
+    {
+      "bytes": 5940,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_C_Singlesided_Color1.bin",
+      "sha256": "7c49d179dc7e0a9255cae78f660276a9571c5998efd20308f74943248866cbd0"
+    },
+    {
+      "bytes": 3099,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_C_Singlesided_Color1.gltf",
+      "sha256": "e9ffe1739d4a89855313e91be0fa79d60eb66c8030392e0761b4a1be6ad3c5a0"
+    },
+    {
+      "bytes": 24672,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_D_Color1.bin",
+      "sha256": "bdbb905d1333227aae787294b14e3e89895e451bb9fcd02eac7a7a66f9241a0d"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_D_Color1.gltf",
+      "sha256": "a661f646f59852becd6ec7d3a16501a1d264d5d3d1732d247038357cbff248ba"
+    },
+    {
+      "bytes": 7920,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_D_Singlesided_Color1.bin",
+      "sha256": "7bbab65d798efa91bd3f0c26b93a4cad03f89aca794f8b92a47b79710ce47489"
+    },
+    {
+      "bytes": 3099,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_D_Singlesided_Color1.gltf",
+      "sha256": "762c03b93b46265a916ba358b7eec97939989157dbfc4d5987ce502289d631f4"
+    },
+    {
+      "bytes": 2056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_Mesh.bin",
+      "sha256": "93d1fdfd8083037af192afeed5ebacaaa708718f5716d394ad21253717742105"
+    },
+    {
+      "bytes": 2327,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_Mesh.gltf",
+      "sha256": "5997cd7c7be0f6a31dd296af655feda0fef6841d7a1327398d39ca8a3ebb3d6c"
+    },
+    {
+      "bytes": 660,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_SingleSided_Mesh.bin",
+      "sha256": "fef56f6fce74391d4f8c76990f561aedd6ab1789b36f6e6fd6702376a0a947bb"
+    },
+    {
+      "bytes": 2357,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_1_SingleSided_Mesh.gltf",
+      "sha256": "ca23d90eb3aa3360bd9bc4545c83bb04079552a7edb4b143fd32b355bfd9ac1d"
+    },
+    {
+      "bytes": 2056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_A_Color1.bin",
+      "sha256": "07fc84eda0b374b3fd4afed280452f0be21f75c0e53fbf6778d3997c09832a64"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_A_Color1.gltf",
+      "sha256": "fa822543a17721c40b3386557ed37af6c44fd6d4ce6b4fc16f9187d69cde8fe1"
+    },
+    {
+      "bytes": 660,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_A_Singlesided_Color1.bin",
+      "sha256": "86bc91d2ebf144bbf983f0d8e6ef9012a3a1ddb4226c846e9d36b03080823369"
+    },
+    {
+      "bytes": 3088,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_A_Singlesided_Color1.gltf",
+      "sha256": "d2865c0e5bbfe9a3bae9ac7ff880f065ca130a0331562448bc2fbe86888496c3"
+    },
+    {
+      "bytes": 6168,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_B_Color1.bin",
+      "sha256": "8a8a00efc28a7ea1fa735579b72c55ee6d0de7cea4672afa82a378dcadc70487"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_B_Color1.gltf",
+      "sha256": "c95c9aa402330cb1f1950a5c6fa467f9714d5ebeb257731bc4e0567951e08032"
+    },
+    {
+      "bytes": 1980,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_B_Singlesided_Color1.bin",
+      "sha256": "4a36d3f50f929f783f8f2e1c9f4baee037a1690dd1ff9eb6ee795adbde2ec329"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_B_Singlesided_Color1.gltf",
+      "sha256": "bf143734db28770f896781b9baa10f0d9cb8185be61de7b4e78a9da3be159177"
+    },
+    {
+      "bytes": 24672,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_C_Color1.bin",
+      "sha256": "99b030029636b0b1ec02a4d39f0120308c22ec87fa7fa8babcfec1a1392b4d4b"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_C_Color1.gltf",
+      "sha256": "5896b3332cb5ab720747e77cae0d6567387594e3bc80d35bca18c6d38cc4e82e"
+    },
+    {
+      "bytes": 7920,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_C_Singlesided_Color1.bin",
+      "sha256": "aae1f23bd6c4807413fe1e76acc141639e764387e15c62f05313aec502901e07"
+    },
+    {
+      "bytes": 3101,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_C_Singlesided_Color1.gltf",
+      "sha256": "c6f65d5fa69e05ecaae93f4a8859fd206e8d1383cbbf45ca3a90a096ae9339c7"
+    },
+    {
+      "bytes": 24672,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_D_Color1.bin",
+      "sha256": "6094b2b84e46f47695444a16bd81f6537cec7b2935fdb94bd4d1f2ae0ce0e7fc"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_D_Color1.gltf",
+      "sha256": "4dc6242c70bcdf5e040b9e039679dc518f76d29dc9d770692bf72b3e6b4c1d2f"
+    },
+    {
+      "bytes": 7920,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_D_Singlesided_Color1.bin",
+      "sha256": "e635ce01334bdcaaebcad6d240cf7f0e5dd7acee5fd38857dbd7f76b4fd70e00"
+    },
+    {
+      "bytes": 3097,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_D_Singlesided_Color1.gltf",
+      "sha256": "b839423efe105cb532887213b62354144e4a17f08cfa9d13fcb13413472e49e1"
+    },
+    {
+      "bytes": 2056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_Mesh.bin",
+      "sha256": "bb2a57945d8285583f009dce3d5f3c8a708f59af4d34fea5b6a545560811094c"
+    },
+    {
+      "bytes": 2325,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_Mesh.gltf",
+      "sha256": "80947bb5790b5cec7b9ed98838ca0f16dd4a9b9a0a472901474133aa406952dd"
+    },
+    {
+      "bytes": 660,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_SingleSided_Mesh.bin",
+      "sha256": "1d13ca7efcc9889653b5f4d5de5eedc7c13d6226c3f12069c31db2f933e2a5d3"
+    },
+    {
+      "bytes": 2357,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Grass_2_SingleSided_Mesh.gltf",
+      "sha256": "b9343e52cab22f857798ac7f60777bd4487261aad8f112ac96da64833bc98810"
+    },
+    {
+      "bytes": 2848,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_A_Color1.bin",
+      "sha256": "1c94027b4b01e479f14c6a0288445f2ec74c4971bd5154095c4ea261ddea5b95"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_A_Color1.gltf",
+      "sha256": "ca24326b9c24556227c68df64933122f34a972cd38b6e95c53353fefa97dbc80"
+    },
+    {
+      "bytes": 2784,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_B_Color1.bin",
+      "sha256": "782cef58cf202c5ed3f121219aa7492c36857f1d00c9bd2bce13c8c6c8147d7e"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_B_Color1.gltf",
+      "sha256": "749f2de085a5cee1c91c5953cf04cf243d9b61d847e6006cf3d4eeef5a35985a"
+    },
+    {
+      "bytes": 2912,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_C_Color1.bin",
+      "sha256": "39a1e7da9638240fbcb7a2b7ca96f692161de11a0af67ed97d96b13701472481"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_C_Color1.gltf",
+      "sha256": "af4bc788060d4e6d33cec02ce910a3a409a54dd5e8720a9b0371ea635d766895"
+    },
+    {
+      "bytes": 4792,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_D_Color1.bin",
+      "sha256": "30a7fc80775c585ce501170caf743c290cd4750b0515352f5e7612f888042c9d"
+    },
+    {
+      "bytes": 3039,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_D_Color1.gltf",
+      "sha256": "67df432b840e93475ab0b0d7d2d0473d19928168ee5c9c411a51e2bf7e05584d"
+    },
+    {
+      "bytes": 4856,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_E_Color1.bin",
+      "sha256": "74363d2c11430b6d779fa5925ecd68cbae927406d6173a3fb2016e00040e1e06"
+    },
+    {
+      "bytes": 3007,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_E_Color1.gltf",
+      "sha256": "f61da3a25bd8098832d1240008928c32b864c81b7f17ee75524310ea73bb8bea"
+    },
+    {
+      "bytes": 4920,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_F_Color1.bin",
+      "sha256": "a46b1f381bf72dd01b909e1b1d6bf354459e6fcb3d955abfa4e38709915328e1"
+    },
+    {
+      "bytes": 3008,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_F_Color1.gltf",
+      "sha256": "0b1e7362928f7d8b13f3b3cda0714013084b469e7a333c9fe0c6eec75a5156f2"
+    },
+    {
+      "bytes": 4944,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_G_Color1.bin",
+      "sha256": "cb61ed6367428900504cb2994021aaa96fe8a9e590d0595aa213f0a0e99aa04d"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_G_Color1.gltf",
+      "sha256": "7ad950660ccb2ad30f8556b3c8ca0e53a93ae229427c2cd347feedaccb0d5cd4"
+    },
+    {
+      "bytes": 5104,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_H_Color1.bin",
+      "sha256": "173ea8caa51a2d49362fbf0aa2bc7397b0bc92d56fc00c0d922de21c0e585fd2"
+    },
+    {
+      "bytes": 3039,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_H_Color1.gltf",
+      "sha256": "98b087745f3fd03544ca5c739130185303cf05d18bbb776d7412416f98c24161"
+    },
+    {
+      "bytes": 4976,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_I_Color1.bin",
+      "sha256": "6a94e9ff17720d815e745c708c4cfa48f22f442aa356023dec2b9f6d0606d872"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_I_Color1.gltf",
+      "sha256": "7ddfc8f4009411f0331aac9c165a52cb19bc729deeef16f97668430e0817813c"
+    },
+    {
+      "bytes": 30808,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_J_Color1.bin",
+      "sha256": "49cf706f4885deb2a4079f22fe1f3000922229435e7f8af4928ab1d7443c9595"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_J_Color1.gltf",
+      "sha256": "8821410d8b261346bd18547f41ac7d465f2254007d8fa6fee6ecf43c072979c9"
+    },
+    {
+      "bytes": 30984,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_K_Color1.bin",
+      "sha256": "e1a2d4e85398e34cfbc18ef085c916c60d89eb877622133f4874cc58dd59a881"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_K_Color1.gltf",
+      "sha256": "1e7a18bd9e03a00a25ec15953391f0c65f7822951e752c360e676d09604c6cf6"
+    },
+    {
+      "bytes": 29300,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_L_Color1.bin",
+      "sha256": "c7ba0a00b57b538a5ab095a705ca3d13eef2e7eb22c845c3db257e21c937eef1"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_L_Color1.gltf",
+      "sha256": "407620a460c45a22275d4bbb5c219f5085ff44f811f1b5d6646232e93b2625a4"
+    },
+    {
+      "bytes": 30176,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_M_Color1.bin",
+      "sha256": "8fd44261459863bb6ff074a58e608c2c651fdd2c5e53c14d2416246d26c0b904"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_M_Color1.gltf",
+      "sha256": "e3cc71684110ffbe6a68d173979aeac3e56ae6215e821db1840c2c62ef0c92ad"
+    },
+    {
+      "bytes": 20596,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_N_Color1.bin",
+      "sha256": "557c2d16ff3eae50a1e2eea4feb5610c2a0bbfda6ee3c712eb412b00d3c43d9d"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_N_Color1.gltf",
+      "sha256": "a7b66a3716a41ae0424428cf490cd930e420cd3fb5fd003b2d8254fc172b1b05"
+    },
+    {
+      "bytes": 12348,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_O_Color1.bin",
+      "sha256": "41eefd97add129ba44fc5769a64f5e1098fdb23a8efacc2d80a3e88b301e210e"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_O_Color1.gltf",
+      "sha256": "60e50199f545865b7ef7cec4a3cb99ef71a813b6e2079cd4d1f0f0a626e61964"
+    },
+    {
+      "bytes": 22784,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_P_Color1.bin",
+      "sha256": "0b9c46ff16db62561e1c6013a85f7cc7a9764ec845fbac9e89e86e215f134aba"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_P_Color1.gltf",
+      "sha256": "6de7e9168f3c6b0f568945294078b5a2c31e59bb8361b6d0464de98c55e4cc8f"
+    },
+    {
+      "bytes": 30024,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_Q_Color1.bin",
+      "sha256": "0f79ea568c8de7dc347ac3a05fb137ab2d4330924651a691f7938ae32024e8e4"
+    },
+    {
+      "bytes": 3067,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_Q_Color1.gltf",
+      "sha256": "108a419dcbd0223cef117d3136c28a0d738e06be9b63783e3e8c9197d219be4c"
+    },
+    {
+      "bytes": 840,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_A_Color1.bin",
+      "sha256": "ffee05221dda59936ba6c94112b65bb3c8a38e938fbb219a2808a1590daab050"
+    },
+    {
+      "bytes": 3052,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_A_Color1.gltf",
+      "sha256": "bbe5254a4c13be7f4aa017297a9458db441e99234028af378d29207d80be4696"
+    },
+    {
+      "bytes": 1416,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_B_Color1.bin",
+      "sha256": "f707450455fd603313ffe97d9ee13f0899432c977971abe50b07cce3ca4ea72d"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_B_Color1.gltf",
+      "sha256": "0b48492d69655b4cde7678d3582d045147e171f40edf34f28e4ff81db4a1f7ca"
+    },
+    {
+      "bytes": 3336,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_C_Color1.bin",
+      "sha256": "6ec3a29d90b0aed5a4a0be8aaad34e50d9171fcec1d0463ff100564feb2c0e9c"
+    },
+    {
+      "bytes": 3054,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_C_Color1.gltf",
+      "sha256": "22ef2dedc006b9a5bffaa2b4f8779face5a92c34e2bb813d1e2904fa7c554cbf"
+    },
+    {
+      "bytes": 3336,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_D_Color1.bin",
+      "sha256": "0d843a434c63ede6d8b58803b3e4d0c1f0a90a8b2704e70f35f96cb30a411f43"
+    },
+    {
+      "bytes": 3055,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_D_Color1.gltf",
+      "sha256": "fd02b9e800720a4923ee2c5c46e23f3c8a4d97d323a21aa86e08758c646367eb"
+    },
+    {
+      "bytes": 14916,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_E_Color1.bin",
+      "sha256": "1ba0bd064b93f26b30a06259c4b829bce78ec2c873e312cdf90f0035c71024df"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_E_Color1.gltf",
+      "sha256": "89158bd76e8ebb3c7d0615bee0c8f5b856c81c80d2710eef4a2c4c8b3231862d"
+    },
+    {
+      "bytes": 14600,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_F_Color1.bin",
+      "sha256": "ed8547761a87d2a391e82d93ea69fd446bd758a2bc32f95f3fd97f2169727346"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_F_Color1.gltf",
+      "sha256": "9cb36f8bcd5ae071901e3b319843a6c33555076e4fb5bf98d8b4b5b99cec73bb"
+    },
+    {
+      "bytes": 16240,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_G_Color1.bin",
+      "sha256": "3241845a2ff8d65286557f43b2d8f666593e5b05c72d82ac91e94ce4f7250234"
+    },
+    {
+      "bytes": 3062,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_G_Color1.gltf",
+      "sha256": "f0445e44e6203fb634e79fa87152ece252bc295a8952d88378e1b5edde3f01e4"
+    },
+    {
+      "bytes": 10704,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_H_Color1.bin",
+      "sha256": "380dd8485a8a47e04601856dc19fd96498e0c8d10d78d8555a2c1186f6fe325d"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_2_H_Color1.gltf",
+      "sha256": "3b60e5b844a146ff41a9e31fba2d628018876b1ced246bc2a7dc5e00ea10fbda"
+    },
+    {
+      "bytes": 4440,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_A_Color1.bin",
+      "sha256": "8659daf4bc724f414eda02193bc6a48132b595eef7c62009b7c0a3d93a8aa9b2"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_A_Color1.gltf",
+      "sha256": "65484de298f09f7ed5bcf781d7febde1a2df4f0f76b8a6396591240963152c88"
+    },
+    {
+      "bytes": 4568,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_B_Color1.bin",
+      "sha256": "fc36ba2b662b90cd61f9ca6a7ca65dbd6176f2984102433053df7d786b6b707d"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_B_Color1.gltf",
+      "sha256": "ab3aafc815c562c4b96fc4ca4bb9cd359a8f0fedeb9775caa19cf116f031fe74"
+    },
+    {
+      "bytes": 4216,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_C_Color1.bin",
+      "sha256": "830aa5a7a07ef80b5931847b57aa11b6a763a72694b5ad608035d2bd1687d9f7"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_C_Color1.gltf",
+      "sha256": "b0529fafa4fcdab3123442a4bf348999cac2703009935e98e36ea3c2a0cc01a1"
+    },
+    {
+      "bytes": 4312,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_D_Color1.bin",
+      "sha256": "97c7684de27a0ab5107a4ff25f285ac9640a40ec0ed37b9f751c3b3b977126ef"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_D_Color1.gltf",
+      "sha256": "d2c6c0ed007a643d90241801c7ad0d84e476358d708775348462d03baa717917"
+    },
+    {
+      "bytes": 4376,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_E_Color1.bin",
+      "sha256": "187a51798a6ba608f296890fabc2835e4169f97c8fe4f9b0cda65075c11d0cf6"
+    },
+    {
+      "bytes": 3055,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_E_Color1.gltf",
+      "sha256": "09d970738392eae90fda589d6ec11c54b7356a5cf1f6b64b2411774635a03138"
+    },
+    {
+      "bytes": 5208,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_F_Color1.bin",
+      "sha256": "41398421613d1800d71e546674e41c62cd209f9b3e4a544e19cd03b9b496d8d2"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_F_Color1.gltf",
+      "sha256": "01682b9c8709fcfb480dd5f7f254a8a9491bae18978f9ae7d2183e5d8752f725"
+    },
+    {
+      "bytes": 7216,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_G_Color1.bin",
+      "sha256": "0b22b177f68960faeef0f6a93ecf78449c887440dda7df6c7b4039eb9e20d7e2"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_G_Color1.gltf",
+      "sha256": "9835ef4541e6b2867678efc280e399481a909f4a11b71a2a46f4a0ae2f093883"
+    },
+    {
+      "bytes": 6704,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_H_Color1.bin",
+      "sha256": "cf347e34f8839cf99db7d2cfdb38a07ac823c1bd578107f33b2a46edab26b3a0"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_H_Color1.gltf",
+      "sha256": "0605b9ccb31940363ebf13b66a562c94de809efd01a7498e8b330a0198171237"
+    },
+    {
+      "bytes": 6352,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_I_Color1.bin",
+      "sha256": "5176add3826445aa4ff8bf7cb282554f31af10e9e6ea5ca7923df039beba2e44"
+    },
+    {
+      "bytes": 3054,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_I_Color1.gltf",
+      "sha256": "9a9a3c09c0b395968bb79ba344087ec0802b27345eb297699a7000a79d255376"
+    },
+    {
+      "bytes": 8016,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_J_Color1.bin",
+      "sha256": "ce6f46fdea833b5ae7d375f64350d834b4e3e360ddf5d19e7ab553b691f8f604"
+    },
+    {
+      "bytes": 3055,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_J_Color1.gltf",
+      "sha256": "2716741531cca7bb19eabd9ab91cee8d38df217fb42b88bd1cacea178a8ef588"
+    },
+    {
+      "bytes": 8016,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_K_Color1.bin",
+      "sha256": "e6e63fc97ecb6f0c3461ce91187c93f5df3d13fa0c389db4ec87a9f8f5c6928d"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_K_Color1.gltf",
+      "sha256": "6e8943abb90af159fe80b2e547cf3829bce8265a8a297b333a3580868504c455"
+    },
+    {
+      "bytes": 6544,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_L_Color1.bin",
+      "sha256": "6096b3a60cd47de27fe106be08fe2c8a1bf52b654a6804cfe667d95bf784a6b6"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_L_Color1.gltf",
+      "sha256": "70730da0ccdae298d9673bb0aa2eda9a85a46fab2b1a1979ce85d4e5bb23b492"
+    },
+    {
+      "bytes": 11296,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_M_Color1.bin",
+      "sha256": "8a7f420d8ba7394a928f8f5652a298eee9d44dd72fc5cbff3522bb98ba04b95c"
+    },
+    {
+      "bytes": 3054,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_M_Color1.gltf",
+      "sha256": "e9d200a5da70cca763ab8e7c608de5175aef34f02c1fcb1c7b7b8f0ba173a153"
+    },
+    {
+      "bytes": 12256,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_N_Color1.bin",
+      "sha256": "1ba8e947e50c2c32c72353ceff58e8d5874cf17e52ad6ba903292f5c39bc3f7f"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_N_Color1.gltf",
+      "sha256": "198d1a30b8643973d45587eef76547c260c15ce3a0093341bb4bcc53bd8c7f4a"
+    },
+    {
+      "bytes": 12320,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_O_Color1.bin",
+      "sha256": "9d812f3db93337c6858a8882f0f5f87a0f15293f0f902e1638cc642795fd71b1"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_O_Color1.gltf",
+      "sha256": "627dc5bce046427c10ac4e0db7a6f6c177439656314b82dfe2ce223fedaec273"
+    },
+    {
+      "bytes": 10816,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_P_Color1.bin",
+      "sha256": "c60665161da13e10cb018d8dce93cd583680b3de0807b70afbe577300a9bda94"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_P_Color1.gltf",
+      "sha256": "e41d115f30f996965e73973ca1cd31b183c6ef961cc371b875e7c5492054ad26"
+    },
+    {
+      "bytes": 13312,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_Q_Color1.bin",
+      "sha256": "6d95a4a7130db2bd80141cec1e675136206307a831baa66a3cfdbbf2b47c5c43"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_Q_Color1.gltf",
+      "sha256": "ebe67979f6cea47730b3498d46972f8a4a7069e5150a631eaeaf90e3559d087f"
+    },
+    {
+      "bytes": 10272,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_R_Color1.bin",
+      "sha256": "14acd0e022aebea36f78a6773b944f84094c2b9bc0271bfb8e726078ddde296e"
+    },
+    {
+      "bytes": 3055,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Rock_3_R_Color1.gltf",
+      "sha256": "2bffe23082f6638d43ba5851cbb7f4a70ad1fb6844c0cb9739fb548a84dd5521"
+    },
+    {
+      "bytes": 17484,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_1_A_Color1.bin",
+      "sha256": "76a10ffa74960d730f0895a2599e5d56cc50a553d6624a14422420eb9b083979"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_1_A_Color1.gltf",
+      "sha256": "9d972eba9d61fc563cb7c3248f1be057190859ce2554ad2032df27c3d09e06c6"
+    },
+    {
+      "bytes": 19016,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_1_B_Color1.bin",
+      "sha256": "5d4129bdc6f13a24e076f7fa870c6695dc20491f4820c54153fe9d1d90b40522"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_1_B_Color1.gltf",
+      "sha256": "03f4773b06adf252ac8ca0a9bfdc77f315c1f4036b6151796f110b4897e586c5"
+    },
+    {
+      "bytes": 46296,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_1_C_Color1.bin",
+      "sha256": "b5d131c607d96b71583e515a48e28c22b1c67831a0290c850aa32c8980480eed"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_1_C_Color1.gltf",
+      "sha256": "ffb1e44646cd8dbe9902dd31bf94e64e1a3de5523d1b1f819acdbef09b42d45f"
+    },
+    {
+      "bytes": 8192,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_A_Color1.bin",
+      "sha256": "fd413ad809ff30939faf1190194654892066aba94f67ec6f96ce257fa5b34e35"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_A_Color1.gltf",
+      "sha256": "793570b93cd350b935bc88c766317675890f102d157965d2aca3d8daef5ee49b"
+    },
+    {
+      "bytes": 11688,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_B_Color1.bin",
+      "sha256": "90e260b69154a83b1799d68778fb35ddeaaf5f0eb69ac67384c99770ed7bf821"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_B_Color1.gltf",
+      "sha256": "3094d793c2625c2543c1c8106864426f6c61cfe13b2cff0a2c133aec23065408"
+    },
+    {
+      "bytes": 15440,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_C_Color1.bin",
+      "sha256": "4fc63a4762f8aa024e777707522fb7d3e8cd599182b9392e7ac4e70e245286ff"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_C_Color1.gltf",
+      "sha256": "55a4e60b889a4823b72f1741b78ad6e8d6dd3e3f43b74a19d840ca7c7b4b1f97"
+    },
+    {
+      "bytes": 32920,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_D_Color1.bin",
+      "sha256": "d9caf803a9cf09b08a3b33a77d7f42451a82328548fd41fd0c96e0237af57414"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_D_Color1.gltf",
+      "sha256": "5587568a8bea42e3a0fbdce36f16888a62fdb923b283c49317e10b03c2e4aaec"
+    },
+    {
+      "bytes": 36016,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_E_Color1.bin",
+      "sha256": "de47d12dfbfe1074f430540659ab5e258a2d2f1be33ecdab2cef1b362a87506d"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_2_E_Color1.gltf",
+      "sha256": "5330b533a759a013ad752be03a8c85a49f304e45d777b1da99522eeb5a1d74a9"
+    },
+    {
+      "bytes": 29740,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_3_A_Color1.bin",
+      "sha256": "ea2f20e847bd3bcf748b9f1cf9932abe45967db8dcacfeafaea1f07e3da6a2e9"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_3_A_Color1.gltf",
+      "sha256": "a5140f21978004544844df4c2969625724c2c263e74f798716ea9e115216a230"
+    },
+    {
+      "bytes": 29288,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_3_B_Color1.bin",
+      "sha256": "c7b09e0fd302d2a96b02aaa7a5907f2a364a1e7287ce3cb3287406dae331987b"
+    },
+    {
+      "bytes": 3060,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_3_B_Color1.gltf",
+      "sha256": "13f4ede4272f07308d06da5d6f6ab8ff894e3175ed964de8bc356fa1a1ccf319"
+    },
+    {
+      "bytes": 71288,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_3_C_Color1.bin",
+      "sha256": "4b07b4e42e49ac5753817daa56573f262111c818334fc28169d66f67ab1e0de7"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_3_C_Color1.gltf",
+      "sha256": "a1da502f099639153a6fa02c01b61f684f9c674754da71fe6939dc0b92e97b13"
+    },
+    {
+      "bytes": 12568,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_4_A_Color1.bin",
+      "sha256": "eeb22bdc0ece9941865139476afcaf5dadd8285751321770886d1a065b8512d6"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_4_A_Color1.gltf",
+      "sha256": "14f8f50af9f9cf8d2bb488cae15613f9e2ed6ce0002d2aa11721a2efc2ba3010"
+    },
+    {
+      "bytes": 16092,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_4_B_Color1.bin",
+      "sha256": "155be76b0ec5d12a246c6b686156a2fa0d8ca086a67ef156633b7df681143d54"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_4_B_Color1.gltf",
+      "sha256": "7dad365ccc9e9da3e1cbcdbd5ec16b67f0058a3c76aaa06a1bfaa17c706f1ce5"
+    },
+    {
+      "bytes": 31140,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_4_C_Color1.bin",
+      "sha256": "e1cb6ef336e47ab073aedf0267a81cba500499b9edb0fb514c1b58a3a5d11f4f"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_4_C_Color1.gltf",
+      "sha256": "b0ad5efa06e081126366879cca48cf26563ef712899170023c95558b13ef058a"
+    },
+    {
+      "bytes": 11736,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_1_A_Color1.bin",
+      "sha256": "6967f9187c6d6e5b829a022921115fac8990a693b800cf65bdff181e6b5e20d3"
+    },
+    {
+      "bytes": 3075,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_1_A_Color1.gltf",
+      "sha256": "f246cae013cb68c80b58d2493accc6b60bd2b6a11f5567879d5ef1b73b44d8db"
+    },
+    {
+      "bytes": 11176,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_1_B_Color1.bin",
+      "sha256": "e35691c366128c4469b09b75c3a9bb791dc490c86f07d52b51f52dac04497255"
+    },
+    {
+      "bytes": 3074,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_1_B_Color1.gltf",
+      "sha256": "2f2ce28371025026808141f0765f01fd20ce727c381bf472f40ba63adc501ae8"
+    },
+    {
+      "bytes": 35632,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_1_C_Color1.bin",
+      "sha256": "34eba3948880b8521e8d0d3d9d6913a96dcb4c87d8b6ad302b1aa7051424fae1"
+    },
+    {
+      "bytes": 3079,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_1_C_Color1.gltf",
+      "sha256": "eab8a08bf1f5cbd916467bc5a6ae1ec6625f6ee34865a8ee580a656a59f8e5f2"
+    },
+    {
+      "bytes": 15000,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_2_A_Color1.bin",
+      "sha256": "399090bcbf7e791f588256001fa4a9c3bb7c96332d09eb56281f58e81def9e06"
+    },
+    {
+      "bytes": 3077,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_2_A_Color1.gltf",
+      "sha256": "426327b23a1e52e6f2e4d5e977794cf92fc4121ea92d9c82ed475ead5b71cb50"
+    },
+    {
+      "bytes": 16768,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_2_B_Color1.bin",
+      "sha256": "1cb0b499c72cd953c2e78141d931af8af2727a570957b4aaaebc272e2f27268b"
+    },
+    {
+      "bytes": 3077,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_2_B_Color1.gltf",
+      "sha256": "66ae98cbce3cbf97ebb246d66f4e8c6973328c0afa19635efc975bf899cd217f"
+    },
+    {
+      "bytes": 23100,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_2_C_Color1.bin",
+      "sha256": "dcce0e6d561de20b140e4869419d6de11d0226115d955fede57f7c1280bb1365"
+    },
+    {
+      "bytes": 3076,
+      "path": "packs/kaykit-forest-free/Assets/gltf/Tree_Bare_2_C_Color1.gltf",
+      "sha256": "d8368002845a42244c30b08a897ec0f47e9b178725e6d86f10fab77443039e4e"
+    },
+    {
+      "bytes": 48679,
+      "path": "packs/kaykit-forest-free/Assets/gltf/forest_texture.png",
+      "sha256": "406c01e0ac1d3368fc7b26ff5fb0d3335ba5e48bd19a703540ed92ee3971ea39"
+    },
+    {
+      "bytes": 48679,
+      "path": "packs/kaykit-forest-free/Assets/obj/forest_texture.png",
+      "sha256": "406c01e0ac1d3368fc7b26ff5fb0d3335ba5e48bd19a703540ed92ee3971ea39"
+    },
+    {
+      "bytes": 1469,
+      "path": "packs/kaykit-forest-free/License.txt",
+      "sha256": "987811fa42c7548ad487324531813b0210ee6d1ebd410089e881820630e3be54"
+    },
+    {
+      "bytes": 710472,
+      "path": "packs/kaykit-forest-free/Samples/Forest_Nature_Pack_sample1.png",
+      "sha256": "9ab67c1101db07743c3d8d9291d657a6b8ed7eac27ac64248f5d2751719b50cb"
+    },
+    {
+      "bytes": 48679,
+      "path": "packs/kaykit-forest-free/Textures/forest_texture.png",
+      "sha256": "406c01e0ac1d3368fc7b26ff5fb0d3335ba5e48bd19a703540ed92ee3971ea39"
+    },
+    {
+      "bytes": 778609,
+      "path": "packs/kaykit-forest-free/contents.png",
+      "sha256": "5cd708abf24080d3bc9f70ed2384cab48925b23963d8bdaccf682bb9828fb342"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-forest-free",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-forest-free/License.txt",
+  "license_text_sha256": "987811fa42c7548ad487324531813b0210ee6d1ebd410089e881820630e3be54",
+  "model_count": 105,
+  "models": [
+    "Assets/gltf/Bush_1_A_Color1.gltf",
+    "Assets/gltf/Bush_1_B_Color1.gltf",
+    "Assets/gltf/Bush_1_C_Color1.gltf",
+    "Assets/gltf/Bush_1_D_Color1.gltf",
+    "Assets/gltf/Bush_1_E_Color1.gltf",
+    "Assets/gltf/Bush_1_F_Color1.gltf",
+    "Assets/gltf/Bush_1_G_Color1.gltf",
+    "Assets/gltf/Bush_2_A_Color1.gltf",
+    "Assets/gltf/Bush_2_B_Color1.gltf",
+    "Assets/gltf/Bush_2_C_Color1.gltf",
+    "Assets/gltf/Bush_2_D_Color1.gltf",
+    "Assets/gltf/Bush_2_E_Color1.gltf",
+    "Assets/gltf/Bush_2_F_Color1.gltf",
+    "Assets/gltf/Bush_3_A_Color1.gltf",
+    "Assets/gltf/Bush_3_B_Color1.gltf",
+    "Assets/gltf/Bush_3_C_Color1.gltf",
+    "Assets/gltf/Bush_4_A_Color1.gltf",
+    "Assets/gltf/Bush_4_B_Color1.gltf",
+    "Assets/gltf/Bush_4_C_Color1.gltf",
+    "Assets/gltf/Bush_4_D_Color1.gltf",
+    "Assets/gltf/Bush_4_E_Color1.gltf",
+    "Assets/gltf/Bush_4_F_Color1.gltf",
+    "Assets/gltf/Grass_1_A_Color1.gltf",
+    "Assets/gltf/Grass_1_A_Singlesided_Color1.gltf",
+    "Assets/gltf/Grass_1_B_Color1.gltf",
+    "Assets/gltf/Grass_1_B_Singlesided_Color1.gltf",
+    "Assets/gltf/Grass_1_C_Color1.gltf",
+    "Assets/gltf/Grass_1_C_Singlesided_Color1.gltf",
+    "Assets/gltf/Grass_1_D_Color1.gltf",
+    "Assets/gltf/Grass_1_D_Singlesided_Color1.gltf",
+    "Assets/gltf/Grass_1_Mesh.gltf",
+    "Assets/gltf/Grass_1_SingleSided_Mesh.gltf",
+    "Assets/gltf/Grass_2_A_Color1.gltf",
+    "Assets/gltf/Grass_2_A_Singlesided_Color1.gltf",
+    "Assets/gltf/Grass_2_B_Color1.gltf",
+    "Assets/gltf/Grass_2_B_Singlesided_Color1.gltf",
+    "Assets/gltf/Grass_2_C_Color1.gltf",
+    "Assets/gltf/Grass_2_C_Singlesided_Color1.gltf",
+    "Assets/gltf/Grass_2_D_Color1.gltf",
+    "Assets/gltf/Grass_2_D_Singlesided_Color1.gltf",
+    "Assets/gltf/Grass_2_Mesh.gltf",
+    "Assets/gltf/Grass_2_SingleSided_Mesh.gltf",
+    "Assets/gltf/Rock_1_A_Color1.gltf",
+    "Assets/gltf/Rock_1_B_Color1.gltf",
+    "Assets/gltf/Rock_1_C_Color1.gltf",
+    "Assets/gltf/Rock_1_D_Color1.gltf",
+    "Assets/gltf/Rock_1_E_Color1.gltf",
+    "Assets/gltf/Rock_1_F_Color1.gltf",
+    "Assets/gltf/Rock_1_G_Color1.gltf",
+    "Assets/gltf/Rock_1_H_Color1.gltf",
+    "Assets/gltf/Rock_1_I_Color1.gltf",
+    "Assets/gltf/Rock_1_J_Color1.gltf",
+    "Assets/gltf/Rock_1_K_Color1.gltf",
+    "Assets/gltf/Rock_1_L_Color1.gltf",
+    "Assets/gltf/Rock_1_M_Color1.gltf",
+    "Assets/gltf/Rock_1_N_Color1.gltf",
+    "Assets/gltf/Rock_1_O_Color1.gltf",
+    "Assets/gltf/Rock_1_P_Color1.gltf",
+    "Assets/gltf/Rock_1_Q_Color1.gltf",
+    "Assets/gltf/Rock_2_A_Color1.gltf",
+    "Assets/gltf/Rock_2_B_Color1.gltf",
+    "Assets/gltf/Rock_2_C_Color1.gltf",
+    "Assets/gltf/Rock_2_D_Color1.gltf",
+    "Assets/gltf/Rock_2_E_Color1.gltf",
+    "Assets/gltf/Rock_2_F_Color1.gltf",
+    "Assets/gltf/Rock_2_G_Color1.gltf",
+    "Assets/gltf/Rock_2_H_Color1.gltf",
+    "Assets/gltf/Rock_3_A_Color1.gltf",
+    "Assets/gltf/Rock_3_B_Color1.gltf",
+    "Assets/gltf/Rock_3_C_Color1.gltf",
+    "Assets/gltf/Rock_3_D_Color1.gltf",
+    "Assets/gltf/Rock_3_E_Color1.gltf",
+    "Assets/gltf/Rock_3_F_Color1.gltf",
+    "Assets/gltf/Rock_3_G_Color1.gltf",
+    "Assets/gltf/Rock_3_H_Color1.gltf",
+    "Assets/gltf/Rock_3_I_Color1.gltf",
+    "Assets/gltf/Rock_3_J_Color1.gltf",
+    "Assets/gltf/Rock_3_K_Color1.gltf",
+    "Assets/gltf/Rock_3_L_Color1.gltf",
+    "Assets/gltf/Rock_3_M_Color1.gltf",
+    "Assets/gltf/Rock_3_N_Color1.gltf",
+    "Assets/gltf/Rock_3_O_Color1.gltf",
+    "Assets/gltf/Rock_3_P_Color1.gltf",
+    "Assets/gltf/Rock_3_Q_Color1.gltf",
+    "Assets/gltf/Rock_3_R_Color1.gltf",
+    "Assets/gltf/Tree_1_A_Color1.gltf",
+    "Assets/gltf/Tree_1_B_Color1.gltf",
+    "Assets/gltf/Tree_1_C_Color1.gltf",
+    "Assets/gltf/Tree_2_A_Color1.gltf",
+    "Assets/gltf/Tree_2_B_Color1.gltf",
+    "Assets/gltf/Tree_2_C_Color1.gltf",
+    "Assets/gltf/Tree_2_D_Color1.gltf",
+    "Assets/gltf/Tree_2_E_Color1.gltf",
+    "Assets/gltf/Tree_3_A_Color1.gltf",
+    "Assets/gltf/Tree_3_B_Color1.gltf",
+    "Assets/gltf/Tree_3_C_Color1.gltf",
+    "Assets/gltf/Tree_4_A_Color1.gltf",
+    "Assets/gltf/Tree_4_B_Color1.gltf",
+    "Assets/gltf/Tree_4_C_Color1.gltf",
+    "Assets/gltf/Tree_Bare_1_A_Color1.gltf",
+    "Assets/gltf/Tree_Bare_1_B_Color1.gltf",
+    "Assets/gltf/Tree_Bare_1_C_Color1.gltf",
+    "Assets/gltf/Tree_Bare_2_A_Color1.gltf",
+    "Assets/gltf/Tree_Bare_2_B_Color1.gltf",
+    "Assets/gltf/Tree_Bare_2_C_Color1.gltf"
+  ],
+  "original_download_sha256": "2ee83e63bb7695f2d884ec27ddf6fce020789a452e7d5c5b0bbdfc4f6ea1fc8c",
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "source": "https://kaylousberg.itch.io/kaykit-forest",
+  "status": "downloaded",
+  "style": "smooth textured low-poly",
+  "archive_sha256": "fe1087bf9ca8ce152dbfca5ca84a269011db977fd46f2d705ac16759622e94e3",
+  "embedded_parts": [
+    "seed/archives/kaykit-forest-free.zip.part000",
+    "seed/archives/kaykit-forest-free.zip.part001",
+    "seed/archives/kaykit-forest-free.zip.part002",
+    "seed/archives/kaykit-forest-free.zip.part003"
+  ]
+}

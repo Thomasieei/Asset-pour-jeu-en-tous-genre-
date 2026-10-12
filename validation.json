@@ -1,10 +1,11 @@
 {
-  "packs": 22,
-  "models": 2082,
-  "verified_model_hashes": 2082,
-  "verified_license_hashes": 22,
+  "packs": 53,
+  "models": 3667,
+  "new_media_assets": 7943,
+  "verified_model_hashes": 3667,
+  "verified_license_hashes": 53,
   "local_godot_version": "4.3.stable",
   "local_godot_load_failures": 0,
   "mobile_performance_tested": false,
-  "note": "Remote files match the exact locally imported and verified model bytes."
+  "note": "Exact locally imported bytes; quality/report.json documents visual review scope."
 }

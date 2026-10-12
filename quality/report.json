@@ -1,0 +1,25 @@
+{
+  "checked": "2026-10-12",
+  "packs": 53,
+  "kaykit_free_packs": 16,
+  "model_resources": 3667,
+  "new_model_loads": 1585,
+  "new_media_loads": 7943,
+  "load_failures": 0,
+  "missing_gltf_dependencies": 0,
+  "audio_decode_failures": 0,
+  "inventory_icons": 64,
+  "inventory_resolution": [
+    512,
+    512
+  ],
+  "audio_files": 562,
+  "vfx_scenes": 6,
+  "review": "Representative renders from all 16 KayKit packs and all 64 inventory icons reviewed. Original UI previews reviewed. Full file integrity/import checks; not every model visually inspected from every angle.",
+  "excluded": [
+    "KayKit Prototype Bits greybox pack",
+    "paid EXTRA/SOURCE tiers",
+    "pixel-art packs"
+  ],
+  "mobile_performance_tested": false
+}

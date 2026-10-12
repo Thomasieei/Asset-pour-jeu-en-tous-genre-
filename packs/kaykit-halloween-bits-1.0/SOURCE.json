@@ -1,0 +1,745 @@
+{
+  "archive_sha256": "17b6155ba9aab19cc0c39468c3dd6791aaa99078e44c8e76f68f7af2d1309bba",
+  "asset_count": 3,
+  "assets": [
+    "addons/kaykit_halloween_bits/Assets/gltf/halloweenbits_texture.png",
+    "addons/kaykit_halloween_bits/Assets/obj/halloweenbits_texture.png",
+    "addons/kaykit_halloween_bits/Assets/textures/halloweenbits_texture.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "environments",
+  "checked": "2026-10-12",
+  "download": "https://codeload.github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0/zip/6dc69bf6b2fa766a985754f35ec6a0324090e6c6",
+  "files": [
+    {
+      "bytes": 877,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/LICENSE.txt",
+      "sha256": "a514c41d8d5f2a07c94c55acd29ba94f50b86837f972e37edb4cbdeb7ba0e0e0"
+    },
+    {
+      "bytes": 28856,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/arch.bin",
+      "sha256": "fa7f31b0332c8bade6c1855f3790944a6eab7831da045d0f337d7152f2876df0"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/arch.gltf",
+      "sha256": "166ac2da5f72d843e79ecc250a30b4a8075175afe5036c6f590e755c38d43f01"
+    },
+    {
+      "bytes": 58264,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/arch_gate.bin",
+      "sha256": "b89db8773e11b4ea6f363781749195821a5824e04368ac7074b2aee1947f6c5d"
+    },
+    {
+      "bytes": 7059,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/arch_gate.gltf",
+      "sha256": "f2874a339f9af6726866fc85761164d7dcf963c77d1d6bbcb0acae31efce5d39"
+    },
+    {
+      "bytes": 10888,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bench.bin",
+      "sha256": "9176f239a3783d116b6cc5f68f4000a17c891d0f944841ccf06c6f9dbc1e734e"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bench.gltf",
+      "sha256": "3d01b23bf2cb341b16304c4264053248863af9df4d94c72e09793621dea79a06"
+    },
+    {
+      "bytes": 47404,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bench_decorated.bin",
+      "sha256": "93b58297f0c3cb993b59ab9e1d310493bcbfb4c80c553aebb280e234278a14cd"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bench_decorated.gltf",
+      "sha256": "3cee73daff0d50f9a9746ae1df2601970170da579e820e2e1738129444cd19e6"
+    },
+    {
+      "bytes": 7592,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bone_A.bin",
+      "sha256": "a39dcfc6f52655f8d93b8af90626e7a7aca0565584df2e35cef9ff305964523b"
+    },
+    {
+      "bytes": 3059,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bone_A.gltf",
+      "sha256": "c6b8c11d07feb98d777d7327c7634f2b40c2d23e0d27018f2477f9d6eca02c00"
+    },
+    {
+      "bytes": 6056,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bone_B.bin",
+      "sha256": "ecc833d6b2f887af15d71bdfed35403b66d10025ce06812e4682203630d42968"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bone_B.gltf",
+      "sha256": "5889565817ed466dfe80c2952e5e983f190ab6690de57993b700dee2e664911a"
+    },
+    {
+      "bytes": 7592,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bone_C.bin",
+      "sha256": "ee4145a316bfff82ec96820cb4f61092f5269403ba7336080ab6a41b150be502"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/bone_C.gltf",
+      "sha256": "09c0af1e0805eedddea6029a8a24aceb8a3a4570f66df6f629ca82928829d90d"
+    },
+    {
+      "bytes": 3308,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/candle.bin",
+      "sha256": "967670a4871df019615e68e5ebc9f3ee6ef26bce3c37a07b175f7b34f44aa535"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/candle.gltf",
+      "sha256": "838ca7e1c0b1caaa553aae98b36d994fc18a6234574744bafdddae64d428b80c"
+    },
+    {
+      "bytes": 3308,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/candle_melted.bin",
+      "sha256": "1048d72c88a46a7020b5b0470e427f20369e84ba05240127ae2bd02709ae307b"
+    },
+    {
+      "bytes": 3052,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/candle_melted.gltf",
+      "sha256": "4b97f5d138e3a80b2fa7e9f7ac6f1b4a7e3f58345cfa5581b5d4a52a0fb4a0bd"
+    },
+    {
+      "bytes": 3308,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/candle_thin.bin",
+      "sha256": "28bb8d28ff018408a9414442ff7ab8caacbbbfb8bdaecbe8f6910852c0b4cf7c"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/candle_thin.gltf",
+      "sha256": "904a87da374fd7c9f39b10ff11b2b8ce1355835e9259d499b5aa6bf845894702"
+    },
+    {
+      "bytes": 9924,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/candle_triple.bin",
+      "sha256": "387e220f5c4367aae3025aea7ddbfccf987513da52276dc3833faa669b183c43"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/candle_triple.gltf",
+      "sha256": "e7b0f28c03e4b19fde8af713f952660ad786bd3a80932a2bbe48dfe0d0edede5"
+    },
+    {
+      "bytes": 18088,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/coffin.bin",
+      "sha256": "e1ec36f8d362cb55423ec9b87397c67cbbe68e5ee71c3508e069b591cf9c27b8"
+    },
+    {
+      "bytes": 4828,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/coffin.gltf",
+      "sha256": "cde76bb035c737376745b0285b2fdf8306c716bcd03945aff9cf9c85fa3713cb"
+    },
+    {
+      "bytes": 79264,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/coffin_decorated.bin",
+      "sha256": "e9c8a672f1a985d3e21b073f402823ae079d95936d337dd1445fc983c3220316"
+    },
+    {
+      "bytes": 3004,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/coffin_decorated.gltf",
+      "sha256": "dc859f5191b3df02de36f863730a225edebc6a0f1a25875301256d885e764eef"
+    },
+    {
+      "bytes": 58640,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/crypt.bin",
+      "sha256": "e3c89c907d94e2ce9fff4c83a0600f10399d4cc45e81d6c9a13f9913da28d61a"
+    },
+    {
+      "bytes": 2960,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/crypt.gltf",
+      "sha256": "0d8b98430f4b6261da71b6801561f83f351445d0bccf2ad155ad4ff126a196ac"
+    },
+    {
+      "bytes": 26728,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence.bin",
+      "sha256": "5542f695ba30b0f8d1d57d0d27ea6c310de823e73524acb042adb83f9ef63e4f"
+    },
+    {
+      "bytes": 2976,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence.gltf",
+      "sha256": "341bdb0bc8c4d6895a7184daebf76522866677909992701efbd3a719b348d4a7"
+    },
+    {
+      "bytes": 29076,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_broken.bin",
+      "sha256": "6c963c1c094744df089fdc52c632df90800b1bd47707202702f49345631ebb94"
+    },
+    {
+      "bytes": 2990,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_broken.gltf",
+      "sha256": "f44a7261ff0b61cfd1ce8669372d1884687747fd1d785c01a9d7df7f849551e6"
+    },
+    {
+      "bytes": 42056,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_gate.bin",
+      "sha256": "7c889d9be8a43cd94758bcafcae19ce80fbd1f168d5f6bff016894ab53e85d78"
+    },
+    {
+      "bytes": 7001,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_gate.gltf",
+      "sha256": "398277ba630e41636df67ab7632f08a9e1613c7a2b8d5adac79045dd8b12b547"
+    },
+    {
+      "bytes": 6324,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_pillar.bin",
+      "sha256": "58f08ab74bc73a6ecc018eedc9be9fd46984017271b112bca3da0d9e5220c129"
+    },
+    {
+      "bytes": 3005,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_pillar.gltf",
+      "sha256": "95042fd32654eab298866a3505a16375e587b2bbc3200d7e00b4ec3d680e0259"
+    },
+    {
+      "bytes": 6532,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_pillar_broken.bin",
+      "sha256": "112794212a40b537f5aca5d79e859c12984a71155fb46ba162e2c39541294eb1"
+    },
+    {
+      "bytes": 3019,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_pillar_broken.gltf",
+      "sha256": "d2c147cc37dd385b8738d0de09beb4802addfe3552353c23a3a512949e51d7f7"
+    },
+    {
+      "bytes": 22736,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_seperate.bin",
+      "sha256": "ce6382a9fad35eaefc3227984c8fee2db5d506317344eb9c56b1e174b1e3e76f"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_seperate.gltf",
+      "sha256": "c8554baf1a261814a5cbfdd1cbc765b9a4c58804085ec2f608351e9ca6306667"
+    },
+    {
+      "bytes": 24204,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_seperate_broken.bin",
+      "sha256": "f1d9fef7f56c1d48674c7662ba5e4cc629447aa86c87775fdab6affe5c94673e"
+    },
+    {
+      "bytes": 3057,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/fence_seperate_broken.gltf",
+      "sha256": "e292df3fb239c09234487c8ba1f4a816835cabbba4c063a589a54c27cfb608bf"
+    },
+    {
+      "bytes": 8400,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/floor_dirt.bin",
+      "sha256": "f22e4e2801df86564dd7abd049b735ce0f1e25e4d33102c506c8a72ed047e682"
+    },
+    {
+      "bytes": 2980,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/floor_dirt.gltf",
+      "sha256": "6e8a79b316f33240e9d388d66ce0e21de1f2a218758d3b7779be2e975aca6b83"
+    },
+    {
+      "bytes": 8632,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/floor_dirt_grave.bin",
+      "sha256": "8e502ae46fc9b2f3b0dace31c41f1d7f54e6f7b5aa159184a8225762fb7fed3c"
+    },
+    {
+      "bytes": 2992,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/floor_dirt_grave.gltf",
+      "sha256": "7621c5b2ee9cc27126df4af44c572d990f57a66aae212e28a39c50c5819d7993"
+    },
+    {
+      "bytes": 5600,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/floor_dirt_small.bin",
+      "sha256": "2b71e4a958eca94088977e136c842eb48b32486d5bd07f6605a7e724e32305b3"
+    },
+    {
+      "bytes": 2992,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/floor_dirt_small.gltf",
+      "sha256": "45dfc113cb45cb92a8fbee703f61035355ec2fe2f57d0af95b9fc17decb54cd0"
+    },
+    {
+      "bytes": 15700,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/grave_A.bin",
+      "sha256": "0889692134afe93572f49ff554d902503b0ab7e956db0cd8f82cf7032666ba89"
+    },
+    {
+      "bytes": 2990,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/grave_A.gltf",
+      "sha256": "52bdfcb650333861b1743ebaea418deb952a0cf72d719f5299a6de587d56971b"
+    },
+    {
+      "bytes": 23584,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/grave_A_destroyed.bin",
+      "sha256": "1338c9ccb41aba9f9e2da2bb17edfc6abf2a836e8fdc80a43a862dc156c5bb6d"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/grave_A_destroyed.gltf",
+      "sha256": "51d58e6e1d232804245c619a8a1d7dbfd4a3314274bbeeb01d17c6bfccd9deb1"
+    },
+    {
+      "bytes": 13812,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/grave_B.bin",
+      "sha256": "9dab82502615ec24e74e251cb5718dbfb20c0672b34e5be3a59d9f1ad4d61c5c"
+    },
+    {
+      "bytes": 2990,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/grave_B.gltf",
+      "sha256": "88da646fb99840167700331442cd39cd20bd322899407e8a903c62d5da4538b9"
+    },
+    {
+      "bytes": 4016,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/gravemarker_A.bin",
+      "sha256": "3eef9a77e7df1b3eec41220aa5cd8fb3e91003a2f0e55b77ee70e74afe2c38fb"
+    },
+    {
+      "bytes": 3050,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/gravemarker_A.gltf",
+      "sha256": "484a0a06f912d8d9b97e556decbb8fd557bcdcc867ec35ff392bff629b4fa25b"
+    },
+    {
+      "bytes": 10640,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/gravemarker_B.bin",
+      "sha256": "a2db7e9a5282374ede458b5df8d8a3ddb648c3b2f6c8c7ba4d055623cd79a7f2"
+    },
+    {
+      "bytes": 3049,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/gravemarker_B.gltf",
+      "sha256": "ebe373df508d5a161353a56fe2a2be9d4714f07eb77719193e6a23aad5e5beb2"
+    },
+    {
+      "bytes": 12316,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/gravestone.bin",
+      "sha256": "364c48d60407096299870b727b45e2db3f71a8a36c8ce3933262da72b8a26844"
+    },
+    {
+      "bytes": 3066,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/gravestone.gltf",
+      "sha256": "9c82f5161bdd4f06391f174ef92b82b21f18a6e5a00d386b254ed3cd124f1c21"
+    },
+    {
+      "bytes": 15093,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/halloweenbits_texture.png",
+      "sha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c"
+    },
+    {
+      "bytes": 19472,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/lantern_hanging.bin",
+      "sha256": "70b22bad9a65b155b5f574ea523e63fa576b1946a4b77c6645e8023c82ac18db"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/lantern_hanging.gltf",
+      "sha256": "b78ac136d5e7edc169247f42d3ddc87478bb9c511c80b6830a666fcfc745b054"
+    },
+    {
+      "bytes": 12400,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/lantern_standing.bin",
+      "sha256": "aaaf6525e6a7d70c50f631fff91b8931e1571418e097ef0ecc99c8da9cc24387"
+    },
+    {
+      "bytes": 3084,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/lantern_standing.gltf",
+      "sha256": "7fbaed7c4f33181d22c015e11aa9b3d8d04f77f1658b6a80ed2dc23746fb7fc5"
+    },
+    {
+      "bytes": 14680,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/path_A.bin",
+      "sha256": "31328b028ecf78097e9c79b343ae1fa1fb529ae8461ef9ee6ac890fe34f81c81"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/path_A.gltf",
+      "sha256": "700c4dd88a4e3ce88885e9d6c860c1e36699860b8d663cf7945b92cacea28fe6"
+    },
+    {
+      "bytes": 14572,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/path_B.bin",
+      "sha256": "b941062dadbe408db870f39b429936b3214a1151db129fd6fd6138be154026e3"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/path_B.gltf",
+      "sha256": "b02ce7d5de5df1250d55f5f8198bfeb203817bd069ddb97f63ad2eff162e8273"
+    },
+    {
+      "bytes": 16312,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/path_C.bin",
+      "sha256": "0af0325554bebd8a0c52775924918824cc3aa427128254473b6c3cba0c0e2ebc"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/path_C.gltf",
+      "sha256": "bd775d46a807bbfc8fe7286f6f17bd29234a35d7d5965d79a5ac08b772adde60"
+    },
+    {
+      "bytes": 11252,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/path_D.bin",
+      "sha256": "aac0384dbc8f384529ed8b6743789873a3fc3e270adfd1c41b298319248abc79"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/path_D.gltf",
+      "sha256": "74795a692450ace81fc86e36790d59acf8e0a86e11096eab8c4407a79270e58e"
+    },
+    {
+      "bytes": 6324,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pillar.bin",
+      "sha256": "7e71fa4e4aedbc50de02868afe0ee6ab75e4959daf4ea2fe5b7a72ae3e71cda4"
+    },
+    {
+      "bytes": 2989,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pillar.gltf",
+      "sha256": "60defbd019e1347c597312b4d384dc3c6a2de7f8c97497dcdf1a3879cad1deb8"
+    },
+    {
+      "bytes": 5648,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/plaque.bin",
+      "sha256": "9f1d79db02d7ff6d242fa42239d85bbfa31bc9af4635280172567bc5e4d1efe9"
+    },
+    {
+      "bytes": 2984,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/plaque.gltf",
+      "sha256": "02a11d33633f81b2104c5ef6832ed8a23eec538e13700d060550a3f474eae229"
+    },
+    {
+      "bytes": 22188,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/plaque_candles.bin",
+      "sha256": "c65ca731d2c65b680b7add15a96015bf06c864e62089bb20635e03e7251c1897"
+    },
+    {
+      "bytes": 3005,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/plaque_candles.gltf",
+      "sha256": "51b8e7fb1dc0a02ab3d8e90a7cc7ce60d5609ae863b7ea73fca7ff43c91ae87b"
+    },
+    {
+      "bytes": 6112,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/post.bin",
+      "sha256": "c596a2c8af275f66ba4194f622b0c02d90c28f5504bac5d9229227302a8307ad"
+    },
+    {
+      "bytes": 3029,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/post.gltf",
+      "sha256": "c2e2fc30be621cca7c093e18e49d77f70c01c0f2caac592005ffcf062604ac71"
+    },
+    {
+      "bytes": 25584,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/post_lantern.bin",
+      "sha256": "4fe74fc99942043312a311e013d0d9e82135b896f4c7ab6289abbc93738638b8"
+    },
+    {
+      "bytes": 5135,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/post_lantern.gltf",
+      "sha256": "e2db415a575458f7c4077ed45349d33327a2f431479123e2b276736484dd45bb"
+    },
+    {
+      "bytes": 29840,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/post_skull.bin",
+      "sha256": "414af167018426e7c4fe1f28beda097a2d5c6174eedcf837a22de07e52a83e5a"
+    },
+    {
+      "bytes": 5142,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/post_skull.gltf",
+      "sha256": "af2ec1b765959dda60dc0bf2bc7b1d1191fb9bb4ac26f399d8bdd54143873f93"
+    },
+    {
+      "bytes": 8620,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange.bin",
+      "sha256": "1fef3bb917a745dd76b89550b7a3003ea6f902a8dd1d0ebeace8817a77f0cf69"
+    },
+    {
+      "bytes": 3072,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange.gltf",
+      "sha256": "24dfa16da34b7a1b742a016f2005f480cae04aea2f9ede421b7f700282b19934"
+    },
+    {
+      "bytes": 13348,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange_jackolantern.bin",
+      "sha256": "9e9cd94a6a979604193f6f06de353548f20b875700637f7b375a1c63053e78a6"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange_jackolantern.gltf",
+      "sha256": "c4e5b93034bef551664517da7ac0c86b2d315e833ef54444e3ad50f21f6501ec"
+    },
+    {
+      "bytes": 9260,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange_small.bin",
+      "sha256": "6470282484354ed131d865d092184b6d579ccb59a1d3077bc5091741f2ed767a"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange_small.gltf",
+      "sha256": "7a157809ad3f2713c762910579caa0d5177db0359002cc852d4586df4666f658"
+    },
+    {
+      "bytes": 8620,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow.bin",
+      "sha256": "b84614058110cb3f8896dfca009222b494d298ea9f569ade7936e99a7c897d02"
+    },
+    {
+      "bytes": 3072,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow.gltf",
+      "sha256": "4f68335032c4a49ee7cfef8b31afe1b334053deda0bd8befe4a1dc6a5fc17fbc"
+    },
+    {
+      "bytes": 13348,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow_jackolantern.bin",
+      "sha256": "f4acc69e3bdc87c8cbec0e619b5950b952bbed437ed2b1d1d35f4d059cacbbe9"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow_jackolantern.gltf",
+      "sha256": "7888d042563e2241431c6db70a160ba5ac8b2e7237df1220511dce2adaa1b2ff"
+    },
+    {
+      "bytes": 9260,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow_small.bin",
+      "sha256": "bf95736fc96fad48c070dcd138512074771e8d426d7cf7b18d8c6ea2b98f1e6d"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow_small.gltf",
+      "sha256": "aee42cdaef75f1710348eee7e79ab116f37555d18ca99141f0a1ced9ecb074f4"
+    },
+    {
+      "bytes": 52272,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/ribcage.bin",
+      "sha256": "71f60385c15b987d2549cc44d0e5ec4b44b41987c0803c05b612d818062f9ea9"
+    },
+    {
+      "bytes": 3071,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/ribcage.gltf",
+      "sha256": "ff40320e576fe686a815c43aea656fcd9202a6a944d047182c821300a0aaec6e"
+    },
+    {
+      "bytes": 6196,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/shrine.bin",
+      "sha256": "d8774d8b6768397e588745841b378f1d13c2a6047a1cb8670b2351b6dc1f3b3b"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/shrine.gltf",
+      "sha256": "7d0afbfe26614d2e9e01a41852f7f3161e7ea0b4fea814f92abd41e9060115b1"
+    },
+    {
+      "bytes": 19568,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/shrine_candles.bin",
+      "sha256": "42b49ad164197c954967b05fd2fc48525541ddc8e32548819d2f73565a6b27ad"
+    },
+    {
+      "bytes": 3056,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/shrine_candles.gltf",
+      "sha256": "21bc3c39fc773b4ee0e09813d8dd242dd9ba35dac2c53c53755e9888c073d1e0"
+    },
+    {
+      "bytes": 12560,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/skull.bin",
+      "sha256": "8ae758022680edf252cb6c17a51baabd0ce1be355676dfe79a57e7374482cc9c"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/skull.gltf",
+      "sha256": "d8660d809db38d5b8279e01b1014eb58a2302e3d18316dd4ce784eb7431ef36e"
+    },
+    {
+      "bytes": 23604,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/skull_candle.bin",
+      "sha256": "ba25af2225e6f4861bac9b293fd3cf82362e291b19f006c89879200a33803620"
+    },
+    {
+      "bytes": 3072,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/skull_candle.gltf",
+      "sha256": "5557e747345570bee8382c44da10aab4625ef9132571ac90cc522bdd9c2cf80a"
+    },
+    {
+      "bytes": 7200,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large.bin",
+      "sha256": "c786d41c63076af2e8c20809b8c28f1a8d43af9fd94e606f0db1ade2b4c96e55"
+    },
+    {
+      "bytes": 3074,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large.gltf",
+      "sha256": "a91ca9c22fc5a0be4d44edb6fe9d8b47393e0f47dd0048b60c054adab1a0b2a1"
+    },
+    {
+      "bytes": 49648,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large_decorated.bin",
+      "sha256": "53a6d5099627efdc4dbf48eb291be378d537698330baacf09c8d411422a11f6d"
+    },
+    {
+      "bytes": 3106,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large_decorated.gltf",
+      "sha256": "3ae90f1a752df00d6015296280b88b18d6186dc871412c41e7871e6b8540becb"
+    },
+    {
+      "bytes": 5584,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_medium.bin",
+      "sha256": "342430fb243f6645cb05ca038ff023b4a0a3dc4a78ffa26766dc2f0a5e383009"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_medium.gltf",
+      "sha256": "529b143e32affc379fffba541506198fa3a152b592a98fa8db059ebe4e3b2128"
+    },
+    {
+      "bytes": 5072,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_small.bin",
+      "sha256": "3981451fef1ba2e0a93cb6fc514b8013c4e5896e651a1e6a41bf27ad6fcb6656"
+    },
+    {
+      "bytes": 3076,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_dead_small.gltf",
+      "sha256": "1f7b1867de93554b5399c26ff6db32925048ae96450cdbc7ee33ffe44bb5c827"
+    },
+    {
+      "bytes": 17492,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_large.bin",
+      "sha256": "4b4826eabc1f9e143b82e17bf5f4a323ac11b2ecbc0a5f9f7203eb380c1fcd70"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_large.gltf",
+      "sha256": "08eaa994a250d1feaecb44d69931368b1b2ea1b5cfcaacf6089e0fe56fae690b"
+    },
+    {
+      "bytes": 17364,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_medium.bin",
+      "sha256": "54f4be05ff1be4daf3bc4af33fbc10d1f8f06e1a5e1e457eb5d2b082fc487732"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_medium.gltf",
+      "sha256": "2d9d32c645b9b71f2139b486b8a9dbc8016927c9855e7a7251eda28f6cf3d79f"
+    },
+    {
+      "bytes": 13880,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_small.bin",
+      "sha256": "fef24ee8d9ac24e879de3cd012020840bead054c4fc87153e5617a11d8ed3992"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_small.gltf",
+      "sha256": "5ae461041f88cdc28911f315da4d34bbcdc3807d7a43e85847424aa2c46f3e5a"
+    },
+    {
+      "bytes": 17492,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_large.bin",
+      "sha256": "8501ea624b2da9a2b1c01523bfc1608fce43881c352f1c55125ccab104818c6c"
+    },
+    {
+      "bytes": 3085,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_large.gltf",
+      "sha256": "ec0f4a2c18b92cee712a22e75fb92f3943990f1805254cf6cff3ee270d43cd33"
+    },
+    {
+      "bytes": 17364,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_medium.bin",
+      "sha256": "e1e7dbdccc387c6b3455b76f1696c24f188c34927846a2bc339d25f500f80a5a"
+    },
+    {
+      "bytes": 3089,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_medium.gltf",
+      "sha256": "944845676bd8aaf5a37cfc6a0ef09ea02ff4e63ad3c1c8331b6b38b02c556c66"
+    },
+    {
+      "bytes": 13880,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_small.bin",
+      "sha256": "3aa082224faaac3a08c4cb0a5402c5e317695a393df0c3084042733a9fdb251a"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_small.gltf",
+      "sha256": "8cf97aabe8fa71f857bb05d70014bf64d8500447c8e89a5dcb2fd3b869842d1e"
+    },
+    {
+      "bytes": 15093,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/obj/halloweenbits_texture.png",
+      "sha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c"
+    },
+    {
+      "bytes": 15093,
+      "path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/textures/halloweenbits_texture.png",
+      "sha256": "1e671e9b176b290a35ce8f5f22c773b3f5e9c7a9cf0e1991de51e44dd3a23e7c"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-halloween-bits-1.0",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/LICENSE.txt",
+  "license_text_sha256": "a514c41d8d5f2a07c94c55acd29ba94f50b86837f972e37edb4cbdeb7ba0e0e0",
+  "model_count": 63,
+  "models": [
+    "addons/kaykit_halloween_bits/Assets/gltf/arch.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/arch_gate.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/bench.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/bench_decorated.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/bone_A.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/bone_B.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/bone_C.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/candle.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/candle_melted.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/candle_thin.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/candle_triple.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/coffin.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/coffin_decorated.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/crypt.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/fence.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/fence_broken.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/fence_gate.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/fence_pillar.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/fence_pillar_broken.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/fence_seperate.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/fence_seperate_broken.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/floor_dirt.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/floor_dirt_grave.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/floor_dirt_small.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/grave_A.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/grave_A_destroyed.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/grave_B.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/gravemarker_A.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/gravemarker_B.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/gravestone.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/lantern_hanging.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/lantern_standing.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/path_A.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/path_B.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/path_C.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/path_D.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/pillar.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/plaque.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/plaque_candles.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/post.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/post_lantern.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/post_skull.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange_jackolantern.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/pumpkin_orange_small.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow_jackolantern.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/pumpkin_yellow_small.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/ribcage.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/shrine.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/shrine_candles.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/skull.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/skull_candle.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_dead_large_decorated.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_dead_medium.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_dead_small.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_large.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_medium.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_small.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_large.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_medium.gltf",
+    "addons/kaykit_halloween_bits/Assets/gltf/tree_pine_yellow_small.gltf"
+  ],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "revision": "6dc69bf6b2fa766a985754f35ec6a0324090e6c6",
+  "source": "https://github.com/KayKit-Game-Assets/KayKit-Halloween-Bits-1.0",
+  "status": "downloaded",
+  "strip_archive_root": true,
+  "style": "smooth textured low-poly",
+  "texture_policy": "original source resolutions, no downsampling"
+}

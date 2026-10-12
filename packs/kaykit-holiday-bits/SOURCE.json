@@ -1,0 +1,1160 @@
+{
+  "asset_count": 7,
+  "assets": [
+    "Assets/fbx/holiday_bits_texture.png",
+    "Assets/fbx(unity)/holiday_bits_texture.png",
+    "Assets/gltf/holiday_bits_texture.png",
+    "Assets/obj/holiday_bits_texture.png",
+    "Textures/holiday_bits_texture.png",
+    "contents.png",
+    "sample_A.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "environments",
+  "checked": "2026-10-12",
+  "download_method": "official free tier; no donation or purchase",
+  "files": [
+    {
+      "bytes": 16548,
+      "path": "packs/kaykit-holiday-bits/Assets/fbx/holiday_bits_texture.png",
+      "sha256": "49e0ef358fa48020ce54d633a35cbb9928100003131485bc820c31ee327b355b"
+    },
+    {
+      "bytes": 16548,
+      "path": "packs/kaykit-holiday-bits/Assets/fbx(unity)/holiday_bits_texture.png",
+      "sha256": "49e0ef358fa48020ce54d633a35cbb9928100003131485bc820c31ee327b355b"
+    },
+    {
+      "bytes": 41168,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/basketball.bin",
+      "sha256": "bf93e9bc5f1ba122e5d038a94591020d748a66e92851aa5c0885ca135470eebd"
+    },
+    {
+      "bytes": 3055,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/basketball.gltf",
+      "sha256": "fd278eaef17d911fccd57b2b731a26c1da409f6124d2f5eb6d836ed6e4579409"
+    },
+    {
+      "bytes": 22016,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/bell.bin",
+      "sha256": "c1430e367ce72df243e5e12c1c1be3a718a5d3b408ecaac56ae11415124de781"
+    },
+    {
+      "bytes": 7026,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/bell.gltf",
+      "sha256": "bac62e898fbf737d9d305af139550ab1501af568425273e7e22a99929d194619"
+    },
+    {
+      "bytes": 45776,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/bell_decorated.bin",
+      "sha256": "ed886a6d2f12a4772ed806557d722cf4266dd237724b80e693006d6bc1cd2172"
+    },
+    {
+      "bytes": 7097,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/bell_decorated.gltf",
+      "sha256": "f53b22912e1928868a36ad7e44a88df345f5b5bb41af963052af41ad5e4f30e8"
+    },
+    {
+      "bytes": 13728,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/candycane_small.bin",
+      "sha256": "05fbf02c6e27369e69ab6efa5dac8b0e0b41adbff216b4f42bbd3ffee3643a50"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/candycane_small.gltf",
+      "sha256": "80d7976d38cbfbed653ef5984dd54654dc677a0de2c44680d5d55ca5a2f281ac"
+    },
+    {
+      "bytes": 8768,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/carpet_round_large.bin",
+      "sha256": "104da18895528fbc004e3c3ecc1724037ef0739e93ad84bda153f08ef70bfcce"
+    },
+    {
+      "bytes": 3065,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/carpet_round_large.gltf",
+      "sha256": "69446681f6fcc896b128e4ab3357aaa524f8585686ceed89c7625eef6eeb274f"
+    },
+    {
+      "bytes": 9216,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/carpet_round_small.bin",
+      "sha256": "d9ba8898a1c0b5b6b8d3582d9b6daff48d9c0108c5866b17a0b5bbfe335cfc6f"
+    },
+    {
+      "bytes": 3001,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/carpet_round_small.gltf",
+      "sha256": "52962de8c50c91162f24a37412ebaf0ca2cde2e7c9703b137757ffbee9968eaf"
+    },
+    {
+      "bytes": 36328,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/chair_large_blue.bin",
+      "sha256": "47c3794aee7abe01d4ef35c36eeaa3e537044defa410c26dafd582b7f5c3393f"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/chair_large_blue.gltf",
+      "sha256": "3315ed075bff0be69e79991031713d30a85fe7412ec83923a3a60e936bfb7fce"
+    },
+    {
+      "bytes": 36328,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/chair_large_brown.bin",
+      "sha256": "153dd96ac305f50a14e87a2750f3602247f9d44464098c5d91b705ac6d544174"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/chair_large_brown.gltf",
+      "sha256": "d161b197993526b33b90a632de09d9b33178d44c9ba3ddee2e99701856db9d06"
+    },
+    {
+      "bytes": 36328,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/chair_large_green.bin",
+      "sha256": "1abd4464aa8ed7089892dde6c3a4af71e59413dc445fd52e0a20968883f2392d"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/chair_large_green.gltf",
+      "sha256": "2b6e6d59bfd1a9bd2f7be2dbab9fd9f2447e84d8023db302b1e5d77eb0e87d23"
+    },
+    {
+      "bytes": 36328,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/chair_large_red.bin",
+      "sha256": "fae296d74fa60bf52dd4085d0ca6bac216001bd313573aefa0ec8edf2a159e8b"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/chair_large_red.gltf",
+      "sha256": "7b17eda0fd417afacc816415efd01de2c646c1fed51cba9d4097bcf37410ce40"
+    },
+    {
+      "bytes": 331812,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/christmas_tree.bin",
+      "sha256": "0a49d1a2273d31e495cf468c04d1caa789da8369caa01b3f49c3fe4a90896f3f"
+    },
+    {
+      "bytes": 5618,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/christmas_tree.gltf",
+      "sha256": "e5233a18b89bc4204e5a3a32fe3fe6f819b4e94f2a5535da6a408ca2137be7c1"
+    },
+    {
+      "bytes": 13440,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/christmas_tree_base.bin",
+      "sha256": "53b1976a63a9c66f4699e62d852f6a909bf5326342b0887323c080a9a55029ae"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/christmas_tree_base.gltf",
+      "sha256": "f2d6ec7c60d357cf59f058c51622e809ad81d651b2d49f5b6c4743e7c14a03e1"
+    },
+    {
+      "bytes": 546040,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/christmas_tree_decorated.bin",
+      "sha256": "41cc92f927b8b03537049288a3486104602db88570ec9f572e792e945b537e7a"
+    },
+    {
+      "bytes": 5673,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/christmas_tree_decorated.gltf",
+      "sha256": "973169d8d242e3e4122d3b72e33f7a1ea942d81510f796462375070013af94dd"
+    },
+    {
+      "bytes": 276932,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/christmas_tree_withoutLights.bin",
+      "sha256": "b1411413534c9ecefc23b637b8df65c4324f370a943680e1d7ac906567ccd6c2"
+    },
+    {
+      "bytes": 3092,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/christmas_tree_withoutLights.gltf",
+      "sha256": "009dab87f4f8fae3bd8c8aa6bba94919dd6e03fb56a62ff9709c953413483e39"
+    },
+    {
+      "bytes": 17488,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/cookie.bin",
+      "sha256": "8fba9afc642e7ee517c3f2c4f07d75008038c324848be86595e99287514e8605"
+    },
+    {
+      "bytes": 3036,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/cookie.gltf",
+      "sha256": "89bcdbc83ee2d1086593b7490d7aef6ab73ac68c5cfc098202cd89d2849c6348"
+    },
+    {
+      "bytes": 28200,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/football.bin",
+      "sha256": "32ad2e1b9e4ad684e0b8e25cf14f63277c909bf03445051beb5c02b3d055cd05"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/football.gltf",
+      "sha256": "60e3ca0c19c3178acd290d5d71369c8294be16568dcca723b390fa6d343afc09"
+    },
+    {
+      "bytes": 13300,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/footstool_blue.bin",
+      "sha256": "8666adb18689d64ae6ad94c23eb0bdc9e62e3b8f2d388c1509c914f1897691eb"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/footstool_blue.gltf",
+      "sha256": "f2b54628185c1eea1783b092698ef95f7e1481c83fcc6e34b20f65c2b273f19b"
+    },
+    {
+      "bytes": 13300,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/footstool_brown.bin",
+      "sha256": "7bbb3e03d9ac06b25405ff33761f06f286fd14bb70c6f17fa2e4cd61f0346fe4"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/footstool_brown.gltf",
+      "sha256": "fbd5cafa2efc18eb00fb724ac65cc61c2e572c1c04ebe03eb78d929fd76a2a7a"
+    },
+    {
+      "bytes": 13492,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/footstool_green.bin",
+      "sha256": "aa85da0bb1aaab2850ccce5f6e3d0cd638219c7cbd64a70820439431fe8b5be9"
+    },
+    {
+      "bytes": 3064,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/footstool_green.gltf",
+      "sha256": "e43b5008d13c09f512bc37d7aaca4db420bfaa685745837df3fc634cfa8af677"
+    },
+    {
+      "bytes": 13300,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/footstool_red.bin",
+      "sha256": "78e465ed3ebc860bb784907f0cefc34d0e42fddfec34434beaf85f38245018bb"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/footstool_red.gltf",
+      "sha256": "331a135e36bf748389aec58672e55a90fcc6b27dee9f6dca384135316d7a0ed2"
+    },
+    {
+      "bytes": 113256,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/gingerbread_house.bin",
+      "sha256": "3948e7deaa392de77efb7f470c35706dfde40694cd35bb6e5df65f33ee8636a2"
+    },
+    {
+      "bytes": 3078,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/gingerbread_house.gltf",
+      "sha256": "38115bc5a1273cddc141f269ab2433cccdc69b4775a8d5f25caf5629fce51541"
+    },
+    {
+      "bytes": 138184,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/gingerbread_house_decorated.bin",
+      "sha256": "bde30c03685abe85b5e2a043853de8e62136a4e9f30fde9bd85c7fd5b7d8e612"
+    },
+    {
+      "bytes": 3109,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/gingerbread_house_decorated.gltf",
+      "sha256": "ff679c53af44e78ba45c63202b018af1794b1b777404228cf51c8447d60572a5"
+    },
+    {
+      "bytes": 32240,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/gingerbread_man.bin",
+      "sha256": "9e373636f4f96034e2d8b09bd2bc598d80789f29918b2fc5f49445e245763028"
+    },
+    {
+      "bytes": 3068,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/gingerbread_man.gltf",
+      "sha256": "b49a2406af24f3db82a319703e92554867e0c43e7c746d0d569fa5b3228e34cb"
+    },
+    {
+      "bytes": 16548,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/holiday_bits_texture.png",
+      "sha256": "49e0ef358fa48020ce54d633a35cbb9928100003131485bc820c31ee327b355b"
+    },
+    {
+      "bytes": 15388,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/hot_chocolate.bin",
+      "sha256": "3fda7d4bd4d976005675b1e0939b3306834dd302a0db25163c1d1154ba504e13"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/hot_chocolate.gltf",
+      "sha256": "32c4bdd8916a907b4cf9e2fdc7e5d71e40dcb08c07dc151a4f9b673b470863c7"
+    },
+    {
+      "bytes": 29116,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/hot_chocolate_decorated.bin",
+      "sha256": "470849034db2ec0292eceef40fe9d7bd61653537faafb75fd0fa55730dd7ddfd"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/hot_chocolate_decorated.gltf",
+      "sha256": "289bf7a88479bd0a23c0b7189451138c90380b74940b60d85c70941444e45358"
+    },
+    {
+      "bytes": 24744,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/lantern.bin",
+      "sha256": "2d0003c4a3fb2bef4cfb96b21ee5407dedf571e6010512532a52b68abb260ee7"
+    },
+    {
+      "bytes": 5590,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/lantern.gltf",
+      "sha256": "8cc2ee5dcc9112e163b926805332414dfe7bd728b221fd6a3671ba0ec51b4d5b"
+    },
+    {
+      "bytes": 51396,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/lantern_decorated.bin",
+      "sha256": "de9514597ac19356ade522377a20406850ec29b16d4b7b8c17de6b8d06db9c51"
+    },
+    {
+      "bytes": 5629,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/lantern_decorated.gltf",
+      "sha256": "f77f21ec391576d15ae8a5c6f42a51b4b96bc0f6ef42285b13ab3950d6497c30"
+    },
+    {
+      "bytes": 14548,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/lantern_mini.bin",
+      "sha256": "61394c7ba3fbb37b90bf53d1d1e5a5433cd45a6ee1b02a066ee234a668a805f9"
+    },
+    {
+      "bytes": 5609,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/lantern_mini.gltf",
+      "sha256": "932644047d1cae1e8d67af253f4e89072158d4ba40a9ccb4e7f0155063e273aa"
+    },
+    {
+      "bytes": 6356,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/milk.bin",
+      "sha256": "e88b0c6940730e000cf2d7f6e90f22dfe16e3aff8beac63727218c0b9ce138cb"
+    },
+    {
+      "bytes": 5137,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/milk.gltf",
+      "sha256": "f727385b80c59edb4ee11755705070d9497b69ad3f8ef3190b5b7730489120f0"
+    },
+    {
+      "bytes": 9432,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/mistletoe_A.bin",
+      "sha256": "93d51eefc8c7b197002df9429ba1356242ec46693d6abd0dac50bc1fcc6119b5"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/mistletoe_A.gltf",
+      "sha256": "f1138c95ae2c5696a17fa172a58da0849d17ee4e335a1581d19ba8e20c2049ae"
+    },
+    {
+      "bytes": 9432,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/mistletoe_B.bin",
+      "sha256": "80fd31c73d1953ebf32aca8841249a84f26a71624ae2110028b4fe0cb5902e33"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/mistletoe_B.gltf",
+      "sha256": "d809df64e4ad8c0bafb236ed6d33f3e6f4c98ab2836bc1db5aa43f04af2f163d"
+    },
+    {
+      "bytes": 6144,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_blue.bin",
+      "sha256": "fa76d6a34426afeea4b595e57308f754dc8b28e865fe5240a47549e5ad21a22d"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_blue.gltf",
+      "sha256": "1b9e50f5c38bf1d9350c2d5ab8e04da7cddfa828a316f8efbe42ae56ecf1c032"
+    },
+    {
+      "bytes": 67500,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_decorated_A.bin",
+      "sha256": "81439db81186ae46469fc5830272d6fa66c09382ff0a37f5776cbf9606697ee8"
+    },
+    {
+      "bytes": 3075,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_decorated_A.gltf",
+      "sha256": "857cb2e54173145a48114019ae681325184f11f66150f80756d064e387897e76"
+    },
+    {
+      "bytes": 47668,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_decorated_B.bin",
+      "sha256": "eeb9bda821aa7185e793ad8b5e4818d469e3efe4915da2896f15f5111ad5bf92"
+    },
+    {
+      "bytes": 5215,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_decorated_B.gltf",
+      "sha256": "c02173854324934d048cdcd2509ea4beebeb48f63d2d47059d290a93591dee3d"
+    },
+    {
+      "bytes": 6144,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_red.bin",
+      "sha256": "dd98066e047728e9763e92a4acb05f61aeb71a530f22a37ba29919f7e497e2f7"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_red.gltf",
+      "sha256": "e8be914b62da9d8b8ca6dd436810e55d9b3bbcd8964f66a0d333b6574ed18eac"
+    },
+    {
+      "bytes": 4624,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_small_blue.bin",
+      "sha256": "0f55aa3c5915b0b667d9224a964cc2b634fa769857914b787df309a82c410157"
+    },
+    {
+      "bytes": 3022,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_small_blue.gltf",
+      "sha256": "7da584f8f741b0a1c196767ecf72372e97e04c6d80bf73b8894b19b4f6339479"
+    },
+    {
+      "bytes": 4624,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_small_red.bin",
+      "sha256": "bb9602c9ccaa7ffa75f665a29c86d46623068586cd4f702112039382fdad69a2"
+    },
+    {
+      "bytes": 3019,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_small_red.gltf",
+      "sha256": "dc25f70fe4cffc231e0a81436d2ffe658ece5ac534b2b1f765e33e810ba85820"
+    },
+    {
+      "bytes": 4624,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_small_white.bin",
+      "sha256": "0a1eea9ac726926b2c7b15755a29d6b624e3e27fe95e103a5719fd5745a617eb"
+    },
+    {
+      "bytes": 3025,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_small_white.gltf",
+      "sha256": "e7ee08dfddc5e44c5bed75bea1249e58b4fe45268fce798f267d0f50ee6ed201"
+    },
+    {
+      "bytes": 6144,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_white.bin",
+      "sha256": "8a96ca8a5a1d61c0e33a36a53981de4ab678572bc85f0b05c8bec5ecb59b3cd4"
+    },
+    {
+      "bytes": 3047,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/plate_white.gltf",
+      "sha256": "da5f18749dcb284588207eb05afd7e4c8a1b89fdebc8a7a7f08b5adc91eb5b6d"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_blue.bin",
+      "sha256": "f7cc12a01b01e43e077a24a859c252836c5b2f48a908544e12d63c9f38ab971e"
+    },
+    {
+      "bytes": 3040,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_blue.gltf",
+      "sha256": "fbed75172d69c36e97cc4df595067cffc36b6d7f2adbd526a27fe4a0202df0a5"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_green.bin",
+      "sha256": "7e85a928d9efd252b72561307ab9060e1fc5ccaccf7289f39b4747bd73c86c4e"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_green.gltf",
+      "sha256": "6e8cd62b23ee8c10f6f208ca05afd8e5e745c46f9acab821814e4a64481e5946"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_red.bin",
+      "sha256": "2221a71f4a29e6874a0c61d52e3d4508fd5ed66db0f4e0cb4ca39b6e39bfddee"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_red.gltf",
+      "sha256": "020b55c5bd3521887858ea4e901a99ff3601dc450f642ce298e10db36f6d2188"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_white.bin",
+      "sha256": "62ae0ecbfcc385e28889e1c7310de7856b44f5b15195d15aeb918d382c73438b"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_white.gltf",
+      "sha256": "22365a079424cda9a6c2cbf2ae3d328437307a08a77eeb9f13c62138890802c9"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_yellow.bin",
+      "sha256": "2c8d484d931134898784588d26936b628733cf902ef4186d91a44996323b19ae"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_A_yellow.gltf",
+      "sha256": "792bfcc404c8c20e188884b0d38d821d685ad7a0d01d50f28dd0036f8ab8d388"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_blue.bin",
+      "sha256": "75f0bc89cf66353d1b926fe14e67137b71ddd253e85de062c260db9ad776e1c2"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_blue.gltf",
+      "sha256": "c872690b891717ca1b9dbe80ff3bb9db0d76918c39583acf69785b9b269f230f"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_green.bin",
+      "sha256": "0f785725bb844cb19d5257def4a3be095809c45b76a4dd9261c071aa71f4422f"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_green.gltf",
+      "sha256": "8dfa4f692668f10ea1958737e7501b7753b8d77183dd7fef5793ec27c3b30fa5"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_red.bin",
+      "sha256": "d6310052fd243f787fbb62be40059e508f4f5194e92a0cc12e7702da0ffdd076"
+    },
+    {
+      "bytes": 3039,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_red.gltf",
+      "sha256": "98a23adbaff871bc509f1a0d4307511956b78b8f0aeba4e95aa5bcf1a921bf0e"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_white.bin",
+      "sha256": "4a7f2fc54d6fc29b0dafdc861e06a6475ed94e5b6adb64fbb13dbd6b0a2b0f47"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_white.gltf",
+      "sha256": "4a7854b6bcf61f40a95fb66e794f7950a57d26074e60ff0d1938c440f0800e2c"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_yellow.bin",
+      "sha256": "9ed57b2a4a93a720c14a426cb8a5a1e1f3062cfeb1f918664b109c1b9e5df201"
+    },
+    {
+      "bytes": 3048,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_B_yellow.gltf",
+      "sha256": "e7bf6a037e5b5e0e95cb109702891ca95045b7ced33d4f23737ff3612fc52f14"
+    },
+    {
+      "bytes": 29124,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_blue.bin",
+      "sha256": "88d4942730a5fbeba99c85708efcb9c6d7cfbc04588fc343d8006b4e47c62d09"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_blue.gltf",
+      "sha256": "1d086fb86d684cf5fd974366cd9d50bf43dc97619cb6f1a304013b08cecb6b81"
+    },
+    {
+      "bytes": 29124,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_green.bin",
+      "sha256": "4bbb675f9db35eaf1c08a36091038ceb13ac2b41c5ba0ceb6bd8200632c2e9c7"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_green.gltf",
+      "sha256": "c75d81abf0efabd1566c6d144b6a82d92584f5ec36ac8e15c12bf154f54e51e0"
+    },
+    {
+      "bytes": 29124,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_red.bin",
+      "sha256": "f5f37444aa5e00d6da129e39302ed636b6891a8070e880dad09802f29e9a139b"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_red.gltf",
+      "sha256": "2fc5dbe586e1666aae6d361e48b3dec44dd2331c51a49f1cf12545781a635bd9"
+    },
+    {
+      "bytes": 29124,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_white.bin",
+      "sha256": "ec291144318f415740a8291440f8b8fbaf855f90ac17b024678adcc168c93f07"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_white.gltf",
+      "sha256": "ef00e44ba2e273b4096e95a01e4af5dc307d3409a427da5744a4130fb8e97cf9"
+    },
+    {
+      "bytes": 29124,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_yellow.bin",
+      "sha256": "23ddeab549574b9a6af73515fad9f88b0770a45ce7528a63f958c6cc8aa938f1"
+    },
+    {
+      "bytes": 3047,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_C_yellow.gltf",
+      "sha256": "970628155ee1e1925afd1da7e579dd2d420a7b83675bc6881e72b7d6414d5c05"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_blue.bin",
+      "sha256": "07e59092e41f0eb23e7ea9864c0293b3fbbb165b2f93b9ef2b71b01af8deeb86"
+    },
+    {
+      "bytes": 3038,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_blue.gltf",
+      "sha256": "2034039982494a3a5961e36aff0dbb3b7b6628211a664a145e4c2ef1bff0ad96"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_green.bin",
+      "sha256": "e7dd1a3b7f0bfd02ab5c9c640db325ef61c6ef250a795de636f272fba4846937"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_green.gltf",
+      "sha256": "79fc26327680324837d12cce33b20b5fd019f257c64066897f7650551535e0d6"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_red.bin",
+      "sha256": "cc78cea1d7b500ef61a27018445ef483eec5ddbc97ed045cf3dd5809b767b7ac"
+    },
+    {
+      "bytes": 3035,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_red.gltf",
+      "sha256": "c8749412353b779c33bc1c27922a64eccb33cc1bf441c24cee84884d3a51ff0d"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_white.bin",
+      "sha256": "9f17e7e66b26a3357620bc06f8a42af11380a0d94f8e3eb32509f3c77f7675bf"
+    },
+    {
+      "bytes": 3041,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_white.gltf",
+      "sha256": "6a147e1a1039659b05f336552c719519dfdf3feee60200668ce46c12b47851b5"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_yellow.bin",
+      "sha256": "0bcd5633b8a587d491afa070aa4a2998ac5e2724c685437ce70f62c12f017795"
+    },
+    {
+      "bytes": 3044,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_D_yellow.gltf",
+      "sha256": "e7789cf3dfe3b6f155b35e8ebe6540438c2e4e5215fe6efa68a2e2ce9943e164"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_blue.bin",
+      "sha256": "20d15674a481623a10ac1157c9a30321155328eca8e00c82a9a8104612a8fdee"
+    },
+    {
+      "bytes": 3039,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_blue.gltf",
+      "sha256": "011601bc4f440fe2269ae8c485bd28d8eae0f2514af27ce1c2a9e6caaa23e1f0"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_green.bin",
+      "sha256": "1a8fb5a17f64c36570842be4fad491e34ae3c43fc1728d89a861057a57691e21"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_green.gltf",
+      "sha256": "b0d2a1d459f10c74a60e4143226a6eb0ff5f3c307428167c4247d659a26dd953"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_red.bin",
+      "sha256": "a26da2d51e3c847065286c600be6f5b41e94ef6ee73f2e5721e7011945111d14"
+    },
+    {
+      "bytes": 3036,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_red.gltf",
+      "sha256": "6c415ba96082d049b8fb252181140ede63f1f7fe49175a05cba2dfbeace7eb3d"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_white.bin",
+      "sha256": "8c99f84bdb04871bdffe1346bc5e83b9dbc806463490f573a4b0400b63e25bb6"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_white.gltf",
+      "sha256": "f10c7a7b5bbec865c2d79089d17b6870aadee57abbef80a4bf20d0dfb34773cb"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_yellow.bin",
+      "sha256": "d4ceb667f2da7ab2027cabc22071a7d149b44b435ba84f800ee284cf02c53799"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_E_yellow.gltf",
+      "sha256": "501269b38984ec643668a452be5f0be851d5edf0ead2d6a40a84ad4cb9e91b16"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_blue.bin",
+      "sha256": "33ca56440a6a99c267a363bdf8e42ea85bda6ffc7ddbf2105e6a34718e45f537"
+    },
+    {
+      "bytes": 3039,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_blue.gltf",
+      "sha256": "fd66606dd61828f8e19387f6a93a5cfdbe043a63a5477f827be6254c57003272"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_green.bin",
+      "sha256": "7e533224ad0c6ae9c03ec25d13602c94351414a336b2bc605d29d3cbe681e457"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_green.gltf",
+      "sha256": "d8df2838cabb359723ec0b455d37903235721f3ab346fb93559dea9726273300"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_red.bin",
+      "sha256": "7e1b74fe7d897ba1c02999dd279091ac603f24083dd0711136d45f6b1986b3d6"
+    },
+    {
+      "bytes": 3036,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_red.gltf",
+      "sha256": "d50695f6d6269f2399e3a7d664c843eeb395466641779a634433eaaf50b21166"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_white.bin",
+      "sha256": "f831f2e1bf880e6f4bc350a3ce46f4a08268770b57217f06416dd00af5d161e9"
+    },
+    {
+      "bytes": 3042,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_white.gltf",
+      "sha256": "a0b2d484198afe5380625cad9f4c155fbc37c78d39045bbfc775dc16bbdf5e00"
+    },
+    {
+      "bytes": 28996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_yellow.bin",
+      "sha256": "51ade533e9431f72e4a9794b7ee4cb67082d35bf38eb8ff315b90d799aee022f"
+    },
+    {
+      "bytes": 3045,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_F_yellow.gltf",
+      "sha256": "68c80e3be84fd9aa3eda514b33806d54e4564c72cf7c2e4bfee57e7ca6310d1b"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_blue.bin",
+      "sha256": "e5525e48e9c0de4ee34d686f1b7cc4437a1ef4448eb1dc59e0bb5f7bbdd83d36"
+    },
+    {
+      "bytes": 3080,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_blue.gltf",
+      "sha256": "3dfe2431c96290e46a511ed1b8ab168a2cfe0233ddb6b7eaaddbb9bca65956c9"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_green.bin",
+      "sha256": "06268ca0c15b1772a60d6bbcc7c6a3f67f1cf8f8b1baa3c4662349af5afab698"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_green.gltf",
+      "sha256": "b17dc0b0c000e5eaa9e6e10847a8507b599711c7a0e66abf66bf53808a7c9de2"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_red.bin",
+      "sha256": "0716142602babf14c1df5a50a673b959085bbb34e123bcc2a2a44bfe5b692647"
+    },
+    {
+      "bytes": 3077,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_red.gltf",
+      "sha256": "100d4e0952496272cc519b79f8988780c929f8b716cfa6d8714bbf22c5691db3"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_white.bin",
+      "sha256": "5e5f5e310595709f3c8648fa571cb8936b17d788e6d7475df0ff9f583a2c298b"
+    },
+    {
+      "bytes": 3083,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_white.gltf",
+      "sha256": "d45caff5001cb4362d8cc7fc6b3b847d13bfcc92b3dd3e232ba6758b1fc5c799"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_yellow.bin",
+      "sha256": "772d1b1d99441b11059b87c0da604ddd7b1183a0de9594ffb7bcab0a393fab15"
+    },
+    {
+      "bytes": 3086,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_A_yellow.gltf",
+      "sha256": "3de707a53b73f802cf590aa04ecb6e505edaf85a0c2fe125d489e9f14186f9c2"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_blue.bin",
+      "sha256": "97ee936756162063934d5b655630861a5788fd5c7da18ee7d6cafa9c6ab4896d"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_blue.gltf",
+      "sha256": "2d1fca8c6dc3cd08fd3db4809060fe041d818e3c60c4605975a60dae744e367b"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_green.bin",
+      "sha256": "024f32a4ca2a114a1d1d5c76612d7bdd728e686eca4e45f1981d820fe39c1794"
+    },
+    {
+      "bytes": 3084,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_green.gltf",
+      "sha256": "86cfde60ea9c9ac67765ec14afbb03b569bf1afb06b1451b3e366e04e42ccb92"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_red.bin",
+      "sha256": "a5cde4e4219818e0bea47e8663c6d6cdca3795ec5168265b64937794a4f1495f"
+    },
+    {
+      "bytes": 3078,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_red.gltf",
+      "sha256": "054e3014ac7168d4fe0a8cd15a54731a8b1deefe2a21de09fcb0147472bb3944"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_white.bin",
+      "sha256": "3f55762e892bcac3ee463bf94dcfa9fb5f5ede8650f299b7424c4ee1622b89f7"
+    },
+    {
+      "bytes": 3084,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_white.gltf",
+      "sha256": "588a57c0960da9ed6bfb52f79434c3b9ab954c0d734f8d4c7fd8e14cff2866f8"
+    },
+    {
+      "bytes": 29772,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_yellow.bin",
+      "sha256": "307297a50ec8c918731ef1f19ed3c844edc8171c76971b32ed555d319604b16c"
+    },
+    {
+      "bytes": 3087,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/present_sphere_B_yellow.gltf",
+      "sha256": "2632dcc61db526be9c174a27dcc8238ae85c1e9d83fe090bd75e5714e11c5dee"
+    },
+    {
+      "bytes": 1824,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowball.bin",
+      "sha256": "942ff5b5348391c559c4ad86c990f6376416633aba41d105f75fdbbe235beb2e"
+    },
+    {
+      "bytes": 3032,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowball.gltf",
+      "sha256": "fd88d3ba92c751b03d7b98ae42e77f4d90e65669a0e23b8aaf54839261f2b941"
+    },
+    {
+      "bytes": 51996,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowball_cannon.bin",
+      "sha256": "191c066d6b6eb05efc712fff131496c36fcc3299b6466b4d68046cfc327178fe"
+    },
+    {
+      "bytes": 3069,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowball_cannon.gltf",
+      "sha256": "ac0d89aadeb4c501065c26f569c7fb74e4e45fb5174b8b3155a53385d80616a8"
+    },
+    {
+      "bytes": 36480,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowball_pile.bin",
+      "sha256": "b9b12000a1b15df7c764d187f54cdfd983e0d81056f168e9d590541131525644"
+    },
+    {
+      "bytes": 3058,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowball_pile.gltf",
+      "sha256": "49ace7ce9754d7117a4a58337ba4b453406df479a0840001dcce2faf6e40f2e1"
+    },
+    {
+      "bytes": 45316,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowman_A.bin",
+      "sha256": "9b5631e0ab8e77b2b207c0fb20fb5a7477ac9f6243b9344df4ae7537768038a6"
+    },
+    {
+      "bytes": 3051,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowman_A.gltf",
+      "sha256": "aca0688b4219fddcd40d79827535b81f503bf6c39c43db3cc7767bea493991cd"
+    },
+    {
+      "bytes": 78940,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowman_B.bin",
+      "sha256": "633462f3c8db3a54e2349e843698a8be740301596b61efad7a6c9a6153c1d449"
+    },
+    {
+      "bytes": 3053,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/snowman_B.gltf",
+      "sha256": "4a3ebc4abe4a62fb4a7dd5b30ad1438a5c7ff8253c645560909dbee13b8ad095"
+    },
+    {
+      "bytes": 10592,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/stool.bin",
+      "sha256": "1b3d889bd63a550a644e3e13128b9207ac498526bde2e8315e630da1a0d46b73"
+    },
+    {
+      "bytes": 3000,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/stool.gltf",
+      "sha256": "33cf49fbd564e0ceb52be45e23deca4fffae29e08807571c811752441bee6182"
+    },
+    {
+      "bytes": 25460,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_crossing.bin",
+      "sha256": "28f1e059de09d84f9f456cedc60e0ff21de2275533f82845daafebc845cb30da"
+    },
+    {
+      "bytes": 3030,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_crossing.gltf",
+      "sha256": "29ef6a8de0a5f66ad3d399a8445062f025050a0543f29031a6b647f496422079"
+    },
+    {
+      "bytes": 18536,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_curve.bin",
+      "sha256": "a411cb205018dcc10f00255145e91fdd50f03e280e096503a991acc724380ab9"
+    },
+    {
+      "bytes": 3037,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_curve.gltf",
+      "sha256": "1285b895eaa233b6a5c69dc305eb0f4f424ba17a41b7f6afc8bf0f369995293b"
+    },
+    {
+      "bytes": 36028,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_split_left.bin",
+      "sha256": "abbfc118896429e5936036e770e928bad75795c094bd62aa37242addcf22c11a"
+    },
+    {
+      "bytes": 7305,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_split_left.gltf",
+      "sha256": "1dca968fd2f4b306165d822ba42fe90693ae8f9a7a9783075e5695d3c4c158ab"
+    },
+    {
+      "bytes": 36156,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_split_right.bin",
+      "sha256": "8a92f0944a14f70c4ac4b456699b451c76bd81f722388c85a04a5af022cee60f"
+    },
+    {
+      "bytes": 7311,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_split_right.gltf",
+      "sha256": "447d9bfa27ca84001314b5c6b2bab50073a69930e8abf92f997635a7ff9745bb"
+    },
+    {
+      "bytes": 5880,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_straight.bin",
+      "sha256": "e93f75b1d72310ea085f72a3fd2325137dab4799365a0ec374a0d7de83f93ac5"
+    },
+    {
+      "bytes": 3046,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_straight.gltf",
+      "sha256": "67447fbe31b5d7877374f78241f140e91986aa22a67b6a34a450a4131545b385"
+    },
+    {
+      "bytes": 11832,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_straight_station.bin",
+      "sha256": "65673ffaed4feedccba3b51c49b8328c7a5953628c168eb6bc42366bd3fd9892"
+    },
+    {
+      "bytes": 3072,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/tracks_straight_station.gltf",
+      "sha256": "41f3febe64854ec56f3473a224a0f34fb8a7add095be2661ef8fb7063a9a90a6"
+    },
+    {
+      "bytes": 93456,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_locomotive.bin",
+      "sha256": "69e1d6e018c796d233b362eebf461fdef0a0fd1ed55c168adb0f07901d6fe94e"
+    },
+    {
+      "bytes": 5628,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_locomotive.gltf",
+      "sha256": "8b78a1aa598c8c6b791387d34c07bc8e73d77be43cfc7a7be6d6654ac9e106cf"
+    },
+    {
+      "bytes": 50884,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_tender_coal.bin",
+      "sha256": "680f3f28ee6693b50bff17dc36e2b1001f0f9fe17e006212a6f2c4790e88b132"
+    },
+    {
+      "bytes": 3076,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_tender_coal.gltf",
+      "sha256": "9e6299a1979aed2ead3f5e8531f97a53f6d41bf8d00f82d6a77a6cccab94df39"
+    },
+    {
+      "bytes": 45264,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_tender_empty.bin",
+      "sha256": "760f19ba40625661198e3d653660c34e64681a1e5add2efdee423d79923da67d"
+    },
+    {
+      "bytes": 3081,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_tender_empty.gltf",
+      "sha256": "40579063af8d90345ffd19d88dd6ea466670ab04f4c165b4eef9e1e13fd67bd8"
+    },
+    {
+      "bytes": 72920,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_tender_presents_A.bin",
+      "sha256": "1d6d614bec033198df6ee8b46c04455722a649ed6bec57c4a2afceb895c59999"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_tender_presents_A.gltf",
+      "sha256": "971326507c70d4cade17449097d581de8e64dac6cd4965b46dd8bdab7444aeff"
+    },
+    {
+      "bytes": 72856,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_tender_presents_B.bin",
+      "sha256": "1a271edde05a49ddc1bb7d31b5809fdee615b442477f9f17b88161e6ce35b8e0"
+    },
+    {
+      "bytes": 3095,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_tender_presents_B.gltf",
+      "sha256": "13d1e6b5ba6d11b8337af6cf603c1cc82ed307e642539e8b7559aee828c3951e"
+    },
+    {
+      "bytes": 80360,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_wagon.bin",
+      "sha256": "bc335204790241224ea1f6b7d61d0a88c49fd50c76793de867c363a560a67dd4"
+    },
+    {
+      "bytes": 3061,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/train_wagon.gltf",
+      "sha256": "31194afd726a35245a37785806b942ca86e407781e04a03a2973257987ecfb42"
+    },
+    {
+      "bytes": 97156,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/wreath.bin",
+      "sha256": "94668c0ebcad39189f130541996a77d74166e2d47ce71c478d7ed13ee1b71462"
+    },
+    {
+      "bytes": 3043,
+      "path": "packs/kaykit-holiday-bits/Assets/gltf/wreath.gltf",
+      "sha256": "b68e82719a6f425ec490b594a281043f83be73e461a19a18605a80cdaa627964"
+    },
+    {
+      "bytes": 16548,
+      "path": "packs/kaykit-holiday-bits/Assets/obj/holiday_bits_texture.png",
+      "sha256": "49e0ef358fa48020ce54d633a35cbb9928100003131485bc820c31ee327b355b"
+    },
+    {
+      "bytes": 456,
+      "path": "packs/kaykit-holiday-bits/LICENSE-SOURCE.md",
+      "sha256": "adcaef87f4c9e143c169f64ba8b991d5bf51e3d16dd4cd2ab494a19343d7624b"
+    },
+    {
+      "bytes": 16548,
+      "path": "packs/kaykit-holiday-bits/Textures/holiday_bits_texture.png",
+      "sha256": "49e0ef358fa48020ce54d633a35cbb9928100003131485bc820c31ee327b355b"
+    },
+    {
+      "bytes": 1098684,
+      "path": "packs/kaykit-holiday-bits/contents.png",
+      "sha256": "96eb380423d0c7ff0d9b50cc7ee3ed33be8c3af4387ba53437de99eb5f8439a9"
+    },
+    {
+      "bytes": 1049914,
+      "path": "packs/kaykit-holiday-bits/sample_A.png",
+      "sha256": "44e35fd39166ac242b4c4a4c366cc3f5bf9a6f7074ece34f0cdfe7d46f510ba5"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-holiday-bits",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-holiday-bits/LICENSE-SOURCE.md",
+  "license_text_sha256": "adcaef87f4c9e143c169f64ba8b991d5bf51e3d16dd4cd2ab494a19343d7624b",
+  "model_count": 98,
+  "models": [
+    "Assets/gltf/basketball.gltf",
+    "Assets/gltf/bell.gltf",
+    "Assets/gltf/bell_decorated.gltf",
+    "Assets/gltf/candycane_small.gltf",
+    "Assets/gltf/carpet_round_large.gltf",
+    "Assets/gltf/carpet_round_small.gltf",
+    "Assets/gltf/chair_large_blue.gltf",
+    "Assets/gltf/chair_large_brown.gltf",
+    "Assets/gltf/chair_large_green.gltf",
+    "Assets/gltf/chair_large_red.gltf",
+    "Assets/gltf/christmas_tree.gltf",
+    "Assets/gltf/christmas_tree_base.gltf",
+    "Assets/gltf/christmas_tree_decorated.gltf",
+    "Assets/gltf/christmas_tree_withoutLights.gltf",
+    "Assets/gltf/cookie.gltf",
+    "Assets/gltf/football.gltf",
+    "Assets/gltf/footstool_blue.gltf",
+    "Assets/gltf/footstool_brown.gltf",
+    "Assets/gltf/footstool_green.gltf",
+    "Assets/gltf/footstool_red.gltf",
+    "Assets/gltf/gingerbread_house.gltf",
+    "Assets/gltf/gingerbread_house_decorated.gltf",
+    "Assets/gltf/gingerbread_man.gltf",
+    "Assets/gltf/hot_chocolate.gltf",
+    "Assets/gltf/hot_chocolate_decorated.gltf",
+    "Assets/gltf/lantern.gltf",
+    "Assets/gltf/lantern_decorated.gltf",
+    "Assets/gltf/lantern_mini.gltf",
+    "Assets/gltf/milk.gltf",
+    "Assets/gltf/mistletoe_A.gltf",
+    "Assets/gltf/mistletoe_B.gltf",
+    "Assets/gltf/plate_blue.gltf",
+    "Assets/gltf/plate_decorated_A.gltf",
+    "Assets/gltf/plate_decorated_B.gltf",
+    "Assets/gltf/plate_red.gltf",
+    "Assets/gltf/plate_small_blue.gltf",
+    "Assets/gltf/plate_small_red.gltf",
+    "Assets/gltf/plate_small_white.gltf",
+    "Assets/gltf/plate_white.gltf",
+    "Assets/gltf/present_A_blue.gltf",
+    "Assets/gltf/present_A_green.gltf",
+    "Assets/gltf/present_A_red.gltf",
+    "Assets/gltf/present_A_white.gltf",
+    "Assets/gltf/present_A_yellow.gltf",
+    "Assets/gltf/present_B_blue.gltf",
+    "Assets/gltf/present_B_green.gltf",
+    "Assets/gltf/present_B_red.gltf",
+    "Assets/gltf/present_B_white.gltf",
+    "Assets/gltf/present_B_yellow.gltf",
+    "Assets/gltf/present_C_blue.gltf",
+    "Assets/gltf/present_C_green.gltf",
+    "Assets/gltf/present_C_red.gltf",
+    "Assets/gltf/present_C_white.gltf",
+    "Assets/gltf/present_C_yellow.gltf",
+    "Assets/gltf/present_D_blue.gltf",
+    "Assets/gltf/present_D_green.gltf",
+    "Assets/gltf/present_D_red.gltf",
+    "Assets/gltf/present_D_white.gltf",
+    "Assets/gltf/present_D_yellow.gltf",
+    "Assets/gltf/present_E_blue.gltf",
+    "Assets/gltf/present_E_green.gltf",
+    "Assets/gltf/present_E_red.gltf",
+    "Assets/gltf/present_E_white.gltf",
+    "Assets/gltf/present_E_yellow.gltf",
+    "Assets/gltf/present_F_blue.gltf",
+    "Assets/gltf/present_F_green.gltf",
+    "Assets/gltf/present_F_red.gltf",
+    "Assets/gltf/present_F_white.gltf",
+    "Assets/gltf/present_F_yellow.gltf",
+    "Assets/gltf/present_sphere_A_blue.gltf",
+    "Assets/gltf/present_sphere_A_green.gltf",
+    "Assets/gltf/present_sphere_A_red.gltf",
+    "Assets/gltf/present_sphere_A_white.gltf",
+    "Assets/gltf/present_sphere_A_yellow.gltf",
+    "Assets/gltf/present_sphere_B_blue.gltf",
+    "Assets/gltf/present_sphere_B_green.gltf",
+    "Assets/gltf/present_sphere_B_red.gltf",
+    "Assets/gltf/present_sphere_B_white.gltf",
+    "Assets/gltf/present_sphere_B_yellow.gltf",
+    "Assets/gltf/snowball.gltf",
+    "Assets/gltf/snowball_cannon.gltf",
+    "Assets/gltf/snowball_pile.gltf",
+    "Assets/gltf/snowman_A.gltf",
+    "Assets/gltf/snowman_B.gltf",
+    "Assets/gltf/stool.gltf",
+    "Assets/gltf/tracks_crossing.gltf",
+    "Assets/gltf/tracks_curve.gltf",
+    "Assets/gltf/tracks_split_left.gltf",
+    "Assets/gltf/tracks_split_right.gltf",
+    "Assets/gltf/tracks_straight.gltf",
+    "Assets/gltf/tracks_straight_station.gltf",
+    "Assets/gltf/train_locomotive.gltf",
+    "Assets/gltf/train_tender_coal.gltf",
+    "Assets/gltf/train_tender_empty.gltf",
+    "Assets/gltf/train_tender_presents_A.gltf",
+    "Assets/gltf/train_tender_presents_B.gltf",
+    "Assets/gltf/train_wagon.gltf",
+    "Assets/gltf/wreath.gltf"
+  ],
+  "original_download_sha256": "2b72b9209455f7fde90ff0696d1ed1ac80dc49fcb85d246662c6f544741ac49a",
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "source": "https://kaylousberg.itch.io/holiday-bits",
+  "status": "downloaded",
+  "style": "smooth textured low-poly",
+  "archive_sha256": "71c594e2e90def12d3627f50c6f13b0308631668024508466492a2a8d5e58ed2",
+  "embedded_parts": [
+    "seed/archives/kaykit-holiday-bits.zip.part000",
+    "seed/archives/kaykit-holiday-bits.zip.part001",
+    "seed/archives/kaykit-holiday-bits.zip.part002",
+    "seed/archives/kaykit-holiday-bits.zip.part003",
+    "seed/archives/kaykit-holiday-bits.zip.part004",
+    "seed/archives/kaykit-holiday-bits.zip.part005"
+  ]
+}

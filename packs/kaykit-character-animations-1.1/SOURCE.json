@@ -1,0 +1,156 @@
+{
+  "asset_count": 3,
+  "assets": [
+    "Mannequin Character/Textures/mannequin_texture.png",
+    "Mannequin Character/characters/Mannequin_Large_mannequin_texture.png",
+    "Mannequin Character/characters/Mannequin_Medium_mannequin_texture.png"
+  ],
+  "author": "Kay Lousberg",
+  "category": "animations",
+  "checked": "2026-10-12",
+  "download_method": "official free tier; no donation or purchase",
+  "files": [
+    {
+      "bytes": 1025388,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Large/Rig_Large_CombatMelee.glb",
+      "sha256": "485dcde864e015f76901b0832d9dceadecfa3fc1f9fa31df2423a6af9ec66ad8"
+    },
+    {
+      "bytes": 700336,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Large/Rig_Large_General.glb",
+      "sha256": "ec263b40704d996692033fc716fc0fcaa11a5089393845fe27877e5f773b2f3e"
+    },
+    {
+      "bytes": 601624,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Large/Rig_Large_MovementAdvanced.glb",
+      "sha256": "fe5161d66734d3123eed22d9196fd0e627025f5bb52e25d96c3158046993caaf"
+    },
+    {
+      "bytes": 584676,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Large/Rig_Large_MovementBasic.glb",
+      "sha256": "2798a62b6f2a1f0f73b8481468fc0aeb7dd3118ceeb1be7db2fc947b7a1221ad"
+    },
+    {
+      "bytes": 589952,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Large/Rig_Large_Simulation.glb",
+      "sha256": "fd25a4521cc8cd31f5345848a652590523f7eacec643d6dc6924dbeb444e617c"
+    },
+    {
+      "bytes": 575264,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Large/Rig_Large_Special.glb",
+      "sha256": "7d7254b1e98145f73173b006d0b0a8b1a4c03a2ea22580568bd7aee359d763c2"
+    },
+    {
+      "bytes": 999416,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Medium/Rig_Medium_CombatMelee.glb",
+      "sha256": "c55e6ec1c79e83ae21d46fe1cd921c1b64be8b9a524a24517e51c6ba99231459"
+    },
+    {
+      "bytes": 1014852,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Medium/Rig_Medium_CombatRanged.glb",
+      "sha256": "7fef1fc0e7b0feafd34b8e12d23f514c8c1f9d068047a691b854b56f1774dff5"
+    },
+    {
+      "bytes": 828240,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Medium/Rig_Medium_General.glb",
+      "sha256": "5f725c0f745f36078c7238968cd5c04843cbc6260689eb6e7f5e2bbd7ffdd7ad"
+    },
+    {
+      "bytes": 719628,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Medium/Rig_Medium_MovementAdvanced.glb",
+      "sha256": "8b2317cf81e3f24149e4b791c27e1932bebd46cd378ed962e7d27d642fad8c56"
+    },
+    {
+      "bytes": 689624,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb",
+      "sha256": "11422afd50abf7e8c92ea107e2e0bc94abd38023d6d15f55ad580347efbfa29e"
+    },
+    {
+      "bytes": 855904,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Medium/Rig_Medium_Simulation.glb",
+      "sha256": "ab6ffeed40c8281dd0ce0506534eadf7385151f1c266643a10fa2a0f0a7ba3b1"
+    },
+    {
+      "bytes": 924308,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Medium/Rig_Medium_Special.glb",
+      "sha256": "74047dd2178fbed388656051664158e921b7bfc613abb119860aeb7b646bd640"
+    },
+    {
+      "bytes": 1461204,
+      "path": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Medium/Rig_Medium_Tools.glb",
+      "sha256": "e3b62dc122c5073373376a846e354137add2088ddcce8731c389fc5c20734aad"
+    },
+    {
+      "bytes": 1548,
+      "path": "packs/kaykit-character-animations-1.1/License.txt",
+      "sha256": "373b159044d1a886ed15f57ca5a7673ba14e2623c460283452705f2056912ed9"
+    },
+    {
+      "bytes": 18117,
+      "path": "packs/kaykit-character-animations-1.1/Mannequin Character/Textures/mannequin_texture.png",
+      "sha256": "b417f933486ca047f9d171d0142c68d30cd401037f69653acf13cdb812d09828"
+    },
+    {
+      "bytes": 541784,
+      "path": "packs/kaykit-character-animations-1.1/Mannequin Character/characters/Mannequin_Large.glb",
+      "sha256": "21a55e38b9d989dc243a7dd2bbf3c21766695925b875c33da9423e6a07e8528a"
+    },
+    {
+      "bytes": 18117,
+      "path": "packs/kaykit-character-animations-1.1/Mannequin Character/characters/Mannequin_Large_mannequin_texture.png",
+      "sha256": "b417f933486ca047f9d171d0142c68d30cd401037f69653acf13cdb812d09828"
+    },
+    {
+      "bytes": 420044,
+      "path": "packs/kaykit-character-animations-1.1/Mannequin Character/characters/Mannequin_Medium.glb",
+      "sha256": "368a4c0733280bc810c004b81f31408f43c00e307cf914061e80f192ba25685b"
+    },
+    {
+      "bytes": 18117,
+      "path": "packs/kaykit-character-animations-1.1/Mannequin Character/characters/Mannequin_Medium_mannequin_texture.png",
+      "sha256": "b417f933486ca047f9d171d0142c68d30cd401037f69653acf13cdb812d09828"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "kaykit-character-animations-1.1",
+  "license": "CC0-1.0",
+  "license_path": "packs/kaykit-character-animations-1.1/License.txt",
+  "license_text_sha256": "373b159044d1a886ed15f57ca5a7673ba14e2623c460283452705f2056912ed9",
+  "model_count": 16,
+  "models": [
+    "Animations/gltf/Rig_Large/Rig_Large_CombatMelee.glb",
+    "Animations/gltf/Rig_Large/Rig_Large_General.glb",
+    "Animations/gltf/Rig_Large/Rig_Large_MovementAdvanced.glb",
+    "Animations/gltf/Rig_Large/Rig_Large_MovementBasic.glb",
+    "Animations/gltf/Rig_Large/Rig_Large_Simulation.glb",
+    "Animations/gltf/Rig_Large/Rig_Large_Special.glb",
+    "Animations/gltf/Rig_Medium/Rig_Medium_CombatMelee.glb",
+    "Animations/gltf/Rig_Medium/Rig_Medium_CombatRanged.glb",
+    "Animations/gltf/Rig_Medium/Rig_Medium_General.glb",
+    "Animations/gltf/Rig_Medium/Rig_Medium_MovementAdvanced.glb",
+    "Animations/gltf/Rig_Medium/Rig_Medium_MovementBasic.glb",
+    "Animations/gltf/Rig_Medium/Rig_Medium_Simulation.glb",
+    "Animations/gltf/Rig_Medium/Rig_Medium_Special.glb",
+    "Animations/gltf/Rig_Medium/Rig_Medium_Tools.glb",
+    "Mannequin Character/characters/Mannequin_Large.glb",
+    "Mannequin Character/characters/Mannequin_Medium.glb"
+  ],
+  "original_download_sha256": "65882f31f905ad2e953819648a59287cdeab8f623908d5ef701971d3758be20f",
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "recommended_use": "stylized smooth 3D; retain original texture resolutions",
+  "source": "https://kaylousberg.itch.io/kaykit-character-animations",
+  "status": "downloaded",
+  "style": "smooth textured low-poly",
+  "archive_sha256": "4bb68b27f659bce4f71a9b9b9742d1dfeb331288dd3035a088b7bdd059b4be99",
+  "embedded_parts": [
+    "seed/archives/kaykit-character-animations-1.1.zip.part000",
+    "seed/archives/kaykit-character-animations-1.1.zip.part001",
+    "seed/archives/kaykit-character-animations-1.1.zip.part002",
+    "seed/archives/kaykit-character-animations-1.1.zip.part003",
+    "seed/archives/kaykit-character-animations-1.1.zip.part004",
+    "seed/archives/kaykit-character-animations-1.1.zip.part005",
+    "seed/archives/kaykit-character-animations-1.1.zip.part006",
+    "seed/archives/kaykit-character-animations-1.1.zip.part007"
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "asset_count": 64,
+  "assets": [
+    "PNG/000_axe_1handed.png",
+    "PNG/001_axe_2handed.png",
+    "PNG/002_shield_badge.png",
+    "PNG/003_shield_badge_color.png",
+    "PNG/004_shield_round.png",
+    "PNG/005_shield_round_barbarian.png",
+    "PNG/006_shield_round_color.png",
+    "PNG/007_shield_spikes.png",
+    "PNG/008_shield_spikes_color.png",
+    "PNG/009_shield_square.png",
+    "PNG/010_shield_square_color.png",
+    "PNG/011_spellbook_closed.png",
+    "PNG/012_spellbook_open.png",
+    "PNG/013_sword_1handed.png",
+    "PNG/014_sword_2handed.png",
+    "PNG/015_sword_2handed_color.png",
+    "PNG/016_Skeleton_Axe.png",
+    "PNG/017_Skeleton_Shield_Large_A.png",
+    "PNG/018_Skeleton_Shield_Large_B.png",
+    "PNG/019_Skeleton_Shield_Small_A.png",
+    "PNG/020_Skeleton_Shield_Small_B.png",
+    "PNG/021_Pallet_Wood.png",
+    "PNG/022_Pallet_Wood_Covered_A.png",
+    "PNG/023_Pallet_Wood_Covered_B.png",
+    "PNG/024_Stone_Brick.png",
+    "PNG/025_Stone_Bricks_Stack_Large.png",
+    "PNG/026_Stone_Bricks_Stack_Medium.png",
+    "PNG/027_Stone_Bricks_Stack_Small.png",
+    "PNG/028_Stone_Chunks_Large.png",
+    "PNG/029_Stone_Chunks_Small.png",
+    "PNG/030_Wood_Log_A.png",
+    "PNG/031_Wood_Log_B.png",
+    "PNG/032_Wood_Log_Stack.png",
+    "PNG/033_Wood_Plank_A.png",
+    "PNG/034_Wood_Plank_B.png",
+    "PNG/035_Wood_Plank_C.png",
+    "PNG/036_Wood_Planks_Stack_Large.png",
+    "PNG/037_Wood_Planks_Stack_Medium.png",
+    "PNG/038_Wood_Planks_Stack_Small.png",
+    "PNG/039_axe.png",
+    "PNG/040_grindstone.png",
+    "PNG/041_hammer.png",
+    "PNG/042_pickaxe.png",
+    "PNG/043_arrow.png",
+    "PNG/044_arrow_bundle.png",
+    "PNG/045_crossbow_1handed.png",
+    "PNG/046_crossbow_2handed.png",
+    "PNG/047_dagger.png",
+    "PNG/048_mug_empty.png",
+    "PNG/049_mug_full.png",
+    "PNG/050_quiver.png",
+    "PNG/051_smokebomb.png",
+    "PNG/052_staff.png",
+    "PNG/053_wand.png",
+    "PNG/054_Skeleton_Arrow.png",
+    "PNG/055_Skeleton_Arrow_Broken.png",
+    "PNG/056_Skeleton_Arrow_Broken_Half.png",
+    "PNG/057_Skeleton_Arrow_Half.png",
+    "PNG/058_Skeleton_Blade.png",
+    "PNG/059_Skeleton_Crossbow.png",
+    "PNG/060_Skeleton_Quiver.png",
+    "PNG/061_Skeleton_Staff.png",
+    "PNG/062_Copper_Bar.png",
+    "PNG/063_Copper_Bars.png"
+  ],
+  "author": "Kay Lousberg (original models); Godot rendering for this bank",
+  "category": "inventory-icons",
+  "checked": "2026-10-12",
+  "derivation": "512x512 transparent renders of existing CC0 KayKit models",
+  "files": [
+    {
+      "bytes": 241,
+      "path": "packs/inventory-icons-3d/LICENSE.txt",
+      "sha256": "4fd11bf2984cdf86e1a34df0a1b3afda82577a1e0a88b5e438a140b96ec64737"
+    },
+    {
+      "bytes": 30000,
+      "path": "packs/inventory-icons-3d/PNG/000_axe_1handed.png",
+      "sha256": "e01888928f5c52c41603a1b5efdd0c14864187e1b3ce8e1670b999e826d8ff6a"
+    },
+    {
+      "bytes": 38538,
+      "path": "packs/inventory-icons-3d/PNG/001_axe_2handed.png",
+      "sha256": "74bca015e7919d5af142852d653fc9dad28ce11d0da9e9ead6bbdafd5b94db7f"
+    },
+    {
+      "bytes": 40550,
+      "path": "packs/inventory-icons-3d/PNG/002_shield_badge.png",
+      "sha256": "ed35e1704aa422152f1bd8b298b5065b655bd2522b166d3ad0871004012adb4a"
+    },
+    {
+      "bytes": 47223,
+      "path": "packs/inventory-icons-3d/PNG/003_shield_badge_color.png",
+      "sha256": "2859fe23989fdcad287a56639eca2a6b3b3ba0b074f49f519ca91a6f155487f8"
+    },
+    {
+      "bytes": 44748,
+      "path": "packs/inventory-icons-3d/PNG/004_shield_round.png",
+      "sha256": "2fc78438b14b97a5b992a2d3bc1e69a4164c4cd91f6116bdb1a38f6b80d4b7a6"
+    },
+    {
+      "bytes": 41625,
+      "path": "packs/inventory-icons-3d/PNG/005_shield_round_barbarian.png",
+      "sha256": "bba359cff6af0781b641d5fc71642c3002c0fbcc1217143b26c7d7eb0431c192"
+    },
+    {
+      "bytes": 44117,
+      "path": "packs/inventory-icons-3d/PNG/006_shield_round_color.png",
+      "sha256": "0ebe069f3a68294ab74b2be85bc8c5393d53acd08a10bf37fde39c2a0f7f956d"
+    },
+    {
+      "bytes": 48857,
+      "path": "packs/inventory-icons-3d/PNG/007_shield_spikes.png",
+      "sha256": "bad319d48f07cd36fab55c6e44251932a4772b2c73c1fb05704b2b7b84ca8f86"
+    },
+    {
+      "bytes": 49949,
+      "path": "packs/inventory-icons-3d/PNG/008_shield_spikes_color.png",
+      "sha256": "01c103997779143ff8f360e4200c362e1abedb6caa8b828ba213b3614489f464"
+    },
+    {
+      "bytes": 41929,
+      "path": "packs/inventory-icons-3d/PNG/009_shield_square.png",
+      "sha256": "e150651eeca0cd7e5967b07a5a555363338bda582ccb3a435cb0381830e51c1d"
+    },
+    {
+      "bytes": 45677,
+      "path": "packs/inventory-icons-3d/PNG/010_shield_square_color.png",
+      "sha256": "3b23f46e7d17037178b8357546b40a7726fe8119642ea2101dfe8d41f1dab1b0"
+    },
+    {
+      "bytes": 33225,
+      "path": "packs/inventory-icons-3d/PNG/011_spellbook_closed.png",
+      "sha256": "c96c5c01f86e2dbee2216a6b82cf84e339b4502f27157c5ab51eb4afdea7bb54"
+    },
+    {
+      "bytes": 23422,
+      "path": "packs/inventory-icons-3d/PNG/012_spellbook_open.png",
+      "sha256": "68ba0881056db0e82d832677d6372a50bfac4d3e23f6132375aa8d5a6e1a7781"
+    },
+    {
+      "bytes": 26073,
+      "path": "packs/inventory-icons-3d/PNG/013_sword_1handed.png",
+      "sha256": "e9a2c56d12d363ad36f0b259cbe0c944cc197d025e7ea922ea18d5f305f06374"
+    },
+    {
+      "bytes": 22472,
+      "path": "packs/inventory-icons-3d/PNG/014_sword_2handed.png",
+      "sha256": "6692bb31e814a545830b1fd479a90f3e1f14bf5183fa8edcf8e70511097043db"
+    },
+    {
+      "bytes": 22239,
+      "path": "packs/inventory-icons-3d/PNG/015_sword_2handed_color.png",
+      "sha256": "aed0ebab06dfd6745413a3718e342ca44033d2a7d06fc5e6e2752d2be7cd9c21"
+    },
+    {
+      "bytes": 37650,
+      "path": "packs/inventory-icons-3d/PNG/016_Skeleton_Axe.png",
+      "sha256": "d556bab0e4eaf9b8c83cefc73a4c128977687ec614ed8e89fa45aebe1cde5b66"
+    },
+    {
+      "bytes": 53874,
+      "path": "packs/inventory-icons-3d/PNG/017_Skeleton_Shield_Large_A.png",
+      "sha256": "fba1b1bedb071ef947f8d34d23404c29a8bd2e4e25041e3bca7d39a2bb4c11d9"
+    },
+    {
+      "bytes": 41855,
+      "path": "packs/inventory-icons-3d/PNG/018_Skeleton_Shield_Large_B.png",
+      "sha256": "b44616f54df4fca36d923cd9b25dd8292b39b95058e36deca14799b057d733c6"
+    },
+    {
+      "bytes": 56523,
+      "path": "packs/inventory-icons-3d/PNG/019_Skeleton_Shield_Small_A.png",
+      "sha256": "ecc6ff0791ede56e33e85ef7b9d5dd2631cd191c6e4df4352414772c94c76613"
+    },
+    {
+      "bytes": 58100,
+      "path": "packs/inventory-icons-3d/PNG/020_Skeleton_Shield_Small_B.png",
+      "sha256": "c6b14dfb590a16fa0a4b9ab66f8f18dccc3327cafeae1fdf8e2a293ca1d474e6"
+    },
+    {
+      "bytes": 16948,
+      "path": "packs/inventory-icons-3d/PNG/021_Pallet_Wood.png",
+      "sha256": "f92de3bd8be7ffffcf08a7b1cd7369ee511d78f8782a60ad1906b4164ba6da64"
+    },
+    {
+      "bytes": 30608,
+      "path": "packs/inventory-icons-3d/PNG/022_Pallet_Wood_Covered_A.png",
+      "sha256": "a8f1255626d6e690ef84315fdee0899e76ad77eb74ce60d03e6cf1d6f8018430"
+    },
+    {
+      "bytes": 29979,
+      "path": "packs/inventory-icons-3d/PNG/023_Pallet_Wood_Covered_B.png",
+      "sha256": "018611d6770a4c23c90e737b79b7581d6dedc290e0c6e84665a5bd18e4237844"
+    },
+    {
+      "bytes": 14715,
+      "path": "packs/inventory-icons-3d/PNG/024_Stone_Brick.png",
+      "sha256": "9f587ac52dd82227f0a6eb51dcc01ebf32d30f5e9d5aae04485ee13246cf2043"
+    },
+    {
+      "bytes": 48541,
+      "path": "packs/inventory-icons-3d/PNG/025_Stone_Bricks_Stack_Large.png",
+      "sha256": "c3af78006902cdfaab02dad1cff9f8f7c4c7c0e7b3e05aaec4c7d379365807f2"
+    },
+    {
+      "bytes": 34849,
+      "path": "packs/inventory-icons-3d/PNG/026_Stone_Bricks_Stack_Medium.png",
+      "sha256": "aee00cbbbae4328701b984b6bf103f7e0d41a7f8b11f6d70cadb2bf3917f57ed"
+    },
+    {
+      "bytes": 28940,
+      "path": "packs/inventory-icons-3d/PNG/027_Stone_Bricks_Stack_Small.png",
+      "sha256": "08374a37713ac86e9d9043bb07f41590e1287b8793d2d16d0904740fb43ee735"
+    },
+    {
+      "bytes": 66713,
+      "path": "packs/inventory-icons-3d/PNG/028_Stone_Chunks_Large.png",
+      "sha256": "e74e0cc22abe25ec8ee84f7bd15063852be6ebec7a45a47884105c963343f906"
+    },
+    {
+      "bytes": 51733,
+      "path": "packs/inventory-icons-3d/PNG/029_Stone_Chunks_Small.png",
+      "sha256": "0ffea5a86e2ebd1f152040f989cd0e0d186405d86c1e716859529c2044a8de6c"
+    },
+    {
+      "bytes": 49380,
+      "path": "packs/inventory-icons-3d/PNG/030_Wood_Log_A.png",
+      "sha256": "14dac6caa666d3c4e7ea4203d0931068f57d6996df642244683e017d76d5cfa1"
+    },
+    {
+      "bytes": 48937,
+      "path": "packs/inventory-icons-3d/PNG/031_Wood_Log_B.png",
+      "sha256": "bb953ddc1321da3c1561d00da84e62e4b6b32aa3386203a2cb3c8c60afac0831"
+    },
+    {
+      "bytes": 92153,
+      "path": "packs/inventory-icons-3d/PNG/032_Wood_Log_Stack.png",
+      "sha256": "28c3ec78bf980f0ba426440acaf97e7d739a70dc37a07e7cff04f3922043121e"
+    },
+    {
+      "bytes": 11199,
+      "path": "packs/inventory-icons-3d/PNG/033_Wood_Plank_A.png",
+      "sha256": "9d48d615cd6abbfb15a06c65cee2cda9fd0338c24c63804218a59e9c3ef3c4ff"
+    },
+    {
+      "bytes": 12363,
+      "path": "packs/inventory-icons-3d/PNG/034_Wood_Plank_B.png",
+      "sha256": "91ebcbef6ba848e55fbc13a28197de1eab5fd0e97f326c558ef8bde541a2743d"
+    },
+    {
+      "bytes": 16728,
+      "path": "packs/inventory-icons-3d/PNG/035_Wood_Plank_C.png",
+      "sha256": "1e2a8318830e13c48f95468bdee989880f6927f91aaac1bccdd05e93d6470f6e"
+    },
+    {
+      "bytes": 69102,
+      "path": "packs/inventory-icons-3d/PNG/036_Wood_Planks_Stack_Large.png",
+      "sha256": "8a2758f3af9cf77cb3c75b77f434d3a77696e45521bef65cd0fd5aaff9b83f4b"
+    },
+    {
+      "bytes": 43045,
+      "path": "packs/inventory-icons-3d/PNG/037_Wood_Planks_Stack_Medium.png",
+      "sha256": "d2e7e00da88766e156cfc0ba969c5c8d84aa8e639031c4c341887db3992ae0db"
+    },
+    {
+      "bytes": 28981,
+      "path": "packs/inventory-icons-3d/PNG/038_Wood_Planks_Stack_Small.png",
+      "sha256": "d4c27f788be2d6a169d41e2b57e89a074a7964b2040f79e74edc8998a801d03c"
+    },
+    {
+      "bytes": 42708,
+      "path": "packs/inventory-icons-3d/PNG/039_axe.png",
+      "sha256": "f359fcf89a4dade267afa2872b026a84368d527ebd2c325139307daa94da33e3"
+    },
+    {
+      "bytes": 32393,
+      "path": "packs/inventory-icons-3d/PNG/040_grindstone.png",
+      "sha256": "d296cfdda042d12f6f752226ff692b7decc5e70b7782717af898ee95629106b5"
+    },
+    {
+      "bytes": 51923,
+      "path": "packs/inventory-icons-3d/PNG/041_hammer.png",
+      "sha256": "e78e9060782cedcfc5c08f47e461d3ef759a5b95a47b27e7d97648e4ed16ebb7"
+    },
+    {
+      "bytes": 21146,
+      "path": "packs/inventory-icons-3d/PNG/042_pickaxe.png",
+      "sha256": "37dc9a7f5acaa9ff5767c30657825bc55776cd335c35fc9c86561ba5955896ce"
+    },
+    {
+      "bytes": 11169,
+      "path": "packs/inventory-icons-3d/PNG/043_arrow.png",
+      "sha256": "2b5b932b5cae7abeace77ed34f7ff418b0341ef19e01c5d300cef1e6e4bc4353"
+    },
+    {
+      "bytes": 38419,
+      "path": "packs/inventory-icons-3d/PNG/044_arrow_bundle.png",
+      "sha256": "0edec3becd2c682ff542e9b6f7ab69a1bea82ba5bb5cecf2e87a6f9cf4db395f"
+    },
+    {
+      "bytes": 26999,
+      "path": "packs/inventory-icons-3d/PNG/045_crossbow_1handed.png",
+      "sha256": "0bd2f4dc8e062e1eae2b561e0b8d6e6efc87e9af31b3c3f56950384c258cd5c1"
+    },
+    {
+      "bytes": 26946,
+      "path": "packs/inventory-icons-3d/PNG/046_crossbow_2handed.png",
+      "sha256": "a0fd919470217547df9ad35e0ba8e195055b67f615e622c76991d2405f700453"
+    },
+    {
+      "bytes": 21486,
+      "path": "packs/inventory-icons-3d/PNG/047_dagger.png",
+      "sha256": "a9d1337dd3132e17a66d9addd2854ecf7e0cbf1395ab36f3f306c8353e81c0c7"
+    },
+    {
+      "bytes": 44932,
+      "path": "packs/inventory-icons-3d/PNG/048_mug_empty.png",
+      "sha256": "6c6d8e809c22009d1426c331a3a7ca08f8ad9a6e6f438bbc820886228098ec1d"
+    },
+    {
+      "bytes": 47342,
+      "path": "packs/inventory-icons-3d/PNG/049_mug_full.png",
+      "sha256": "ec2fe4334b2f36a4df6c78c91f467303c3bfa661c5b0bb7fb26b0404374101a4"
+    },
+    {
+      "bytes": 34282,
+      "path": "packs/inventory-icons-3d/PNG/050_quiver.png",
+      "sha256": "09dbbcd33604db7c49a0ce5b0106331c944b41646655912371fe4587ba461cc6"
+    },
+    {
+      "bytes": 43077,
+      "path": "packs/inventory-icons-3d/PNG/051_smokebomb.png",
+      "sha256": "4ae42e271770063706b4be33354d17b7e6d0541312cb52e53c54db612a5ad3b3"
+    },
+    {
+      "bytes": 26481,
+      "path": "packs/inventory-icons-3d/PNG/052_staff.png",
+      "sha256": "2e07bb14e8b9c63f37b84b5398f7d26d4837c53fc0af2ad172bce8f67f761351"
+    },
+    {
+      "bytes": 21931,
+      "path": "packs/inventory-icons-3d/PNG/053_wand.png",
+      "sha256": "1306ed01fda994ca9c4c954ef29b8779d75c0169eea9d3e3e64d5b303b60718c"
+    },
+    {
+      "bytes": 10578,
+      "path": "packs/inventory-icons-3d/PNG/054_Skeleton_Arrow.png",
+      "sha256": "ca67214983673c145e25c70211cbca96ea43e7e42d6c05397121dbd3bbdc5417"
+    },
+    {
+      "bytes": 14073,
+      "path": "packs/inventory-icons-3d/PNG/055_Skeleton_Arrow_Broken.png",
+      "sha256": "192c919525d34dab1b5176e7578b977b19b5b54d5ded579c6d8a8d0377cbc3cb"
+    },
+    {
+      "bytes": 12854,
+      "path": "packs/inventory-icons-3d/PNG/056_Skeleton_Arrow_Broken_Half.png",
+      "sha256": "d2488ed58a44bf0ad0dfe64e20df11f12463c67cb9831f62b6bff389b97e29c4"
+    },
+    {
+      "bytes": 12715,
+      "path": "packs/inventory-icons-3d/PNG/057_Skeleton_Arrow_Half.png",
+      "sha256": "0f7e2b0195344260ba52b8870ad29ad5bfb428e6b7fc5a122733165a66886e54"
+    },
+    {
+      "bytes": 31775,
+      "path": "packs/inventory-icons-3d/PNG/058_Skeleton_Blade.png",
+      "sha256": "9a957bac7587d91aa5ed6ebf4c582714b0e89d8c5ca4231ac7b87a11e3286e23"
+    },
+    {
+      "bytes": 28578,
+      "path": "packs/inventory-icons-3d/PNG/059_Skeleton_Crossbow.png",
+      "sha256": "1967c0c19ca22e756dcc14eda545bdfe3c7a4ab013b556c6a349a0bfede26fc7"
+    },
+    {
+      "bytes": 36314,
+      "path": "packs/inventory-icons-3d/PNG/060_Skeleton_Quiver.png",
+      "sha256": "606fdd1caa317579d465688d8200fed2b13326514e9da4c531180f180de947e5"
+    },
+    {
+      "bytes": 27598,
+      "path": "packs/inventory-icons-3d/PNG/061_Skeleton_Staff.png",
+      "sha256": "37e31bce893bfe80ce15f8107edbd2aab810b8d361450105aac867eb55fd1968"
+    },
+    {
+      "bytes": 45464,
+      "path": "packs/inventory-icons-3d/PNG/062_Copper_Bar.png",
+      "sha256": "ac013f5af62cb7687a13b4c91ab2219f2cc45cbd8878c2ddfd6425edc78317b1"
+    },
+    {
+      "bytes": 75034,
+      "path": "packs/inventory-icons-3d/PNG/063_Copper_Bars.png",
+      "sha256": "6d7cbf29aed4a65af00ed6f597f88d61a58eae0ca7db6ad2d8f58abb6f958055"
+    }
+  ],
+  "godot_import_tested": true,
+  "id": "inventory-icons-3d",
+  "license": "CC0-1.0",
+  "license_path": "packs/inventory-icons-3d/LICENSE.txt",
+  "license_text_sha256": "4fd11bf2984cdf86e1a34df0a1b3afda82577a1e0a88b5e438a140b96ec64737",
+  "model_count": 0,
+  "models": [],
+  "pixel_art": false,
+  "quality_review": "source previews reviewed; import and file integrity checked separately",
+  "archive_sha256": "c5d41c65eed9851ed1653587fa31b99ed2d5a50c713e25fcd43bbdab61cb3b4f",
+  "embedded_parts": [
+    "seed/archives/inventory-icons-3d.zip.part000",
+    "seed/archives/inventory-icons-3d.zip.part001",
+    "seed/archives/inventory-icons-3d.zip.part002",
+    "seed/archives/inventory-icons-3d.zip.part003"
+  ]
+}
