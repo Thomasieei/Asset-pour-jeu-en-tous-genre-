@@ -1,0 +1,39 @@
+{
+  "archive_sha256": "5e123859aa0c1598342b600c6db197024a1d63eb9ec531398b310725f589887e",
+  "author": "Kenney",
+  "category": "characters",
+  "checked": "2026-10-12",
+  "download": "https://kenney.nl/media/pages/assets/blocky-characters/8369c0cf30-1749547469/kenney_blocky-characters_20.zip",
+  "formats": [
+    "glb"
+  ],
+  "godot_import_tested": true,
+  "id": "blocky-characters",
+  "license": "CC0-1.0",
+  "license_path": "packs/blocky-characters/License.txt",
+  "license_text_sha256": "610fec89c16826112e9d6b80497b726c43fea0e42c9cd9d7cb081f8ad550c0ec",
+  "model_count": 18,
+  "models": [
+    "Models/GLB format/character-a.glb",
+    "Models/GLB format/character-b.glb",
+    "Models/GLB format/character-c.glb",
+    "Models/GLB format/character-d.glb",
+    "Models/GLB format/character-e.glb",
+    "Models/GLB format/character-f.glb",
+    "Models/GLB format/character-g.glb",
+    "Models/GLB format/character-h.glb",
+    "Models/GLB format/character-i.glb",
+    "Models/GLB format/character-j.glb",
+    "Models/GLB format/character-k.glb",
+    "Models/GLB format/character-l.glb",
+    "Models/GLB format/character-m.glb",
+    "Models/GLB format/character-n.glb",
+    "Models/GLB format/character-o.glb",
+    "Models/GLB format/character-p.glb",
+    "Models/GLB format/character-q.glb",
+    "Models/GLB format/character-r.glb"
+  ],
+  "source": "https://kenney.nl/assets/blocky-characters",
+  "status": "downloaded",
+  "stored_bytes": 3094244
+}

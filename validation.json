@@ -1,0 +1,10 @@
+{
+  "packs": 22,
+  "models": 2082,
+  "verified_model_hashes": 2082,
+  "verified_license_hashes": 22,
+  "local_godot_version": "4.3.stable",
+  "local_godot_load_failures": 0,
+  "mobile_performance_tested": false,
+  "note": "Remote files match the exact locally imported and verified model bytes."
+}
