@@ -1,0 +1,30 @@
+name: Populate asset bank
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/populate.yml'
+      - 'scripts/populate.py'
+      - 'seed/catalog.json.gz'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: populate-asset-bank
+  cancel-in-progress: false
+jobs:
+  populate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify original CC0 asset packs
+        run: python3 scripts/populate.py
+      - name: Publish models and catalog
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add packs catalog.json validation.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Import 22 CC0 packs and 2082 verified Godot models"
+          git push origin HEAD:main
