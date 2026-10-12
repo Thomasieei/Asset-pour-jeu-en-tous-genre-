@@ -1,0 +1,293 @@
+{
+  "note": "Existing file examples only. Review scale, style, texture dependencies and camera appearance before selection; this is not a map scene.",
+  "groups": {
+    "vegetation": [
+      {
+        "name": "Tree_1_A_Color1",
+        "path": "packs/kaykit-forest-free/Assets/gltf/Tree_1_A_Color1.gltf",
+        "pack": "kaykit-forest-free",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "Tree_1_B_Color1",
+        "path": "packs/kaykit-forest-free/Assets/gltf/Tree_1_B_Color1.gltf",
+        "pack": "kaykit-forest-free",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "Bush_1_A_Color1",
+        "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_A_Color1.gltf",
+        "pack": "kaykit-forest-free",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "Bush_1_B_Color1",
+        "path": "packs/kaykit-forest-free/Assets/gltf/Bush_1_B_Color1.gltf",
+        "pack": "kaykit-forest-free",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "Rock_1_A_Color1",
+        "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_A_Color1.gltf",
+        "pack": "kaykit-forest-free",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "Rock_1_B_Color1",
+        "path": "packs/kaykit-forest-free/Assets/gltf/Rock_1_B_Color1.gltf",
+        "pack": "kaykit-forest-free",
+        "license": "CC0-1.0"
+      }
+    ],
+    "camp_accessories": [
+      {
+        "name": "tent-canvas-half",
+        "path": "packs/survival-kit/Models/GLB format/tent-canvas-half.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "tent-canvas",
+        "path": "packs/survival-kit/Models/GLB format/tent-canvas.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "campfire-fishing-stand",
+        "path": "packs/survival-kit/Models/GLB format/campfire-fishing-stand.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "campfire-pit",
+        "path": "packs/survival-kit/Models/GLB format/campfire-pit.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "bedroll-frame",
+        "path": "packs/survival-kit/Models/GLB format/bedroll-frame.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "bedroll-packed",
+        "path": "packs/survival-kit/Models/GLB format/bedroll-packed.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "barrel-open",
+        "path": "packs/survival-kit/Models/GLB format/barrel-open.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "barrel",
+        "path": "packs/survival-kit/Models/GLB format/barrel.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "chest",
+        "path": "packs/survival-kit/Models/GLB format/chest.glb",
+        "pack": "survival-kit",
+        "license": "CC0-1.0"
+      }
+    ],
+    "bridges_and_nature": [
+      {
+        "name": "bridge_stone",
+        "path": "packs/nature-kit/Models/GLTF format/bridge_stone.glb",
+        "pack": "nature-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "bridge_stoneNarrow",
+        "path": "packs/nature-kit/Models/GLTF format/bridge_stoneNarrow.glb",
+        "pack": "nature-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "bridge_wood",
+        "path": "packs/nature-kit/Models/GLTF format/bridge_wood.glb",
+        "pack": "nature-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "bridge_woodNarrow",
+        "path": "packs/nature-kit/Models/GLTF format/bridge_woodNarrow.glb",
+        "pack": "nature-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "cliff_blockCave_rock",
+        "path": "packs/nature-kit/Models/GLTF format/cliff_blockCave_rock.glb",
+        "pack": "nature-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "cliff_blockDiagonal_rock",
+        "path": "packs/nature-kit/Models/GLTF format/cliff_blockDiagonal_rock.glb",
+        "pack": "nature-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "cliff_blockCave_stone",
+        "path": "packs/nature-kit/Models/GLTF format/cliff_blockCave_stone.glb",
+        "pack": "nature-kit",
+        "license": "CC0-1.0"
+      }
+    ],
+    "ruins_and_castle": [
+      {
+        "name": "rocks-large",
+        "path": "packs/castle-kit/Models/GLB format/rocks-large.glb",
+        "pack": "castle-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "rocks-small",
+        "path": "packs/castle-kit/Models/GLB format/rocks-small.glb",
+        "pack": "castle-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "wall-corner-half-tower",
+        "path": "packs/castle-kit/Models/GLB format/wall-corner-half-tower.glb",
+        "pack": "castle-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "wall-corner-half",
+        "path": "packs/castle-kit/Models/GLB format/wall-corner-half.glb",
+        "pack": "castle-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "siege-tower-demolished",
+        "path": "packs/castle-kit/Models/GLB format/siege-tower-demolished.glb",
+        "pack": "castle-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "siege-tower",
+        "path": "packs/castle-kit/Models/GLB format/siege-tower.glb",
+        "pack": "castle-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "stairs-stone-square",
+        "path": "packs/castle-kit/Models/GLB format/stairs-stone-square.glb",
+        "pack": "castle-kit",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "stairs-stone",
+        "path": "packs/castle-kit/Models/GLB format/stairs-stone.glb",
+        "pack": "castle-kit",
+        "license": "CC0-1.0"
+      }
+    ],
+    "dungeon_interior": [
+      {
+        "name": "stairs_wall_left.gltf",
+        "path": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/stairs_wall_left.gltf.glb",
+        "pack": "kaykit-dungeon-remastered-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "stairs_wall_right.gltf",
+        "path": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/stairs_wall_right.gltf.glb",
+        "pack": "kaykit-dungeon-remastered-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "bed_floor.gltf",
+        "path": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/bed_floor.gltf.glb",
+        "pack": "kaykit-dungeon-remastered-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "floor_dirt_large.gltf",
+        "path": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/floor_dirt_large.gltf.glb",
+        "pack": "kaykit-dungeon-remastered-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "stairs.gltf",
+        "path": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/stairs.gltf.glb",
+        "pack": "kaykit-dungeon-remastered-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "stairs_narrow.gltf",
+        "path": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/stairs_narrow.gltf.glb",
+        "pack": "kaykit-dungeon-remastered-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "pillar.gltf",
+        "path": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/pillar.gltf.glb",
+        "pack": "kaykit-dungeon-remastered-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "pillar_decorated.gltf",
+        "path": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/pillar_decorated.gltf.glb",
+        "pack": "kaykit-dungeon-remastered-1.0",
+        "license": "CC0-1.0"
+      }
+    ],
+    "buildings_check_scale": [
+      {
+        "name": "building_home_A_blue",
+        "path": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_home_A_blue.gltf",
+        "pack": "kaykit-medieval-hexagon-pack-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "building_home_B_blue",
+        "path": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_home_B_blue.gltf",
+        "pack": "kaykit-medieval-hexagon-pack-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "building_tower_A_blue",
+        "path": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_tower_A_blue.gltf",
+        "pack": "kaykit-medieval-hexagon-pack-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "building_tower_B_blue",
+        "path": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_tower_B_blue.gltf",
+        "pack": "kaykit-medieval-hexagon-pack-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "building_mine_blue",
+        "path": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_mine_blue.gltf",
+        "pack": "kaykit-medieval-hexagon-pack-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "building_mine_green",
+        "path": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/green/building_mine_green.gltf",
+        "pack": "kaykit-medieval-hexagon-pack-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "building_watermill_blue",
+        "path": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_watermill_blue.gltf",
+        "pack": "kaykit-medieval-hexagon-pack-1.0",
+        "license": "CC0-1.0"
+      },
+      {
+        "name": "building_watermill_green",
+        "path": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/green/building_watermill_green.gltf",
+        "pack": "kaykit-medieval-hexagon-pack-1.0",
+        "license": "CC0-1.0"
+      }
+    ]
+  }
+}
