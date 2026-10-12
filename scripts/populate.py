@@ -9,6 +9,11 @@ def valid(f):
     return path.is_file() and digest(path.read_bytes())==f['sha256']
 def populate():
     catalog=json.loads(gzip.decompress((ROOT/'seed/catalog.json.gz').read_bytes()))
+    with zipfile.ZipFile(ROOT/'seed/generated-dependencies.zip') as overlay:
+        for entry in overlay.infolist():
+            path=PurePosixPath(entry.filename)
+            if path.is_absolute() or '..' in path.parts or path.parts[0]!='packs':raise ValueError('Unsafe overlay path')
+            target=ROOT.joinpath(*path.parts);target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(overlay.read(entry))
     for pack in catalog['packs']:
         expected=pack.get('files') or [m for m in catalog['models'] if m['pack']==pack['id']]+[{'path':pack['license_path'],'sha256':pack['license_text_sha256']}]
         if all(valid(f) for f in expected):
