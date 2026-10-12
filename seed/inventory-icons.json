@@ -1,0 +1,258 @@
+[
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/axe_1handed.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/000_axe_1handed.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/axe_2handed.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/001_axe_2handed.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_badge.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/002_shield_badge.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_badge_color.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/003_shield_badge_color.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/004_shield_round.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round_barbarian.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/005_shield_round_barbarian.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_round_color.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/006_shield_round_color.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_spikes.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/007_shield_spikes.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_spikes_color.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/008_shield_spikes_color.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_square.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/009_shield_square.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/shield_square_color.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/010_shield_square_color.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/spellbook_closed.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/011_spellbook_closed.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/spellbook_open.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/012_spellbook_open.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_1handed.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/013_sword_1handed.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_2handed.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/014_sword_2handed.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/sword_2handed_color.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/015_sword_2handed_color.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Axe.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/016_Skeleton_Axe.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Large_A.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/017_Skeleton_Shield_Large_A.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Large_B.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/018_Skeleton_Shield_Large_B.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Small_A.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/019_Skeleton_Shield_Small_A.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Shield_Small_B.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/020_Skeleton_Shield_Small_B.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/021_Pallet_Wood.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood_Covered_A.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/022_Pallet_Wood_Covered_A.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Pallet_Wood_Covered_B.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/023_Pallet_Wood_Covered_B.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Stone_Brick.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/024_Stone_Brick.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Large.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/025_Stone_Bricks_Stack_Large.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Medium.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/026_Stone_Bricks_Stack_Medium.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Stone_Bricks_Stack_Small.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/027_Stone_Bricks_Stack_Small.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Stone_Chunks_Large.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/028_Stone_Chunks_Large.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Stone_Chunks_Small.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/029_Stone_Chunks_Small.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_A.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/030_Wood_Log_A.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_B.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/031_Wood_Log_B.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Log_Stack.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/032_Wood_Log_Stack.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_A.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/033_Wood_Plank_A.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_B.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/034_Wood_Plank_B.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Plank_C.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/035_Wood_Plank_C.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Large.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/036_Wood_Planks_Stack_Large.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Medium.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/037_Wood_Planks_Stack_Medium.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Wood_Planks_Stack_Small.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/038_Wood_Planks_Stack_Small.png"
+  },
+  {
+    "model": "packs/kaykit-rpg-tools-bits/Assets/gltf/axe.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/039_axe.png"
+  },
+  {
+    "model": "packs/kaykit-rpg-tools-bits/Assets/gltf/grindstone.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/040_grindstone.png"
+  },
+  {
+    "model": "packs/kaykit-rpg-tools-bits/Assets/gltf/hammer.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/041_hammer.png"
+  },
+  {
+    "model": "packs/kaykit-rpg-tools-bits/Assets/gltf/pickaxe.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/042_pickaxe.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/arrow.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/043_arrow.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/arrow_bundle.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/044_arrow_bundle.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/crossbow_1handed.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/045_crossbow_1handed.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/crossbow_2handed.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/046_crossbow_2handed.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/dagger.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/047_dagger.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/mug_empty.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/048_mug_empty.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/mug_full.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/049_mug_full.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/quiver.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/050_quiver.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/smokebomb.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/051_smokebomb.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/staff.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/052_staff.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Assets/gltf/wand.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/053_wand.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/054_Skeleton_Arrow.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Broken.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/055_Skeleton_Arrow_Broken.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Broken_Half.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/056_Skeleton_Arrow_Broken_Half.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Arrow_Half.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/057_Skeleton_Arrow_Half.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Blade.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/058_Skeleton_Blade.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Crossbow.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/059_Skeleton_Crossbow.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Quiver.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/060_Skeleton_Quiver.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Assets/gltf/Skeleton_Staff.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/061_Skeleton_Staff.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bar.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/062_Copper_Bar.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bars.gltf",
+    "icon": "packs/inventory-icons-3d/PNG/063_Copper_Bars.png"
+  }
+]

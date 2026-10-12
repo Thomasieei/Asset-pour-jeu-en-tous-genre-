@@ -1,9 +1,11 @@
-# Shared 3D bank — instructions for coding assistants
+# Instructions pour les assistants utilisant cette banque
 
-Read README.md and catalog.json before choosing assets. catalog.json lists every real model with its relative path, category, source pack, license, file size, SHA-256 and Godot import verification status. Search names and categories; do not invent paths.
+Lire catalog.json : packs décrit les sources/licences, models les GLB/glTF, assets les images/sons/scènes. Chercher par catégorie et nom, puis utiliser le chemin réel. Ne pas inventer d’asset ni annoncer une disponibilité non vérifiée.
 
-Use packs/<pack>/Models/GLTF format/*.glb where available. Preserve original relative texture dependencies when copying a glTF or OBJ model. Copy the relevant License.txt and SOURCE.json into the target game. CC0 licenses in this bank permit redistribution, but do not assume that new external downloads have the same license.
+Pour un RPG stylisé propre, privilégier KayKit Adventures/Skeletons, Dungeon Remastered, Forest, Medieval Hexagon, RPG Tools et Resource Bits. Choisir une palette et une échelle cohérentes. Block Bits est réservé aux jeux de construction à blocs. Les mannequins d’animation sont des supports techniques, pas des personnages finaux. Ne pas ajouter de pixel art ni de greybox comme art final.
 
-The bank is a source repository, not a single game. Models have been imported with Godot 4.3; this does not certify mobile FPS, rig compatibility, collisions, gameplay, or animations. Inspect the selected model before using it. Avoid copying all 2,082 models into one mobile game.
+Interfaces : privilégier les SVG et les PNG d’origine ; inventaire : packs/inventory-icons-3d/PNG, 512x512 transparents. Ne pas agrandir de minuscules rasters sans source vectorielle. Sons dans les packs Kenney audio, 6 scènes VFX dans godot-vfx-presets avec dépendance kenney-particle-pack. Ces scènes sont visuelles ; la logique de dégâts/inventaire appartient au jeu.
 
-Do not delete or rewrite other packs when adding assets. Update catalog.json with exact existing paths and source/license evidence. Keep raw authored assets; never commit the Godot .godot cache.
+Conserver les textures et BIN avec leur modèle, les chemins relatifs et les licences. Les animations KayKit nécessitent un rig Medium/Large compatible. godot_verified signifie import/chargement vérifié, pas FPS, collisions, gameplay ou rendu sur téléphone garanti. Contrôler performances et apparence dans le projet final. Ne copier que les assets nécessaires dans un APK.
+
+Les archives et empreintes sont figées ; ne pas accepter automatiquement une archive modifiée. Préserver les sources CC0 et les rapports quality. Les versions payantes EXTRA/SOURCE et Prototype Bits sont exclues.

@@ -1,0 +1,66 @@
+[
+  {
+    "model": "packs/kaykit-block-bits/Assets/gltf/bricks_A.gltf",
+    "icon": "quality/previews/kaykit-block-bits.png"
+  },
+  {
+    "model": "packs/kaykit-character-animations-1.1/Animations/gltf/Rig_Large/Rig_Large_CombatMelee.glb",
+    "icon": "quality/previews/kaykit-character-animations-1.1.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/Knight.glb",
+    "icon": "quality/previews/kaykit-character-pack-adventures-1.0.png"
+  },
+  {
+    "model": "packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Warrior.glb",
+    "icon": "quality/previews/kaykit-character-pack-skeletons-1.0.png"
+  },
+  {
+    "model": "packs/kaykit-city-builder-bits-1.0/addons/kaykit_city_builder_bits/Assets/gltf/base.gltf",
+    "icon": "quality/previews/kaykit-city-builder-bits-1.0.png"
+  },
+  {
+    "model": "packs/kaykit-dungeon-remastered-1.0/addons/kaykit_dungeon_remastered/Assets/gltf/table_long.gltf.glb",
+    "icon": "quality/previews/kaykit-dungeon-remastered-1.0.png"
+  },
+  {
+    "model": "packs/kaykit-forest-free/Assets/gltf/Bush_1_A_Color1.gltf",
+    "icon": "quality/previews/kaykit-forest-free.png"
+  },
+  {
+    "model": "packs/kaykit-furniture-bits-1.0/addons/kaykit_furniture_bits/Assets/gltf/lamp_table.gltf",
+    "icon": "quality/previews/kaykit-furniture-bits-1.0.png"
+  },
+  {
+    "model": "packs/kaykit-halloween-bits-1.0/addons/kaykit_halloween_bits/Assets/gltf/tree_pine_orange_large.gltf",
+    "icon": "quality/previews/kaykit-halloween-bits-1.0.png"
+  },
+  {
+    "model": "packs/kaykit-holiday-bits/Assets/gltf/gingerbread_house.gltf",
+    "icon": "quality/previews/kaykit-holiday-bits.png"
+  },
+  {
+    "model": "packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_castle_blue.gltf",
+    "icon": "quality/previews/kaykit-medieval-hexagon-pack-1.0.png"
+  },
+  {
+    "model": "packs/kaykit-platformer-free/Assets/gltf/blue/arch_blue.gltf",
+    "icon": "quality/previews/kaykit-platformer-free.png"
+  },
+  {
+    "model": "packs/kaykit-resource-bits/Assets/gltf/Copper_Bar.gltf",
+    "icon": "quality/previews/kaykit-resource-bits.png"
+  },
+  {
+    "model": "packs/kaykit-restaurant-bits-1.0/addons/kaykit_restaurant_bits/Assets/gltf/food_ingredient_vegetableburger_cooked.gltf",
+    "icon": "quality/previews/kaykit-restaurant-bits-1.0.png"
+  },
+  {
+    "model": "packs/kaykit-rpg-tools-bits/Assets/gltf/pickaxe.gltf",
+    "icon": "quality/previews/kaykit-rpg-tools-bits.png"
+  },
+  {
+    "model": "packs/kaykit-space-base-bits-1.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf",
+    "icon": "quality/previews/kaykit-space-base-bits-1.0.png"
+  }
+]

@@ -1,50 +1,40 @@
-# Banque 3D pour Godot — 2 082 modèles
+# Banque d’assets pour jeux — 53 packs gratuits
 
-22 packs téléchargés depuis Kenney, avec leurs fichiers réels, textures, licences CC0 et provenance.
+Fichiers réels, licences CC0 et catalogue pour Godot, Codex et Claude. **3 667 ressources 3D GLB/glTF** : modèles, accessoires et bibliothèques d’animations. Les variantes ne sont pas présentées comme des créations uniques.
 
-## Catalogue
+- **16 packs KayKit gratuits** : personnages, squelettes, donjons, forêt, village médiéval, outils RPG, ressources, mobilier, restaurant, ville, espace, plateforme et collections saisonnières.
+- **22 packs 3D Kenney** conservés : nature, véhicules, bâtiments, nourriture, pirates, terrain, science-fiction et autres décors.
+- **Interfaces et boutons** : UI Pack, Adventure, RPG Expansion ; sources SVG disponibles, icônes et commandes clavier/manette.
+- **64 icônes d’inventaire en PNG transparent 512 × 512**, rendues à partir des objets KayKit : armes, outils, boucliers et ressources.
+- **562 fichiers audio** : interfaces, inventaire, RPG, impacts, sons numériques, science-fiction et jingles.
+- **193 textures de particules** et **6 scènes VFX Godot** : impact, feu, soin, portail, butin et magie.
 
-| Pack | Catégorie | Modèles | Formats |
-|---|---|---:|---|
-| nature-kit | nature | 329 | glb |
-| castle-kit | medieval | 76 | glb |
-| fantasy-town-kit | medieval | 167 | glb |
-| survival-kit | survival | 80 | glb |
-| graveyard-kit | fantasy | 91 | glb |
-| pirate-kit | pirates | 72 | glb |
-| watercraft-kit | vehicles | 46 | glb |
-| car-kit | vehicles | 50 | glb |
-| racing-kit | vehicles | 112 | glb |
-| city-kit-commercial | city | 41 | glb |
-| city-kit-industrial | city | 37 | glb |
-| city-kit-suburban | city | 40 | glb |
-| city-kit-roads | city | 95 | glb |
-| modular-space-kit | scifi | 40 | glb |
-| space-kit | scifi | 153 | glb |
-| platformer-kit | platformer | 153 | glb |
-| furniture-kit | interiors | 140 | glb |
-| food-kit | props | 200 | glb |
-| mini-dungeon | dungeons | 30 | glb |
-| blaster-kit | weapons | 40 | glb |
-| blocky-characters | characters | 18 | glb |
-| hexagon-kit | terrain | 72 | glb |
+## Aperçus et qualité
 
-## Utilisation dans Godot
+![Exemples de modèles KayKit](quality/3d-review.jpg)
+![Icônes d’inventaire](quality/inventory-review.jpg)
+![Exemples d’interface](quality/media-review.jpg)
 
-Importer project.godot avec Godot 4.3 ou copier seulement les modèles choisis dans votre jeu. Les GLB contiennent les matériaux et peuvent être glissés dans une scène. Les dossiers originaux sont conservés pour garder les dépendances.
+Sélection de modèles stylisés et d’interfaces nettes, sans packs pixel art. Les images conservent leur résolution d’origine ; les interfaces vectorielles permettent de changer l’échelle proprement. Le low poly est un style 3D, pas une image pixelisée. Block Bits convient aux jeux de construction à blocs ; il n’est pas la direction artistique principale d’un RPG fantasy.
 
-catalog.json référence chaque modèle avec son chemin exact, son empreinte SHA-256, son pack et sa catégorie. AGENTS.md et CLAUDE.md expliquent aux assistants comment chercher et sélectionner les fichiers.
+Pour un beau jeu cohérent, commencer avec les personnages KayKit, Dungeon Remastered, Forest, Medieval Hexagon et RPG Tools. Utiliser UI Adventure/RPG et les icônes 3D associées. Ne pas mélanger toutes les catégories dans la même scène. Les mannequins du pack d’animations servent au rig et à la prévisualisation.
 
-## Licences
+Vérifications : chargement dans Godot 4.3 de **1 585 nouvelles ressources 3D et 7 943 ressources média**, aucune erreur ; dépendances glTF et empreintes des fichiers contrôlées ; sons décodés ; rendus représentatifs des 16 packs KayKit et des 64 icônes inspectés. Les 2 082 modèles précédents restent vérifiés. La revue visuelle ne couvre pas chaque objet sous chaque angle. Les performances sur téléphone restent à mesurer dans le jeu final. Détails : [rapport](quality/report.json), [validation](validation.json).
 
-Chaque pack conserve License.txt et SOURCE.json. Les licences incluses indiquent CC0/Public Domain. L’auteur est Kenney. Les modèles sont redistribuables ; conserver les licences et sources dans les projets facilite la traçabilité.
+## Utilisation
 
-## Vérification
+Ouvrir `project.godot` avec Godot 4.3, laisser l’import se terminer, puis glisser les modèles dans une scène. Copier seulement les packs nécessaires dans le jeu final en conservant textures, fichiers BIN et chemins relatifs. La banque complète n’est pas destinée à être intégralement embarquée dans un APK.
 
-Le champ godot_verified indique le résultat de l’import et du chargement en PackedScene avec Godot 4.3. Ce test ne mesure pas les performances sur téléphone, ne garantit pas de collisions et ne certifie pas de squelette ou d’animations.
+`catalog.json` contient `packs`, `models` et `assets`, avec chemins exacts, catégories, licences, empreintes SHA-256 et résultats d’import. Les modèles indiquent leurs triangles, animations et présence d’un squelette lorsque disponibles. Les médias sont indexés séparément ; les tailles, variantes et feuilles d’icônes ne correspondent pas à autant d’objets uniques.
 
-## Publication sur GitHub
+Les animations KayKit sont organisées pour Rig Medium et Rig Large : choisir le rig compatible avec le personnage. Les 6 scènes dans `packs/godot-vfx-presets` nécessitent `kenney-particle-pack`. Leur méthode `play()` relance l’effet ; elles n’implémentent pas les dégâts ou les règles du jeu.
 
-Le contenu de ce dossier est prêt à être ajouté dans un dépôt. Ne pas envoyer .godot/ ni les fichiers .import générés. Le dépôt GitHub doit être accessible en écriture à l’assistant pour permettre une publication. La banque téléchargée existe indépendamment de cette étape. Le workflow Populate asset bank importe automatiquement les modèles et leur catalogue ; validation.json enregistre la réussite du contrôle des empreintes.
+## Licences et provenance
 
-Deux candidats indisponibles au moment de la collecte sont documentés dans catalog.json : dungeon-kit et weapon-pack. Aucune archive vide ne les remplace.
+Les packs inclus sont CC0, utilisables et redistribuables, y compris commercialement. Conserver les documents de licence et `SOURCE.json` pour retrouver leur provenance. Holiday Bits ne fournit pas de licence dans son archive : `LICENSE-SOURCE.md` conserve explicitement la déclaration CC0 de la page officielle. Les icônes d’inventaire sont des rendus des modèles KayKit ; leur fichier source est indiqué dans `seed/inventory-icons.json`.
+
+Inclus : les versions gratuites vérifiées du catalogue KayKit. Exclus : Prototype Bits (greybox), les éditions payantes EXTRA/SOURCE et les packs pixel art. Ceci ne prétend pas inclure les collections payantes de l’auteur.
+
+## Reproduction de la banque
+
+Le workflow GitHub importe les archives officielles Kenney et les révisions KayKit figées sur GitHub. Les téléchargements gratuits itch.io et nos rendus sont conservés sous forme d’archives runtime dans `seed/archives`. Chaque fichier indexé est vérifié par empreinte avant publication. Aucun lien de téléchargement temporaire n’est nécessaire. `python3 scripts/populate.py` reproduit les fichiers et les rapports.
