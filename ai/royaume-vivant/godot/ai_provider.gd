@@ -48,7 +48,7 @@ func rule_based(text: String) -> Dictionary:
 	for pair in [["maison","house"],["palissade","wall"],["muraille","wall"],["route","road"],["chemin","road"]]:
 		if pair[0] in t:return {"npc_id":"aldric","intent":"build","building_type":pair[1],"reason":"demande_souverain"}
 	return {"npc_id":"soren","intent":"unknown","building_type":"none","reason":"instruction_non_comprise"}
-func validate(intent: Dictionary, sim: KingdomSimulation) -> bool:
+func validate(intent: Dictionary, sim: Object) -> bool:
 	if not sim.npcs.has(str(intent.get("npc_id",""))):return false
 	var kind := str(intent.get("intent",""))
 	if kind=="build":return intent.npc_id=="aldric" and sim.buildings.has(str(intent.get("building_type","")))
