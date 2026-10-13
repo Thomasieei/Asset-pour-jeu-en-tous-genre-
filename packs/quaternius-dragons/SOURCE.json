@@ -1,0 +1,52 @@
+{
+  "id": "quaternius-dragons",
+  "author": "Quaternius",
+  "source": "https://quaternius.com/packs/ultimatemonsters.html",
+  "license": "CC0-1.0",
+  "license_path": "packs/quaternius-dragons/LICENSE-SOURCE.md",
+  "license_text_sha256": "71f915f74ee0668ca06a6d9027ad0023af1688987d4d84922336afe364cfa201",
+  "category": "dragons",
+  "models": [
+    "packs/quaternius-dragons/Dragon_Evolved.gltf"
+  ],
+  "model_count": 1,
+  "assets": [
+    "packs/quaternius-dragons/Dragon_Evolved_Atlas_Monsters.png",
+    "packs/quaternius-dragons/previews/Dragon_Evolved.png"
+  ],
+  "asset_count": 2,
+  "files": [
+    {
+      "path": "packs/quaternius-dragons/Dragon_Evolved.gltf",
+      "sha256": "39ba6ea24b5f27acf68bbf4c19fe80ba070dbec167ff14bbe933453303426f5c",
+      "bytes": 991335
+    },
+    {
+      "path": "packs/quaternius-dragons/Dragon_Evolved_Atlas_Monsters.png",
+      "sha256": "ce8ee9c55f5eb7249372c033d1fd2a35381d4eeed2eea971997067694455eb04",
+      "bytes": 927
+    },
+    {
+      "path": "packs/quaternius-dragons/LICENSE-SOURCE.md",
+      "sha256": "71f915f74ee0668ca06a6d9027ad0023af1688987d4d84922336afe364cfa201",
+      "bytes": 760
+    },
+    {
+      "path": "packs/quaternius-dragons/README.md",
+      "sha256": "5e5c10a75166eb48bdc5c8230df41b55cec316924b96d966c0aeb1d6889476c6",
+      "bytes": 768
+    },
+    {
+      "path": "packs/quaternius-dragons/previews/Dragon_Evolved.png",
+      "sha256": "f6ce4df1abe115c48781cdc4bcf8baecbd56c14479f2447e4ec3c8f6acb28600",
+      "bytes": 36048
+    }
+  ],
+  "pixel_art": false,
+  "godot_import_tested": true,
+  "checked": "2026-10-13",
+  "quality_review": "Every included model rendered and visually reviewed in Godot; all 8 dragon animation clips played in load test.",
+  "status": "published",
+  "embedded_archive": "seed/archives/quaternius-dragons.zip",
+  "archive_sha256": "749cd6e5e7bfc556b39aefa6027de4bb21a9d51aa28fa3b136cb691ace511da5"
+}

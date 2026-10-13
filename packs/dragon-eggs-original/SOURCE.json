@@ -1,0 +1,70 @@
+{
+  "id": "dragon-eggs-original",
+  "author": "Original asset-bank creation",
+  "source": "Original procedural 3D creation for this repository",
+  "license": "CC0-1.0",
+  "license_path": "packs/dragon-eggs-original/LICENSE.txt",
+  "license_text_sha256": "9f72dd703f9171f3a8b862001cb12bced49393d96dbc49f70cf787ecc276e1e8",
+  "category": "dragon-eggs",
+  "models": [
+    "packs/dragon-eggs-original/DragonEgg_Emerald.glb",
+    "packs/dragon-eggs-original/DragonEgg_Fire.glb",
+    "packs/dragon-eggs-original/DragonEgg_Ice.glb"
+  ],
+  "model_count": 3,
+  "assets": [
+    "packs/dragon-eggs-original/previews/DragonEgg_Emerald.png",
+    "packs/dragon-eggs-original/previews/DragonEgg_Fire.png",
+    "packs/dragon-eggs-original/previews/DragonEgg_Ice.png"
+  ],
+  "asset_count": 3,
+  "files": [
+    {
+      "path": "packs/dragon-eggs-original/DragonEgg_Emerald.glb",
+      "sha256": "aae82c4460826544190b3a057a4465b8bfa58bc33f4c4edd5aa3a640389c61da",
+      "bytes": 187272
+    },
+    {
+      "path": "packs/dragon-eggs-original/DragonEgg_Fire.glb",
+      "sha256": "12231ff84765ee031779092f16f9895ccaab913988afab880bd22182a559b668",
+      "bytes": 187272
+    },
+    {
+      "path": "packs/dragon-eggs-original/DragonEgg_Ice.glb",
+      "sha256": "45a38dd2ec2b7e8c7552846624722efb62c5b9c7ca451cab0b0babef125686da",
+      "bytes": 187268
+    },
+    {
+      "path": "packs/dragon-eggs-original/LICENSE.txt",
+      "sha256": "9f72dd703f9171f3a8b862001cb12bced49393d96dbc49f70cf787ecc276e1e8",
+      "bytes": 337
+    },
+    {
+      "path": "packs/dragon-eggs-original/README.md",
+      "sha256": "90e717d4d9ccde43f92b2ed4bd901ef5fb4304b6c60803e8d4edde1087f76249",
+      "bytes": 675
+    },
+    {
+      "path": "packs/dragon-eggs-original/previews/DragonEgg_Emerald.png",
+      "sha256": "e916f9ec6d907b2f34d4c1bf76c8834701f441422f07332ba0dddd209a32b9b3",
+      "bytes": 58885
+    },
+    {
+      "path": "packs/dragon-eggs-original/previews/DragonEgg_Fire.png",
+      "sha256": "c50693b91aae9b7110112dc50c7a09be0a71ad265fd04a6bd3f9378ec0926afd",
+      "bytes": 58983
+    },
+    {
+      "path": "packs/dragon-eggs-original/previews/DragonEgg_Ice.png",
+      "sha256": "56315003dfc185b651e3f3b51fbcdab93bae1c3450eb8885537b3fd0ef7d456f",
+      "bytes": 62548
+    }
+  ],
+  "pixel_art": false,
+  "godot_import_tested": true,
+  "checked": "2026-10-13",
+  "quality_review": "Every included model rendered and visually reviewed in Godot; all 8 dragon animation clips played in load test.",
+  "status": "published",
+  "embedded_archive": "seed/archives/dragon-eggs-original.zip",
+  "archive_sha256": "5c6d048e5025fd04681c3065bc7dd0f0c348476c5da84dcb50dcfe1ec15ff340"
+}

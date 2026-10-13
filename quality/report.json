@@ -1,8 +1,8 @@
 {
   "checked": "2026-10-12",
-  "packs": 53,
+  "packs": 55,
   "kaykit_free_packs": 16,
-  "model_resources": 3667,
+  "model_resources": 3671,
   "new_model_loads": 1585,
   "new_media_loads": 7943,
   "load_failures": 0,
@@ -21,5 +21,12 @@
     "paid EXTRA/SOURCE tiers",
     "pixel-art packs"
   ],
-  "mobile_performance_tested": false
+  "mobile_performance_tested": false,
+  "dragon_addition": {
+    "checked": "2026-10-13",
+    "models_loaded": 4,
+    "dragon_animations_played": 8,
+    "visual_review": "All four new models rendered and reviewed",
+    "report": "quality/dragon-validation.json"
+  }
 }

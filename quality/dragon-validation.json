@@ -1,0 +1,30 @@
+{
+  "godot_version": "4.3.stable",
+  "mobile_performance_tested": false,
+  "models": [
+    {
+      "animations_played": 8,
+      "godot_loaded": true,
+      "path": "packs/quaternius-dragons/Dragon_Evolved.gltf",
+      "triangles": 7440
+    },
+    {
+      "animations_played": 0,
+      "godot_loaded": true,
+      "path": "packs/dragon-eggs-original/DragonEgg_Emerald.glb",
+      "triangles": 6614
+    },
+    {
+      "animations_played": 0,
+      "godot_loaded": true,
+      "path": "packs/dragon-eggs-original/DragonEgg_Fire.glb",
+      "triangles": 6614
+    },
+    {
+      "animations_played": 0,
+      "godot_loaded": true,
+      "path": "packs/dragon-eggs-original/DragonEgg_Ice.glb",
+      "triangles": 6614
+    }
+  ]
+}

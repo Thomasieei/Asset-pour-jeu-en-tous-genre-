@@ -1,6 +1,6 @@
-# Banque d’assets pour jeux — 53 packs gratuits
+# Banque d’assets pour jeux — 55 packs gratuits
 
-Fichiers réels, licences CC0 et catalogue pour Godot, Codex et Claude. **3 667 ressources 3D GLB/glTF** : modèles, accessoires et bibliothèques d’animations. Les variantes ne sont pas présentées comme des créations uniques.
+Fichiers réels, licences CC0 et catalogue pour Godot, Codex et Claude. **3 671 ressources 3D GLB/glTF** : modèles, accessoires et bibliothèques d’animations. Les variantes ne sont pas présentées comme des créations uniques.
 
 - **16 packs KayKit gratuits** : personnages, squelettes, donjons, forêt, village médiéval, outils RPG, ressources, mobilier, restaurant, ville, espace, plateforme et collections saisonnières.
 - **22 packs 3D Kenney** conservés : nature, véhicules, bâtiments, nourriture, pirates, terrain, science-fiction et autres décors.
@@ -8,6 +8,8 @@ Fichiers réels, licences CC0 et catalogue pour Godot, Codex et Claude. **3 667 
 - **64 icônes d’inventaire en PNG transparent 512 × 512**, rendues à partir des objets KayKit : armes, outils, boucliers et ressources.
 - **562 fichiers audio** : interfaces, inventaire, RPG, impacts, sons numériques, science-fiction et jingles.
 - **193 textures de particules** et **6 scènes VFX Godot** : impact, feu, soin, portail, butin et magie.
+
+- **Dragon Evolved animé** : huit animations ; **trois œufs 3D sculptés** (feu, glace, émeraude). [Dragon](packs/quaternius-dragons/README.md) · [Œufs](packs/dragon-eggs-original/README.md)
 
 ## Aperçus et qualité
 
