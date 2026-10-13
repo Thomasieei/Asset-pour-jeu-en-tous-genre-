@@ -1,0 +1,22 @@
+{
+  "godot": "4.7.2.stable.official.ed1daf0bf",
+  "llama_build": "b11598",
+  "model": {
+    "source": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q8_0.gguf",
+    "bytes": 639446688,
+    "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031"
+  },
+  "apk": {
+    "bytes": 37836923,
+    "sha256": "665891946e5885828a24246651f87a9422f9afc10355020d44b6fff7cacf5cf4",
+    "installed_on_device": false
+  },
+  "host": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "android_local_llm_integrated": false,
+  "delivered_model": {
+    "file": "Qwen3-0.6B-Q4_K_M-requantized.gguf",
+    "bytes": 396704416,
+    "sha256": "15e434d8ddf0af38fe3f7003af6ce6eac4edada6df34324aa45979f9cc79f02e",
+    "modification": "Requantized from official Q8_0 using llama-quantize b11598 --allow-requantize Q4_K_M"
+  }
+}

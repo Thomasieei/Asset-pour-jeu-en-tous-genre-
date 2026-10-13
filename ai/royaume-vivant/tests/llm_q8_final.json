@@ -1,0 +1,82 @@
+[
+  {
+    "input": "Construisez une maison pour notre nouvelle habitante.",
+    "seconds": 1.0152169560001312,
+    "output": "{\n  \"action\": \"build_house\",\n  \"reason\": \"Construisez une maison pour notre nouvelle habitante.\"\n}",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 97,
+      "prompt_ms": 450.825,
+      "prompt_per_token_ms": 4.647680412371134,
+      "prompt_per_second": 215.1610935507126,
+      "predicted_n": 29,
+      "predicted_ms": 557.875,
+      "predicted_per_token_ms": 19.924107142857142,
+      "predicted_per_second": 50.19045485099709
+    }
+  },
+  {
+    "input": "Il nous faut davantage de nourriture.",
+    "seconds": 0.8875077719999354,
+    "output": "{\n  \"action\": \"prioritize_food\",\n  \"reason\": \"Il nous faut davantage de nourriture.\"\n}",
+    "timings": {
+      "cache_n": 71,
+      "prompt_n": 23,
+      "prompt_ms": 131.971,
+      "prompt_per_token_ms": 5.737869565217392,
+      "prompt_per_second": 174.28071318698804,
+      "predicted_n": 31,
+      "predicted_ms": 752.341,
+      "predicted_per_token_ms": 25.078033333333334,
+      "predicted_per_second": 39.8755351629115
+    }
+  },
+  {
+    "input": "Construisez une palissade près du pont.",
+    "seconds": 1.0732465189998948,
+    "output": "{\n  \"action\": \"build_wall\",\n  \"reason\": \"Construisez une palissade près du pont pour sécuriser le passage et protéger les routes.\"\n}",
+    "timings": {
+      "cache_n": 71,
+      "prompt_n": 26,
+      "prompt_ms": 114.32,
+      "prompt_per_token_ms": 4.396923076923077,
+      "prompt_per_second": 227.43177046885938,
+      "predicted_n": 44,
+      "predicted_ms": 948.66,
+      "predicted_per_token_ms": 22.06186046511628,
+      "predicted_per_second": 45.32709295216411
+    }
+  },
+  {
+    "input": "Faites une route entre la forge et la mine.",
+    "seconds": 0.7719880799998009,
+    "output": "{\n  \"action\": \"build_road\",\n  \"reason\": \"The user is asking to build a route between the forge and the mine.\"\n}",
+    "timings": {
+      "cache_n": 71,
+      "prompt_n": 25,
+      "prompt_ms": 128.753,
+      "prompt_per_token_ms": 5.150119999999999,
+      "prompt_per_second": 194.17023292661145,
+      "predicted_n": 32,
+      "predicted_ms": 640.276,
+      "predicted_per_token_ms": 20.65406451612903,
+      "predicted_per_second": 48.41662033248162
+    }
+  },
+  {
+    "input": "Envoie Kael patrouiller vers les gobelins.",
+    "seconds": 0.8666578750001008,
+    "output": "{\n  \"action\": \"patrol\",\n  \"reason\": \"Kael is patrolling to observe and possibly investigate the gobelins.\"\n}",
+    "timings": {
+      "cache_n": 71,
+      "prompt_n": 26,
+      "prompt_ms": 144.948,
+      "prompt_per_token_ms": 5.574923076923077,
+      "prompt_per_second": 179.37467229627174,
+      "predicted_n": 31,
+      "predicted_ms": 714.919,
+      "predicted_per_token_ms": 23.83063333333333,
+      "predicted_per_second": 41.962795785256795
+    }
+  }
+]

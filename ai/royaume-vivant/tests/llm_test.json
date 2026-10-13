@@ -1,0 +1,82 @@
+[
+  {
+    "input": "Construisez une maison pour notre nouvelle habitante.",
+    "seconds": 0.7289907619997393,
+    "output": "{\n  \"action\": \"build_house\",\n  \"reason\": \"Construisez une maison pour notre nouvelle habitante.\"\n}",
+    "timings": {
+      "cache_n": 0,
+      "prompt_n": 97,
+      "prompt_ms": 236.198,
+      "prompt_per_token_ms": 2.4350309278350517,
+      "prompt_per_second": 410.6724019678405,
+      "predicted_n": 33,
+      "predicted_ms": 485.852,
+      "predicted_per_token_ms": 15.182875,
+      "predicted_per_second": 65.86367865111187
+    }
+  },
+  {
+    "input": "Il nous faut davantage de nourriture.",
+    "seconds": 0.7946043619999728,
+    "output": "{\n  \"action\": \"prioritize_food\",\n  \"reason\": \"Il nous faut davantage de nourriture pour continuer à construire ou à gérer les ressources.\"\n}",
+    "timings": {
+      "cache_n": 71,
+      "prompt_n": 23,
+      "prompt_ms": 85.042,
+      "prompt_per_token_ms": 3.6974782608695653,
+      "prompt_per_second": 270.4545989040709,
+      "predicted_n": 44,
+      "predicted_ms": 706.496,
+      "predicted_per_token_ms": 16.430139534883722,
+      "predicted_per_second": 60.863755774979616
+    }
+  },
+  {
+    "input": "Construisez une palissade près du pont.",
+    "seconds": 0.7742308040001262,
+    "output": "{\n  \"action\": \"build_wall\",\n  \"reason\": \"A palissade is a defensive wall, so building it near a bridge or path is appropriate.\"\n}",
+    "timings": {
+      "cache_n": 71,
+      "prompt_n": 26,
+      "prompt_ms": 100.782,
+      "prompt_per_token_ms": 3.876230769230769,
+      "prompt_per_second": 257.98257625369615,
+      "predicted_n": 40,
+      "predicted_ms": 670.509,
+      "predicted_per_token_ms": 17.19253846153846,
+      "predicted_per_second": 58.164767363301614
+    }
+  },
+  {
+    "input": "Faites une route entre la forge et la mine.",
+    "seconds": 0.7081606299998384,
+    "output": "{\n  \"action\": \"build_road\",\n  \"reason\": \"The action is to build a road between the forge and the mine.\"\n}",
+    "timings": {
+      "cache_n": 71,
+      "prompt_n": 25,
+      "prompt_ms": 106.476,
+      "prompt_per_token_ms": 4.25904,
+      "prompt_per_second": 234.79469551823885,
+      "predicted_n": 35,
+      "predicted_ms": 596.462,
+      "predicted_per_token_ms": 17.543,
+      "predicted_per_second": 57.00279313686371
+    }
+  },
+  {
+    "input": "Envoie Kael patrouiller vers les gobelins.",
+    "seconds": 0.6672209039998052,
+    "output": "{\n  \"action\": \"patrol\",\n  \"reason\": \"Patrouille is an action to patrol and investigate, so the correct action is 'patrol'.\"\n}",
+    "timings": {
+      "cache_n": 71,
+      "prompt_n": 26,
+      "prompt_ms": 104.51,
+      "prompt_per_token_ms": 4.019615384615385,
+      "prompt_per_second": 248.78002105061717,
+      "predicted_n": 37,
+      "predicted_ms": 559.822,
+      "predicted_per_token_ms": 15.550611111111111,
+      "predicted_per_second": 64.30615445623788
+    }
+  }
+]

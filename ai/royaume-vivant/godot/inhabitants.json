@@ -1,0 +1,302 @@
+[
+  {
+    "id": "aldric",
+    "name": "Aldric",
+    "profession": "Architecte",
+    "traits": [
+      "sérieux",
+      "méticuleux",
+      "perfectionniste"
+    ],
+    "ambition": "Devenir architecte royal",
+    "model": "Rogue",
+    "home": [
+      -14,
+      -12
+    ],
+    "work": [
+      -7,
+      -5
+    ],
+    "job": "design",
+    "skill": 1.15,
+    "color": "#d4b467",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Une fondation solide vaut mieux qu’une promesse."
+  },
+  {
+    "id": "bronn",
+    "name": "Bronn",
+    "profession": "Bûcheron",
+    "traits": [
+      "bourru",
+      "grincheux",
+      "loyal"
+    ],
+    "ambition": "Posséder une scierie",
+    "model": "Barbarian",
+    "home": [
+      -7,
+      -12
+    ],
+    "work": [
+      -30,
+      -13
+    ],
+    "job": "wood",
+    "skill": 1.0,
+    "color": "#ca7857",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Encore du bois ? Bon… pour le village."
+  },
+  {
+    "id": "mira",
+    "name": "Mira",
+    "profession": "Agricultrice",
+    "traits": [
+      "gentille",
+      "optimiste",
+      "protectrice"
+    ],
+    "ambition": "Rendre le village autosuffisant",
+    "model": "Rogue_Hooded",
+    "home": [
+      0,
+      -12
+    ],
+    "work": [
+      17,
+      -13
+    ],
+    "job": "food",
+    "skill": 1.1,
+    "color": "#8fcc6a",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Je veille à ce que Valdora prospère."
+  },
+  {
+    "id": "kael",
+    "name": "Kael",
+    "profession": "Chef des gardes",
+    "traits": [
+      "courageux",
+      "discipliné",
+      "méfiant"
+    ],
+    "ambition": "Former une armée",
+    "model": "Knight",
+    "home": [
+      7,
+      -12
+    ],
+    "work": [
+      26,
+      4
+    ],
+    "job": "guard",
+    "skill": 1.2,
+    "color": "#6cb5ed",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Je veille à ce que Valdora prospère."
+  },
+  {
+    "id": "nessa",
+    "name": "Nessa",
+    "profession": "Marchande",
+    "traits": [
+      "maligne",
+      "bavarde",
+      "ambitieuse"
+    ],
+    "ambition": "Ouvrir un grand marché",
+    "model": "Rogue",
+    "home": [
+      14,
+      -12
+    ],
+    "work": [
+      9,
+      6
+    ],
+    "job": "trade",
+    "skill": 1.1,
+    "color": "#cf8dde",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Je veille à ce que Valdora prospère."
+  },
+  {
+    "id": "doran",
+    "name": "Doran",
+    "profession": "Forgeron",
+    "traits": [
+      "fier",
+      "passionné",
+      "susceptible"
+    ],
+    "ambition": "Créer une arme légendaire",
+    "model": "Barbarian",
+    "home": [
+      -14,
+      14
+    ],
+    "work": [
+      -16,
+      4
+    ],
+    "job": "tools",
+    "skill": 1.2,
+    "color": "#dc8d50",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Je veille à ce que Valdora prospère."
+  },
+  {
+    "id": "elia",
+    "name": "Elia",
+    "profession": "Guérisseuse",
+    "traits": [
+      "calme",
+      "empathique",
+      "prudente"
+    ],
+    "ambition": "Construire une infirmerie",
+    "model": "Mage",
+    "home": [
+      -7,
+      14
+    ],
+    "work": [
+      -24,
+      23
+    ],
+    "job": "herbs",
+    "skill": 1.0,
+    "color": "#81dccc",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Je veille à ce que Valdora prospère."
+  },
+  {
+    "id": "finn",
+    "name": "Finn",
+    "profession": "Mineur",
+    "traits": [
+      "drôle",
+      "maladroit",
+      "enthousiaste"
+    ],
+    "ambition": "Découvrir une grotte mystérieuse",
+    "model": "Barbarian",
+    "home": [
+      0,
+      14
+    ],
+    "work": [
+      -35,
+      18
+    ],
+    "job": "ore",
+    "skill": 0.9,
+    "color": "#eed76d",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Si je tombe sur une grotte, vous serez le premier averti !"
+  },
+  {
+    "id": "lyra",
+    "name": "Lyra",
+    "profession": "Charpentière",
+    "traits": [
+      "créative",
+      "indépendante",
+      "déterminée"
+    ],
+    "ambition": "Créer un atelier personnel",
+    "model": "Rogue_Hooded",
+    "home": [
+      7,
+      14
+    ],
+    "work": [
+      -10,
+      -4
+    ],
+    "job": "craft",
+    "skill": 1.15,
+    "color": "#ce7198",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Je veille à ce que Valdora prospère."
+  },
+  {
+    "id": "soren",
+    "name": "Soren",
+    "profession": "Intendant",
+    "traits": [
+      "intelligent",
+      "diplomate",
+      "anxieux"
+    ],
+    "ambition": "Faire du village une capitale prospère",
+    "model": "Mage",
+    "home": [
+      14,
+      14
+    ],
+    "work": [
+      0,
+      6
+    ],
+    "job": "manage",
+    "skill": 1.0,
+    "color": "#94a5e8",
+    "schedule": {
+      "wake": 6,
+      "work": 8,
+      "rest": 19,
+      "sleep": 22
+    },
+    "motto": "Je veille à ce que Valdora prospère."
+  }
+]

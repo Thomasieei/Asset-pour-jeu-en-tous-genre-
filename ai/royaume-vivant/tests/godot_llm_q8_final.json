@@ -1,0 +1,121 @@
+[
+	{
+		"output": {
+			"building_type": "house",
+			"intent": "build",
+			"npc_id": "aldric",
+			"reason": "The simulation fact shows that food is 80 units, which is sufficient to build a house."
+		},
+		"pass": true,
+		"source": "Qwen local",
+		"test": "Ordre Godot vers LLM local"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "aldric",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ aldric"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "bronn",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ bronn"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "mira",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ mira"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "kael",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ kael"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "nessa",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ nessa"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "doran",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ doran"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "elia",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ elia"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "finn",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ finn"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "lyra",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ lyra"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "soren",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": true,
+		"test": "Profil PNJ soren"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "bronn",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": false,
+		"test": "Bronn fatigué"
+	},
+	{
+		"output": {
+			"intent": "continue_work",
+			"npc_id": "mira",
+			"reason": "energy >= 35 and food >= 25 and ore >= 8"
+		},
+		"pass": false,
+		"test": "Mira pénurie"
+	}
+]

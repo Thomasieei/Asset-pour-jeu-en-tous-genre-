@@ -1,0 +1,31 @@
+name: Publish Royaume Vivant local AI
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'ai/royaume-vivant/**'
+      - '.github/workflows/royaume-vivant-ai.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: royaume-vivant-ai-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ai/royaume-vivant
+      - name: Download, verify and package the actual local model
+        run: python3 ai/royaume-vivant/build_bundle.py
+      - name: Publish model weights, CPU runtime and licenses
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view royaume-vivant-ia-v1 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release create royaume-vivant-ia-v1 --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "Royaume Vivant — Qwen3 local AI" --notes-file ai/royaume-vivant/RELEASE_NOTES.md
+          fi
+          gh release upload royaume-vivant-ia-v1 dist/Royaume-Vivant-IA-Locale.zip dist/SHA256SUMS.txt --repo "$GITHUB_REPOSITORY" --clobber
