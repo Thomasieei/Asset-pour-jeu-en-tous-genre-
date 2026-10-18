@@ -77,6 +77,7 @@ func _jouer_animation(hints: Array) -> void:
 func _process(delta: float) -> void:
 	tick += delta
 	temps_action += delta
+	_animer_secours(delta)
 	besoins.fatigue = clampf(besoins.fatigue + delta * 0.09,0,100)
 	besoins.faim = clampf(besoins.faim + delta * 0.035,0,100)
 	stats.mana = minf(stats.mana_max, stats.mana + delta * 0.12)
@@ -246,3 +247,28 @@ func charger() -> void:
 			set(key,data[key])
 	if data.get("position",[]) is Array and data.position.size() == 3:
 		position_depart = Vector3(float(data.position[0]),float(data.position[1]),float(data.position[2]))
+
+func _animer_secours(delta: float) -> void:
+	if visual == null:
+		return
+	var inclinaison := 0.0
+	var hauteur := 0.0
+	match action:
+		"dormir":
+			inclinaison = 1.4
+			hauteur = 0.35
+		"accroupir":
+			hauteur = -0.35
+		"sauter":
+			hauteur = absf(sin(temps_action * 4.0)) * 0.75
+		"marcher","rentrer":
+			hauteur = absf(sin(temps_action * 8.0)) * 0.06
+		"courir":
+			hauteur = absf(sin(temps_action * 13.0)) * 0.12
+			inclinaison = -0.16
+		"esquiver":
+			inclinaison = sin(temps_action * 5.0) * 0.55
+		"attaquer":
+			inclinaison = sin(temps_action * 5.0) * 0.22
+	visual.rotation.z = lerp_angle(visual.rotation.z,inclinaison,minf(1.0,delta * 9.0))
+	visual.position.y = lerpf(visual.position.y,hauteur,minf(1.0,delta * 12.0))
