@@ -3,6 +3,7 @@ config_version=5
 [application]
 config/name="Loïc - Monde Vivant (prototype)"
 run/main_scene="res://loic/scenes/monde_loic.tscn"
+run/max_fps=60
 config/features=PackedStringArray("4.3", "GL Compatibility")
 
 [display]

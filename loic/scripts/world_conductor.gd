@@ -93,13 +93,15 @@ func observe() -> Dictionary:
 func think() -> void:
 	if thinking or not autonomous or work_queue.size() >= 2:
 		return
-	if use_qwen:
+	var avatar = get_parent().get("avatar")
+	var near_village: bool = avatar == null or avatar.position.length()<65
+	if use_qwen and near_village:
 		var prompt := "Tu gères un monde Godot. Observe les faits et choisis une seule action parmi " + str(INTENTS) + ". Priorité nourriture, ressources renouvelables, maisons puis embellissement. Ne récolte que des arbres/champs mûrs. Réponds uniquement JSON {\"action\":\"...\",\"raison\":\"...\"}. Tu commandes les outils du moteur; tu ne modifies pas du code. /no_think"
 		var payload := {"model":"local","messages":[{"role":"system","content":prompt},{"role":"user","content":JSON.stringify(observe())+" /no_think"}],"temperature":0.3,"max_tokens":160,"response_format":{"type":"json_schema","json_schema":{"name":"world_intent","strict":true,"schema":{"type":"object","properties":{"action":{"type":"string","enum":INTENTS},"raison":{"type":"string"}},"required":["action","raison"],"additionalProperties":false}}},"chat_template_kwargs":{"enable_thinking":false}}
 		thinking = true
 		var error: Error
 		if LoicAIConfig.local_mode():
-			error = get_tree().root.get_node("LocalModel").request(payload,_qwen_response)
+			error = get_tree().root.get_node("LocalModel").request(payload,_qwen_response,1,"world_intent")
 		else:
 			error = server.request(endpoint,LoicAIConfig.headers(),HTTPClient.METHOD_POST,JSON.stringify(payload))
 		if error == OK:
@@ -299,19 +301,11 @@ func _visualize(item: Dictionary) -> void:
 	pivot.scale = Vector3.ONE * maxf(0.15,float(item.growth))
 
 func save_world() -> void:
-	var f := FileAccess.open(SAVE,FileAccess.WRITE)
-	if f:
-		f.store_string(JSON.stringify({"version":2,"population":population,"nourriture":nourriture,"bois":bois,"pierre":pierre,"age":world_age,"next_id":next_id,"objectif":objective,"instructions":instructions,"constructions":constructions,"travaux":work_queue}))
+	StateStore.write_json(SAVE,{"version":2,"population":population,"nourriture":nourriture,"bois":bois,"pierre":pierre,"age":world_age,"next_id":next_id,"objectif":objective,"instructions":instructions,"constructions":constructions,"travaux":work_queue})
 
 func load_world() -> void:
-	if not FileAccess.file_exists(SAVE):
-		return
-	var f := FileAccess.open(SAVE,FileAccess.READ)
-	if f == null:
-		return
-	var data = JSON.parse_string(f.get_as_text())
-	if not data is Dictionary:
-		return
+	var data := StateStore.read_json(SAVE)
+	if data.is_empty(): return
 	population = int(data.get("population",3))
 	nourriture = int(data.get("nourriture",65))
 	bois = int(data.get("bois",100))

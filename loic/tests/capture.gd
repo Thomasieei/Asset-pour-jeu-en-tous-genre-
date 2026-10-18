@@ -12,6 +12,11 @@ func capture() -> void:
 			for resident in scene.conductor.workers:
 				resident._physics_process(0.2)
 		scene.camera.size = 52
+	var destination := int(OS.get_environment("LOIC_PREVIEW_REGION"))
+	if destination>0:
+		scene.realm.travel(destination)
+		scene.avatar.created = true
+		scene.player_ui._refresh_targets()
 	await create_timer(2).timeout
 	await RenderingServer.frame_post_draw
 	var path := OS.get_environment("LOIC_CAPTURE_PATH")

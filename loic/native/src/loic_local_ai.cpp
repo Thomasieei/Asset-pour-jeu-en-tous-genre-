@@ -21,6 +21,7 @@ protected:
     static void _bind_methods() {
         ClassDB::bind_method(D_METHOD("load_model", "path", "threads"), &LoicLocalAI::load_model);
         ClassDB::bind_method(D_METHOD("generate", "prompt", "grammar", "max_tokens"), &LoicLocalAI::generate);
+        ClassDB::bind_method(D_METHOD("token_count", "text"), &LoicLocalAI::token_count);
         ClassDB::bind_method(D_METHOD("cancel"), &LoicLocalAI::cancel);
     }
 public:
@@ -48,6 +49,12 @@ public:
         context = llama_init_from_model(model, ctx_params);
         if (!context) { llama_model_free(model); model = nullptr; return false; }
         return true;
+    }
+    int token_count(String text) {
+        std::lock_guard<std::mutex> guard(lock);
+        if (!model) return 0;
+        auto bytes = text.utf8();
+        return -llama_tokenize(llama_model_get_vocab(model),bytes.get_data(),bytes.length(),nullptr,0,true,true);
     }
     void cancel() { stopped.store(true); }
     String generate(String input, String grammar, int limit) {

@@ -1,10 +1,15 @@
 {
-  "apk_bytes": 420299514,
-  "apk_sha256": "a3bcb8071ad3a582bc997dd9eb4753487be407763bd27b451eca0ea69b238565",
+  "version": "0.3-world",
+  "apk_bytes": 426143965,
+  "apk_sha256": "57b877d1011e7f1731284c1920ed5e0aa8b660cff1a2c0ec1c5c491496d5edda",
   "model_sha256": "15e434d8ddf0af38fe3f7003af6ce6eac4edada6df34324aa45979f9cc79f02e",
   "architecture": "arm64-v8a",
   "android_device_execution_tested": false,
   "native_inference_tested_on": "Linux",
   "network_permission": false,
-  "signing": "apksigner v1/v2/v3 verified"
+  "world_extent_m": 2000,
+  "max_loaded_chunks": 9,
+  "persistent_creatures": 32,
+  "max_active_creatures": 6,
+  "signing": "apksigner v1/v2/v3 verified; same certificate as v0.2"
 }

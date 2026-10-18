@@ -10,21 +10,37 @@ var backend: Object
 var active: Dictionary = {}
 var loaded := false
 var failed := false
+var completed := 0
+var last_duration := 0.0
+var suspended := false
+var active_canceled := false
 
 func _ready() -> void:
 	if LoicAIConfig.local_mode() and LoicAIConfig.enabled():
 		queue.append({"warmup":true})
 
-func request(body: Dictionary, callback: Callable) -> Error:
+func request(body: Dictionary, callback: Callable, priority: int = 1, key: String = "") -> Error:
 	if failed or not ClassDB.class_exists("LoicLocalAI"): return ERR_UNAVAILABLE
-	if queue.size() >= 5: return ERR_BUSY
-	queue.append({"body":body.duplicate(true),"callback":callback})
+	if not key.is_empty():
+		for job in queue:
+			if job.get("key","") == key:
+				job.body = body.duplicate(true)
+				job.callback = callback
+				job.created = Time.get_ticks_msec()
+				return OK
+	if queue.size() >= 6: return ERR_BUSY
+	queue.append({"body":body.duplicate(true),"callback":callback,"priority":priority,"key":key,"created":Time.get_ticks_msec()})
+	queue.sort_custom(func(a: Dictionary,b: Dictionary): return int(a.get("priority",100))>int(b.get("priority",100)))
 	return OK
 
 func _process(_delta: float) -> void:
+	if suspended: return
 	if thread != null and not thread.is_alive():
 		var result: Dictionary = thread.wait_to_finish()
 		thread = null
+		if active_canceled: result["text"] = ""
+		last_duration = float(result.get("duration",0))
+		completed += 1
 		loaded = bool(result.get("loaded",false))
 		failed = not loaded
 		_set_status("Qwen local prêt · sans Internet" if loaded else "IA indisponible · réponses simples")
@@ -37,6 +53,11 @@ func _process(_delta: float) -> void:
 		active = {}
 	if thread == null and not queue.is_empty():
 		active = queue.pop_front()
+		active_canceled = false
+		if not active.get("warmup",false) and Time.get_ticks_msec()-int(active.get("created",0))>45000:
+			if active.callback.is_valid(): active.callback.call(HTTPRequest.RESULT_TIMEOUT,408,PackedStringArray(),PackedByteArray())
+			active = {}
+			return
 		if backend == null and ClassDB.class_exists("LoicLocalAI"):
 			backend = ClassDB.instantiate("LoicLocalAI")
 		if backend == null:
@@ -54,7 +75,7 @@ func _set_status(text: String) -> void:
 
 func _model_present(path: String) -> bool:
 	var file := FileAccess.open(path,FileAccess.READ)
-	return file != null and file.get_length() == MODEL_SIZE
+	return file != null and file.get_length() == MODEL_SIZE and FileAccess.get_sha256(path)==MODEL_SHA
 
 func _infer(job: Dictionary) -> Dictionary:
 	if not loaded:
@@ -72,13 +93,22 @@ func _infer(job: Dictionary) -> Dictionary:
 			return {"loaded":false}
 	if job.get("warmup",false): return {"loaded":true}
 	var body: Dictionary = job.body
-	var prompt := ""
-	for message in body.get("messages",[]):
-		prompt += "<|im_start|>"+str(message.get("role","user"))+"\n"+str(message.get("content","")).left(4500)+"<|im_end|>\n"
-	prompt += "<|im_start|>assistant\n<think>\n\n</think>\n\n"
+	var started := Time.get_ticks_msec()
+	var messages: Array = body.get("messages",[]).duplicate(true)
+	var prompt := _prompt(messages)
+	while backend.token_count(prompt)>1650 and messages.size()>2:
+		messages.remove_at(1)
+		prompt = _prompt(messages)
+	if backend.token_count(prompt)>1800: return {"loaded":true,"text":""}
 	var grammar := _grammar(body)
 	var text: String = backend.generate(prompt,grammar,mini(int(body.get("max_tokens",120)),160))
-	return {"loaded":true,"text":text.strip_edges()}
+	return {"loaded":true,"text":text.strip_edges(),"duration":float(Time.get_ticks_msec()-started)/1000}
+
+func _prompt(messages: Array) -> String:
+	var prompt := ""
+	for message in messages:
+		prompt += "<|im_start|>"+str(message.get("role","user"))+"\n"+str(message.get("content","")).left(4500)+"<|im_end|>\n"
+	return prompt+"<|im_start|>assistant\n<think>\n\n</think>\n\n"
 
 func _grammar(body: Dictionary) -> String:
 	var format: Dictionary = body.get("response_format",{})
@@ -98,3 +128,11 @@ func _grammar(body: Dictionary) -> String:
 func _exit_tree() -> void:
 	if backend: backend.cancel()
 	if thread != null: thread.wait_to_finish()
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_APPLICATION_PAUSED:
+		suspended = true
+		active_canceled = true
+		if backend: backend.cancel()
+	elif what == NOTIFICATION_APPLICATION_RESUMED:
+		suspended = false

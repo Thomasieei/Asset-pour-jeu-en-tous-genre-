@@ -1,6 +1,6 @@
 # Loïc — monde vivant relié à Godot 4.3
 
-**Version Android autonome ajoutée : [installation, commandes et limites](ANDROID.md).**
+**Version Android autonome V0.3 : [installation, commandes et limites](ANDROID.md).**
 Qwen peut désormais fonctionner dans l’APK, sans ordinateur ni serveur.
 Les instructions ci-dessous concernent principalement le lancement sur ordinateur.
 

@@ -22,9 +22,10 @@ shutil.copy(ROOT/'loic/native/libloic_ai.linux.x86_64.so',dest/'loic/native/libl
 paths=set()
 characters='packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/'
 for name in ['Knight','Mage','Rogue','Barbarian']: paths.add(characters+name+'.glb')
-paths.add('packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Warrior.glb')
+for name in ['Skeleton_Warrior','Skeleton_Mage','Skeleton_Rogue','Skeleton_Minion']:
+    paths.add('packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/'+name+'.glb')
 for name in ['Tree_1_A_Color1','Tree_2_A_Color1','Rock_1_A_Color1']: paths.add('packs/kaykit-forest-free/Assets/gltf/'+name+'.gltf')
-for name in ['home_A','blacksmith','market','windmill','well']:
+for name in ['home_A','blacksmith','market','windmill','well','tower_A','barracks']:
     paths.add('packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_'+name+'_blue.gltf')
 paths.add('packs/nature-kit/Models/GLTF format/crops_wheatStageB.glb')
 

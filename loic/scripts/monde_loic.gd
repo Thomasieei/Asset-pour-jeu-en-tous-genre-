@@ -1,5 +1,6 @@
 extends Node3D
 const LOIC = preload("res://loic/scripts/loic_agent.gd")
+var realm: WorldStream
 var avatar: PlayerAvatar
 var player_ui: PlayerUI
 var admin_panel: PanelContainer
@@ -49,6 +50,9 @@ func _ready() -> void:
 	avatar.world = conductor
 	avatar.view_camera = camera
 	add_child(avatar)
+	realm = WorldStream.new()
+	realm.host = self
+	add_child(realm)
 	_creer_interface()
 	player_ui = PlayerUI.new()
 	player_ui.host = self
@@ -154,9 +158,9 @@ func _creer_interface() -> void:
 		row.add_child(b)
 		b.pressed.connect(_action.bind(choice))
 	var monster := Button.new()
-	monster.text = "Faire apparaître un monstre"
+	monster.text = "Explorer la lisière des monstres"
 	v.add_child(monster)
-	monster.pressed.connect(_apparition_monstre)
+	monster.pressed.connect(func(): realm.travel(1))
 	var develop := Button.new()
 	develop.text = "Monde : décider du prochain travail"
 	v.add_child(develop)
@@ -291,7 +295,8 @@ func _process(delta: float) -> void:
 		_refresh()
 	if brain_clock >= (45.0 if LoicAIConfig.local_mode() else 12.0) and loic != null and brain != null:
 		brain_clock = 0
-		brain.ponder(loic, WorldEyes.observe(loic))
+		if avatar.position.distance_to(loic.position)<35:
+			brain.ponder(loic, WorldEyes.observe(loic))
 	if encounter_mesh != null:
 		encounter_mesh.visible = loic.ennemi_proche
 

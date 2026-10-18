@@ -6,6 +6,11 @@ var display_name := "Thomas"
 var appearance := "Rogue"
 var created := false
 var conversations: Dictionary = {}
+var memories: Dictionary = {}
+var health := 100.0
+var experience := 0
+var world_extent := 1000.0
+var attack_cooldown := 0.0
 var model: Node3D
 var animator: AnimationPlayer
 var name_label: Label3D
@@ -63,11 +68,13 @@ func move_input(direction: Vector2, delta: float) -> void:
 	var forward := Vector3(view_camera.global_basis.z.x,0,view_camera.global_basis.z.z).normalized()
 	var heading := (right*direction.x+forward*direction.y).normalized()
 	var next := world.steer(position,position+heading*3,delta*4.2)
-	position = Vector3(clampf(next.x,-42,42),0,clampf(next.z,-42,42))
+	position = Vector3(clampf(next.x,-world_extent,world_extent),0,clampf(next.z,-world_extent,world_extent))
 	model.rotation.y = atan2(heading.x,heading.z)
 	_play("Walking_A")
 
 func _physics_process(delta: float) -> void:
+	attack_cooldown = maxf(0,attack_cooldown-delta)
+	if position.length()<30: health = minf(100,health+delta)
 	var direction := joystick
 	if not get_viewport().gui_get_focus_owner() is LineEdit:
 		direction += Vector2(float(Input.is_physical_key_pressed(KEY_D) or Input.is_physical_key_pressed(KEY_RIGHT))-float(Input.is_physical_key_pressed(KEY_Q) or Input.is_physical_key_pressed(KEY_A) or Input.is_physical_key_pressed(KEY_LEFT)),float(Input.is_physical_key_pressed(KEY_S) or Input.is_physical_key_pressed(KEY_DOWN))-float(Input.is_physical_key_pressed(KEY_Z) or Input.is_physical_key_pressed(KEY_W) or Input.is_physical_key_pressed(KEY_UP)))
@@ -90,25 +97,50 @@ func _physics_process(delta: float) -> void:
 		save_profile()
 
 func remember(target: String, role: String, text: String) -> void:
+	if role == "user": NpcMemory.remember(memories,target,text)
 	if not conversations.has(target): conversations[target] = []
 	conversations[target].append({"role":role,"content":text.left(600)})
 	while conversations[target].size() > 12: conversations[target].pop_front()
 	save_profile()
 
 func save_profile() -> void:
-	var file := FileAccess.open(SAVE,FileAccess.WRITE)
-	if file: file.store_string(JSON.stringify({"name":display_name,"appearance":appearance,"created":created,"position":[position.x,position.z],"conversations":conversations}))
+	StateStore.write_json(SAVE,{"name":display_name,"appearance":appearance,"created":created,"position":[position.x,position.z],"conversations":conversations,"memories":memories,"health":health,"experience":experience})
 
 func load_profile() -> void:
-	if not FileAccess.file_exists(SAVE): return
-	var file := FileAccess.open(SAVE,FileAccess.READ)
-	if not file: return
-	var data = JSON.parse_string(file.get_as_text())
-	if not data is Dictionary: return
+	var data := StateStore.read_json(SAVE)
+	if data.is_empty(): return
 	display_name = str(data.get("name",display_name)).left(24)
 	appearance = str(data.get("appearance",appearance))
 	if appearance not in MODELS: appearance = "Rogue"
 	created = bool(data.get("created",false))
 	var p = data.get("position",[2,5])
-	if p is Array and p.size() == 2: position = Vector3(clampf(float(p[0]),-42,42),0,clampf(float(p[1]),-42,42))
+	if p is Array and p.size() == 2: position = Vector3(clampf(float(p[0]),-world_extent,world_extent),0,clampf(float(p[1]),-world_extent,world_extent))
 	if data.get("conversations",{}) is Dictionary: conversations = data.get("conversations",{})
+
+	if data.get("memories",{}) is Dictionary: memories = data.get("memories",{})
+	health = clampf(float(data.get("health",100)),1,100)
+	experience = maxi(0,int(data.get("experience",0)))
+
+func take_damage(amount: float) -> void:
+	health = maxf(0,health-maxf(0,amount))
+	if health <= 0:
+		position = Vector3(2,0,5)
+		health = 100
+		has_destination = false
+		joystick = Vector2.ZERO
+		save_profile()
+
+func strike(realm: WorldStream) -> bool:
+	if attack_cooldown>0: return false
+	var nearest: Node3D
+	var distance := 3.0
+	for creature in realm.creatures.values():
+		var d: float = position.distance_to(creature.position)
+		if float(creature.state.health)>0 and d<distance and WorldEyes.has_line_of_sight(self,creature):
+			nearest = creature
+			distance = d
+	if not nearest: return false
+	attack_cooldown = 1.2
+	_play("1H_Melee_Attack_Chop")
+	nearest.take_damage(15)
+	return true

@@ -5,6 +5,7 @@ var job: Dictionary = {}
 var model: Node3D
 var label: Label3D
 var time := 0.0
+var eyes_clock := 0.0
 var fatigue := 0.0
 var eyes: Dictionary = {}
 var world: Node3D
@@ -52,7 +53,9 @@ func available() -> bool:
 
 func _physics_process(delta: float) -> void:
 	time += delta
-	if int(time * 10) % 30 == 0:
+	eyes_clock += delta
+	if eyes_clock>=3:
+		eyes_clock = 0
 		eyes = WorldEyes.observe(self)
 	if job.is_empty():
 		fatigue = maxf(0,fatigue - delta * 4)

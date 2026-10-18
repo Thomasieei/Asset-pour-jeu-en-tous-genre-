@@ -47,7 +47,7 @@ func ponder(agent: Node3D, situation: Dictionary) -> void:
 	pending = true
 	var err: Error
 	if LoicAIConfig.local_mode():
-		err = get_tree().root.get_node("LocalModel").request(request_body,_received)
+		err = get_tree().root.get_node("LocalModel").request(request_body,_received,1,"loic_intent")
 	else:
 		err = http.request(ENDPOINT,LoicAIConfig.headers(),HTTPClient.METHOD_POST,JSON.stringify(request_body))
 	if err != OK:

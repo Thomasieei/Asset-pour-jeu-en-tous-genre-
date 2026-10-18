@@ -15,6 +15,7 @@ var request_target := "Loïc"
 var request_phrase := ""
 var http: HTTPRequest
 var clock := 0.0
+var map_dialog: AcceptDialog
 
 func _ready() -> void:
 	avatar = host.avatar
@@ -29,7 +30,7 @@ func _ready() -> void:
 	var bar := HBoxContainer.new()
 	bar.position = Vector2(18,14)
 	root.add_child(bar)
-	for label in ["Mon personnage","Discuter","Gestion","Me retrouver","+","−"]:
+	for label in ["Mon personnage","Discuter","Gestion","Me retrouver","Carte","Frapper","+","−"]:
 		var button := Button.new()
 		button.text = label
 		button.custom_minimum_size.y = 46
@@ -39,6 +40,8 @@ func _ready() -> void:
 			"Discuter": button.pressed.connect(func(): panel.visible = not panel.visible)
 			"Gestion": button.pressed.connect(func(): host.admin_panel.visible = not host.admin_panel.visible)
 			"Me retrouver": button.pressed.connect(func(): host.follow_player = true)
+			"Carte": button.pressed.connect(func(): map_dialog.popup_centered(Vector2i(500,420)))
+			"Frapper": button.pressed.connect(func(): avatar.strike(host.realm))
 			"+": button.pressed.connect(func(): host.camera.size = maxf(16,host.camera.size-4))
 			"−": button.pressed.connect(func(): host.camera.size = minf(90,host.camera.size+4))
 	status_label = Label.new()
@@ -100,6 +103,17 @@ func _ready() -> void:
 	v.add_child(send)
 	send.pressed.connect(send_message)
 	_show_history()
+	map_dialog = AcceptDialog.new()
+	map_dialog.title = "Monde 2 km × 2 km · voyages de démonstration"
+	add_child(map_dialog)
+	var places := VBoxContainer.new()
+	map_dialog.add_child(places)
+	for i in range(WorldStream.LANDMARKS.size()):
+		var place := Button.new()
+		place.text = WorldStream.LANDMARKS[i].name
+		place.custom_minimum_size.y = 48
+		places.add_child(place)
+		place.pressed.connect(func(): host.realm.travel(i); map_dialog.hide())
 	profile = ConfirmationDialog.new()
 	profile.title = "Ton habitant"
 	profile.min_size = Vector2i(440,260)
@@ -154,7 +168,7 @@ func _person(name_: String) -> Node3D:
 	if name_ == "Loïc": return host.loic
 	for worker in host.conductor.workers:
 		if worker.worker_name == name_: return worker
-	return null
+	return host.realm.find_creature(name_)
 
 func _join() -> void:
 	var person := _person(target.get_item_text(target.selected))
@@ -179,6 +193,7 @@ func send_message() -> void:
 	if person and avatar.position.distance_to(person.position) > 7:
 		output.text = "Tu es trop loin. Utilise « Rejoindre » ou approche-toi avec le cercle tactile."
 		return
+	if person is WorldCreature: person.hear(phrase,avatar.display_name)
 	request_phrase = phrase
 	avatar.remember(request_target,"user",phrase)
 	text_input.clear()
@@ -188,13 +203,16 @@ func send_message() -> void:
 		_fallback()
 		return
 	var description: String = {"Loïc":"chevalier de 24 ans, optimiste et curieux, qui croit vivre dans un monde parfait","Élise":"habitante soigneuse et patiente qui cultive et construit pour aider son village","Garen":"habitant sérieux, garde et bâtisseur, attaché à la prudence et au travail","Monde":"intelligence qui organise le village"}.get(request_target,"")
-	var prompt := "Tu es "+request_target+", "+description+". Tu parles au nouvel habitant "+avatar.display_name+". Réponds en français en deux phrases courtes. Reste dans le monde du village. Ne prétends jamais avoir exécuté une action. /no_think"
+	if person is WorldCreature: description = "monstre nommé, " + str(person.state.personality)
+	var facts: Dictionary = {"ressources":{"bois":host.conductor.bois,"pierre":host.conductor.pierre,"nourriture":host.conductor.nourriture},"region":host.realm.region_name(avatar.position),"souvenirs_pertinents":NpcMemory.recall(avatar.memories,request_target,phrase)}
+	if person is WorldCreature: facts["etat_individuel"] = person.facts()
+	var prompt := "Tu es "+request_target+", "+description+". Tu parles au nouvel habitant "+avatar.display_name+". Réponds en français en une ou deux phrases courtes. Tu n’as aucun lien familial avec le joueur. Ne répète pas sa question. Reste dans le monde du village. Ne prétends jamais avoir exécuté une action. Si tu ne sais pas, dis-le. Faits vérifiés : "+JSON.stringify(facts)+" /no_think"
 	var messages: Array = [{"role":"system","content":prompt}]
 	messages.append_array(avatar.conversations.get(request_target,[]).slice(-6))
 	var body := {"model":"local","messages":messages,"temperature":0.5,"max_tokens":100,"chat_template_kwargs":{"enable_thinking":false}}
 	pending = true
 	var err: Error
-	if LoicAIConfig.local_mode(): err = get_tree().root.get_node("LocalModel").request(body,_response)
+	if LoicAIConfig.local_mode(): err = get_tree().root.get_node("LocalModel").request(body,_response,3,"dialogue_"+request_target)
 	else: err = http.request(LoicAIConfig.endpoint(),LoicAIConfig.headers(),HTTPClient.METHOD_POST,JSON.stringify(body))
 	if err != OK:
 		pending = false
@@ -212,7 +230,7 @@ func _response(result: int, code: int, _headers: PackedStringArray, bytes: Packe
 				var message = choices[0].get("message",{})
 				if message is Dictionary:
 					var answer := str(message.get("content","")).strip_edges()
-					if not answer.is_empty():
+					if DialogueGuard.accepts(answer,request_phrase):
 						_finish(answer)
 						return
 	_fallback()
@@ -231,6 +249,9 @@ func _fallback() -> void:
 		elif "récolt" in phrase or "recolt" in phrase: action = "recolter"
 		if not action.is_empty():
 			answer = "Travail ajouté : "+action.replace("_"," ") if host.conductor.propose(action,"Demande de "+avatar.display_name) else "Je ne peux pas encore lancer ce travail : vérifions les ressources, la maturité et les travaux en cours."
+	elif _person(request_target) is WorldCreature:
+		var creature: WorldCreature = _person(request_target)
+		answer = "Je suis "+request_target+". "+("Reste à distance de mon territoire." if float(creature.state.trust)<0 else "Tu peux me parler, tant que tu respectes mon territoire.")
 	elif "nom" in phrase: answer = "Je m'appelle Loïc, j'ai 24 ans. Et je suis heureux de faire ta connaissance !"
 	_finish("[Réponse simple] "+answer)
 
@@ -246,11 +267,30 @@ func _process(delta: float) -> void:
 	clock += delta
 	if clock < 0.5 or not status_label: return
 	clock = 0
+	_refresh_targets()
 	var ai: String = str(get_tree().root.get_node("LocalModel").get("status")) if LoicAIConfig.local_mode() else "Mode ordinateur"
 	if not LoicAIConfig.enabled(): ai = "Réponses simples"
-	status_label.text = avatar.display_name+" · "+ai
+	status_label.text = avatar.display_name+" · %d PV · %d XP · " % [int(avatar.health),avatar.experience]+ai+"\n"+host.realm.region_name(avatar.position)+" · x%d z%d · %d FPS\n%d zones chargées · %d monstres actifs" % [int(avatar.position.x),int(avatar.position.z),int(Engine.get_frames_per_second()),host.realm.chunks.size(),host.realm.creatures.size()]
 
 func _notification(what: int) -> void:
 	if what == NOTIFICATION_APPLICATION_FOCUS_OUT and avatar:
 		avatar.joystick = Vector2.ZERO
 		avatar.save_profile()
+		host.realm.save_state()
+		host.conductor.save_world()
+		host.loic.sauvegarder()
+
+func _refresh_targets() -> void:
+	var selected := target.get_item_text(target.selected)
+	var names: Array[String] = ["Loïc","Élise","Garen","Monde"]
+	for creature in host.realm.creatures.values():
+		if float(creature.state.health)>0: names.append(str(creature.state.name))
+	if names.size() == target.item_count:
+		var same := true
+		for i in range(names.size()):
+			if names[i]!=target.get_item_text(i): same = false
+		if same: return
+	target.clear()
+	for person in names: target.add_item(person)
+	var index := names.find(selected)
+	target.select(maxi(0,index))

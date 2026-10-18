@@ -245,19 +245,11 @@ func entree_dialogue(reponse: String) -> void:
 
 func sauvegarder() -> void:
 	var state := {"nom":nom,"age":age,"worldview":worldview,"stats":stats,"traits":traits,"besoins":besoins,"relations":relations,"inventaire":inventaire,"equipement":equipement,"souvenirs":souvenirs,"historique":historique,"position":[position.x,position.y,position.z],"ennemis_vaincus":ennemis_vaincus}
-	var f := FileAccess.open(SAVE_PATH,FileAccess.WRITE)
-	if f:
-		f.store_string(JSON.stringify(state))
+	StateStore.write_json(SAVE_PATH,state)
 
 func charger() -> void:
-	if not FileAccess.file_exists(SAVE_PATH):
-		return
-	var f := FileAccess.open(SAVE_PATH,FileAccess.READ)
-	if not f:
-		return
-	var data = JSON.parse_string(f.get_as_text())
-	if not data is Dictionary:
-		return
+	var data := StateStore.read_json(SAVE_PATH)
+	if data.is_empty(): return
 	for key in ["stats","traits","besoins","relations","inventaire","equipement","souvenirs","historique","worldview","ennemis_vaincus"]:
 		if data.has(key):
 			set(key,data[key])
