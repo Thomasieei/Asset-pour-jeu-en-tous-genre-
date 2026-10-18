@@ -42,11 +42,11 @@ func _process(delta: float) -> void:
 	if cycle >= 16.0:
 		cycle = 0.0
 		world_age += 1
-		nourriture = maxi(0,nourriture - maxi(1,population / 3))
+		nourriture = maxi(0,nourriture - maxi(1,int(population / 3)))
 		# Chaque ordre a une durée de construction et un artisan désigné.
 		for i in range(work_queue.size()-1,-1,-1):
 			work_queue[i].progress += 1
-			if work_queue[i].progress >= work_queue[i].duration:
+			if int(work_queue[i].progress) >= int(work_queue[i].duration):
 				var done: Dictionary = work_queue[i]
 				work_queue.remove_at(i)
 				complete_project(done)
@@ -59,7 +59,7 @@ func think() -> void:
 		return
 	if use_qwen:
 		var facts := {"habitants":population,"nourriture":nourriture,"bois":bois,"pierre":pierre,"constructions":constructions.size(),"travaux":work_queue,"dernieres_decisions":instructions.slice(maxi(0,instructions.size()-8))}
-		var prompt := "Tu es la Conscience du Monde d'un univers fantastique vivant. Tu ne joues PAS les habitants. Propose une seule action de développement utile et une raison, au format JSON: {\\\"action\\\":\\\"cultiver_champ\\\",\\\"raison\\\":\\\"...\\\"}. Actions possibles: " + str(INTENTS) + ". L'humain garde le contrôle du monde et de ses ressources. /no_think"
+		var prompt := "Tu es la Conscience du Monde. Analyse les ressources, propose une seule action parmi " + str(INTENTS) + ". Reponds uniquement avec un objet JSON contenant action et raison. Tu proposes des ordres aux ouvriers; les constructions sont controlees par le moteur. /no_think"
 		var payload := {"model":"local","messages":[{"role":"system","content":prompt},{"role":"user","content":JSON.stringify(facts)+" /no_think"}],"temperature":0.3,"max_tokens":100,"chat_template_kwargs":{"enable_thinking":false}}
 		thinking = true
 		if server.request("http://127.0.0.1:8765/v1/chat/completions",["Content-Type: application/json"],HTTPClient.METHOD_POST,JSON.stringify(payload)) == OK:
