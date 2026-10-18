@@ -1,6 +1,10 @@
 extends Node3D
 const LOIC = preload("res://loic/scripts/loic_agent.gd")
 var loic: LoicAgent
+var brain: LoicBrain
+var social: LoicSocial
+var brain_clock := 0.0
+var encounter_mesh: MeshInstance3D
 var log_label: Label
 var stats_label: Label
 var input_line: LineEdit
@@ -14,6 +18,13 @@ func _ready() -> void:
 	add_child(loic)
 	loic.journal.connect(_log)
 	loic.changed.connect(_refresh)
+	brain = preload("res://loic/scripts/loic_brain.gd").new()
+	add_child(brain)
+	brain.decision.connect(_decision_ia)
+	social = preload("res://loic/scripts/loic_social.gd").new()
+	add_child(social)
+	charger_social()
+	_creer_monstre()
 	http = HTTPRequest.new()
 	http.timeout = 12
 	add_child(http)
@@ -79,7 +90,12 @@ func _creer_interface() -> void:
 	var monster := Button.new()
 	monster.text = "Faire apparaître un monstre"
 	v.add_child(monster)
-	monster.pressed.connect(func(): loic.evenement_monstre())
+	monster.pressed.connect(_apparition_monstre)
+	for who in ["Elise","Garen"]:
+		var talk := Button.new()
+		talk.text = "Rencontrer " + who
+		v.add_child(talk)
+		talk.pressed.connect(_rencontre.bind(who))
 	input_line = LineEdit.new()
 	input_line.placeholder_text = "Parler à Loïc en français..."
 	v.add_child(input_line)
@@ -149,3 +165,71 @@ func _refresh() -> void:
 	if stats_label == null or loic == null:
 		return
 	stats_label.text = "Niveau %s | PV %d | Mana %d | Endurance %d | Faim %d | Fatigue %d\nAction : %s | Monstres vaincus : %d | Souvenirs : %d" % [loic.stats.niveau,loic.stats.vie,loic.stats.mana,loic.stats.endurance,loic.besoins.faim,loic.besoins.fatigue,loic.action,loic.ennemis_vaincus,loic.souvenirs.size()]
+
+func _process(delta: float) -> void:
+	brain_clock += delta
+	if brain_clock >= 12.0 and loic != null and brain != null:
+		brain_clock = 0
+		brain.ponder(loic, {"chez_soi":loic.position.distance_to(loic.maison)<1.8,"personnes":["Elise","Garen"],"monstre_visible":loic.ennemi_proche})
+	if encounter_mesh != null:
+		encounter_mesh.visible = loic.ennemi_proche
+
+func _decision_ia(intent: String, motive: String, origin: String) -> void:
+	if loic == null:
+		return
+	# N'autoriser les ordres du modèle qu'après vérification par les règles internes.
+	if intent == "rentrer":
+		loic.cible = loic.maison
+	elif intent in ["marcher","courir"]:
+		loic.cible = Vector3(randf_range(-8,8),0,randf_range(-8,8))
+	elif intent == "aider":
+		_rencontre("Elise")
+	elif intent == "demander_aide":
+		_rencontre("Garen")
+	if loic.choisir(intent):
+		loic.souvenir("J'ai choisi "+intent+" : "+motive,2)
+		_log(origin+" — "+motive)
+		loic.sauvegarder()
+
+func _creer_monstre() -> void:
+	encounter_mesh = MeshInstance3D.new()
+	var creature := SphereMesh.new()
+	creature.radius = 0.65
+	creature.height = 1.2
+	encounter_mesh.mesh = creature
+	encounter_mesh.position = Vector3(6,1.25,3)
+	var mat := StandardMaterial3D.new()
+	mat.albedo_color = Color(0.65,0.12,0.16)
+	encounter_mesh.material_override = mat
+	encounter_mesh.visible = false
+	add_child(encounter_mesh)
+
+func _apparition_monstre() -> void:
+	loic.evenement_monstre()
+	_log("Un monstre menace les environs. Loïc doit choisir.")
+	_refresh()
+
+func _rencontre(who: String) -> void:
+	var intent := "saluer"
+	if loic.ennemi_proche:
+		intent = "demander_aide"
+	elif loic.traits.empathie > 0.7 and loic.stats.endurance > 20:
+		intent = "aider"
+	var result := social.converse(loic,who,intent)
+	loic.choisir("parler")
+	_sauver_social()
+	_log(result)
+
+func _sauver_social() -> void:
+	var f := FileAccess.open("user://loic_social.json",FileAccess.WRITE)
+	if f:
+		f.store_string(JSON.stringify(social.acquaintances))
+
+func charger_social() -> void:
+	if not FileAccess.file_exists("user://loic_social.json"):
+		return
+	var f := FileAccess.open("user://loic_social.json",FileAccess.READ)
+	if f:
+		var data = JSON.parse_string(f.get_as_text())
+		if data is Dictionary:
+			social.acquaintances = data
