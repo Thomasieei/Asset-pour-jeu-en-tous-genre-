@@ -49,7 +49,7 @@ func _sol(pos: Vector3,scale_: Vector3,color: Color) -> void:
 	add_child(cube)
 
 func _creer_environnement() -> void:
-	_sol(Vector3(0,-0.25,0),Vector3(30,0.5,30),Color(0.26,0.48,0.31))
+	_sol(Vector3(0,-0.25,0),Vector3(100,0.5,100),Color(0.26,0.48,0.31))
 	# Maison avec porte ouverte et lit visible.
 	_sol(Vector3(-7.5,0.85,-3),Vector3(0.25,1.7,3.3),Color(0.65,0.45,0.27))
 	_sol(Vector3(-4.5,0.85,-3),Vector3(0.25,1.7,3.3),Color(0.65,0.45,0.27))
