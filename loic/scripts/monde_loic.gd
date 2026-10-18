@@ -46,8 +46,15 @@ func _sol(pos: Vector3,scale_: Vector3,color: Color) -> void:
 
 func _creer_environnement() -> void:
 	_sol(Vector3(0,-0.25,0),Vector3(30,0.5,30),Color(0.26,0.48,0.31))
-	_sol(Vector3(-6,0.8,-3),Vector3(3,1.6,3),Color(0.55,0.35,0.20))
-	_sol(Vector3(-6,2,-3),Vector3(3.6,0.5,3.6),Color(0.38,0.18,0.12))
+	# Maison avec porte ouverte et lit visible.
+	_sol(Vector3(-7.5,0.85,-3),Vector3(0.25,1.7,3.3),Color(0.65,0.45,0.27))
+	_sol(Vector3(-4.5,0.85,-3),Vector3(0.25,1.7,3.3),Color(0.65,0.45,0.27))
+	_sol(Vector3(-6,0.85,-4.6),Vector3(3.2,1.7,0.25),Color(0.65,0.45,0.27))
+	_sol(Vector3(-7,0.85,-1.4),Vector3(1.05,1.7,0.25),Color(0.65,0.45,0.27))
+	_sol(Vector3(-5,0.85,-1.4),Vector3(1.05,1.7,0.25),Color(0.65,0.45,0.27))
+	_sol(Vector3(-6,1.4,-1.4),Vector3(0.95,0.55,0.25),Color(0.65,0.45,0.27))
+	_sol(Vector3(-6,0.18,-3.1),Vector3(1.5,0.35,2.1),Color(0.42,0.28,0.17))
+	_sol(Vector3(-6,0.41,-3.7),Vector3(1.35,0.13,0.7),Color(0.84,0.79,0.64))
 	_sol(Vector3(6,0.5,3),Vector3(1,1,1),Color(0.5,0.18,0.17))
 	var sun := DirectionalLight3D.new()
 	sun.rotation_degrees = Vector3(-50,-25,0)
@@ -62,9 +69,9 @@ func _creer_environnement() -> void:
 	add_child(env)
 	var camera := Camera3D.new()
 	camera.position = Vector3(13,14,17)
+	add_child(camera)
 	camera.look_at(Vector3(0,0,0))
 	camera.current = true
-	add_child(camera)
 
 func _creer_interface() -> void:
 	var canvas := CanvasLayer.new()
