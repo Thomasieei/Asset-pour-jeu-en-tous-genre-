@@ -8,6 +8,8 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 [display]
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+window/handheld/orientation=0
 
 [rendering]
 renderer/rendering_method="gl_compatibility"
@@ -16,3 +18,10 @@ textures/vram_compression/import_etc2_astc=true
 
 [loic]
 ai_endpoint="http://127.0.0.1:8765/v1/chat/completions"
+
+[input_devices]
+pointing/emulate_touch_from_mouse=true
+
+
+[autoload]
+LocalModel="*res://loic/scripts/local_model.gd"

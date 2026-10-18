@@ -4,3 +4,14 @@
 
 .loic-runtime/
 __pycache__/
+
+loic/native/models/*.gguf
+loic/native/*.so
+loic/native/*.os
+loic/native/.sconsign*
+
+loic/native/loic_local_ai.gdextension
+
+loic/native/models/
+*.os
+*.o

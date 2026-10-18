@@ -34,12 +34,17 @@ const MODEL = "res://packs/kaykit-character-pack-adventures-1.0/addons/kaykit_ch
 
 func _ready() -> void:
 	charger()
-	if ResourceLoader.exists(MODEL):
-		var scene = load(MODEL)
-		if scene is PackedScene:
-			visual = scene.instantiate()
-			add_child(visual)
-			player_anim = _find_anim(visual)
+	visual = WorldAssets.instantiate_model(MODEL,1.9)
+	if visual:
+		add_child(visual)
+		player_anim = _find_anim(visual)
+	var name_tag := Label3D.new()
+	name_tag.text = "Loïc"
+	name_tag.position.y = 2.3
+	name_tag.font_size = 32
+	name_tag.pixel_size = 0.012
+	name_tag.billboard = BaseMaterial3D.BILLBOARD_ENABLED
+	add_child(name_tag)
 	if visual == null:
 		visual = Node3D.new()
 		add_child(visual)

@@ -35,14 +35,14 @@ var next_id := 1
 var last_observation: Dictionary = {}
 
 func _ready() -> void:
-	endpoint = OS.get_environment("LOIC_AI_ENDPOINT") if not OS.get_environment("LOIC_AI_ENDPOINT").is_empty() else str(ProjectSettings.get_setting("loic/ai_endpoint",endpoint))
+	endpoint = LoicAIConfig.endpoint()
 	terrain = Node3D.new()
 	terrain.name = "Constructions_du_monde"
 	add_child(terrain)
 	add_child(server)
 	server.timeout = 15.0
 	server.request_completed.connect(_qwen_response)
-	use_qwen = OS.get_environment("LOIC_DISABLE_AI") != "1"
+	use_qwen = LoicAIConfig.enabled()
 	load_world()
 	for item in constructions:
 		_visualize(item)
@@ -68,7 +68,7 @@ func _physics_process(delta: float) -> void:
 			if visual_nodes.has(int(item.id)):
 				visual_nodes[int(item.id)].scale = Vector3.ONE * maxf(0.15,float(item.growth))
 	cycle += dt
-	if cycle >= 12.0:
+	if cycle >= (30.0 if LoicAIConfig.local_mode() else 12.0):
 		cycle = 0.0
 		world_age += 1
 		nourriture = maxi(0,nourriture - population)
@@ -97,7 +97,12 @@ func think() -> void:
 		var prompt := "Tu gères un monde Godot. Observe les faits et choisis une seule action parmi " + str(INTENTS) + ". Priorité nourriture, ressources renouvelables, maisons puis embellissement. Ne récolte que des arbres/champs mûrs. Réponds uniquement JSON {\"action\":\"...\",\"raison\":\"...\"}. Tu commandes les outils du moteur; tu ne modifies pas du code. /no_think"
 		var payload := {"model":"local","messages":[{"role":"system","content":prompt},{"role":"user","content":JSON.stringify(observe())+" /no_think"}],"temperature":0.3,"max_tokens":160,"response_format":{"type":"json_schema","json_schema":{"name":"world_intent","strict":true,"schema":{"type":"object","properties":{"action":{"type":"string","enum":INTENTS},"raison":{"type":"string"}},"required":["action","raison"],"additionalProperties":false}}},"chat_template_kwargs":{"enable_thinking":false}}
 		thinking = true
-		if server.request(endpoint,["Content-Type: application/json"],HTTPClient.METHOD_POST,JSON.stringify(payload)) == OK:
+		var error: Error
+		if LoicAIConfig.local_mode():
+			error = get_tree().root.get_node("LocalModel").request(payload,_qwen_response)
+		else:
+			error = server.request(endpoint,LoicAIConfig.headers(),HTTPClient.METHOD_POST,JSON.stringify(payload))
+		if error == OK:
 			return
 		thinking = false
 	choose_by_rules()

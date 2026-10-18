@@ -22,7 +22,7 @@ func _ready() -> void:
 	label = Label3D.new()
 	label.position.y = 2.2
 	label.font_size = 32
-	label.pixel_size = 0.008
+	label.pixel_size = 0.012
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	add_child(label)
 

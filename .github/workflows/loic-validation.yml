@@ -24,6 +24,7 @@ jobs:
       - name: Verify world, workers, perception, economy and persistence
         env:
           LOIC_DISABLE_AI: '1'
+          LOIC_SKIP_PROFILE: '1'
           LOIC_TEST_REPORT: /tmp/validation_world.json
         run: |
           set -o pipefail

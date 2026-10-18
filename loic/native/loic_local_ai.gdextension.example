@@ -1,0 +1,8 @@
+[configuration]
+entry_symbol = "loic_local_ai_init"
+compatibility_minimum = "4.3"
+reloadable = false
+
+[libraries]
+linux.x86_64 = "res://loic/native/libloic_ai.linux.x86_64.so"
+android.arm64 = "res://loic/native/libloic_ai.android.arm64.so"

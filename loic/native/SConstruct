@@ -1,0 +1,17 @@
+import os
+from pathlib import Path
+cpp = os.environ.get('GODOT_CPP_SOURCE', '/tmp/loic-godot-cpp')
+llama = os.environ.get('LLAMA_SOURCE', '/tmp/loic-llama-src')
+build = os.environ.get('LLAMA_BUILD', '/tmp/loic-llama-host')
+env = SConscript(cpp + '/SConstruct')
+env.Append(CPPPATH=[llama+'/include',llama+'/ggml/include'])
+env.Append(LIBPATH=[build+'/src',build+'/ggml/src',build+'/ggml/src/ggml-cpu'])
+env.Append(LIBS=['llama','ggml','ggml-cpu','ggml-base'])
+if env['platform'] == 'android':
+    env.Append(LINKFLAGS=['-static-libstdc++','-Wl,-z,max-page-size=16384'])
+    env.Append(LIBS=['log','android'])
+else:
+    env.Append(LIBS=['pthread','dl'])
+env.Append(CXXFLAGS=['-std=c++17'])
+name = 'libloic_ai.'+env['platform']+'.'+env['arch']+'.so'
+Default(env.SharedLibrary(name,Glob('src/*.cpp')))

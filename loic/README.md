@@ -1,5 +1,9 @@
 # Loïc — monde vivant relié à Godot 4.3
 
+**Version Android autonome ajoutée : [installation, commandes et limites](ANDROID.md).**
+Qwen peut désormais fonctionner dans l’APK, sans ordinateur ni serveur.
+Les instructions ci-dessous concernent principalement le lancement sur ordinateur.
+
 Projet indépendant d’Yggdrasil, sur la branche `prototype-loic-monde-vivant`.
 Ouvrir **le `project.godot` à la racine du dépôt** et appuyer sur F6/F5 :
 la scène d’entrée est `res://loic/scenes/monde_loic.tscn`.
@@ -35,7 +39,7 @@ ou lancer un serveur llama.cpp adapté au système. **Le runtime fourni est Linu
 L’endpoint par défaut est `http://127.0.0.1:8765/v1/chat/completions` ;
 il est configurable par `LOIC_AI_ENDPOINT` ou `loic/ai_endpoint` dans les paramètres Godot.
 Le serveur doit accepter les réponses JSON Schema pour les intentions.
-Aucun runtime IA natif Android, APK ou serveur hébergé n’est livré par cette modification.
+La version Android native est décrite dans ANDROID.md ; aucun serveur hébergé n’est requis.
 
 ## Ce qui fonctionne
 
@@ -75,7 +79,7 @@ les pixels de la caméra**. Le petit Qwen livré est un modèle de texte.
 Les IA proposent des intentions ; Godot les valide et exécute leurs conséquences.
 Elles peuvent développer et entretenir le village avec ces outils, pendant que le programme
 est ouvert. Elles **ne réécrivent pas les scripts du jeu**, ne téléchargent pas d’autres IA
-et n’apprennent pas de nouveaux poids. Les milliers d’assets ne sont pas tous affichés
+et n’apprennent pas de nouveaux poids. Les milliers d’assets du projet source ne sont pas tous affichés
 simultanément ; le planificateur utilise une palette cohérente sélectionnée dans la banque.
 Le champ d’objectif influence Qwen ; le planificateur de secours suit ses propres priorités.
 

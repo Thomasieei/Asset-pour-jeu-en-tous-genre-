@@ -1,0 +1,10 @@
+{
+  "apk_bytes": 420299514,
+  "apk_sha256": "a3bcb8071ad3a582bc997dd9eb4753487be407763bd27b451eca0ea69b238565",
+  "model_sha256": "15e434d8ddf0af38fe3f7003af6ce6eac4edada6df34324aa45979f9cc79f02e",
+  "architecture": "arm64-v8a",
+  "android_device_execution_tested": false,
+  "native_inference_tested_on": "Linux",
+  "network_permission": false,
+  "signing": "apksigner v1/v2/v3 verified"
+}

@@ -10,8 +10,8 @@ var ENDPOINT := "http://127.0.0.1:8765/v1/chat/completions"
 const VALID := ["observer","marcher","courir","esquiver","attaquer","aider","demander_aide","rentrer","dormir","parler","equiper","se_reposer"]
 
 func _ready() -> void:
-	ENDPOINT = OS.get_environment("LOIC_AI_ENDPOINT") if not OS.get_environment("LOIC_AI_ENDPOINT").is_empty() else str(ProjectSettings.get_setting("loic/ai_endpoint",ENDPOINT))
-	enabled = OS.get_environment("LOIC_DISABLE_AI") != "1"
+	ENDPOINT = LoicAIConfig.endpoint()
+	enabled = LoicAIConfig.enabled()
 	http = HTTPRequest.new()
 	http.timeout = 10
 	add_child(http)
@@ -45,7 +45,11 @@ func ponder(agent: Node3D, situation: Dictionary) -> void:
 		"chat_template_kwargs":{"enable_thinking":false}
 	}
 	pending = true
-	var err := http.request(ENDPOINT,["Content-Type: application/json"],HTTPClient.METHOD_POST,JSON.stringify(request_body))
+	var err: Error
+	if LoicAIConfig.local_mode():
+		err = get_tree().root.get_node("LocalModel").request(request_body,_received)
+	else:
+		err = http.request(ENDPOINT,LoicAIConfig.headers(),HTTPClient.METHOD_POST,JSON.stringify(request_body))
 	if err != OK:
 		pending = false
 

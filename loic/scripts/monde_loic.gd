@@ -1,5 +1,10 @@
 extends Node3D
 const LOIC = preload("res://loic/scripts/loic_agent.gd")
+var avatar: PlayerAvatar
+var player_ui: PlayerUI
+var admin_panel: PanelContainer
+var follow_player := true
+var camera_offset := Vector3(24,30,30)
 var loic: LoicAgent
 var conductor: WorldConductor
 var brain: LoicBrain
@@ -19,7 +24,7 @@ var pending := false
 var ENDPOINT = "http://127.0.0.1:8765/v1/chat/completions"
 
 func _ready() -> void:
-	ENDPOINT = OS.get_environment("LOIC_AI_ENDPOINT") if not OS.get_environment("LOIC_AI_ENDPOINT").is_empty() else str(ProjectSettings.get_setting("loic/ai_endpoint",ENDPOINT))
+	ENDPOINT = LoicAIConfig.endpoint()
 	_creer_environnement()
 	loic = LOIC.new()
 	add_child(loic)
@@ -40,7 +45,14 @@ func _ready() -> void:
 	add_child(http)
 	http.request_completed.connect(_reponse_modele)
 	_seed_world()
+	avatar = PlayerAvatar.new()
+	avatar.world = conductor
+	avatar.view_camera = camera
+	add_child(avatar)
 	_creer_interface()
+	player_ui = PlayerUI.new()
+	player_ui.host = self
+	add_child(player_ui)
 	_log("Loïc, 24 ans, découvre son univers idéal. Ses choix lui appartiennent.")
 	_refresh()
 
@@ -93,8 +105,8 @@ func _creer_environnement() -> void:
 	add_child(camera)
 	camera.look_at(Vector3(0,0,0))
 	camera.projection = Camera3D.PROJECTION_ORTHOGONAL
-	camera.size = 38
-	camera.h_offset = -7
+	camera.size = 28
+	camera.h_offset = 0
 	camera.current = true
 
 func _creer_interface() -> void:
@@ -105,6 +117,8 @@ func _creer_interface() -> void:
 	root.custom_minimum_size = Vector2(370,696)
 	root.size = Vector2(370,696)
 	canvas.add_child(root)
+	admin_panel = root
+	root.visible = false
 	var style := StyleBoxFlat.new()
 	style.bg_color = Color(0.055,0.09,0.10,0.94)
 	style.corner_radius_top_left = 12
@@ -213,7 +227,7 @@ func _parler() -> void:
 	loic.relations.joueur = int(loic.relations.joueur) + 1
 	if pending:
 		return
-	if OS.get_environment("LOIC_DISABLE_AI") == "1":
+	if not LoicAIConfig.enabled():
 		_reponse_secours(phrase)
 		input_line.clear()
 		return
@@ -221,7 +235,11 @@ func _parler() -> void:
 	var memo := loic.souvenirs.slice(maxi(0,loic.souvenirs.size()-8))
 	var system_text := "Tu es Loïc, chevalier de 24 ans dans un monde fantasy que tu juges parfait. Tu es optimiste, curieux, prudent parfois, capable de désaccord. Reste en personnage. Réponds en français naturellement et brièvement, en une ou deux phrases. Ne prétends pas avoir agi dans le jeu. Tes souvenirs: "+JSON.stringify(memo)+"; état: "+JSON.stringify(loic.stats)+". /no_think"
 	var body := {"model":"local","messages":[{"role":"system","content":system_text},{"role":"user","content":phrase+" /no_think"}],"temperature":0.75,"max_tokens":130,"chat_template_kwargs":{"enable_thinking":false}}
-	var err := http.request(ENDPOINT,["Content-Type: application/json"],HTTPClient.METHOD_POST,JSON.stringify(body))
+	var err: Error
+	if LoicAIConfig.local_mode():
+		err = get_tree().root.get_node("LocalModel").request(body,_reponse_modele)
+	else:
+		err = http.request(ENDPOINT,LoicAIConfig.headers(),HTTPClient.METHOD_POST,JSON.stringify(body))
 	if err != OK:
 		pending = false
 		_reponse_secours(phrase)
@@ -262,13 +280,16 @@ func _refresh() -> void:
 	stats_label.text = "Niveau %s | PV %d | Mana %d | Endurance %d | Faim %d | Fatigue %d\nAction : %s | Monstres vaincus : %d | Souvenirs : %d" % [loic.stats.niveau,loic.stats.vie,loic.stats.mana,loic.stats.endurance,loic.besoins.faim,loic.besoins.fatigue,loic.action,loic.ennemis_vaincus,loic.souvenirs.size()]
 
 func _process(delta: float) -> void:
+	if avatar and follow_player:
+		camera.position = camera.position.lerp(avatar.position+camera_offset,minf(1,delta*5))
+		camera.look_at(avatar.position)
 	brain_clock += delta
 	world_status_clock += delta
 	if world_status_clock > 1 and world_label and conductor:
 		world_status_clock = 0
 		world_label.text = "MONDE · %s\nNourriture %d · Bois %d · Pierre %d\n%d éléments · %d travaux · Cycle %d" % [conductor.last_source,conductor.nourriture,conductor.bois,conductor.pierre,conductor.constructions.size(),conductor.work_queue.size(),conductor.world_age]
 		_refresh()
-	if brain_clock >= 12.0 and loic != null and brain != null:
+	if brain_clock >= (45.0 if LoicAIConfig.local_mode() else 12.0) and loic != null and brain != null:
 		brain_clock = 0
 		brain.ponder(loic, WorldEyes.observe(loic))
 	if encounter_mesh != null:
@@ -354,8 +375,10 @@ func _unhandled_input(event: InputEvent) -> void:
 		elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
 			camera.size = minf(100,camera.size+3)
 	if event is InputEventMouseMotion and Input.is_mouse_button_pressed(MOUSE_BUTTON_RIGHT):
+		follow_player = false
 		camera.position += (camera.global_basis.x * -event.relative.x + camera.global_basis.y * event.relative.y) * 0.05
 
 func _exit_tree() -> void:
+	if is_instance_valid(avatar): avatar.save_profile()
 	if is_instance_valid(loic): loic.sauvegarder()
 	if is_instance_valid(conductor): conductor.save_world()

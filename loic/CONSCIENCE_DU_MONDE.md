@@ -30,5 +30,5 @@ Sauvegardes : `user://world_conductor.json`, `user://loic_unique_save.json`,
 
 Les yeux fournissent un relevé géométrique au modèle de texte. Le gestionnaire n’est pas
 un modèle multimodal, ne réécrit pas le code et n’a pas de conscience subjective démontrée.
-Les travaux de Loïc, la navigation physique complète, les combats physiques et l’inférence
-native Android restent à développer. Lire README.md pour démarrage, commandes et limites.
+Les travaux de Loïc, la navigation physique complète, et les combats physiques restent à développer. Une inférence
+native Android locale a été ajoutée : lire ANDROID.md pour ses limites de validation. Lire README.md pour démarrage, commandes et limites.

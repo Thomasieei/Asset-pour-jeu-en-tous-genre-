@@ -1,0 +1,11 @@
+{
+  "checks": 7,
+  "failures": [],
+  "model_sha256": "15e434d8ddf0af38fe3f7003af6ce6eac4edada6df34324aa45979f9cc79f02e",
+  "native_platform": "Linux",
+  "replies": {
+    "Garen": "Bonjour, Thomas ! C'est une joie de vous voir.",
+    "Loïc": "Bonjour, Thomas ! Je suis Loïc, chevalier de 24 ans, optimiste et curieux.",
+    "Élise": "Bonjour, Thomas, mon nom est Élise. Je suis une habitante du village."
+  }
+}
