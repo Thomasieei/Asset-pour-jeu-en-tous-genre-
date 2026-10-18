@@ -1,0 +1,22 @@
+name: Validation Godot Loic
+on:
+  push:
+    branches: [prototype-loic-monde-vivant]
+  workflow_dispatch:
+jobs:
+  import-and-parse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Godot 4.3
+        run: |
+          wget -q https://github.com/godotengine/godot-builds/releases/download/4.3-stable/Godot_v4.3-stable_linux.x86_64.zip
+          unzip -q Godot_v4.3-stable_linux.x86_64.zip
+          chmod +x Godot_v4.3-stable_linux.x86_64
+      - name: Import resources and inspect project
+        run: |
+          ./Godot_v4.3-stable_linux.x86_64 --headless --editor --path . --import --quit
+      - name: Launch Loic briefly without graphical display
+        run: |
+          timeout 18s ./Godot_v4.3-stable_linux.x86_64 --headless --path . --quit-after 180
