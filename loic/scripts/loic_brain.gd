@@ -6,10 +6,12 @@ var http: HTTPRequest
 var pending := false
 var elapsed := 0.0
 var enabled := true
-const ENDPOINT := "http://127.0.0.1:8765/v1/chat/completions"
+var ENDPOINT := "http://127.0.0.1:8765/v1/chat/completions"
 const VALID := ["observer","marcher","courir","esquiver","attaquer","aider","demander_aide","rentrer","dormir","parler","equiper","se_reposer"]
 
 func _ready() -> void:
+	ENDPOINT = OS.get_environment("LOIC_AI_ENDPOINT") if not OS.get_environment("LOIC_AI_ENDPOINT").is_empty() else str(ProjectSettings.get_setting("loic/ai_endpoint",ENDPOINT))
+	enabled = OS.get_environment("LOIC_DISABLE_AI") != "1"
 	http = HTTPRequest.new()
 	http.timeout = 10
 	add_child(http)
@@ -38,7 +40,8 @@ func ponder(agent: Node3D, situation: Dictionary) -> void:
 	var request_body := {
 		"model":"local",
 		"messages":[{"role":"system","content":system},{"role":"user","content":JSON.stringify(context)+" /no_think"}],
-		"temperature":0.6, "max_tokens":110,
+		"temperature":0.4, "max_tokens":160,
+		"response_format":{ "type":"json_schema", "json_schema":{"name":"intention_loic","strict":true,"schema":{"type":"object","properties":{"action":{"type":"string","enum":VALID},"motive":{"type":"string"}},"required":["action","motive"],"additionalProperties":false}}},
 		"chat_template_kwargs":{"enable_thinking":false}
 	}
 	pending = true
@@ -59,7 +62,13 @@ func _received(result: int, code: int, _headers: PackedStringArray, payload: Pac
 	var msg = choices[0]
 	if not (msg is Dictionary):
 		return
-	var parsed = JSON.parse_string(str(msg.get("message",{}).get("content","")))
+	var message = msg.get("message",{})
+	if not message is Dictionary:
+		return
+	var parser := JSON.new()
+	if parser.parse(str(message.get("content",""))) != OK:
+		return
+	var parsed = parser.data
 	if not (parsed is Dictionary):
 		return
 	var proposed := str(parsed.get("action",""))

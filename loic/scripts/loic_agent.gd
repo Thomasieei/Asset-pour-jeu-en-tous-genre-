@@ -50,6 +50,7 @@ func _ready() -> void:
 		mesh.mesh = capsule
 		visual.add_child(mesh)
 	position = position_depart
+	choisir("observer")
 	set_process(true)
 
 func _find_anim(node: Node) -> AnimationPlayer:
@@ -64,6 +65,12 @@ func _find_anim(node: Node) -> AnimationPlayer:
 func _jouer_animation(hints: Array) -> void:
 	if player_anim == null:
 		return
+	for hint in hints:
+		for clip in player_anim.get_animation_list():
+			if clip.to_lower() == str(hint).to_lower():
+				if player_anim.current_animation != clip:
+					player_anim.play(clip)
+				return
 	for lib in player_anim.get_animation_library_list():
 		var library := player_anim.get_animation_library(lib)
 		for name in library.get_animation_list():
@@ -86,7 +93,11 @@ func _process(delta: float) -> void:
 		var direction := cible - position
 		direction.y = 0
 		if direction.length() > 0.22:
-			position += direction.normalized() * minf(vitesse * delta,direction.length())
+			var world = get_parent().get("conductor")
+			if world:
+				position = world.steer(position,cible,vitesse * delta)
+			else:
+				position += direction.normalized() * minf(vitesse * delta,direction.length())
 			visual.rotation.y = atan2(direction.x,direction.z)
 		else:
 			if action == "rentrer":
@@ -134,11 +145,11 @@ func choisir(prochaine: String) -> bool:
 		historique.pop_front()
 	match prochaine:
 		"dormir":
-			_jouer_animation(["lie","sleep","lay"])
+			_jouer_animation(["lie_idle","lie_pose","sleep"])
 		"marcher","rentrer":
-			_jouer_animation(["walk"])
+			_jouer_animation(["Walking_A","walk"])
 		"courir":
-			_jouer_animation(["run"])
+			_jouer_animation(["Running_A","run"])
 		"attaquer":
 			_jouer_animation(["attack","slash"])
 			attaquer_monstre()
@@ -151,7 +162,7 @@ func choisir(prochaine: String) -> bool:
 		"parler":
 			_jouer_animation(["talk"])
 		"observer":
-			_jouer_animation(["idle"])
+			_jouer_animation(["Idle"])
 		"equiper":
 			equipement.arme = "epee_fer"
 	changed.emit()
@@ -250,6 +261,10 @@ func charger() -> void:
 
 func _animer_secours(delta: float) -> void:
 	if visual == null:
+		return
+	if player_anim != null and player_anim.is_playing():
+		visual.rotation.z = 0
+		visual.position.y = 0
 		return
 	var inclinaison := 0.0
 	var hauteur := 0.0

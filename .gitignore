@@ -1,3 +1,6 @@
 .godot/
 *.import
 .DS_Store
+
+.loic-runtime/
+__pycache__/

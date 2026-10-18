@@ -4,19 +4,37 @@ on:
     branches: [prototype-loic-monde-vivant]
   workflow_dispatch:
 jobs:
-  import-and-parse:
+  import-and-test:
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
-      - name: Install Godot 4.3
+      - name: Install Godot 4.3 and virtual display
         run: |
           wget -q https://github.com/godotengine/godot-builds/releases/download/4.3-stable/Godot_v4.3-stable_linux.x86_64.zip
           unzip -q Godot_v4.3-stable_linux.x86_64.zip
           chmod +x Godot_v4.3-stable_linux.x86_64
-      - name: Import resources and inspect project
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq xvfb
+      - name: Import resources and reject script errors
         run: |
-          ./Godot_v4.3-stable_linux.x86_64 --headless --editor --path . --import --quit
-      - name: Launch Loic briefly without graphical display
+          set -o pipefail
+          ./Godot_v4.3-stable_linux.x86_64 --headless --editor --path . --import --quit 2>&1 | tee import.log
+          ! grep -E 'SCRIPT ERROR|Parse Error|Failed to load script' import.log
+      - name: Verify world, workers, perception, economy and persistence
+        env:
+          LOIC_DISABLE_AI: '1'
+          LOIC_TEST_REPORT: /tmp/validation_world.json
         run: |
-          timeout 18s ./Godot_v4.3-stable_linux.x86_64 --headless --path . --quit-after 180
+          set -o pipefail
+          export XDG_DATA_HOME="$(mktemp -d)"
+          xvfb-run -a ./Godot_v4.3-stable_linux.x86_64 --path . --audio-driver Dummy --script res://loic/tests/test_world.gd 2>&1 | tee test.log
+          ! grep -E 'SCRIPT ERROR|Parse Error|FAIL |ERROR:' test.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: loic-validation
+          path: |
+            import.log
+            test.log
+            /tmp/validation_world.json

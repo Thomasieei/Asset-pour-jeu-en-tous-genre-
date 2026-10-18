@@ -5,15 +5,21 @@ var conductor: WorldConductor
 var brain: LoicBrain
 var social: LoicSocial
 var brain_clock := 0.0
-var encounter_mesh: MeshInstance3D
+var world_label: Label
+var world_objective: LineEdit
+var camera: Camera3D
+var world_status_clock := 0.0
+var journal_lines: Array[String] = []
+var encounter_mesh: Node3D
 var log_label: Label
 var stats_label: Label
 var input_line: LineEdit
 var http: HTTPRequest
 var pending := false
-const ENDPOINT = "http://127.0.0.1:8765/v1/chat/completions"
+var ENDPOINT = "http://127.0.0.1:8765/v1/chat/completions"
 
 func _ready() -> void:
+	ENDPOINT = OS.get_environment("LOIC_AI_ENDPOINT") if not OS.get_environment("LOIC_AI_ENDPOINT").is_empty() else str(ProjectSettings.get_setting("loic/ai_endpoint",ENDPOINT))
 	_creer_environnement()
 	loic = LOIC.new()
 	add_child(loic)
@@ -33,6 +39,7 @@ func _ready() -> void:
 	http.timeout = 12
 	add_child(http)
 	http.request_completed.connect(_reponse_modele)
+	_seed_world()
 	_creer_interface()
 	_log("Loïc, 24 ans, découvre son univers idéal. Ses choix lui appartiennent.")
 	_refresh()
@@ -50,18 +57,25 @@ func _sol(pos: Vector3,scale_: Vector3,color: Color) -> void:
 
 func _creer_environnement() -> void:
 	_sol(Vector3(0,-0.25,0),Vector3(100,0.5,100),Color(0.26,0.48,0.31))
-	# Maison avec porte ouverte et lit visible.
-	_sol(Vector3(-7.5,0.85,-3),Vector3(0.25,1.7,3.3),Color(0.65,0.45,0.27))
-	_sol(Vector3(-4.5,0.85,-3),Vector3(0.25,1.7,3.3),Color(0.65,0.45,0.27))
-	_sol(Vector3(-6,0.85,-4.6),Vector3(3.2,1.7,0.25),Color(0.65,0.45,0.27))
-	_sol(Vector3(-7,0.85,-1.4),Vector3(1.05,1.7,0.25),Color(0.65,0.45,0.27))
-	_sol(Vector3(-5,0.85,-1.4),Vector3(1.05,1.7,0.25),Color(0.65,0.45,0.27))
-	_sol(Vector3(-6,1.4,-1.4),Vector3(0.95,0.55,0.25),Color(0.65,0.45,0.27))
-	_sol(Vector3(-6,0.18,-3.1),Vector3(1.5,0.35,2.1),Color(0.42,0.28,0.17))
-	_sol(Vector3(-6,0.41,-3.7),Vector3(1.35,0.13,0.7),Color(0.84,0.79,0.64))
-	_sol(Vector3(6,0.5,3),Vector3(1,1,1),Color(0.5,0.18,0.17))
+	_sol(Vector3(0,0.01,0),Vector3(85,0.025,2.8),Color(0.61,0.51,0.34))
+	_sol(Vector3(0,0.02,0),Vector3(2.8,0.025,85),Color(0.61,0.51,0.34))
+	var home := WorldAssets.instantiate_model(WorldConductor.ASSETS.maison,3.8)
+	if home:
+		home.position += Vector3(-6,0,-3)
+		add_child(home)
+	var well := WorldAssets.instantiate_model("res://packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_well_blue.gltf",1.8)
+	if well:
+		well.position += Vector3(4,0,-4)
+		add_child(well)
+	for i in range(6):
+		var rock := WorldAssets.instantiate_model("res://packs/kaykit-forest-free/Assets/gltf/Rock_1_A_Color1.gltf",1.0 + (i%3)*0.3)
+		if rock:
+			rock.position += Vector3(16+(i%3)*2,0,-13+(i/3)*2)
+			add_child(rock)
 	var sun := DirectionalLight3D.new()
 	sun.rotation_degrees = Vector3(-50,-25,0)
+	sun.shadow_enabled = true
+	sun.light_energy = 1.1
 	add_child(sun)
 	var env := WorldEnvironment.new()
 	var sky := Sky.new()
@@ -69,12 +83,18 @@ func _creer_environnement() -> void:
 	var environment := Environment.new()
 	environment.background_mode = Environment.BG_SKY
 	environment.sky = sky
+	environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
+	environment.ambient_light_color = Color(0.73,0.81,0.92)
+	environment.ambient_light_energy = 0.6
 	env.environment = environment
 	add_child(env)
-	var camera := Camera3D.new()
-	camera.position = Vector3(13,14,17)
+	camera = Camera3D.new()
+	camera.position = Vector3(30,36,38)
 	add_child(camera)
 	camera.look_at(Vector3(0,0,0))
+	camera.projection = Camera3D.PROJECTION_ORTHOGONAL
+	camera.size = 38
+	camera.h_offset = -7
 	camera.current = true
 
 func _creer_interface() -> void:
@@ -82,16 +102,37 @@ func _creer_interface() -> void:
 	add_child(canvas)
 	var root := PanelContainer.new()
 	root.position = Vector2(12,12)
-	root.custom_minimum_size = Vector2(475,0)
+	root.custom_minimum_size = Vector2(370,696)
+	root.size = Vector2(370,696)
 	canvas.add_child(root)
+	var style := StyleBoxFlat.new()
+	style.bg_color = Color(0.055,0.09,0.10,0.94)
+	style.corner_radius_top_left = 12
+	style.corner_radius_top_right = 12
+	style.corner_radius_bottom_left = 12
+	style.corner_radius_bottom_right = 12
+	style.content_margin_left = 12
+	style.content_margin_right = 12
+	style.content_margin_top = 12
+	style.content_margin_bottom = 12
+	root.add_theme_stylebox_override("panel",style)
+	var scroll := ScrollContainer.new()
+	scroll.custom_minimum_size = Vector2(370,670)
+	scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	root.add_child(scroll)
 	var v := VBoxContainer.new()
-	root.add_child(v)
+	v.custom_minimum_size.x = 350
+	v.size_flags_horizontal = Control.SIZE_EXPAND_FILL
+	v.add_theme_constant_override("separation",6)
+	scroll.add_child(v)
 	var title := Label.new()
-	title.text = "LOÏC — PREMIER HABITANT AUTONOME"
+	title.text = "LOÏC · LE MONDE VIVANT"
 	v.add_child(title)
 	stats_label = Label.new()
+	stats_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	stats_label.custom_minimum_size.x = 350
 	v.add_child(stats_label)
-	var row := HBoxContainer.new()
+	var row := HFlowContainer.new()
 	v.add_child(row)
 	for choice in ["marcher","courir","sauter","accroupir","esquiver","attaquer","rentrer","dormir","equiper"]:
 		var b := Button.new()
@@ -103,9 +144,42 @@ func _creer_interface() -> void:
 	v.add_child(monster)
 	monster.pressed.connect(_apparition_monstre)
 	var develop := Button.new()
-	develop.text = "Conscience du Monde : décider du prochain aménagement"
+	develop.text = "Monde : décider du prochain travail"
 	v.add_child(develop)
 	develop.pressed.connect(func(): conductor.think())
+	world_label = Label.new()
+	world_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	world_label.custom_minimum_size.x = 350
+	v.add_child(world_label)
+	world_objective = LineEdit.new()
+	world_objective.placeholder_text = "Objectif du monde…"
+	v.add_child(world_objective)
+	world_objective.text_submitted.connect(func(text: String):
+		conductor.objective = text.left(400)
+		conductor.think()
+		conductor.save_world())
+	var tools_row := HFlowContainer.new()
+	v.add_child(tools_row)
+	for intent in ["planter_arbre","cultiver_champ","construire_maison","recolter","ramasser_bois","extraire_pierre"]:
+		var tool := Button.new()
+		tool.text = intent.replace("_"," ")
+		tools_row.add_child(tool)
+		tool.pressed.connect(func():
+			if not conductor.propose(intent,"Demande du joueur"):
+				_log("Ordre refusé : place, ressources, récolte mûre ou ouvrier indisponible."))
+	var pause := CheckButton.new()
+	pause.text = "Monde autonome actif"
+	pause.button_pressed = true
+	v.add_child(pause)
+	pause.toggled.connect(func(active: bool): conductor.autonomous = active)
+	var eyes := Button.new()
+	eyes.text = "Observer le monde et les yeux de Loïc"
+	v.add_child(eyes)
+	eyes.pressed.connect(func():
+		var facts := {"loic":WorldEyes.observe(loic),"monde":conductor.observe()}
+		var file := FileAccess.open("user://derniere_observation.json",FileAccess.WRITE)
+		if file: file.store_string(JSON.stringify(facts,"  "))
+		_log("Loïc voit %d éléments. État complet : user://derniere_observation.json" % facts.loic.visibles.size()))
 	for who in ["Elise","Garen"]:
 		var talk := Button.new()
 		talk.text = "Rencontrer " + who
@@ -115,12 +189,12 @@ func _creer_interface() -> void:
 	input_line.placeholder_text = "Parler à Loïc en français..."
 	v.add_child(input_line)
 	var speak := Button.new()
-	speak.text = "Parler (Qwen local si serveur disponible)"
+	speak.text = "Parler à Loïc"
 	v.add_child(speak)
 	speak.pressed.connect(_parler)
 	log_label = Label.new()
 	log_label.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-	log_label.custom_minimum_size = Vector2(470,110)
+	log_label.custom_minimum_size = Vector2(350,90)
 	v.add_child(log_label)
 
 func _action(choice: String) -> void:
@@ -138,6 +212,10 @@ func _parler() -> void:
 		return
 	loic.relations.joueur = int(loic.relations.joueur) + 1
 	if pending:
+		return
+	if OS.get_environment("LOIC_DISABLE_AI") == "1":
+		_reponse_secours(phrase)
+		input_line.clear()
 		return
 	pending = true
 	var memo := loic.souvenirs.slice(maxi(0,loic.souvenirs.size()-8))
@@ -174,7 +252,9 @@ func _reponse_modele(result: int,code: int,_headers: PackedStringArray,bytes: Pa
 
 func _log(message: String) -> void:
 	if log_label:
-		log_label.text = message
+		journal_lines.append(message)
+		if journal_lines.size() > 3: journal_lines.pop_front()
+		log_label.text = "\n".join(journal_lines)
 
 func _refresh() -> void:
 	if stats_label == null or loic == null:
@@ -183,14 +263,19 @@ func _refresh() -> void:
 
 func _process(delta: float) -> void:
 	brain_clock += delta
+	world_status_clock += delta
+	if world_status_clock > 1 and world_label and conductor:
+		world_status_clock = 0
+		world_label.text = "MONDE · %s\nNourriture %d · Bois %d · Pierre %d\n%d éléments · %d travaux · Cycle %d" % [conductor.last_source,conductor.nourriture,conductor.bois,conductor.pierre,conductor.constructions.size(),conductor.work_queue.size(),conductor.world_age]
+		_refresh()
 	if brain_clock >= 12.0 and loic != null and brain != null:
 		brain_clock = 0
-		brain.ponder(loic, {"chez_soi":loic.position.distance_to(loic.maison)<1.8,"personnes":["Elise","Garen"],"monstre_visible":loic.ennemi_proche})
+		brain.ponder(loic, WorldEyes.observe(loic))
 	if encounter_mesh != null:
 		encounter_mesh.visible = loic.ennemi_proche
 
 func _decision_ia(intent: String, motive: String, origin: String) -> void:
-	if loic == null:
+	if loic == null or loic.action == "dormir":
 		return
 	# N'autoriser les ordres du modèle qu'après vérification par les règles internes.
 	if intent == "rentrer":
@@ -207,17 +292,13 @@ func _decision_ia(intent: String, motive: String, origin: String) -> void:
 		loic.sauvegarder()
 
 func _creer_monstre() -> void:
-	encounter_mesh = MeshInstance3D.new()
-	var creature := SphereMesh.new()
-	creature.radius = 0.65
-	creature.height = 1.2
-	encounter_mesh.mesh = creature
-	encounter_mesh.position = Vector3(6,1.25,3)
-	var mat := StandardMaterial3D.new()
-	mat.albedo_color = Color(0.65,0.12,0.16)
-	encounter_mesh.material_override = mat
-	encounter_mesh.visible = false
-	add_child(encounter_mesh)
+	encounter_mesh = WorldAssets.instantiate_model("res://packs/kaykit-character-pack-skeletons-1.0/addons/kaykit_character_pack_skeletons/Characters/gltf/Skeleton_Warrior.glb",1.9)
+	if encounter_mesh:
+		encounter_mesh.position = Vector3(6,0,3)
+		encounter_mesh.visible = false
+		add_child(encounter_mesh)
+		encounter_mesh.add_to_group("world_observable")
+		encounter_mesh.set_meta("kind","monstre")
 
 func _apparition_monstre() -> void:
 	loic.evenement_monstre()
@@ -248,3 +329,33 @@ func charger_social() -> void:
 		var data = JSON.parse_string(f.get_as_text())
 		if data is Dictionary:
 			social.acquaintances = data
+
+func _seed_world() -> void:
+	loic.add_to_group("world_observable")
+	loic.set_meta("world_id","Loïc")
+	if not conductor.constructions.is_empty():
+		return
+	for i in range(12):
+		var angle := i * TAU / 12
+		var item := {"id":conductor.next_id,"asset":"arbre" if i%2==0 else "arbre_b","action":"planter_arbre","position":[cos(angle)*24,0,sin(angle)*24],"growth":1.0}
+		conductor.next_id += 1
+		conductor.constructions.append(item)
+		conductor._visualize(item)
+	var field := {"id":conductor.next_id,"asset":"champ","action":"cultiver_champ","position":[10,0,-8],"growth":0.3}
+	conductor.next_id += 1
+	conductor.constructions.append(field)
+	conductor._visualize(field)
+	conductor.save_world()
+
+func _unhandled_input(event: InputEvent) -> void:
+	if event is InputEventMouseButton and event.pressed:
+		if event.button_index == MOUSE_BUTTON_WHEEL_UP:
+			camera.size = maxf(16,camera.size-3)
+		elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
+			camera.size = minf(100,camera.size+3)
+	if event is InputEventMouseMotion and Input.is_mouse_button_pressed(MOUSE_BUTTON_RIGHT):
+		camera.position += (camera.global_basis.x * -event.relative.x + camera.global_basis.y * event.relative.y) * 0.05
+
+func _exit_tree() -> void:
+	if is_instance_valid(loic): loic.sauvegarder()
+	if is_instance_valid(conductor): conductor.save_world()

@@ -1,0 +1,8 @@
+{
+  "dialogue": "J'ai un rêve de voyager dans les ombres, où les humeurs et les émotions sont pleinement exprimées.",
+  "godot": "4.3-stable (official)",
+  "loic_action": "marcher",
+  "loic_valid_decision": true,
+  "world_jobs": 1,
+  "world_source": "Qwen local"
+}

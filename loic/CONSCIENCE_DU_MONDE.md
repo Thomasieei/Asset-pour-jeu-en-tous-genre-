@@ -1,19 +1,34 @@
-# Nouvelle couche : Conscience du Monde
+# Gestion et perception du monde — V1
 
-Cette branche Godot 4.3 est un prototype de simulation indépendante d'Yggdrasil, vivant directement au sein de la banque d'assets complète.
+La scène d’entrée Godot référence directement Loïc et le gestionnaire.
 
-## Banque d'assets
-Les 55 packs existants et les 3 671 modèles GLB/glTF restent accessibles depuis le projet via `res://packs/` et `catalog.json`. **Ils ne sont pas tous instanciés ni chargés en mémoire en même temps** (ce serait contre-productif pour les performances et les temps d'import). Les chemins actuellement sélectionnés pour l'environnement sont des vrais modèles KayKit : arbres de Forest Free, maison, marché, moulin et forge de Medieval Hexagon. Les cultures sont une géométrie générée en attendant une sélection de modèles agricoles cohérents.
+| Élément | Rôle réel |
+|---|---|
+| `asset_registry.gd` | Recherche dans catalog.json, cache de scènes, normalisation de taille |
+| `world_eyes.gd` | Objets proches, distance, visibilité et occultation par rayons physiques |
+| `loic_brain.gd` | Intentions personnelles Qwen en JSON Schema ; validation par LoicAgent |
+| `world_conductor.gd` | État global, décisions Qwen/règles, budgets, placement, croissance et sauvegarde |
+| `world_worker.gd` | Habitants visibles, trajet, travail, fatigue, repos et perception locale |
+| `lancer_loic.py` | Téléchargement vérifié du bundle existant, démarrage IA + Godot sur Linux x86_64 |
 
-## Deux IA distinctes
-- `LoicBrain` : intentions personnelles de Loïc (se déplacer, dialoguer, combattre, demander de l'aide).
-- `WorldConductor` : proposition de travaux de développement du monde, indépendante du comportement individuel de Loïc. Un ordonnanceur attribue les travaux à Élise, Garen et Loïc, applique les coûts en bois/pierre, marque le chantier terminé après un délai et place l'élément visuel dans le monde.
-- Le modèle Qwen est **optionnel et partagé** via `http://127.0.0.1:8765/v1/chat/completions` : si le serveur est absent ou produit une réponse invalide, les règles déterministes prennent le relais.
-- La conscience du monde n'est pas une conscience phénoménale ; c'est un agent de planification et de coordination.
+Le monde propose les outils : planter un arbre, cultiver un champ, construire maison,
+atelier, marché ou moulin, récolter, ramasser du bois et extraire de la pierre.
+Une proposition refusée ne modifie pas les stocks. Les coûts sont réservés au lancement ;
+la file limitée à deux travaux ne progresse que par le travail des habitants.
+Après interruption, les travaux persistés sont réattribués avec leur progression.
+Les anciens enregistrements V0 sont migrés vers des identifiants stables et des durées en secondes.
 
-## Sauvegardes
-`user://world_conductor.json` contient les ordres, ressources, constructions, chantiers en cours et cycle du monde. Chaque rechargement reconstruit les visuels.
-`user://loic_unique_save.json` et `user://loic_social.json` conservent les expériences de Loïc et sa réputation.
+La boucle de secours vise 18 arbres, 3 champs, 2 maisons et les services, puis entretient
+les réserves. La maturité croît en environ 70 secondes ; une récolte réinitialise la plante.
+La population consomme trois unités de nourriture par cycle de 12 secondes.
+Les arbres ne donnent plus de bois au moment de la plantation.
+La pause arrête les ouvriers et la croissance ; elle ignore une réponse IA arrivée en retard.
+Loïc conserve ses besoins et ses décisions lorsque le gestionnaire est en pause.
 
-## Limites
-Le chantier est une simulation de commande et de délai : les ouvriers n'ont pas encore d'animation de construction ou de navigation jusqu'au chantier; les champs n'ont pas encore une croissance agricole temporelle; le monde ne poursuit pas son évolution lorsque le programme est éteint. Le terrain est encore plat. Le code doit être validé par le workflow Godot 4.3 (et en appareil Android). Aucun moteur Qwen Android embarqué n'est livré.
+Sauvegardes : `user://world_conductor.json`, `user://loic_unique_save.json`,
+`user://loic_social.json`. Aucun écoulement du temps hors application.
+
+Les yeux fournissent un relevé géométrique au modèle de texte. Le gestionnaire n’est pas
+un modèle multimodal, ne réécrit pas le code et n’a pas de conscience subjective démontrée.
+Les travaux de Loïc, la navigation physique complète, les combats physiques et l’inférence
+native Android restent à développer. Lire README.md pour démarrage, commandes et limites.

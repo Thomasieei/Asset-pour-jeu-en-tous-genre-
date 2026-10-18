@@ -13,3 +13,6 @@ window/size/viewport_height=720
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
+
+[loic]
+ai_endpoint="http://127.0.0.1:8765/v1/chat/completions"
