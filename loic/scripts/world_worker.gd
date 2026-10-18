@@ -23,7 +23,7 @@ func _ready() -> void:
 	label = Label3D.new()
 	label.position.y = 2.2
 	label.font_size = 32
-	label.pixel_size = 0.012
+	label.pixel_size = 0.005
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	add_child(label)
 
@@ -59,7 +59,7 @@ func _physics_process(delta: float) -> void:
 		eyes = WorldEyes.observe(self)
 	if job.is_empty():
 		fatigue = maxf(0,fatigue - delta * 4)
-		label.text = worker_name + (" · repos" if fatigue > 30 else " · disponible")
+		label.text = worker_name
 		animate("idle")
 		return
 	var p: Array = job.position
@@ -72,12 +72,12 @@ func _physics_process(delta: float) -> void:
 			model.rotation.y = atan2(next.x-position.x,next.z-position.z)
 		position = next
 		animate("walk")
-		label.text = worker_name + " · en route"
+		label.text = worker_name
 	else:
 		animate("interact")
 		job.progress = float(job.progress) + delta
 		fatigue = minf(100,fatigue + delta * 0.6)
-		label.text = worker_name + " · " + str(job.action) + " %d%%" % int(100 * float(job.progress)/float(job.duration))
+		label.text = worker_name
 		if float(job.progress) >= float(job.duration):
 			var done := job
 			job = {}

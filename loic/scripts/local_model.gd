@@ -51,6 +51,7 @@ func _process(_delta: float) -> void:
 				var bytes := JSON.stringify({"choices":[{"message":{"content":text}}]}).to_utf8_buffer()
 				callback.call(HTTPRequest.RESULT_SUCCESS if not text.is_empty() else HTTPRequest.RESULT_CANT_CONNECT,200 if not text.is_empty() else 503,PackedStringArray(),bytes)
 		active = {}
+		if failed: _fail_queue()
 	if thread == null and not queue.is_empty():
 		active = queue.pop_front()
 		active_canceled = false
@@ -63,11 +64,35 @@ func _process(_delta: float) -> void:
 		if backend == null:
 			failed = true
 			_set_status("Extension IA absente · réponses simples")
-			queue.clear()
+			_fail_job(active)
+			active = {}
+			_fail_queue()
 			return
 		_set_status("Préparation de Qwen… premier démarrage plus long" if not loaded else "Qwen réfléchit…")
 		thread = Thread.new()
-		thread.start(_infer.bind(active))
+		if thread.start(_infer.bind(active)) != OK:
+			thread = null
+			failed = true
+			_set_status("IA indisponible · réponses simples")
+			_fail_job(active)
+			active = {}
+			_fail_queue()
+
+func _fail_job(job: Dictionary) -> void:
+	if job.has("callback") and job.callback.is_valid():
+		job.callback.call(HTTPRequest.RESULT_CANT_CONNECT,503,PackedStringArray(),PackedByteArray())
+
+func _fail_queue() -> void:
+	var abandoned := queue.duplicate()
+	queue.clear()
+	for job in abandoned: _fail_job(job)
+
+func cancel_requests(key: String) -> void:
+	for i in range(queue.size()-1,-1,-1):
+		if queue[i].get("key","") == key: queue.remove_at(i)
+	if active.get("key","") == key:
+		active_canceled = true
+		if backend: backend.cancel()
 
 func _set_status(text: String) -> void:
 	status = text

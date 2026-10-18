@@ -3,8 +3,8 @@ class_name WorldConductor
 signal world_event(description: String)
 const SAVE := "user://world_conductor.json"
 const ASSETS := {
- "arbre":"res://packs/kaykit-forest-free/Assets/gltf/Tree_1_A_Color1.gltf",
- "arbre_b":"res://packs/kaykit-forest-free/Assets/gltf/Tree_2_A_Color1.gltf",
+ "arbre":"res://packs/nature-kit/Models/GLTF format/tree_pineTallA_detailed.glb",
+ "arbre_b":"res://packs/nature-kit/Models/GLTF format/tree_oak.glb",
  "maison":"res://packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_home_A_blue.gltf",
  "atelier":"res://packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_blacksmith_blue.gltf",
  "marche":"res://packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_market_blue.gltf",
@@ -33,6 +33,9 @@ var objective := "Créer un beau village viable, nourrir les habitants et prése
 var endpoint := "http://127.0.0.1:8765/v1/chat/completions"
 var next_id := 1
 var last_observation: Dictionary = {}
+var navigation: AStarGrid2D
+var navigation_revision := -1
+var path_cache: Dictionary = {}
 
 func _ready() -> void:
 	endpoint = LoicAIConfig.endpoint()
@@ -50,7 +53,7 @@ func _ready() -> void:
 		var worker := WorldWorker.new()
 		worker.worker_name = who
 		worker.world = self
-		worker.position = Vector3(-2 + workers.size()*4,0,3)
+		worker.position = Vector3(-8 - workers.size()*6,0,-16 - workers.size()*5)
 		add_child(worker)
 		workers.append(worker)
 	_assign_jobs()
@@ -227,12 +230,31 @@ func _find_place(action: String) -> Vector3:
 			var p: Array = other.position
 			if place.distance_to(Vector3(float(p[0]),0,float(p[2]))) < 5.0:
 				free = false
-		if free:
+		var scenery = get_parent().get("scenery")
+		if scenery:
+			for landmark in scenery.obstacles:
+				if Vector2(place.x-landmark.x,place.z-landmark.z).length()<landmark.y+4: free = false
+		if free and not (place.x < 4 and place.z < 0) and absf(place.z-VillageScenery.river_z(place.x))>5:
 			return place
 	return Vector3.INF
 
-func steer(origin: Vector3, destination: Vector3, distance: float) -> Vector3:
-	var direction := (destination-origin).normalized()
+func steer(origin: Vector3, destination: Vector3, distance: float, navigate: bool = true) -> Vector3:
+	var scenery = get_parent().get("scenery")
+	if navigate and scenery and absf(origin.x)<60 and absf(origin.z)<60 and absf(destination.x)<60 and absf(destination.z)<60:
+		return _navigate(origin,destination,distance,scenery)
+	var goal := destination
+	# Route across the real bridge when work or a player destination is across
+	# the creek. Returning the blocked step alone would strand workers forever.
+	if navigate and absf(origin.x)<100 and absf(destination.x)<100 and absf(origin.z)<100 and absf(destination.z)<100:
+		var start_bank := origin.z-VillageScenery.river_z(origin.x)
+		var end_bank := destination.z-VillageScenery.river_z(destination.x)
+		if absf(start_bank)<4.1 and absf(origin.x+2)<2:
+			goal = Vector3(-2,0,-13.0 if end_bank<0 else -3.0)
+		elif start_bank*end_bank<0 and absf(origin.x+2)>1.3:
+			goal = Vector3(-2,0,-3.0 if start_bank>0 else -13.0)
+		elif start_bank*end_bank<0:
+			goal = Vector3(-2,0,-13.0 if end_bank<0 else -3.0)
+	var direction := (goal-origin).normalized()
 	for item in constructions:
 		if not str(item.action).begins_with("construire"):
 			continue
@@ -242,7 +264,54 @@ func steer(origin: Vector3, destination: Vector3, distance: float) -> Vector3:
 		var offset := origin-p
 		if offset.length() < 3.2 and direction.dot(offset) < 0:
 			direction = (direction + offset.normalized()*2 + Vector3(-offset.z,0,offset.x).normalized()).normalized()
-	return origin + direction * minf(distance, origin.distance_to(destination))
+	var next := origin + direction * minf(distance, origin.distance_to(goal))
+	return scenery.constrain_step(origin,next) if scenery else next
+
+func _navigate(origin: Vector3, destination: Vector3, distance: float, scenery: VillageScenery) -> Vector3:
+	if navigation == null or navigation_revision != constructions.size():
+		navigation = AStarGrid2D.new()
+		navigation.region = Rect2i(-32,-32,64,64)
+		navigation.cell_size = Vector2(2,2)
+		navigation.diagonal_mode = AStarGrid2D.DIAGONAL_MODE_ONLY_IF_NO_OBSTACLES
+		navigation.update()
+		for x in range(-32,32):
+			for z in range(-32,32):
+				var point := Vector3(x*2,0,z*2)
+				var blocked := VillageScenery.ground_height(point.x,point.z)<-0.15 and absf(point.x+2)>1.3
+				for item in scenery.obstacles:
+					if Vector2(point.x-item.x,point.z-item.z).length()<item.y+0.8: blocked = true
+				for item in constructions:
+					if str(item.action).begins_with("construire") and Vector2(point.x-item.position[0],point.z-item.position[2]).length()<2.5: blocked = true
+				navigation.set_point_solid(Vector2i(x,z),blocked)
+		navigation_revision = constructions.size()
+		path_cache.clear()
+	var start := _open_cell(Vector2i(roundi(origin.x/2),roundi(origin.z/2)))
+	var finish := _open_cell(Vector2i(roundi(destination.x/2),roundi(destination.z/2)))
+	var key := Vector4i(start.x,start.y,finish.x,finish.y)
+	if not path_cache.has(key):
+		if path_cache.size()>512: path_cache.clear()
+		path_cache[key] = navigation.get_point_path(start,finish)
+	var path: PackedVector2Array = path_cache[key]
+	if path.is_empty(): return origin
+	var waypoint := destination
+	if path.size()>1:
+		var i := 1 if Vector2(origin.x,origin.z).distance_to(path[0])<1.8 else 0
+		waypoint = Vector3(path[i].x,0,path[i].y)
+	return scenery.constrain_step(origin,origin.move_toward(waypoint,distance))
+
+func _open_cell(cell: Vector2i) -> Vector2i:
+	if navigation.is_in_boundsv(cell) and not navigation.is_point_solid(cell): return cell
+	var nearest := cell
+	var best := INF
+	for x in range(-4,5):
+		for z in range(-4,5):
+			var candidate := cell+Vector2i(x,z)
+			if navigation.is_in_boundsv(candidate) and not navigation.is_point_solid(candidate):
+				var d := float(x*x+z*z)
+				if d<best:
+					best = d
+					nearest = candidate
+	return nearest
 
 func complete_project(order: Dictionary) -> void:
 	if not work_queue.has(order):
@@ -288,6 +357,8 @@ func _visualize(item: Dictionary) -> void:
 	else:
 		var model := WorldAssets.instantiate_model(str(ASSETS.get(item.asset,"")),4.5 if item.asset in ["arbre","arbre_b"] else 3.8)
 		if model:
+			var scenery = get_parent().get("scenery")
+			if scenery and str(ASSETS.get(item.asset,"")).begins_with(VillageScenery.NATURE): scenery._natural_palette(model,str(ASSETS[item.asset]))
 			pivot.add_child(model)
 	if str(item.action).begins_with("construire"):
 		var body := StaticBody3D.new()

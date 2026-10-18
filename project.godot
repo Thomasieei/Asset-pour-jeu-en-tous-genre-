@@ -1,7 +1,8 @@
 config_version=5
 
 [application]
-config/name="Loïc - Monde Vivant (prototype)"
+config/name="Loïc - Aurore"
+config/icon="res://loic/ui/app_icon.svg"
 run/main_scene="res://loic/scenes/monde_loic.tscn"
 run/max_fps=60
 config/features=PackedStringArray("4.3", "GL Compatibility")

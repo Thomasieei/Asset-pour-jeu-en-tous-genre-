@@ -3,7 +3,7 @@ class_name PlayerAvatar
 const SAVE := "user://player_avatar.json"
 const MODELS := ["Knight","Mage","Rogue","Barbarian"]
 var display_name := "Thomas"
-var appearance := "Rogue"
+var appearance := "Knight"
 var created := false
 var conversations: Dictionary = {}
 var memories: Dictionary = {}
@@ -20,6 +20,10 @@ var joystick := Vector2.ZERO
 var destination := Vector3.ZERO
 var has_destination := false
 var save_clock := 0.0
+var crouched := false
+var jump_time := 0.0
+var action_time := 0.0
+var model_base_y := 0.0
 
 func _ready() -> void:
 	position = Vector3(2,0,5)
@@ -42,9 +46,12 @@ func set_appearance(choice: String) -> bool:
 	model = WorldAssets.instantiate_model("res://packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/"+appearance+".glb",1.9)
 	if not model: return false
 	add_child(model)
+	model_base_y = model.position.y
+	if appearance == "Knight": _blue_cape(model)
 	animator = _find_animation(model)
-	name_label.text = display_name + " · toi"
+	name_label.text = ""
 	set_meta("world_id",display_name)
+	model.rotation.y = PI
 	_play("Idle")
 	return true
 
@@ -56,6 +63,7 @@ func _find_animation(node: Node) -> AnimationPlayer:
 	return null
 
 func _play(clip: String) -> void:
+	if action_time>0 and clip in ["Idle","Walking_A"]: return
 	if animator and animator.has_animation(clip) and animator.current_animation != clip:
 		animator.play(clip)
 
@@ -67,12 +75,19 @@ func move_input(direction: Vector2, delta: float) -> void:
 	var right := Vector3(view_camera.global_basis.x.x,0,view_camera.global_basis.x.z).normalized()
 	var forward := Vector3(view_camera.global_basis.z.x,0,view_camera.global_basis.z.z).normalized()
 	var heading := (right*direction.x+forward*direction.y).normalized()
-	var next := world.steer(position,position+heading*3,delta*4.2)
+	var next := world.steer(position,position+heading*3,delta*(2.0 if crouched else 4.2),false)
 	position = Vector3(clampf(next.x,-world_extent,world_extent),0,clampf(next.z,-world_extent,world_extent))
 	model.rotation.y = atan2(heading.x,heading.z)
 	_play("Walking_A")
 
 func _physics_process(delta: float) -> void:
+	action_time = maxf(0,action_time-delta)
+	if jump_time>0:
+		jump_time = maxf(0,jump_time-delta)
+		model.position.y = model_base_y+sin((1.0-jump_time/0.75)*PI)*1.1
+	else:
+		model.position.y = model_base_y
+	model.scale.y = lerpf(model.scale.y,model.scale.x*0.65 if crouched else model.scale.x,minf(1,delta*12))
 	attack_cooldown = maxf(0,attack_cooldown-delta)
 	if position.length()<30: health = minf(100,health+delta)
 	var direction := joystick
@@ -86,7 +101,7 @@ func _physics_process(delta: float) -> void:
 			has_destination = false
 			_play("Idle")
 		else:
-			position = world.steer(position,destination,delta*4.2)
+			position = world.steer(position,destination,delta*(2.0 if crouched else 4.2))
 			model.rotation.y = atan2(remaining.x,remaining.z)
 			_play("Walking_A")
 	else:
@@ -139,8 +154,29 @@ func strike(realm: WorldStream) -> bool:
 		if float(creature.state.health)>0 and d<distance and WorldEyes.has_line_of_sight(self,creature):
 			nearest = creature
 			distance = d
-	if not nearest: return false
 	attack_cooldown = 1.2
+	action_time = 0.65
 	_play("1H_Melee_Attack_Chop")
-	nearest.take_damage(15)
+	if nearest: nearest.take_damage(15)
 	return true
+
+func jump() -> void:
+	if jump_time>0 or crouched: return
+	jump_time = 0.75
+	_play("Jump_Full_Short")
+	action_time = 0.75
+
+func toggle_crouch() -> void:
+	crouched = not crouched
+
+func _blue_cape(node: Node3D) -> void:
+	if node is MeshInstance3D and node.mesh:
+		for i in range(node.mesh.get_surface_count()):
+			var original: Material = node.get_active_material(i)
+			if original is StandardMaterial3D and original.albedo_texture:
+				var material := ShaderMaterial.new()
+				material.shader = load("res://loic/shaders/knight_cape.gdshader")
+				material.set_shader_parameter("albedo",original.albedo_texture)
+				node.set_surface_override_material(i,material)
+	for child in node.get_children():
+		if child is Node3D: _blue_cape(child)

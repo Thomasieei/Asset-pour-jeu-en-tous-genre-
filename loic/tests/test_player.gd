@@ -29,10 +29,11 @@ func run() -> void:
 	ui.target.select(0)
 	ui.text_input.text = "Bonjour"
 	ui.send_message()
-	check("trop loin" in ui.output.text,"Dialogue requires proximity")
+	check(ui.text_input.text.is_empty() and ui.output.get_parsed_text().contains("Bonjour"),"Message at distance is accepted and visible")
 	ui._join()
 	check(avatar.has_destination,"Join button creates reachable destination")
 	avatar.position = scene.loic.position+Vector3.ONE
+	ui.text_input.text = "Salut Loïc"
 	ui.send_message()
 	check(not avatar.conversations.get("Loïc",[]).is_empty(),"Player speaks directly to Loic")
 	check(scene.loic.conversation.begins_with("[Réponse simple]"),"Offline fallback is labelled honestly")

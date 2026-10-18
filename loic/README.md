@@ -1,3 +1,5 @@
+> **V0.4 Aurore** : caméra rapprochée derrière le joueur, village composé d’après la maquette, rivière et pont, commandes rondes et dialogue corrigé. Voir [ANDROID.md](ANDROID.md) pour l’installation et les limites vérifiées. Le rendu réel reste plus simple que la maquette illustrée.
+
 # Loïc — monde vivant relié à Godot 4.3
 
 **Version Android autonome V0.3 : [installation, commandes et limites](ANDROID.md).**

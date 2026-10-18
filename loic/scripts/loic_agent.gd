@@ -20,7 +20,7 @@ var action := "observer"
 var temps_action := 0.0
 var tick := 0.0
 var maison := Vector3(-6,0,-3)
-var position_depart := Vector3.ZERO
+var position_depart := Vector3(5,0,1)
 var cible := Vector3(3,0,3)
 var ennemis_vaincus := 0
 var ennemi_proche := false
@@ -42,7 +42,7 @@ func _ready() -> void:
 	name_tag.text = "Loïc"
 	name_tag.position.y = 2.3
 	name_tag.font_size = 32
-	name_tag.pixel_size = 0.012
+	name_tag.pixel_size = 0.006
 	name_tag.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	add_child(name_tag)
 	if visual == null:

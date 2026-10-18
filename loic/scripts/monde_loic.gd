@@ -5,7 +5,10 @@ var avatar: PlayerAvatar
 var player_ui: PlayerUI
 var admin_panel: PanelContainer
 var follow_player := true
-var camera_offset := Vector3(24,30,30)
+var camera_offset := Vector3(0,3.2,6.3)
+var scenery: VillageScenery
+var camera_yaw := 0.0
+var camera_distance := 5.2
 var loic: LoicAgent
 var conductor: WorldConductor
 var brain: LoicBrain
@@ -53,7 +56,7 @@ func _ready() -> void:
 	realm = WorldStream.new()
 	realm.host = self
 	add_child(realm)
-	_creer_interface()
+	# The legacy administrative movement menu has been replaced by the HUD.
 	player_ui = PlayerUI.new()
 	player_ui.host = self
 	add_child(player_ui)
@@ -72,45 +75,41 @@ func _sol(pos: Vector3,scale_: Vector3,color: Color) -> void:
 	add_child(cube)
 
 func _creer_environnement() -> void:
-	_sol(Vector3(0,-0.25,0),Vector3(100,0.5,100),Color(0.26,0.48,0.31))
-	_sol(Vector3(0,0.01,0),Vector3(85,0.025,2.8),Color(0.61,0.51,0.34))
-	_sol(Vector3(0,0.02,0),Vector3(2.8,0.025,85),Color(0.61,0.51,0.34))
-	var home := WorldAssets.instantiate_model(WorldConductor.ASSETS.maison,3.8)
-	if home:
-		home.position += Vector3(-6,0,-3)
-		add_child(home)
-	var well := WorldAssets.instantiate_model("res://packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_well_blue.gltf",1.8)
-	if well:
-		well.position += Vector3(4,0,-4)
-		add_child(well)
-	for i in range(6):
-		var rock := WorldAssets.instantiate_model("res://packs/kaykit-forest-free/Assets/gltf/Rock_1_A_Color1.gltf",1.0 + (i%3)*0.3)
-		if rock:
-			rock.position += Vector3(16+(i%3)*2,0,-13+(i/3)*2)
-			add_child(rock)
+	scenery = VillageScenery.new()
+	add_child(scenery)
 	var sun := DirectionalLight3D.new()
-	sun.rotation_degrees = Vector3(-50,-25,0)
+	sun.rotation_degrees = Vector3(-40,-35,0)
+	sun.light_color = Color(1.0,0.91,0.74)
+	sun.directional_shadow_max_distance = 65.0
 	sun.shadow_enabled = true
-	sun.light_energy = 1.1
+	sun.light_energy = 0.85
 	add_child(sun)
 	var env := WorldEnvironment.new()
 	var sky := Sky.new()
-	sky.sky_material = ProceduralSkyMaterial.new()
+	var sky_material := ProceduralSkyMaterial.new()
+	sky_material.sky_top_color = Color(0.24,0.48,0.72)
+	sky_material.sky_horizon_color = Color(0.70,0.81,0.84)
+	sky_material.ground_horizon_color = Color(0.70,0.81,0.84)
+	sky_material.sky_curve = 0.2
+	sky.sky_material = sky_material
 	var environment := Environment.new()
 	environment.background_mode = Environment.BG_SKY
 	environment.sky = sky
 	environment.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
 	environment.ambient_light_color = Color(0.73,0.81,0.92)
-	environment.ambient_light_energy = 0.6
+	environment.ambient_light_energy = 0.35
+	environment.tonemap_mode = Environment.TONE_MAPPER_FILMIC
 	env.environment = environment
 	add_child(env)
 	camera = Camera3D.new()
-	camera.position = Vector3(30,36,38)
+	camera.position = Vector3(2,3.2,11.3)
 	add_child(camera)
-	camera.look_at(Vector3(0,0,0))
-	camera.projection = Camera3D.PROJECTION_ORTHOGONAL
+	camera.look_at(Vector3(2,1.6,1))
+	camera.projection = Camera3D.PROJECTION_PERSPECTIVE
+	camera.fov = 60
+	camera.far = 260
 	camera.size = 28
-	camera.h_offset = 0
+	camera.h_offset = 0.55
 	camera.current = true
 
 func _creer_interface() -> void:
@@ -285,8 +284,9 @@ func _refresh() -> void:
 
 func _process(delta: float) -> void:
 	if avatar and follow_player:
-		camera.position = camera.position.lerp(avatar.position+camera_offset,minf(1,delta*5))
-		camera.look_at(avatar.position)
+		var offset := Vector3(0,3.2,camera_distance).rotated(Vector3.UP,camera_yaw)
+		camera.position = camera.position.lerp(avatar.position+offset,minf(1,delta*10))
+		camera.look_at(avatar.position+Vector3(0,1.6,-4).rotated(Vector3.UP,camera_yaw))
 	brain_clock += delta
 	world_status_clock += delta
 	if world_status_clock > 1 and world_label and conductor:
@@ -363,11 +363,11 @@ func _seed_world() -> void:
 		return
 	for i in range(12):
 		var angle := i * TAU / 12
-		var item := {"id":conductor.next_id,"asset":"arbre" if i%2==0 else "arbre_b","action":"planter_arbre","position":[cos(angle)*24,0,sin(angle)*24],"growth":1.0}
+		var item := {"id":conductor.next_id,"asset":"arbre" if i%2==0 else "arbre_b","action":"planter_arbre","position":[cos(angle)*42,0,sin(angle)*42],"growth":1.0}
 		conductor.next_id += 1
 		conductor.constructions.append(item)
 		conductor._visualize(item)
-	var field := {"id":conductor.next_id,"asset":"champ","action":"cultiver_champ","position":[10,0,-8],"growth":0.3}
+	var field := {"id":conductor.next_id,"asset":"champ","action":"cultiver_champ","position":[-42,0,-20],"growth":0.3}
 	conductor.next_id += 1
 	conductor.constructions.append(field)
 	conductor._visualize(field)
@@ -376,12 +376,11 @@ func _seed_world() -> void:
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton and event.pressed:
 		if event.button_index == MOUSE_BUTTON_WHEEL_UP:
-			camera.size = maxf(16,camera.size-3)
+			camera_distance = maxf(4.8,camera_distance-0.5)
 		elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
-			camera.size = minf(100,camera.size+3)
+			camera_distance = minf(9,camera_distance+0.5)
 	if event is InputEventMouseMotion and Input.is_mouse_button_pressed(MOUSE_BUTTON_RIGHT):
-		follow_player = false
-		camera.position += (camera.global_basis.x * -event.relative.x + camera.global_basis.y * event.relative.y) * 0.05
+		camera_yaw -= event.relative.x*0.006
 
 func _exit_tree() -> void:
 	if is_instance_valid(avatar): avatar.save_profile()

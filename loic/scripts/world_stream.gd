@@ -119,13 +119,13 @@ func _create_chunk(key: Vector2i) -> void:
 	var box := BoxMesh.new()
 	box.size = Vector3(CHUNK,0.5,CHUNK)
 	ground.mesh = box
-	ground.position = Vector3(CHUNK/2,-0.3,CHUNK/2)
+	ground.position = Vector3(CHUNK/2,-1.15 if abs(key.x)<3 and abs(key.y)<3 else -0.3,CHUNK/2)
 	var mat := StandardMaterial3D.new()
 	mat.albedo_color = Color(0.48,0.46,0.31) if dry else Color(0.28,0.47,0.32)
 	ground.material_override = mat
 	node.add_child(ground)
 	for axis in range(2):
-		if (key.x == 0 and axis == 0) or (key.y == 0 and axis == 1):
+		if false: # Roads in the village follow the reference composition.
 			var road := MeshInstance3D.new()
 			var road_mesh := BoxMesh.new()
 			road_mesh.size = Vector3(2.8,0.03,CHUNK) if axis == 0 else Vector3(CHUNK,0.03,2.8)
@@ -140,7 +140,7 @@ func _create_chunk(key: Vector2i) -> void:
 		var x := rng.randf_range(3,CHUNK-3)
 		var z := rng.randf_range(3,CHUNK-3)
 		var world_point := Vector3(node.position.x+x,0,node.position.z+z)
-		if world_point.length()<50 or absf(world_point.x)<3 or absf(world_point.z)<3: continue
+		if world_point.length()<100 or absf(world_point.x)<3 or absf(world_point.z)<3: continue
 		spots.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)).scaled(Vector3.ONE*rng.randf_range(0.8,1.2)),Vector3(x,0,z)))
 	var path: String = WorldConductor.ASSETS.arbre if not dry else "res://packs/kaykit-forest-free/Assets/gltf/Rock_1_A_Color1.gltf"
 	_batch_geometry(node,path,4.0 if not dry else 1.8,spots)
@@ -148,7 +148,7 @@ func _create_chunk(key: Vector2i) -> void:
 		var point := Vector3(landmark.position[0],0,landmark.position[1])
 		if Vector2i(floori(point.x/CHUNK),floori(point.z/CHUNK)) == key:
 			var marker := Label3D.new()
-			marker.text = landmark.name
+			marker.text = "" if landmark.kind == "village" else landmark.name
 			marker.position = point-node.position+Vector3.UP*7
 			marker.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 			marker.font_size = 40
@@ -167,6 +167,7 @@ func _batch_geometry(parent: Node3D, path: String, height: float, transforms: Ar
 		var prototype := WorldAssets.instantiate_model(path,height)
 		var parts: Array = []
 		if prototype:
+			if path.begins_with(VillageScenery.NATURE): host.scenery._natural_palette(prototype,path)
 			_mesh_parts(prototype,Transform3D.IDENTITY,parts)
 			prototype.free()
 		geometry[path] = parts
@@ -182,7 +183,10 @@ func _batch_geometry(parent: Node3D, path: String, height: float, transforms: Ar
 
 func _mesh_parts(node: Node3D, parent: Transform3D, output: Array) -> void:
 	var transform := parent*node.transform
-	if node is MeshInstance3D and node.mesh: output.append({"mesh":node.mesh,"transform":transform})
+	if node is MeshInstance3D and node.mesh:
+		var mesh: Mesh = node.mesh.duplicate()
+		for i in range(mesh.get_surface_count()): mesh.surface_set_material(i,node.get_active_material(i))
+		output.append({"mesh":mesh,"transform":transform})
 	for child in node.get_children():
 		if child is Node3D: _mesh_parts(child,transform,output)
 

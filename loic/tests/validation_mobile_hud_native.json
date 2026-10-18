@@ -1,0 +1,122 @@
+{
+  "ai_result": 0,
+  "checks": [
+    {
+      "check": "Caméra en perspective derrière le joueur",
+      "passed": true
+    },
+    {
+      "check": "Personnage occupe au moins 22% de la hauteur",
+      "passed": true
+    },
+    {
+      "check": "Ancien menu d’actions absent",
+      "passed": true
+    },
+    {
+      "check": "Bouton accessible : Sword",
+      "passed": true
+    },
+    {
+      "check": "Bouton accessible : Jump",
+      "passed": true
+    },
+    {
+      "check": "Bouton accessible : Crouch",
+      "passed": true
+    },
+    {
+      "check": "Bouton accessible : Chat",
+      "passed": true
+    },
+    {
+      "check": "Bouton accessible : Envoyer",
+      "passed": true
+    },
+    {
+      "check": "Clic sur icône accroupir agit sur le joueur",
+      "passed": true
+    },
+    {
+      "check": "Second clic relève le joueur",
+      "passed": true
+    },
+    {
+      "check": "Clic sur saut déclenche le saut du joueur",
+      "passed": true
+    },
+    {
+      "check": "Clic sur épée déclenche une attaque",
+      "passed": true
+    },
+    {
+      "check": "Icône parole ferme le dialogue",
+      "passed": true
+    },
+    {
+      "check": "Icône parole ouvre le dialogue",
+      "passed": true
+    },
+    {
+      "check": "Champ de message reçoit réellement le focus",
+      "passed": true
+    },
+    {
+      "check": "Bouton Envoyer accepte le message même à distance",
+      "passed": true
+    },
+    {
+      "check": "La réponse IA termine la requête",
+      "passed": true
+    },
+    {
+      "check": "Qwen natif répond au message saisi",
+      "passed": true
+    },
+    {
+      "check": "Message et réponse conservés dans l’historique",
+      "passed": true
+    },
+    {
+      "check": "Envoi suivant disponible après réponse",
+      "passed": true
+    },
+    {
+      "check": "Message envoyé reste effectivement visible à l’écran",
+      "passed": true
+    },
+    {
+      "check": "Réponse de l’habitant reste effectivement visible",
+      "passed": true
+    },
+    {
+      "check": "Toucher le joystick produit une direction",
+      "passed": true
+    },
+    {
+      "check": "Relâcher le joystick arrête le déplacement",
+      "passed": true
+    },
+    {
+      "check": "Toucher l’icône parole actionne le bouton",
+      "passed": true
+    },
+    {
+      "check": "Saisie remontée au-dessus du clavier",
+      "passed": true
+    },
+    {
+      "check": "Berge empêche de marcher dans la rivière",
+      "passed": true
+    },
+    {
+      "check": "Pont permet de traverser la rivière",
+      "passed": true
+    }
+  ],
+  "completed": 2,
+  "dialogue": "Thomas : Bonjour Loïc, comment t’appelles-tu ?\n\nLoïc : Bonjour! Je m'appelle Loïc, je suis un chevalier de 24 ans.\n\n",
+  "errors": [],
+  "native_ai": true,
+  "raw_ai_reply": "Bonjour! Je m'appelle Loïc, je suis un chevalier de 24 ans."
+}
