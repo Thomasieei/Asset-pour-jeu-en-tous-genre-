@@ -34,7 +34,7 @@ func ponder(agent: Node3D, situation: Dictionary) -> void:
 	var system := "Tu es le moteur de décision de Loïc, un habitant libre dans un jeu fantasy. "
 	system += "Choisis une action cohérente et un motif EN FRANÇAIS. Tu peux préférer fuir, demander de l'aide, aider, parler ou explorer; ne choisis pas toujours combattre. "
 	system += "Une action est une intention, non son exécution. Le moteur appliquera sécurité, capacités et contraintes. "
-	system += "Réponds UNIQUEMENT en JSON {\"action\":\"...\",\"motive\":\"...\"}. Actions autorisées: " + ", ".join(VALID) + ". /no_think"
+	system += "Réponds UNIQUEMENT en JSON {\"action\":\"...\",\"motive\":\"...\"}. Actions autorisées: " + str(VALID) + ". /no_think"
 	var request_body := {
 		"model":"local",
 		"messages":[{"role":"system","content":system},{"role":"user","content":JSON.stringify(context)+" /no_think"}],
