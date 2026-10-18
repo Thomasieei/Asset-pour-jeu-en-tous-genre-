@@ -1,6 +1,7 @@
 extends Node3D
 const LOIC = preload("res://loic/scripts/loic_agent.gd")
 var loic: LoicAgent
+var conductor: WorldConductor
 var brain: LoicBrain
 var social: LoicSocial
 var brain_clock := 0.0
@@ -25,6 +26,9 @@ func _ready() -> void:
 	add_child(social)
 	charger_social()
 	_creer_monstre()
+	conductor = preload("res://loic/scripts/world_conductor.gd").new()
+	add_child(conductor)
+	conductor.world_event.connect(_log)
 	http = HTTPRequest.new()
 	http.timeout = 12
 	add_child(http)
@@ -98,6 +102,10 @@ func _creer_interface() -> void:
 	monster.text = "Faire apparaître un monstre"
 	v.add_child(monster)
 	monster.pressed.connect(_apparition_monstre)
+	var develop := Button.new()
+	develop.text = "Conscience du Monde : décider du prochain aménagement"
+	v.add_child(develop)
+	develop.pressed.connect(func(): conductor.think())
 	for who in ["Elise","Garen"]:
 		var talk := Button.new()
 		talk.text = "Rencontrer " + who
