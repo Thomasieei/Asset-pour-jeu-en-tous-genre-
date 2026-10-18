@@ -8,6 +8,7 @@ var follow_player := true
 var camera_offset := Vector3(0,3.2,6.3)
 var scenery: VillageScenery
 var camera_yaw := 0.0
+var camera_finger := -1
 var camera_distance := 5.2
 var loic: LoicAgent
 var conductor: WorldConductor
@@ -107,7 +108,7 @@ func _creer_environnement() -> void:
 	camera.look_at(Vector3(2,1.6,1))
 	camera.projection = Camera3D.PROJECTION_PERSPECTIVE
 	camera.fov = 60
-	camera.far = 260
+	camera.far = 180
 	camera.size = 28
 	camera.h_offset = 0.55
 	camera.current = true
@@ -293,7 +294,7 @@ func _process(delta: float) -> void:
 		world_status_clock = 0
 		world_label.text = "MONDE · %s\nNourriture %d · Bois %d · Pierre %d\n%d éléments · %d travaux · Cycle %d" % [conductor.last_source,conductor.nourriture,conductor.bois,conductor.pierre,conductor.constructions.size(),conductor.work_queue.size(),conductor.world_age]
 		_refresh()
-	if brain_clock >= (45.0 if LoicAIConfig.local_mode() else 12.0) and loic != null and brain != null:
+	if not LoicAIConfig.local_mode() and brain_clock >= 12.0 and loic != null and brain != null:
 		brain_clock = 0
 		if avatar.position.distance_to(loic.position)<35:
 			brain.ponder(loic, WorldEyes.observe(loic))
@@ -374,6 +375,11 @@ func _seed_world() -> void:
 	conductor.save_world()
 
 func _unhandled_input(event: InputEvent) -> void:
+	if event is InputEventScreenTouch:
+		if event.pressed and camera_finger == -1: camera_finger = event.index
+		elif not event.pressed and event.index == camera_finger: camera_finger = -1
+	elif event is InputEventScreenDrag and event.index == camera_finger:
+		camera_yaw -= event.relative.x*0.006
 	if event is InputEventMouseButton and event.pressed:
 		if event.button_index == MOUSE_BUTTON_WHEEL_UP:
 			camera_distance = maxf(4.8,camera_distance-0.5)

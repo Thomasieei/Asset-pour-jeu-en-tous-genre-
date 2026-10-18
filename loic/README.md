@@ -1,3 +1,5 @@
+> **Correctifs V0.5** : pieds et décors recalés au sol, terrain continu, caméra tactile, 192 créatures, dégâts et onde de choc vérifiés. Installation par-dessus Aurore V0.4. Voir [ANDROID.md](ANDROID.md) pour les vérifications et les limites.
+
 > **V0.4 Aurore** : caméra rapprochée derrière le joueur, village composé d’après la maquette, rivière et pont, commandes rondes et dialogue corrigé. Voir [ANDROID.md](ANDROID.md) pour l’installation et les limites vérifiées. Le rendu réel reste plus simple que la maquette illustrée.
 
 # Loïc — monde vivant relié à Godot 4.3

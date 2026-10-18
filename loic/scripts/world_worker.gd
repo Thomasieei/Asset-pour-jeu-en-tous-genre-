@@ -20,6 +20,7 @@ func _ready() -> void:
 	if model:
 		add_child(model)
 		player = _find_player(model)
+		WorldAssets.settle_actor(model,player,1.8)
 	label = Label3D.new()
 	label.position.y = 2.2
 	label.font_size = 32
@@ -52,6 +53,7 @@ func available() -> bool:
 	return job.is_empty() and fatigue < 75
 
 func _physics_process(delta: float) -> void:
+	position.y = VillageScenery.walk_height(position.x,position.z)
 	time += delta
 	eyes_clock += delta
 	if eyes_clock>=3:
@@ -71,6 +73,7 @@ func _physics_process(delta: float) -> void:
 		if model:
 			model.rotation.y = atan2(next.x-position.x,next.z-position.z)
 		position = next
+		position.y = VillageScenery.walk_height(position.x,position.z)
 		animate("walk")
 		label.text = worker_name
 	else:

@@ -21,6 +21,9 @@ func _ready() -> void:
 
 func request(body: Dictionary, callback: Callable, priority: int = 1, key: String = "") -> Error:
 	if failed or not ClassDB.class_exists("LoicLocalAI"): return ERR_UNAVAILABLE
+	if priority>=3 and thread != null and not active.get("warmup",false) and int(active.get("priority",0))<3:
+		active_canceled = true
+		if backend: backend.cancel()
 	if not key.is_empty():
 		for job in queue:
 			if job.get("key","") == key:
@@ -121,12 +124,12 @@ func _infer(job: Dictionary) -> Dictionary:
 	var started := Time.get_ticks_msec()
 	var messages: Array = body.get("messages",[]).duplicate(true)
 	var prompt := _prompt(messages)
-	while backend.token_count(prompt)>1650 and messages.size()>2:
+	while backend.token_count(prompt)>(650 if int(job.get("priority",0))>=3 else 1100) and messages.size()>2:
 		messages.remove_at(1)
 		prompt = _prompt(messages)
 	if backend.token_count(prompt)>1800: return {"loaded":true,"text":""}
 	var grammar := _grammar(body)
-	var text: String = backend.generate(prompt,grammar,mini(int(body.get("max_tokens",120)),160))
+	var text: String = backend.generate(prompt,grammar,mini(int(body.get("max_tokens",48)),48 if int(job.get("priority",0))>=3 else 96))
 	return {"loaded":true,"text":text.strip_edges(),"duration":float(Time.get_ticks_msec()-started)/1000}
 
 func _prompt(messages: Array) -> String:

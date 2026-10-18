@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "test": "Pieds du joueur au sol après animation"
+    },
+    {
+      "passed": true,
+      "test": "Pieds de Loïc au sol après animation"
+    },
+    {
+      "passed": true,
+      "test": "192 créatures persistantes"
+    },
+    {
+      "passed": true,
+      "test": "Créatures présentes près du départ"
+    },
+    {
+      "passed": true,
+      "test": "Budget de créatures actives borné"
+    },
+    {
+      "passed": true,
+      "test": "Saut déplace visiblement le personnage"
+    },
+    {
+      "passed": true,
+      "test": "Retour au sol après saut"
+    },
+    {
+      "passed": true,
+      "test": "Accroupissement modifie réellement la pose"
+    },
+    {
+      "passed": true,
+      "test": "Retour debout"
+    },
+    {
+      "passed": true,
+      "test": "Attaque acceptée"
+    },
+    {
+      "passed": true,
+      "test": "Attaque enlève effectivement 18 PV"
+    },
+    {
+      "passed": true,
+      "test": "Recharge empêche les coups instantanés"
+    },
+    {
+      "passed": true,
+      "test": "Effet de frappe créé dans le monde"
+    },
+    {
+      "passed": true,
+      "test": "Onde de choc enlève effectivement 32 PV"
+    },
+    {
+      "passed": true,
+      "test": "Recharge de l’onde appliquée"
+    },
+    {
+      "passed": true,
+      "test": "Animation de compétence réellement jouée"
+    },
+    {
+      "passed": true,
+      "test": "Sol physique et visuel identiques : (5, 5)"
+    },
+    {
+      "passed": true,
+      "test": "Sol physique et visuel identiques : (-20, -30)"
+    },
+    {
+      "passed": true,
+      "test": "Sol continu au-delà de l’ancien carré du village"
+    },
+    {
+      "passed": true,
+      "test": "Bouton de compétence accessible"
+    }
+  ],
+  "failures": [],
+  "platform": "Linux headless; Android untested"
+}

@@ -56,6 +56,7 @@ func _ready() -> void:
 		visual.add_child(mesh)
 	position = position_depart
 	choisir("observer")
+	WorldAssets.settle_actor(visual,player_anim,1.9)
 	set_process(true)
 
 func _find_anim(node: Node) -> AnimationPlayer:
@@ -87,6 +88,7 @@ func _jouer_animation(hints: Array) -> void:
 					return
 
 func _process(delta: float) -> void:
+	position.y = VillageScenery.walk_height(position.x,position.z)
 	tick += delta
 	temps_action += delta
 	_animer_secours(delta)
@@ -261,7 +263,6 @@ func _animer_secours(delta: float) -> void:
 		return
 	if player_anim != null and player_anim.is_playing():
 		visual.rotation.z = 0
-		visual.position.y = 0
 		return
 	var inclinaison := 0.0
 	var hauteur := 0.0
@@ -283,4 +284,4 @@ func _animer_secours(delta: float) -> void:
 		"attaquer":
 			inclinaison = sin(temps_action * 5.0) * 0.22
 	visual.rotation.z = lerp_angle(visual.rotation.z,inclinaison,minf(1.0,delta * 9.0))
-	visual.position.y = lerpf(visual.position.y,hauteur,minf(1.0,delta * 12.0))
+	visual.position.y = lerpf(visual.position.y,float(visual.get_meta("grounded_y",visual.position.y))+hauteur,minf(1.0,delta * 12.0))

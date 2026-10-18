@@ -45,7 +45,7 @@ func _ready() -> void:
 	add_child(server)
 	server.timeout = 15.0
 	server.request_completed.connect(_qwen_response)
-	use_qwen = LoicAIConfig.enabled()
+	use_qwen = LoicAIConfig.enabled() and not LoicAIConfig.local_mode()
 	load_world()
 	for item in constructions:
 		_visualize(item)
@@ -341,7 +341,7 @@ func _asset_for(action: String) -> String:
 
 func _visualize(item: Dictionary) -> void:
 	var pivot := Node3D.new()
-	pivot.position = Vector3(float(item.position[0]),0,float(item.position[2]))
+	pivot.position = Vector3(float(item.position[0]),VillageScenery.ground_height(float(item.position[0]),float(item.position[2])),float(item.position[2]))
 	pivot.set_meta("world_id",str(item.id))
 	pivot.set_meta("kind",item.asset)
 	pivot.add_to_group("world_observable")

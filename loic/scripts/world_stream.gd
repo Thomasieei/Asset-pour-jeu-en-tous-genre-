@@ -2,8 +2,8 @@ extends Node3D
 class_name WorldStream
 const EXTENT := 1000.0
 const CHUNK := 64.0
-const RADIUS := 1
-const MAX_CREATURES := 6
+const RADIUS := 3
+const MAX_CREATURES := 12
 const SAVE := "user://realm_state.json"
 const LANDMARKS := [
 	{"name":"Village d'Aurore","position":[0,0],"kind":"village"},
@@ -33,6 +33,7 @@ func _ready() -> void:
 	records = saved.get("creatures",[])
 	visited = saved.get("visited",visited)
 	if records.is_empty(): _seed_creatures()
+	_expand_population()
 	update_focus(true)
 
 func _seed_creatures() -> void:
@@ -47,6 +48,18 @@ func _seed_creatures() -> void:
 			var landmark: Dictionary = LANDMARKS[(i-6)%5+1]
 			point = Vector2(landmark.position[0],landmark.position[1])+Vector2(12+float(i-6)*3.5,9+float(i%3)*4)
 		records.append({"id":i,"name":names[i],"model":["Skeleton_Rogue","Skeleton_Mage","Skeleton_Warrior","Skeleton_Minion"][i%4],"personality":personalities[i%4],"home":[point.x,point.y],"position":[point.x,point.y],"health":65.0,"hunger":float(i%4)*10,"trust":0.0,"aggression":0.75 if i%4==2 else 0.3,"memories":[]})
+	save_state()
+
+func _expand_population() -> void:
+	var ids: Dictionary = {}
+	for record in records: ids[int(record.id)] = true
+	var starts := ["Ael","Bris","Cor","Dra","Fen","Gor","Ish","Jor","Kel","Lor","Mor","Ner","Or","Pyr","Rav","Syl"]
+	var ends := ["cendre","griffe","ombre","roc","silex","brume","ronce","givre","crocs","nacre"]
+	for i in range(160):
+		if ids.has(32+i): continue
+		var point := Vector2(-850+(i%9)*210,-850+(i/9)*95)
+		if i<6: point = [Vector2(18,-26),Vector2(23,-30),Vector2(19,-36),Vector2(48,14),Vector2(51,19),Vector2(45,24)][i]
+		records.append({"id":32+i,"name":starts[i%16]+ends[i/16],"model":["Skeleton_Warrior","Skeleton_Mage","Skeleton_Rogue","Skeleton_Minion"][i%4],"personality":"gardien méfiant de la forêt","home":[point.x,point.y],"position":[point.x,point.y],"health":65.0,"hunger":0.0,"trust":0.0,"aggression":0.8 if i%3!=2 else 0.35,"memories":[]})
 	save_state()
 
 func _process(delta: float) -> void:
@@ -116,32 +129,26 @@ func _create_chunk(key: Vector2i) -> void:
 	noise.frequency = 0.003
 	var dry := noise.get_noise_2d(node.position.x,node.position.z)>0.18
 	var ground := MeshInstance3D.new()
-	var box := BoxMesh.new()
-	box.size = Vector3(CHUNK,0.5,CHUNK)
-	ground.mesh = box
-	ground.position = Vector3(CHUNK/2,-1.15 if abs(key.x)<3 and abs(key.y)<3 else -0.3,CHUNK/2)
+	ground.mesh = VillageScenery.make_ground(Vector2(node.position.x,node.position.z),CHUNK)
 	var mat := StandardMaterial3D.new()
-	mat.albedo_color = Color(0.48,0.46,0.31) if dry else Color(0.28,0.47,0.32)
+	mat.albedo_color = Color(0.28,0.38,0.16)
+	mat.roughness = 0.95
 	ground.material_override = mat
 	node.add_child(ground)
-	for axis in range(2):
-		if false: # Roads in the village follow the reference composition.
-			var road := MeshInstance3D.new()
-			var road_mesh := BoxMesh.new()
-			road_mesh.size = Vector3(2.8,0.03,CHUNK) if axis == 0 else Vector3(CHUNK,0.03,2.8)
-			road.mesh = road_mesh
-			road.position = Vector3(0,0.015,CHUNK/2) if axis == 0 else Vector3(CHUNK/2,0.015,0)
-			var road_material := StandardMaterial3D.new()
-			road_material.albedo_color = Color(0.61,0.51,0.34)
-			road.material_override = road_material
-			node.add_child(road)
+	var body := StaticBody3D.new()
+	body.collision_layer = 2
+	body.collision_mask = 0
+	var collision := CollisionShape3D.new()
+	collision.shape = ground.mesh.create_trimesh_shape()
+	body.add_child(collision)
+	node.add_child(body)
 	var spots: Array[Transform3D] = []
 	for i in range(8 if dry else 12):
 		var x := rng.randf_range(3,CHUNK-3)
 		var z := rng.randf_range(3,CHUNK-3)
 		var world_point := Vector3(node.position.x+x,0,node.position.z+z)
 		if world_point.length()<100 or absf(world_point.x)<3 or absf(world_point.z)<3: continue
-		spots.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)).scaled(Vector3.ONE*rng.randf_range(0.8,1.2)),Vector3(x,0,z)))
+		spots.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)).scaled(Vector3.ONE*rng.randf_range(0.8,1.2)),Vector3(x,VillageScenery.ground_height(world_point.x,world_point.z),z)))
 	var path: String = WorldConductor.ASSETS.arbre if not dry else "res://packs/kaykit-forest-free/Assets/gltf/Rock_1_A_Color1.gltf"
 	_batch_geometry(node,path,4.0 if not dry else 1.8,spots)
 	for landmark in LANDMARKS:
@@ -158,7 +165,7 @@ func _create_chunk(key: Vector2i) -> void:
 				var building := "tower_A" if landmark.kind == "tower" else "barracks"
 				var model := WorldAssets.instantiate_model("res://packs/kaykit-medieval-hexagon-pack-1.0/addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_"+building+"_blue.gltf",6)
 				if model:
-					model.position += point-node.position+Vector3(7,0,0)
+					model.position += point-node.position+Vector3(7,VillageScenery.ground_height(point.x+7,point.z),0)
 					node.add_child(model)
 
 func _batch_geometry(parent: Node3D, path: String, height: float, transforms: Array[Transform3D]) -> void:
@@ -202,7 +209,7 @@ func can_think() -> bool:
 
 func travel(index: int) -> void:
 	var landmark: Dictionary = LANDMARKS[clampi(index,0,LANDMARKS.size()-1)]
-	avatar.position = Vector3(landmark.position[0],0,landmark.position[1])
+	avatar.position = Vector3(landmark.position[0],VillageScenery.walk_height(landmark.position[0],landmark.position[1]),landmark.position[1])
 	avatar.has_destination = false
 	avatar.joystick = Vector2.ZERO
 	host.follow_player = true

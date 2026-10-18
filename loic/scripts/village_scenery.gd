@@ -16,9 +16,41 @@ var cache: Dictionary = {}
 static func river_z(x: float) -> float:
 	return -8.0 + sin(x*0.085)*3.0
 
+static func raw_height(x: float, z: float) -> float:
+	var y := 12.0*(1-smoothstep(17,48,Vector2((x-5)/1.1,z+110).length()))
+	y += smoothstep(95,180,Vector2(x,z).length())*sin(x*0.013)*cos(z*0.012)*3
+	if absf(x)<128:
+		var width := 2.9*clampf((128-absf(x))/16,0,1)
+		if width>0.01: y -= 0.85*(1-smoothstep(width-0.8,width+1.4,absf(z-river_z(x))))
+	return y
+
 static func ground_height(x: float, z: float) -> float:
-	var d := absf(z-river_z(x))
-	return -0.85 if d < 2.1 else lerpf(-0.85,0.0,clampf((d-2.1)/1.6,0,1))
+	var gx := floorf(x/2)*2
+	var gz := floorf(z/2)*2
+	var u := (x-gx)/2
+	var v := (z-gz)/2
+	var a := raw_height(gx,gz)
+	var b := raw_height(gx+2,gz)
+	var c := raw_height(gx,gz+2)
+	if u+v<=1: return a+(b-a)*u+(c-a)*v
+	var d := raw_height(gx+2,gz+2)
+	return d+(c-d)*(1-u)+(b-d)*(1-v)
+
+static func walk_height(x: float,z: float) -> float:
+	if absf(x+2)<1.65 and z>=-12.3 and z<=-3.1: return 0.025
+	return ground_height(x,z)
+
+static func make_ground(origin: Vector2, span: float) -> ArrayMesh:
+	var surface := SurfaceTool.new()
+	surface.begin(Mesh.PRIMITIVE_TRIANGLES)
+	for ix in range(int(span/2)):
+		for iz in range(int(span/2)):
+			var x := origin.x+ix*2
+			var z := origin.y+iz*2
+			for p in [Vector2(x,z),Vector2(x+2,z),Vector2(x,z+2),Vector2(x+2,z),Vector2(x+2,z+2),Vector2(x,z+2)]:
+				surface.add_vertex(Vector3(p.x-origin.x,raw_height(p.x,p.y),p.y-origin.y))
+	surface.generate_normals()
+	return surface.commit()
 
 func _ready() -> void:
 	name = "Village_de_la_maquette"
@@ -37,25 +69,6 @@ func _material(color: Color) -> StandardMaterial3D:
 	return mat
 
 func _terrain() -> void:
-	var mesh := SurfaceTool.new()
-	mesh.begin(Mesh.PRIMITIVE_TRIANGLES)
-	var rng := RandomNumberGenerator.new()
-	rng.seed = 3847
-	for x in range(-128,128,2):
-		for z in range(-128,128,2):
-			var tint := rng.randf_range(0.97,1.03)
-			var color := Color(0.26,0.34,0.12)*tint
-			if absf(float(z)-river_z(x))<4.5: color = Color(0.43,0.40,0.27)*tint
-			for p in [Vector2(x,z),Vector2(x,z+2),Vector2(x+2,z),Vector2(x+2,z),Vector2(x,z+2),Vector2(x+2,z+2)]:
-				mesh.set_color(color)
-				mesh.add_vertex(Vector3(p.x,ground_height(p.x,p.y),p.y))
-	mesh.generate_normals()
-	var ground := MeshInstance3D.new()
-	ground.mesh = mesh.commit()
-	var mat := _material(Color.WHITE)
-	mat.vertex_color_use_as_albedo = true
-	ground.material_override = mat
-	add_child(ground)
 	var stream := SurfaceTool.new()
 	stream.begin(Mesh.PRIMITIVE_TRIANGLES)
 	for x in range(-128,128,2):
@@ -77,7 +90,7 @@ func _strip(points: Array[Vector3], width: float) -> void:
 		var b := points[i+1]
 		var side := (b-a).cross(Vector3.UP).normalized()*width*0.5
 		for p in [a-side,b-side,a+side,a+side,b-side,b+side]:
-			surface.add_vertex(Vector3(p.x,0.035,p.z))
+			surface.add_vertex(Vector3(p.x,ground_height(p.x,p.z)+0.018,p.z))
 	surface.generate_normals()
 	var road := MeshInstance3D.new()
 	road.mesh = surface.commit()
@@ -95,6 +108,8 @@ func _place(path: String, height: float, point: Vector3, yaw: float = 0) -> Node
 	if path.begins_with(NATURE): _natural_palette(model,path)
 	if path.begins_with(MEDIEVAL): _warm_roofs(model)
 	if "packs/castle-kit/" in path: _stone_palette(model)
+	model.position.y -= WorldAssets._bounds(model,Transform3D.IDENTITY).position.y
+	point.y = ground_height(point.x,point.z)
 	model.position += point
 	model.rotation.y = yaw
 	add_child(model)
@@ -141,7 +156,8 @@ func _natural_palette(node: Node3D, path: String) -> void:
 		if width>3: node.scale *= 3.0/width
 
 func _house(kind: String, height: float, point: Vector3, yaw: float = 0) -> void:
-	_place(MEDIEVAL+"buildings/yellow/building_"+kind+"_yellow.gltf",height,point,yaw)
+	var model := _place(MEDIEVAL+"buildings/yellow/building_"+kind+"_yellow.gltf",height,point,yaw)
+	if model: _foundation(model)
 	obstacles.append(Vector3(point.x,height*0.28,point.z))
 
 func _buildings() -> void:
@@ -229,10 +245,11 @@ func _vegetation() -> void:
 			if absf(x+2)<4 and z>-17 and z<-3: continue
 			if x<-4 and x>-40 and z<-12 and z>-45: continue
 			if Vector2(x-5,z).length()<6: continue
+			if kind<2 and Vector2(x-20,z+30).length()<9: continue
 			if kind<2 and x<15 and z>-38: continue
 			if kind<2 and x>10 and x<25 and z>-8: continue
 			var scale_ := rng.randf_range(0.75,1.5)
-			placements.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)).scaled(Vector3.ONE*scale_),Vector3(x,0,z)))
+			placements.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)).scaled(Vector3.ONE*scale_),Vector3(x,ground_height(x,z),z)))
 		_batch(NATURE+FOLIAGE[kind]+".glb",[9.0,8.0,0.8,1.4,0.35][kind],placements)
 	for flower in ["flower_yellowA","flower_purpleA"]:
 		var placements: Array[Transform3D] = []
@@ -240,7 +257,7 @@ func _vegetation() -> void:
 			var x := rng.randf_range(-8,22)
 			var z := rng.randf_range(-3,14)
 			if absf(x-2)<2.2: continue
-			placements.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)),Vector3(x,0,z)))
+			placements.append(Transform3D(Basis(Vector3.UP,rng.randf_range(0,TAU)),Vector3(x,ground_height(x,z),z)))
 		_batch(NATURE+flower+".glb",0.32,placements)
 	# Foreground trees frame the screen without hiding the character.
 	_place(NATURE+FOLIAGE[0]+".glb",13,Vector3(-12,0,5))
@@ -248,37 +265,31 @@ func _vegetation() -> void:
 	_place(NATURE+FOLIAGE[3]+".glb",2.2,Vector3(10,0,-1))
 
 func _horizon() -> void:
-	var rng := RandomNumberGenerator.new()
-	rng.seed = 4711
-	for i in range(16):
-		var hill := MeshInstance3D.new()
-		var sphere := SphereMesh.new()
-		sphere.radius = 1
-		sphere.height = 2
-		sphere.radial_segments = 12
-		sphere.rings = 6
-		hill.mesh = sphere
-		hill.position = Vector3(-180+i*25,-10,-110-rng.randf_range(0,45))
-		hill.scale = Vector3(40,rng.randf_range(25,45),40)
-		hill.material_override = _material(Color(0.32,0.44,0.32).lerp(Color(0.48,0.59,0.64),float(i%4)*0.17))
-		add_child(hill)
-	var castle_hill := MeshInstance3D.new()
-	var mound := SphereMesh.new()
-	mound.radius = 1
-	mound.height = 2
-	mound.radial_segments = 16
-	mound.rings = 8
-	castle_hill.mesh = mound
-	castle_hill.scale = Vector3(32,25,30)
-	castle_hill.position = Vector3(5,-13,-100)
-	castle_hill.material_override = _material(Color(0.29,0.37,0.18))
-	add_child(castle_hill)
 	for x in [-5.0,15.0]:
 		for z in [-100.0,-120.0]:
-			_place("res://packs/castle-kit/Models/GLB format/tower-square.glb",14,Vector3(x,8,z))
+			var model := _place("res://packs/castle-kit/Models/GLB format/tower-square.glb",10,Vector3(x,0,z))
+			if model: _foundation(model)
 	for x in [0.0,5.0,10.0]:
-		_place("res://packs/castle-kit/Models/GLB format/wall.glb",6,Vector3(x,8,-100))
+		var model := _place("res://packs/castle-kit/Models/GLB format/wall.glb",4.5,Vector3(x,0,-100))
+		if model: _foundation(model)
 
+func _foundation(model: Node3D) -> void:
+	var bounds := WorldAssets._bounds(model,Transform3D.IDENTITY)
+	var top := bounds.position.y
+	var bottom := top
+	for x in [bounds.position.x,bounds.end.x]:
+		for z in [bounds.position.z,bounds.end.z]:
+			top = maxf(top,ground_height(x,z))
+			bottom = minf(bottom,ground_height(x,z))
+	model.position.y += top-bounds.position.y
+	if top-bottom>0.04:
+		var foundation := MeshInstance3D.new()
+		var box := BoxMesh.new()
+		box.size = Vector3(bounds.size.x,top-bottom+0.1,bounds.size.z)
+		foundation.mesh = box
+		foundation.position = Vector3(bounds.get_center().x,top-box.size.y/2,bounds.get_center().z)
+		foundation.material_override = _material(Color(0.33,0.34,0.29))
+		add_child(foundation)
 
 func _shape(parent: Node3D, mesh: Mesh, color: Color, point: Vector3, scale_: Vector3) -> MeshInstance3D:
 	var part := MeshInstance3D.new()

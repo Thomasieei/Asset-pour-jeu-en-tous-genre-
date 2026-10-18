@@ -11,6 +11,8 @@ var health := 100.0
 var experience := 0
 var world_extent := 1000.0
 var attack_cooldown := 0.0
+var visual_root: Node3D
+var wave_cooldown := 0.0
 var model: Node3D
 var animator: AnimationPlayer
 var name_label: Label3D
@@ -28,6 +30,9 @@ var model_base_y := 0.0
 func _ready() -> void:
 	position = Vector3(2,0,5)
 	load_profile()
+	position.y = VillageScenery.walk_height(position.x,position.z)
+	visual_root = Node3D.new()
+	add_child(visual_root)
 	add_to_group("world_observable")
 	set_meta("world_id",display_name)
 	set_meta("kind","habitant_joueur")
@@ -45,10 +50,11 @@ func set_appearance(choice: String) -> bool:
 	if model: model.queue_free()
 	model = WorldAssets.instantiate_model("res://packs/kaykit-character-pack-adventures-1.0/addons/kaykit_character_pack_adventures/Characters/gltf/"+appearance+".glb",1.9)
 	if not model: return false
-	add_child(model)
+	visual_root.add_child(model)
 	model_base_y = model.position.y
 	if appearance == "Knight": _blue_cape(model)
 	animator = _find_animation(model)
+	WorldAssets.settle_actor(model,animator,1.9)
 	name_label.text = ""
 	set_meta("world_id",display_name)
 	model.rotation.y = PI
@@ -76,7 +82,7 @@ func move_input(direction: Vector2, delta: float) -> void:
 	var forward := Vector3(view_camera.global_basis.z.x,0,view_camera.global_basis.z.z).normalized()
 	var heading := (right*direction.x+forward*direction.y).normalized()
 	var next := world.steer(position,position+heading*3,delta*(2.0 if crouched else 4.2),false)
-	position = Vector3(clampf(next.x,-world_extent,world_extent),0,clampf(next.z,-world_extent,world_extent))
+	position = Vector3(clampf(next.x,-world_extent,world_extent),VillageScenery.walk_height(next.x,next.z),clampf(next.z,-world_extent,world_extent))
 	model.rotation.y = atan2(heading.x,heading.z)
 	_play("Walking_A")
 
@@ -84,10 +90,12 @@ func _physics_process(delta: float) -> void:
 	action_time = maxf(0,action_time-delta)
 	if jump_time>0:
 		jump_time = maxf(0,jump_time-delta)
-		model.position.y = model_base_y+sin((1.0-jump_time/0.75)*PI)*1.1
+		visual_root.position.y = sin((1.0-jump_time/0.75)*PI)*1.1
 	else:
-		model.position.y = model_base_y
-	model.scale.y = lerpf(model.scale.y,model.scale.x*0.65 if crouched else model.scale.x,minf(1,delta*12))
+		visual_root.position.y = 0
+	visual_root.scale.y = lerpf(visual_root.scale.y,0.62 if crouched else 1.0,minf(1,delta*18))
+	wave_cooldown = maxf(0,wave_cooldown-delta)
+	position.y = VillageScenery.walk_height(position.x,position.z)
 	attack_cooldown = maxf(0,attack_cooldown-delta)
 	if position.length()<30: health = minf(100,health+delta)
 	var direction := joystick
@@ -106,6 +114,7 @@ func _physics_process(delta: float) -> void:
 			_play("Walking_A")
 	else:
 		_play("Idle")
+	position.y = VillageScenery.walk_height(position.x,position.z)
 	save_clock += delta
 	if save_clock >= 5:
 		save_clock = 0
@@ -154,10 +163,11 @@ func strike(realm: WorldStream) -> bool:
 		if float(creature.state.health)>0 and d<distance and WorldEyes.has_line_of_sight(self,creature):
 			nearest = creature
 			distance = d
-	attack_cooldown = 1.2
+	attack_cooldown = 0.7
 	action_time = 0.65
 	_play("1H_Melee_Attack_Chop")
-	if nearest: nearest.take_damage(15)
+	CombatEffect.spawn(get_parent(),position+Vector3.UP*0.7,1.8)
+	if nearest: nearest.take_damage(18)
 	return true
 
 func jump() -> void:
@@ -180,3 +190,13 @@ func _blue_cape(node: Node3D) -> void:
 				node.set_surface_override_material(i,material)
 	for child in node.get_children():
 		if child is Node3D: _blue_cape(child)
+
+func cast_wave(realm: WorldStream) -> bool:
+	if wave_cooldown>0: return false
+	wave_cooldown = 6
+	_play("Spellcast_Raise")
+	action_time = 0.8
+	CombatEffect.spawn(get_parent(),position+Vector3.UP*0.1,5.0)
+	for creature in realm.creatures.values():
+		if float(creature.state.health)>0 and creature.position.distance_to(position)<5 and WorldEyes.has_line_of_sight(self,creature): creature.take_damage(32)
+	return true

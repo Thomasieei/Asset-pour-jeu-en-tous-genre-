@@ -1,14 +1,12 @@
 {
-  "version": "0.4-aurore",
+  "version": "0.5-aurore",
   "package": "fr.thomas.loicmondevivant.aurore",
-  "size_bytes": 426992356,
-  "sha256": "c101ed91172db3563b5d7d3b17c2e916aeebc40fcc758c7fabffe6a30d348b6d",
-  "android_device_execution": false,
-  "native_libraries": [
-    "lib/arm64-v8a/libc++_shared.so",
-    "lib/arm64-v8a/libgodot_android.so",
-    "lib/arm64-v8a/libloic_ai.android.arm64.so"
-  ],
+  "size_bytes": 427977820,
+  "sha256": "220058379722f9a6d82eb80816135d2314d55ae053e89ead75ddae93fd386536",
+  "same_certificate_as_v04": true,
+  "scripts_match_source": true,
+  "native_libraries_unchanged": true,
   "model_sha256": "15e434d8ddf0af38fe3f7003af6ce6eac4edada6df34324aa45979f9cc79f02e",
-  "checks": "weights, arm64 native extension, shaders, scenery, no test scripts, no desktop libraries"
+  "android_device_execution": false,
+  "checks_headless": 20
 }

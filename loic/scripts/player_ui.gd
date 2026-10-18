@@ -21,6 +21,7 @@ var attack_button: Button
 var jump_button: Button
 var crouch_button: Button
 var chat_button: Button
+var wave_button: Button
 var send_button: Button
 var health_bar: ProgressBar
 var heart: Button
@@ -71,6 +72,9 @@ func _ready() -> void:
 	jump_button = _round_button("jump",78,"Sauter",func(): avatar.jump())
 	crouch_button = _round_button("crouch",78,"S’accroupir",func(): avatar.toggle_crouch())
 	chat_button = _round_button("chat",78,"Parler",_toggle_chat)
+	wave_button = _round_button("jump",78,"Onde de choc",func(): avatar.cast_wave(host.realm))
+	wave_button.icon = null
+	wave_button.text = "✦"
 	minimap = VillageMinimap.new()
 	minimap.host = host
 	minimap.size = Vector2(145,145)
@@ -241,8 +245,8 @@ func send_message() -> void:
 	var prompt := "Joue le rôle de "+request_target+", "+description+". Ton nom est "+request_target+". Tu parles à un joueur. Réponds à sa question en français, avec une ou deux phrases. Ne répète pas sa question et n'invente pas d'action accomplie. Faits du jeu : "+JSON.stringify(facts)+" /no_think"
 	var introduction: String = {"Loïc":"Je m'appelle Loïc, je suis un chevalier de 24 ans. J'aime découvrir ce monde et ses habitants.","Élise":"Je m'appelle Élise. Je cultive les champs et je participe aux travaux du village.","Garen":"Je m'appelle Garen. Je veille sur le village et je participe aux constructions.","Monde":"J'organise les travaux et les ressources du village.","Moussecorne":"Je suis Moussecorne, le gardien de cette lisière."}.get(request_target,"Je m'appelle "+request_target+" et je vis dans ces terres.")
 	var messages: Array = [{"role":"system","content":prompt},{"role":"user","content":"Présente-toi."},{"role":"assistant","content":introduction}]
-	messages.append_array(avatar.conversations.get(request_target,[]).slice(-6))
-	var body := {"model":"local","messages":messages,"temperature":0.5,"max_tokens":100,"chat_template_kwargs":{"enable_thinking":false}}
+	messages.append_array(avatar.conversations.get(request_target,[]).slice(-3))
+	var body := {"model":"local","messages":messages,"temperature":0.5,"max_tokens":48,"chat_template_kwargs":{"enable_thinking":false}}
 	pending = true
 	request_elapsed = 0
 	request_serial += 1
@@ -314,7 +318,7 @@ func _process(delta: float) -> void:
 		_layout()
 	if pending:
 		request_elapsed += delta
-		if request_elapsed>75:
+		if request_elapsed>30:
 			request_serial += 1
 			http.cancel_request()
 			if LoicAIConfig.local_mode(): get_tree().root.get_node("LocalModel").cancel_requests("dialogue_"+request_target)
@@ -327,6 +331,8 @@ func _process(delta: float) -> void:
 	if not LoicAIConfig.enabled(): ai = "Réponses simples"
 	health_bar.value = avatar.health
 	status_label.text = "" if not pending else request_target+" réfléchit… %ds" % int(request_elapsed)
+	wave_button.text = str(ceili(avatar.wave_cooldown)) if avatar.wave_cooldown>0 else "✦"
+	wave_button.modulate = Color(0.45,0.55,0.65) if avatar.wave_cooldown>0 else Color.WHITE
 	crouch_button.modulate = Color(0.70,0.90,0.48) if avatar.crouched else Color.WHITE
 
 func _notification(what: int) -> void:
@@ -403,6 +409,7 @@ func _layout() -> void:
 	jump_button.position = Vector2(w-inset-171,h-223)
 	crouch_button.position = Vector2(w-inset-217,h-105)
 	chat_button.position = Vector2(w-inset-81,h-309)
+	wave_button.position = Vector2(w-inset-307,h-201)
 	minimap.position = Vector2(w-inset-150,18)
 	var panel_width := minf(480,w-490)
 	var keyboard := float(keyboard_height)*h/maxf(1,float(DisplayServer.window_get_size().y))

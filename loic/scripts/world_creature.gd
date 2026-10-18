@@ -20,11 +20,12 @@ func _ready() -> void:
 	if model:
 		add_child(model)
 		animator = _find_anim(model)
+		WorldAssets.settle_actor(model,animator,2.0)
 	label = Label3D.new()
 	label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
 	label.position.y = 2.55
 	label.font_size = 32
-	label.pixel_size = 0.012
+	label.pixel_size = 0.005
 	add_child(label)
 	set_meta("world_id",str(state.name))
 	set_meta("kind","monstre_individuel")
@@ -47,6 +48,7 @@ func facts() -> Dictionary:
 
 func _physics_process(delta: float) -> void:
 	if float(state.health)<=0: return
+	position.y = VillageScenery.walk_height(position.x,position.z)
 	attack_clock = maxf(0,attack_clock-delta)
 	decision_clock += delta
 	thought_clock += delta
@@ -55,7 +57,7 @@ func _physics_process(delta: float) -> void:
 	if decision_clock>4:
 		decision_clock = 0
 		decide_by_rules()
-	if thought_clock>45 and distance<15 and realm.can_think():
+	if not LoicAIConfig.local_mode() and thought_clock>45 and distance<15 and realm.can_think():
 		thought_clock = 0
 		think()
 	if action in ["patrouiller","attaquer","fuir"]:
@@ -67,7 +69,7 @@ func _physics_process(delta: float) -> void:
 			if model: model.rotation.y = atan2(heading.x,heading.z)
 			_play("Walking_A")
 		else: _play("Idle")
-	if action == "attaquer" and position.distance_to(realm.avatar.position)<=2.3 and attack_clock<=0 and realm.avatar.position.length()>40 and WorldEyes.has_line_of_sight(self,realm.avatar):
+	if action == "attaquer" and position.distance_to(realm.avatar.position)<=2.3 and attack_clock<=0 and realm.avatar.position.length()>28 and WorldEyes.has_line_of_sight(self,realm.avatar):
 		attack_clock = 2.2
 		realm.avatar.take_damage(8)
 		_play("1H_Melee_Attack_Chop")
@@ -76,7 +78,8 @@ func _physics_process(delta: float) -> void:
 		state.hunger = maxf(0,float(state.hunger)-delta*0.05)
 		_play("Idle")
 	elif action in ["observer","menacer"]: _play("Idle")
-	label.text = str(state.name)+" · "+action+"\n%d PV · confiance %d" % [int(state.health),int(state.trust)]
+	label.text = str(state.name)+" · %d PV" % int(state.health)
+	position.y = VillageScenery.walk_height(position.x,position.z)
 	state.position = [position.x,position.z]
 
 func _play(clip: String) -> void:
@@ -86,10 +89,10 @@ func decide_by_rules() -> void:
 	var distance: float = position.distance_to(realm.avatar.position)
 	if float(state.health)<18:
 		action = "fuir"
-	elif realm.avatar.position.length()<40 or position.distance_to(home())>20:
+	elif realm.avatar.position.length()<28 or position.distance_to(home())>20:
 		action = "patrouiller"
 		destination = home()
-	elif distance<6 and float(state.trust)<-5:
+	elif distance<5.5 and (float(state.trust)<-5 or float(state.aggression)>0.65) and float(state.trust)<4:
 		action = "attaquer"
 	elif distance<8 and float(state.aggression)>0.65 and float(state.trust)<4:
 		action = "menacer"
@@ -104,7 +107,7 @@ func decide_by_rules() -> void:
 
 func accept_intent(intent: String, reason: String) -> bool:
 	if intent not in ACTIONS or float(state.health)<=0: return false
-	if intent == "attaquer" and (float(state.trust)>=0 or realm.avatar.position.length()<40 or position.distance_to(realm.avatar.position)>12): return false
+	if intent == "attaquer" and (float(state.trust)>=0 or realm.avatar.position.length()<28 or position.distance_to(realm.avatar.position)>12): return false
 	action = intent
 	motive = reason.left(120)
 	return true
