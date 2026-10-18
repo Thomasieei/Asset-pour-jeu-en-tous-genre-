@@ -1,8 +1,8 @@
 {
-  "version": "0.5-aurore",
+  "version": "0.6-aurore",
   "package": "fr.thomas.loicmondevivant.aurore",
   "size_bytes": 427977820,
-  "sha256": "220058379722f9a6d82eb80816135d2314d55ae053e89ead75ddae93fd386536",
+  "sha256": "bdd94f251892a968ed5a11651477d7c1f7f3bf680417c05b261d9d883e8db8b0",
   "same_certificate_as_v04": true,
   "scripts_match_source": true,
   "native_libraries_unchanged": true,

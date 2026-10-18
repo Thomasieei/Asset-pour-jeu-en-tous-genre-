@@ -13,7 +13,7 @@ for script in sorted((root/'loic/scripts').glob('*.gd')):
  if m:entries.append('{"base": &"'+re.search(r'extends (\w+)',text).group(1)+'", "class": &"'+m.group(1)+'", "icon": "", "language": &"GDScript", "path": "res://loic/scripts/'+script.name+'"}')
 cache=('list=Array[Dictionary](['+',\n'.join(entries)+'])\n').encode()
 def manifest(raw):
- data=bytearray(raw);data=data.replace(b'0.4-aurore',b'0.5-aurore').replace('0.4-aurore'.encode('utf-16le'),'0.5-aurore'.encode('utf-16le'))
+ data=bytearray(raw);data=data.replace(b'0.4-aurore',b'0.6-aurore').replace('0.4-aurore'.encode('utf-16le'),'0.6-aurore'.encode('utf-16le'))
  offset=8;code_index=None;changed=False
  while offset<len(data):
   kind,header,size=struct.unpack_from('<HHI',data,offset)
@@ -28,7 +28,7 @@ def manifest(raw):
     if name==code_index:
      assert data[pos+15]==0x10
      assert struct.unpack_from('<I',data,pos+16)[0]==4
-     struct.pack_into('<I',data,pos+16,5);changed=True
+     struct.pack_into('<I',data,pos+16,6);changed=True
   offset+=size
  assert changed,'Version code not found'
  return bytes(data)

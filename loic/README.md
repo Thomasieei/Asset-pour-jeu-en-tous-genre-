@@ -1,3 +1,7 @@
+## V0.6 — commandes compactes
+
+Deux colonnes à droite, cases carrées noires à bordure blanche, séparées de 8 pixels. Boutons de même taille (48–64 unités), icônes existantes, aucune compétence fictive ajoutée.
+
 > **Correctifs V0.5** : pieds et décors recalés au sol, terrain continu, caméra tactile, 192 créatures, dégâts et onde de choc vérifiés. Installation par-dessus Aurore V0.4. Voir [ANDROID.md](ANDROID.md) pour les vérifications et les limites.
 
 > **V0.4 Aurore** : caméra rapprochée derrière le joueur, village composé d’après la maquette, rivière et pont, commandes rondes et dialogue corrigé. Voir [ANDROID.md](ANDROID.md) pour l’installation et les limites vérifiées. Le rendu réel reste plus simple que la maquette illustrée.

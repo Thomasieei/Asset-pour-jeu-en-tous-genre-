@@ -68,11 +68,11 @@ func _ready() -> void:
 	pad.size = Vector2(174,174)
 	root_control.add_child(pad)
 	pad.direction_changed.connect(func(value: Vector2): avatar.joystick = value)
-	attack_button = _round_button("sword",104,"Attaquer",func(): avatar.strike(host.realm))
-	jump_button = _round_button("jump",78,"Sauter",func(): avatar.jump())
-	crouch_button = _round_button("crouch",78,"S’accroupir",func(): avatar.toggle_crouch())
-	chat_button = _round_button("chat",78,"Parler",_toggle_chat)
-	wave_button = _round_button("jump",78,"Onde de choc",func(): avatar.cast_wave(host.realm))
+	attack_button = _power_button("sword",64,"Attaquer",func(): avatar.strike(host.realm))
+	jump_button = _power_button("jump",64,"Sauter",func(): avatar.jump())
+	crouch_button = _power_button("crouch",64,"S’accroupir",func(): avatar.toggle_crouch())
+	chat_button = _power_button("chat",64,"Parler",_toggle_chat)
+	wave_button = _power_button("jump",64,"Onde de choc",func(): avatar.cast_wave(host.realm))
 	wave_button.icon = null
 	wave_button.text = "✦"
 	minimap = VillageMinimap.new()
@@ -381,6 +381,19 @@ func _round_button(icon_name: String, diameter: float, hint: String, action: Cal
 	button.pressed.connect(action)
 	return button
 
+# Compact action slots: black squares with white borders, two columns.
+func _power_button(icon_name: String, side: float, hint: String, action: Callable) -> Button:
+	var button := _round_button(icon_name,side,hint,action)
+	for state in ["normal","hover","pressed","disabled"]:
+		var style := StyleBoxFlat.new()
+		style.bg_color = Color(0,0,0,0.92) if state != "pressed" else Color(0.12,0.20,0.28,0.98)
+		style.border_color = Color.WHITE
+		style.set_border_width_all(1)
+		style.set_corner_radius_all(0)
+		style.set_content_margin_all(8)
+		button.add_theme_stylebox_override(state,style)
+	return button
+
 func _toggle_chat() -> void:
 	panel.visible = not panel.visible
 	if panel.visible:
@@ -405,11 +418,21 @@ func _layout() -> void:
 	heart.position = Vector2(inset,16)
 	status_label.position = Vector2(inset+45,58)
 	pad.position = Vector2(inset,h-198)
-	attack_button.position = Vector2(w-inset-112,h-136)
-	jump_button.position = Vector2(w-inset-171,h-223)
-	crouch_button.position = Vector2(w-inset-217,h-105)
-	chat_button.position = Vector2(w-inset-81,h-309)
-	wave_button.position = Vector2(w-inset-307,h-201)
+	var side := clampf(h*0.085,48,64)
+	var gap := 8.0
+	var bottom := h-inset
+	# Top pair: jump/crouch; middle: shockwave/chat; attack at bottom right.
+	var slots := [jump_button,crouch_button,wave_button,chat_button]
+	for i in range(slots.size()):
+		var button: Button = slots[i]
+		button.custom_minimum_size = Vector2.ONE*side
+		button.size = Vector2.ONE*side
+		button.add_theme_constant_override("icon_max_width",int(side*0.60))
+		button.position = Vector2(w-inset-2*side-gap+(i%2)*(side+gap),bottom-3*side-2*gap+(i/2)*(side+gap))
+	attack_button.custom_minimum_size = Vector2.ONE*side
+	attack_button.size = Vector2.ONE*side
+	attack_button.add_theme_constant_override("icon_max_width",int(side*0.60))
+	attack_button.position = Vector2(w-inset-side,bottom-side)
 	minimap.position = Vector2(w-inset-150,18)
 	var panel_width := minf(480,w-490)
 	var keyboard := float(keyboard_height)*h/maxf(1,float(DisplayServer.window_get_size().y))
