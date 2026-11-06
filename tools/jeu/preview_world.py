@@ -60,5 +60,5 @@ if __name__ == '__main__':
         im = render(items(skip_grass=False, center=(0, -10), radius=90), (0, 7.5, 18.0), (0, 2.0, -6), W=960, H=540, fov=60)
         im.save('/tmp/world_spawn.png')
     elif mode == 'hunt':
-        im = render(items(skip_grass=False, center=(0, -84), radius=80), (0, 10, -50), (0, 1, -90), W=960, H=540, fov=60)
+        im = render(items(skip_grass=False, center=(0, -88), radius=80), (0, 10, -54), (0, 1, -94), W=960, H=540, fov=60)
         im.save('/tmp/world_hunt.png')
