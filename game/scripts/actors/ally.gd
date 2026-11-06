@@ -124,7 +124,7 @@ func _locomotion() -> void:
 	elif hv > 0.35:
 		model.play("Walking_A", 0.15, clampf(hv / 1.6, 0.7, 1.5))
 	else:
-		model.play("Idle_Combat" if target else "Idle", 0.25)
+		model.play("Idle_Combat" if _target_ok() else "Idle", 0.25)
 
 
 func _tick_follow(delta: float, player: Actor) -> void:
@@ -145,12 +145,16 @@ func _tick_follow(delta: float, player: Actor) -> void:
 			state = State.ENGAGE
 
 
+func _target_ok() -> bool:
+	return target != null and is_instance_valid(target) and not target.dead
+
+
 func _attack_range() -> float:
 	return float(sp["range"]) if sp["role"] == "ranged" else float(sp["range"]) + 0.2
 
 
 func _tick_engage(delta: float, player: Actor) -> void:
-	if target == null or not is_instance_valid(target) or target.dead or flat_distance_to(player) > 18.0:
+	if not _target_ok() or flat_distance_to(player) > 18.0:
 		target = null
 		state = State.FOLLOW
 		return
@@ -184,11 +188,11 @@ func _start_attack() -> void:
 func _tick_attack(delta: float) -> void:
 	velocity.x = move_toward(velocity.x, 0.0, 30.0 * delta)
 	velocity.z = move_toward(velocity.z, 0.0, 30.0 * delta)
-	if target and is_instance_valid(target) and not target.dead:
+	if _target_ok():
 		face_dir(target.global_position - global_position, delta, 10.0)
 	if not _hit_done and _state_t >= _atk_len * 0.45:
 		_hit_done = true
-		if target and is_instance_valid(target) and not target.dead:
+		if _target_ok():
 			var r := Combat.random_roll(damage(), Game.crit_chance(), Data.BASE_CRIT_MULT)
 			if sp["role"] == "ranged":
 				var p: Node3D = PROJECTILE.new()

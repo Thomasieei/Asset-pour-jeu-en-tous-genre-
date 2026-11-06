@@ -117,8 +117,11 @@ func _scenario() -> void:
 		var ex0: int = int(Game.stats["extract_ok"]) + int(Game.stats["extract_fail"])
 		var c: Enemy = corpses[0]
 		player.global_position = c.global_position + Vector3(1.5, 0.5, 0)
-		for i in 20:
+		for i in 180:
 			await get_tree().physics_frame
+			if player.can_cast():
+				break
+		check(player.can_cast(), "player free to cast (state %d)" % player.state)
 		player.start_extract(c)
 		for i in 120:
 			await get_tree().physics_frame

@@ -168,6 +168,10 @@ func _update_bar(delta: float) -> void:
 			Game.boss_state.emit(near, self)
 
 
+func _target_ok() -> bool:
+	return target != null and is_instance_valid(target) and not target.dead
+
+
 func _player() -> Actor:
 	return get_tree().get_first_node_in_group("player") as Actor
 
@@ -221,7 +225,7 @@ func _anim_for_speed() -> void:
 	elif hv > 0.35:
 		model.play("Walking_A", 0.15, clampf(hv / 1.6, 0.7, 1.4))
 	else:
-		model.play("Idle_Combat" if target else "Idle", 0.2)
+		model.play("Idle_Combat" if _target_ok() else "Idle", 0.2)
 
 
 # ------------------------------------------------------------------ states
@@ -262,7 +266,7 @@ func _tick_chase(delta: float) -> void:
 			_set_state(State.RETURN)
 			return
 		target = t
-	if target == null or target.dead:
+	if not _target_ok():
 		target = null
 		_set_state(State.RETURN)
 		return
@@ -326,14 +330,14 @@ func _start_attack() -> void:
 func _tick_attack(delta: float) -> void:
 	velocity.x = move_toward(velocity.x, 0.0, 30.0 * delta)
 	velocity.z = move_toward(velocity.z, 0.0, 30.0 * delta)
-	if target and not target.dead and not _slam:
+	if _target_ok() and not _slam:
 		face_dir(target.global_position - global_position, delta, 8.0)
 	if _slam:
 		_tick_slam(delta)
 		return
 	if not _atk_hit_done and _state_t >= _atk_len * 0.45:
 		_atk_hit_done = true
-		if target and not target.dead:
+		if _target_ok():
 			if sp["role"] == "ranged":
 				_shoot(target)
 			else:

@@ -112,7 +112,7 @@ func _physics_process(delta: float) -> void:
 			_enemies_near.append(en)
 	for uid in allies.keys():
 		var a: Ally = allies[uid]
-		if a.target and is_instance_valid(a.target):
+		if a._target_ok():
 			var k := a.target.get_instance_id()
 			_assign[k] = int(_assign.get(k, 0)) + 1
 
