@@ -28,6 +28,11 @@ func _ready() -> void:
 	add_child(portraits)
 	await portraits.generate()
 	_hide_loading()
+	if "--playtest" in OS.get_cmdline_user_args():
+		var pt: Node = load("res://tests/playtest.gd").new()
+		pt.set("main", self)
+		add_child(pt)
+		pt.call("run")
 
 
 func _show_loading() -> void:
