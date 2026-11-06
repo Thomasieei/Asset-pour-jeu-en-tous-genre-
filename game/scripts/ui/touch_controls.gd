@@ -22,6 +22,7 @@ var _joy_pos := Vector2.ZERO
 var _cam_id := -1
 var _cam_last := Vector2.ZERO
 var _font: Font
+var dbg := {}                          # event counters (play-test diagnostics)
 
 
 func _ready() -> void:
@@ -109,6 +110,7 @@ func _on_blocker(p: Vector2) -> bool:
 
 
 func _input(event: InputEvent) -> void:
+	dbg[event.get_class()] = int(dbg.get(event.get_class(), 0)) + 1
 	if blocked:
 		return
 	if event is InputEventScreenTouch:
@@ -134,6 +136,7 @@ func _input(event: InputEvent) -> void:
 
 
 func _press(id: int, p: Vector2) -> void:
+	dbg["press_%d_at_%d_%d_size_%d_%d" % [id, p.x, p.y, size.x, size.y]] = 1
 	var bn := _button_at(p)
 	if bn != "":
 		var b: Dictionary = buttons[bn]
@@ -175,6 +178,7 @@ func _release(id: int, _p: Vector2) -> void:
 
 
 func _drag(id: int, p: Vector2, rel: Vector2) -> void:
+	dbg["drag_id_%d_joy_%d_cam_%d" % [id, _joy_id, _cam_id]] = int(dbg.get("drag_id_%d_joy_%d_cam_%d" % [id, _joy_id, _cam_id], 0)) + 1
 	if id == _joy_id:
 		_joy_pos = p
 		var v := (p - _joy_origin) / JOY_RADIUS

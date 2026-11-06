@@ -101,11 +101,13 @@ jobs:
           mkdir -p ../shots
           PLAYTEST_DIR=$PWD/../shots timeout 400 xvfb-run -a -s "-screen 0 2400x1080x24" \
             ../godot --rendering-driver opengl3 --audio-driver Dummy --resolution 2400x1080 --position 0,0 --path . -- --playtest 2>&1 | tee ../shots/playtest.log || true
-      - uses: actions/upload-artifact@v4
+      - name: Publier les captures sur la branche qa-captures
         if: always()
-        with:
-          name: playtest-shots
-          path: shots/
+        run: |
+          cd shots
+          git init -q && git checkout -q -b qa-captures
+          git add -A && git -c user.name=ci -c user.email=ci@example.com commit -qm "captures run ${{ github.run_number }}"
+          git push -qf https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git qa-captures
 
   emulator:
     # APK installé dans un vrai émulateur Android, glissements de doigt via adb, captures.
@@ -136,8 +138,10 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -no-snapshot
           disable-animations: true
           script: bash game/tests/emu_test.sh
-      - uses: actions/upload-artifact@v4
+      - name: Publier les captures sur la branche qa-emulateur
         if: always()
-        with:
-          name: emulator-shots
-          path: emu_shots/
+        run: |
+          cd emu_shots
+          git init -q && git checkout -q -b qa-emulateur
+          git add -A && git -c user.name=ci -c user.email=ci@example.com commit -qm "captures run ${{ github.run_number }}"
+          git push -qf https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git qa-emulateur

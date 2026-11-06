@@ -32,6 +32,7 @@ func run() -> void:
 		_drag(0, joy + Vector2(0, -12.0 * (i + 1)) * _scale())
 		await get_tree().process_frame
 	await _wait(1.2)
+	log_line("DBG touch=%s mv=%s pin=%s state=%d blocked=%s" % [main.hud.touch.dbg, main.hud.touch.move_vector, player.move_input, player.state, main.hud.touch.blocked])
 	await shot("joystick_hold_forward")
 	_drag(0, joy + Vector2(110, -40) * _scale())
 	await _wait(1.0)
@@ -49,6 +50,7 @@ func run() -> void:
 		await get_tree().process_frame
 	_touch(1, cstart + Vector2(-180, 0) * _scale(), false)
 	await _wait(0.3)
+	log_line("DBG2 touch=%s" % [main.hud.touch.dbg])
 	log_line("CAMERA yaw change %.2f rad -> %s" % [absf(main.rig.yaw - yaw0), "OK" if absf(main.rig.yaw - yaw0) > 0.2 else "FAIL"])
 	await shot("camera_turned")
 	# ---------------------------------------------------------------- talk to elder (interact button)
@@ -194,6 +196,6 @@ func shot(name: String) -> void:
 		log_line("no image for " + name)
 		return
 	_shot_i += 1
-	var path := out_dir.path_join("%02d_%s.png" % [_shot_i, name])
-	img.save_png(path)
+	var path := out_dir.path_join("%02d_%s.jpg" % [_shot_i, name])
+	img.save_jpg(path, 0.82)
 	log_line("shot " + path)
