@@ -1,0 +1,74 @@
+name: Jeu Android - Légion d'Ombre
+
+on:
+  push:
+    paths:
+      - "game/**"
+      - ".github/workflows/game-android.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: barichello/godot-ci:4.3
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: false
+          sparse-checkout: |
+            game
+            .github
+
+      - name: Préparer Godot (modèles d'export)
+        run: |
+          mkdir -v -p ~/.local/share/godot/export_templates/ ~/.config/
+          if [ -d /root/.config/godot ] && [ "$HOME" != "/root" ]; then cp -r /root/.config/godot ~/.config/godot; fi
+          if [ "$HOME" != "/root" ]; then cp -r /root/.local/share/godot/export_templates/${GODOT_VERSION}.stable ~/.local/share/godot/export_templates/; fi
+
+      - name: Importer les ressources
+        working-directory: game
+        run: godot --headless --path . --import 2>&1 | tee import.log || true
+
+      - name: Test automatique (unitaires + scénario de jeu)
+        working-directory: game
+        run: |
+          timeout 300 godot --headless --path . -- --smoke 2>&1 | tee smoke.log || true
+          if grep -E "SCRIPT ERROR|Parse Error|Failed to load script" smoke.log import.log; then
+            echo "::error::Erreurs de script détectées"; exit 1
+          fi
+          grep -q "SMOKE OK" smoke.log || { echo "::error::Le test de jeu a échoué"; exit 1; }
+
+      - name: Keystore de debug
+        run: keytool -keyalg RSA -genkeypair -alias androiddebugkey -keypass android -keystore $GITHUB_WORKSPACE/debug.keystore -storepass android -dname "CN=Android Debug,O=Android,C=US" -validity 9999
+
+      - name: Exporter l'APK
+        working-directory: game
+        env:
+          GODOT_ANDROID_KEYSTORE_DEBUG_PATH: ${{ github.workspace }}/debug.keystore
+          GODOT_ANDROID_KEYSTORE_DEBUG_USER: androiddebugkey
+          GODOT_ANDROID_KEYSTORE_DEBUG_PASSWORD: android
+        run: |
+          mkdir -p build
+          godot --headless --path . --export-debug "Android" build/legion-ombre.apk 2>&1 | tee export.log
+          test -s build/legion-ombre.apk
+          ls -lh build/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: legion-ombre-apk
+          path: game/build/legion-ombre.apk
+
+      - name: Publier l'APK (pré-version téléchargeable depuis le téléphone)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: jeu-v0.1.${{ github.run_number }}
+          name: "Légion d'Ombre — test ${{ github.run_number }}"
+          prerelease: true
+          files: game/build/legion-ombre.apk
+          body: |
+            APK de test Android (arm64). Télécharger `legion-ombre.apk` sur le téléphone,
+            autoriser l'installation depuis cette source, puis installer.
