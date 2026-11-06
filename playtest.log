@@ -1,0 +1,29 @@
+Godot Engine v4.3.stable.official.77dcf97d8 - https://godotengine.org
+WARNING: Could not set V-Sync mode, as changing V-Sync mode is not supported by the graphics driver.
+     at: set_use_vsync (platform/linuxbsd/x11/gl_manager_x11.cpp:360)
+OpenGL API 4.5 (Core Profile) Mesa 26.0.8-1ubuntu0.3 - Compatibility - Using Device: Mesa - llvmpipe (LLVM 21.1.8, 256 bits)
+
+[PLAYTEST] window (2400, 1080)  canvas (1600, 720)
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/01_start.jpg
+[PLAYTEST] DBG touch={ "InputEventMouseButton": 1, "InputEventScreenTouch": 1, "press_0_at_170_550_size_0_0": 1, "InputEventMouseMotion": 10, "InputEventScreenDrag": 10, "drag_id_0_joy_-1_cam_0": 10 } mv=(0, 0) pin=(0, 0) state=0 blocked=false
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/02_joystick_hold_forward.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/03_joystick_hold_right.jpg
+[PLAYTEST] JOYSTICK moved 0.00 m -> FAIL
+[PLAYTEST] DBG2 touch={ "InputEventMouseButton": 4, "InputEventScreenTouch": 4, "press_0_at_170_550_size_0_0": 1, "InputEventMouseMotion": 23, "InputEventScreenDrag": 23, "drag_id_0_joy_-1_cam_0": 11, "press_1_at_992_330_size_0_0": 1, "drag_id_1_joy_-1_cam_1": 12 }
+[PLAYTEST] CAMERA yaw change 0.00 rad -> FAIL
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/04_camera_turned.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/05_near_elder.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/06_elder_dialog.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/07_arrive_camp.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/08_combat_6.jpg
+[PLAYTEST] COMBAT kills 2
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/09_after_kill_extract_button.jpg
+[PLAYTEST] EXTRACT button visible=true text=ÉVEILLER 55%
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/10_extract_result.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/11_menu_ombres.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/12_menu_bonus.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/13_menu_reglages.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/14_menu_forge.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/15_village_plaza.jpg
+[PLAYTEST] shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/16_north_gate.jpg
+[PLAYTEST] DONE

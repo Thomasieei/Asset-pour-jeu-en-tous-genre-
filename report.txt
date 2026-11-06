@@ -1,0 +1,23 @@
+window (2400, 1080)  canvas (1600, 720)
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/01_start.jpg
+DBG touch={ "InputEventMouseButton": 1, "InputEventScreenTouch": 1, "press_0_at_170_550_size_0_0": 1, "InputEventMouseMotion": 10, "InputEventScreenDrag": 10, "drag_id_0_joy_-1_cam_0": 10 } mv=(0, 0) pin=(0, 0) state=0 blocked=false
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/02_joystick_hold_forward.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/03_joystick_hold_right.jpg
+JOYSTICK moved 0.00 m -> FAIL
+DBG2 touch={ "InputEventMouseButton": 4, "InputEventScreenTouch": 4, "press_0_at_170_550_size_0_0": 1, "InputEventMouseMotion": 23, "InputEventScreenDrag": 23, "drag_id_0_joy_-1_cam_0": 11, "press_1_at_992_330_size_0_0": 1, "drag_id_1_joy_-1_cam_1": 12 }
+CAMERA yaw change 0.00 rad -> FAIL
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/04_camera_turned.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/05_near_elder.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/06_elder_dialog.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/07_arrive_camp.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/08_combat_6.jpg
+COMBAT kills 2
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/09_after_kill_extract_button.jpg
+EXTRACT button visible=true text=ÉVEILLER 55%
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/10_extract_result.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/11_menu_ombres.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/12_menu_bonus.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/13_menu_reglages.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/14_menu_forge.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/15_village_plaza.jpg
+shot /home/runner/work/Asset-pour-jeu-en-tous-genre-/Asset-pour-jeu-en-tous-genre-/game/../shots/16_north_gate.jpg
