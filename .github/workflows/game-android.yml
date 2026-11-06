@@ -27,7 +27,9 @@ jobs:
         run: |
           mkdir -v -p ~/.local/share/godot/export_templates/ ~/.config/
           if [ -d /root/.config/godot ] && [ "$HOME" != "/root" ]; then cp -r /root/.config/godot ~/.config/godot; fi
-          if [ "$HOME" != "/root" ]; then cp -r /root/.local/share/godot/export_templates/${GODOT_VERSION}.stable ~/.local/share/godot/export_templates/; fi
+          if [ "$HOME" != "/root" ] && [ -d /root/.local/share/godot/export_templates ]; then cp -r /root/.local/share/godot/export_templates/. ~/.local/share/godot/export_templates/; fi
+          ls ~/.local/share/godot/export_templates/ || true
+          godot --version
 
       - name: Importer les ressources
         working-directory: game
