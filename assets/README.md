@@ -20,3 +20,7 @@ Ce classement référence **3 671 fichiers 3D** existants (GLB/glTF/FBX/OBJ) d
 **Important :** tri automatique indicatif selon les packs et noms des modèles, pas une validation visuelle ni une garantie de compatibilité Android. « Boss » désigne un modèle candidat au rôle de boss, pas un boss déjà programmé. Certains packs comportent plusieurs types d'objets. Les modèles KayKit restent des références techniques : leur style n'a pas été retenu pour l'art final de Légion d'Ombre.
 
 Consultez également le [`catalog.json`](../catalog.json) (licences, nombre de triangles et animations quand renseignés), les [licences](../README.md#licences-et-provenance) et les [exigences Godot mobile](https://github.com/Thomasieei/Legion-d-Ombre/blob/main/docs/ASSET_REQUIREMENTS.md).
+
+## Arise Ville — nouvelle source à convertir
+
+- [Inventaire de 28 scènes 3D récupérables depuis l'APK Arise Ville](arise-ville/README.md) : boss, monstres, humains, armes, véhicules, villes, donjons, décors et objets. Les binaires restent **en attente de conversion/licence** et ne sont pas inclus dans le total de 3 671 modèles prêts à consulter.

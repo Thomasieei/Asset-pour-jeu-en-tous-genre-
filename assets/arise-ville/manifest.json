@@ -1,0 +1,236 @@
+{
+  "source": "AriseVille (5).apk",
+  "source_kind": "provided_application_package",
+  "godot_version": "4.3",
+  "count": 28,
+  "embedded_scene_format": "scn",
+  "raw_glb_available_in_apk": false,
+  "import_status": "inventory_only_not_uploaded",
+  "license_status": "unverified_for_public_redistribution",
+  "models": [
+    {
+      "name": "igris",
+      "category": "boss",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "chaman",
+      "category": "monstres",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "goblin",
+      "category": "monstres",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "orc",
+      "category": "monstres",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "orc_warrior",
+      "category": "monstres",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "hero",
+      "category": "humains",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "hunter",
+      "category": "humains",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "guard",
+      "category": "humains",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "civ_coolman",
+      "category": "humains",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "civ_driver",
+      "category": "humains",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "civ_manplayer",
+      "category": "humains",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "civ_rida",
+      "category": "humains",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "civ_woman",
+      "category": "humains",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "dague",
+      "category": "armes",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "hache",
+      "category": "armes",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "katana",
+      "category": "armes",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "lame",
+      "category": "armes",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "sl_sword",
+      "category": "armes",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "civil_cars",
+      "category": "vehicules",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "police_ford",
+      "category": "vehicules",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "city",
+      "category": "villes",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "orc_house",
+      "category": "villes",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "warehouse",
+      "category": "villes",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "hall",
+      "category": "donjons",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "marsh",
+      "category": "decors",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "chest_gold",
+      "category": "objets",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "coffre",
+      "category": "objets",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    },
+    {
+      "name": "props",
+      "category": "objets",
+      "original_format": "glb",
+      "available_in_apk_format": "Godot 4.3 compiled .scn",
+      "raw_glb_in_apk": false,
+      "validation": "conversion_required"
+    }
+  ]
+}
