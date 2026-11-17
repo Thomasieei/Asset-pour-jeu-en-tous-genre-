@@ -8,8 +8,8 @@ import json
 import re
 import zipfile
 from pathlib import Path
-SCENE = re.compile(r"assets/\\.godot/imported/(.+)\\.glb-[0-9a-f]{32}\\.scn$")
-TEX = re.compile(r"assets/\\.godot/imported/(.+)\\.(?:png|jpg|jpeg)-[0-9a-f]{32}\\.ctex$")
+SCENE = re.compile(r"assets/\.godot/imported/(.+)\.glb-[0-9a-f]{32}\.scn$")
+TEX = re.compile(r"assets/\.godot/imported/(.+)\.(?:png|jpg|jpeg)-[0-9a-f]{32}\.ctex$")
 def run(apk, out):
     out.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(apk) as z:
