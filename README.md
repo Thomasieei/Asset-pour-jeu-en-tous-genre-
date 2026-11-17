@@ -1,5 +1,7 @@
 # Banque d’assets pour jeux — 55 packs gratuits
 
+**[📂 Parcourir les 3 671 modèles 3D par catégorie : boss, monstres, humains, armes, armures, villes, décors…](assets/README.md)**
+
 Fichiers réels, licences CC0 et catalogue pour Godot, Codex et Claude. **3 671 ressources 3D GLB/glTF** : modèles, accessoires et bibliothèques d’animations. Les variantes ne sont pas présentées comme des créations uniques.
 
 - **16 packs KayKit gratuits** : personnages, squelettes, donjons, forêt, village médiéval, outils RPG, ressources, mobilier, restaurant, ville, espace, plateforme et collections saisonnières.
